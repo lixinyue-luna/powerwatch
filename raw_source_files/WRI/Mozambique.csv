@@ -1,0 +1,6 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Effiiciency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language
+1000110,Cahora Bassa,Hydro,2075,Zambezi River,Arch Dam,1974,,,,,Hydropower Resources Statistical Database in Africa,http://afrec-energy.org/En/administration/hydro/index.php,,,,,,,,Mozambique,,,,,,,,,,,
+1000111,Chicamba,Hydro,44,Revué River,Arch Dam,1959,,,,,Hydropower Resources Statistical Database in Africa,http://afrec-energy.org/En/administration/hydro/index.php,,,,,,,,Mozambique,,,,,,,,,,,
+1000112,Corumana,Hydro,"16,6",Sabiè River,Earth Fill Dam,1988,,,,,Hydropower Resources Statistical Database in Africa,http://afrec-energy.org/En/administration/hydro/index.php,,,,,,,,Mozambique,,,,,,,,,,,
+1000113,Massingir,Hydro,28,Oliphants River,Earth Fill Dam,1977,,,,,Hydropower Resources Statistical Database in Africa,http://afrec-energy.org/En/administration/hydro/index.php,,,,,,,,Mozambique,,,,,,,,,,,
+1000114,Mavùzi,Hydro,42,Revué River,Concrete Gravity Dam,1953,,,,,Hydropower Resources Statistical Database in Africa,http://afrec-energy.org/En/administration/hydro/index.php,,,,,,,,Mozambique,,,,,,,,,,,

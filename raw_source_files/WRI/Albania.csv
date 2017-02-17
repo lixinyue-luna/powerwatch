@@ -1,0 +1,11 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,CO2_annual_reported,CO2_tCO2/MWh
+1002169,Bistrica 1,Hydropower,22,,,1965,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002169,Bistrica 2,Hydropower,5,,,1966,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002170,Fierza,Hydropower,500,,,1978,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002171,Koman,Hydropower,600,,,1985,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002172,Lanabregas,Hydropower,5,,,1951,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002173,Shkopet,Hydropower,24,,,1963,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002174,Ulez,Hydropower,25,,,1958,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002175,Vau i Dijes,Hydropower,250,,,1971,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+1002176,Vlora,Thermal,98,,,,,,,KESH,Energy Charter Secretariat,http://www.energycharter.org/fileadmin/DocumentsMedia/IDEER/IDEER-Albania_2013_en.pdf,,,,,,,,Albania,,,,,,,,,,,,,
+,,,1529,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

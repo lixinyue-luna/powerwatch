@@ -1,0 +1,58 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Effeciency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,Data Year
+1000328,Clyde,Hydro,432,,,1992,4(108),Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000329,Roxurgh,Hydro,350,,,1956,8(44),Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000330,Tehimi,Geothermal,160,,,2014,2(85),Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000331,Wairakei,Geothermal,132,,,1958-1963,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000332,Ohaaki,Geothermal,122,,,1984,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000333,Puhipi Road,Geothermal,36,,,1997,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000334,Te Huka Binary,Geothermal,28,,,2010,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000335,Taraniki,Natural Gas,377,,,2011,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000336,Te Rapa,Natural Gas,44,,,,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000337,Whirinaki,Oil (diesel),155,,,2011,,Contact Energy,,,Contact Energy,https://contact.co.nz/corporate/about/our-company/powerstations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000305,Huntly (CC),Natural Gas,403,,,2007,"135(steam), 248 (gas turbine)",Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000306,Huntly (steam),Coal,500,,,1982-1985,2(250),Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000307,Huntly (unit 6),Natural Gas,60,,,2004,One unit,Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000308,Ranuipo,Hydro,120,,,1983,2(60),Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000309,Tookama,Hydro,240,,,1973,4(60),Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000310,Kaikawa,Hydro,36,,,1948,2(18),Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000311,Piripaua,Hydro,42,,,1943,2(21),Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000312,Tuai,Hydro,60,,,1929,3(20),Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000313,Tekapo,Hydro,179,,,1951-1977,"25, 2(77)",Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000314,Hai Nui,Wind,7,,,1996-2004,15 tubines,Genesis Energy,,,Genesis Energy,https://www.genesisenergy.co.nz/generation-assets,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000315,Karapiro,Hydro,96,,,1947,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000316,Arapuni,Hydro,192,,,1929,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000317,Waipapa,Hydro,54,,,1961,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000318,Maraetai,Hydro,352,,,1952-1970,2 units,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000319,Whakamaru,Hydro,98,,,1956,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000320,mokai,Geothermal,112,,,2000,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Geothermal-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000321,Atiamuri,Hydro,74,,,1958-1962,4 units,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000322,Ohakuri,Hydro,106,,,1961,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000323,Aratiatia,Hydro,78,,,1964,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Hydro-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000324,Ngatamariki,Geothermal,82,,,2013,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Geothermal-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000325,Rotokawa,Geothermal,34,,,2000,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Geothermal-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000326,Nga Awa Purua,Geothermal,138,,,2010,1 unit,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Geothermal-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000327,Kawerau,Geothermal,100,,,2008,,Mercury Energy,,,Mercury Energy,https://www.mercury.co.nz/About/Renewable-Energy/Geothermal-Generation.aspx,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000300,Ohau A,Hydro,264,,,1971-1975,4(66),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000300,Ohau B,Hydro,212,,,1977-1980,4(55),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000300,Ohau C,Hydro,212,,,1979-1981,4(55),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000301,Benmore,Hydro,540,,,1958-1965,6(90),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000302,Aviemore,Hydro,220,,,1964-1968,5(55),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000303,Waitaki,Hydro,90,,,1928-1954,6(15),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000304,Manapouri,Hydro,800,,,1964-1972,6(122),Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000338,Kaimai,Hydro,41,,,1961,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000339,Matahina,Hydro,60,,,1967,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000340,Wheao and Flaxy,Hydro,26,,,1982,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000341,Patea,Hydro,32,,,1984,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000342,Tararau,Wind,161,,,1994-2004,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000343,Cobb,Hydro,32,,,1914,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000344,Coleridge,Hydro,39,,,1939-1945,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000345,Highbank,Hydro,29,,,1984,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000346,Paerau and Patearoa,Hydro,12,,,2011,12,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000347,Mahinerangi,Wind,36,,,2007,"103 vestas V47, 31 Vestas V90",Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+1000348,Waipori,Hydro,83,,,1999-2007,,Trustpower,,,Trustpower,https://www.trustpower.co.nz/our-assets-and-capability/power-generation/tararua,,,,,,,Operating,New Zealand,,,,,,,,,,,,2016
+,,,8303.55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1022455,Mill Creek,Wind,59.8,Ohariu Valley,Onshore Wind,2014,,Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations/wind/mill-creek,,,,,,,Operating,New Zealand,,-41.209735,174.729422,,,,,,,,,2016
+1022456,Te Apiti,Wind,90.75,Manawatu Gorge,Onshore Wind,2004,,Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations/wind/te-apiti,,,,,,,Operating,New Zealand,,-40.299073,175.823529,,,,,,,,,2016
+1022457,White Hill,Wind,58,Mossburn,Onshore Wind,2007,,Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations/wind/white-hill,,,,,,,Operating,New Zealand,,-45.735266,168.238352,,,,,,,,,2016
+1022453,Te Uku,Wind,64.4,Waikato,Onshore Wind,2010,,Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations/wind/te-uku,,,,,,,Operating,New Zealand,,-37.880569,174.976345,,,,,,,,,2016
+1022454,West Wind,Wind,142.6,Makara,Onshore Wind,2009,,Meridian Energy,,,Meridian Energy,https://www.meridianenergy.co.nz/about-us/our-power-stations/wind/west-wind,,,,,,,Operating,New Zealand,,-41.233527,174.697071,,,,,,,,,2016

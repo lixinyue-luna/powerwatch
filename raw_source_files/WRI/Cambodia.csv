@@ -1,0 +1,30 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Generator Technology,Comissioning Year,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Operational Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,CO2_annual_reported,CO2_specific_emissions_tCO2/MWh,Year of Data
+1026841,Angkor Biomass,Rice Husk,2,Kandal,,2014,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1144657688.42/view,,,,,,,Operating,Cambodia,,11.5123,104.7165,,,,,,,,,,,
+1026842,Siang Phong,Biogas,2,,,2014,,Siang Phong Agriculture Development Co,,,CDM,https://cdm.unfccc.int/Projects/DB/SIRIM1292836347.34/view,,,,,,,Operating,Cambodia,,11.7946,105.8926,,,,,,,,,,,
+1026843,MH Bio-Ethanol Distillery,Biogas,23.2,,,2014,,,,,CDM,https://cdm.unfccc.int/Projects/DB/KEMCO1329369509.41/view,,,,,,,Operating,Cambodia,,11.7594,104.8242,,,,,,,,,,,
+1026844,Khmer Electric Power Diesel Power Plant,Diesel,30,Phnom Penh,,2005,,Khmer Electrical Power Company Ltd.,,,Wartsila,http://www.wartsila.com/media/news/26-05-2004-wartsila-power-for-cambodian-ipp,,,,,,,Operating,Cambodia,,11.52382,104.873,,,,,,,,,,,
+1026834,Kirirom I,Hydro,12,,,2002,,,,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+",,,,,,,Operating,Cambodia,,11.2377,104.0343,,,,,,,,,,,
+1026840,Sihanoukville CEL,Coal,240,Steung Hav,Sub-critical Thermal,2014,,"Leader Universal Ltd,",,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+",,,,,,,Operating,Cambodia,,10.7402,103.5808,,,,,,,,,,,
+1026835,Kamchay,Hydro,193,Kampot,,2011,,,,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+",,,,,,,Operating,Cambodia,,10.7041,104.1175,,,,,,,,,,,
+1026836,Kirirom III,Hydro,18,,,2013,,,,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+",,,,,,,Operating,Cambodia,,,,,,,,,,,,,,
+1026837,Stung Atai,Hydro,120,Pursat,,2013,,,,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+",,,,,,,Operating,Cambodia,,12.0752,103.1899,,,,,,,,,,,
+1026838,Lower Russei Chrum,Hydro,338,Koh Kong,,2014,,,,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+",,,,,,,Operating,Cambodia,,11.7818,103.0854,,,,,,,,,,,
+1026839,Stung Tatai,Hydro,246,Koh Kong,,2014,,,,,"Electricité du Cambodge
+","http://eac.gov.kh/wp-content/uploads/2015/07/report-2014en.pdf
+
+",,,,,,,Operating,Cambodia,,11.6346,103.2612,,,,,,,,,,,
+1026845,Phnom Penh Diesel,"Diesel
+",18.6,Phnom Penh,,1996,,Electricité du Cambodge,,,Wartsila,http://www.wartsila.com/media/news/26-05-2004-wartsila-power-for-cambodian-ipp,,,,,,,Operating,Cambodia,,11.5904,104.9153,,,,,,,,,,,
+1026846,Sihanoukville Diesel,Diesel,5,Sihanoukville,,1998,,Electricité du Cambodge,,,Wartsila,http://www.wartsila.com/media/news/26-05-2004-wartsila-power-for-cambodian-ipp,,,,,,,Operating,Cambodia,,10.61237,103.6287,,,,,,,,,,,

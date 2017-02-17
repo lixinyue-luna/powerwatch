@@ -1,0 +1,242 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Source 2,URL 2,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,CO2_annual_reported,CO2_specific_emissions_tCO2/MWh
+1019296,Maasvlakte (MPP3),Coal,1070,,,2013,,E.ON,6260.613,,E.On,http://www.mega-project.eu/assets/exp/resources/Aris_Blankenspoor_MPP3_theory_versus_practice_rev_20150410_sv.pdf,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019290,Maxima,Natural gas,880,,CCGT,2010,,Electrabel,,,Engie,http://www.engie.com/en/journalists/press-releases/electrabel-gdf-suez-group-inaugurates-its-maxima-plant-in-the-netherlands/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,60%,,,,,,,Netherlands,,,,,,,,,,,,,
+1019307,GELDERLAND,Coal,590,,,,,GDF Suez,2886.239,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,Biomass,,,,,,,,,
+1019304,BERGUM,Natural gas,664,,,,,GDF Suez,,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019306,HARCULO,Natural gas,349,,,,,GDF Suez,,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019303,APNED,Natural gas,43,,,,,GDF Suez,,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019309,Levanto NL,Wind,29,,Onshore,,,GDF Suez,,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019308,EEMS,Wind,27,,,,,GDF Suez,,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019305,FLEVO,Natural gas,999,,CCGT,2010,,GDF Suez,,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019288,Eems,Natural gas,"2,495",,,1996,,Electrabel,"1,553.66",,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019295,Maasvlakte (MV1 and MV2),Coal/biomass,1040,,,1988,,E.ON,3652.756,,GDF Suez,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwilnu-T0aXOAhUBjz4KHT5VCjYQFggsMAI&url=http%3A%2F%2Fwww.engie.com%2Fwp-content%2Fuploads%2F2012%2F08%2FGDF_SUEZ_power_asset_table_vdef.xls&usg=AFQjCNHSG0cjbY0ZCS761mkpSWj0Z6E2zA&sig2=v45V3Rq0dF8CVwsH9bx9OQ&cad=rja,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019300,Borssele Nuclear Power Station,Nuclear,485,,PWR,1973,,EPZ,3674.868,,IAEA PRIS,https://www.iaea.org/PRIS/CountryStatistics/CountryDetails.aspx?current=NL,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019291,Claus,Natural Gas,1900,,CCGT,1977-2012,,Essent,0,,RWE,http://www.rwe.com/web/cms/en/1772100/rwe-generation-se/locations/netherlands/claus-power-plant/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019297,Amer (AC8 and AC9),Coal,1245,,,1981,,Essent,6440.892,,RWE,http://www.rwe.com/web/cms/en/1771654/rwe-generation-se/locations/netherlands/amer-power-plant/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,Biomass,,,,,,,,,
+1019301,Linne,Hydro,11,,Run of the River,1980,,Essent,,,RWE,http://www.rwe.com/web/cms/en/1772100/rwe-generation-se/locations/netherlands/claus-power-plant/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019289,Eemshaven,Coal,"1,560",,Ultra Super-Critical,2014,2x780,Essent,7293.94,,RWE,http://www.rwe.com/web/cms/en/1772148/rwe-generation-se/locations/netherlands/eemshaven-power-plant/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,46%,,,,,,,Netherlands,,,,Biomass,,,,,,,,,
+1019293,Swentibold,Natural Gas,231,,CCGT,1999,,Essent,1053.966,,RWE,http://www.rwe.com/web/cms/nl/1772172/rwe-generation-se/locaties/nederland/klantcentrales/centrale-swentibold/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019292,Moerdijk,Natural Gas,765,,CCGT,1997,,Essent,1871.658,,RWE,http://www.rwe.com/web/cms/en/1772076/rwe-generation-se/locations/netherlands/moerdijk-power-plant/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,58%,,,,,,,Netherlands,,,,,,,,,,,,,
+1019294,Borssele (BS12),Coal,426,,,1988,,EPZ,2115.988,,RWE,http://www.rwe.com/web/cms/nl/1772172/rwe-generation-se/locaties/nederland/klantcentrales/centrale-swentibold/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019287,Sloe,Natural gas,870,,CCGT,2010,,EDF/DELTA,2385.628,,SloeCentrale,http://www.sloecentrale.com/,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,59%,,,,,,,Netherlands,,,,,,,,,,,,,
+1005506,Delesto,Natural Gas,530,Farmsum - Oosterhorn 4,,,,TenneT,,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005509,ELSTA,Natural Gas,456,Hoek - Herbert H. Dowweg 5D,,,,TenneT,,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005515,Rijnmond II,Natural Gas,427,Rotterdam - Petroleumweg 44,,,,TenneT,,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005496,Centrale Lage Wide,Natural Gas,247,Utrecht - Atoomweg 7-9,,,,TenneT,312.129,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005499,Centrale Merwedekanaal,Natural Gas,227,Utrecht - Keulsekade 181,,,,TenneT,0,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005501,Centrale RoCa ,Natural Gas,218,Rotterdam - Capelseweg 400,,,,TenneT,473.742,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005507,EDH,Natural Gas,112,Den Haag - De Constant Rebecqueplein 20,,,,TenneT,,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005512,MK11,Natural Gas,103,Utrecht - Keulsekade 181,,,,TenneT,,,TenneT,http://energieinfo.tennet.org/Production/InstalledCapacity.aspx,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1019311,Magnum,Natural Gas,"1,331",,CCGT,2013,,Vattenfall,,,Vattenfall,http://powerplants.vattenfall.com/magnum,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,58%,,,,,,,Netherlands,,,,,,,,,,,,,
+1019299,Hemweg 9,Natural Gas,440,,CCGT,2012,,Vattenfall,,,Vattenfall,http://powerplants.vattenfall.com/hemweg-9,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,59%,,,,,,,Netherlands,,,,,,,,,,,,,
+1019312,Velsen,Natural Gas,725,,CCGT,2003,,Vattenfall,2947.318,,Vattenfall,http://powerplants.vattenfall.com/velsen,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,Blast Furnace Gas,,,,,,,,,
+1019313,Ijmond,Natural Gas,114,,CCGT,1997,,Vattenfall,,,Vattenfall,http://powerplants.vattenfall.com/ijmond,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,Blast Furnace Gas,,,,,,,,,
+1019310,Diemen 33,Natural gas,684,,CCGT,1995,,Vattenfall,2276.51,,Vattenfall,http://powerplants.vattenfall.com/diemen,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,59%,,,,,,,Netherlands,,,,,,,,,,,,,
+1019298,Hemweg 8,Coal,650,,,1994,,NUON,5718.006,,Vattenfall,http://powerplants.vattenfall.com/hemweg-8,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005298,De Windvogel,Wind,2.5,Zeewolde,Onshore,1998-2005,2,,3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005318,Geen windpark,Wind,314.43,Coevorden,Onshore,1995-2015,530,,17,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005330,Gemini,Wind,400,Offshore,Offshore,2016,50,,"1,980",,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005410,Outside the Northeast,Wind,144,Northeast,Onshore,2016,42,,421.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005419,old Dintel,Wind,16,Moerdijk,Onshore,2016,5,,43,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005279,Barrepolder,Wind,12,zoeterwoude,Onshore,2016,4,,26,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005280,Battenoert,Wind,12,Goeree-Overflakkee,Onshore,2016,4,,36,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005364,Kattenberg-Reedijk,Wind,9.6,oirschot,Onshore,2016,4,,0,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005390,Luchterduinen,Wind,129,Offshore,Offshore,2015,43,,505.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005302,Delfzijl Noord,Wind,62.7,Delfzijl,Onshore,2015,19,,173,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005489,Zuidwal,Wind,15,Rotterdam,Onshore,2015,5,,42,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005404,New Prinsenland,Wind,12.8,Steenbergen,Onshore,2015,4,,34.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005347,Hellegatsplein,Wind,12,Goeree-Overflakkee,Onshore,2015,4,,35,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005488,Zuiderzeehaven,Wind,12,Kampen,Onshore,2015,4,,24,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005378,Laarakker Dijk,Wind,10,Reusel-De Mierden,Onshore,2015,5,,30,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005345,Hazeldonk,Wind,9,Breda,Onshore,2015,3,,20,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005436,Roosendaal Serbian Vliet,Wind,9,Roosendaal,Onshore,2015,3,,19.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005391,Maanderbroek,Wind,6.4,Ede,Onshore,2015,2,,15.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005379,spit,Wind,6,Rotterdam,Onshore,2015,2,,15.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005385,Lelystad-Noord,Wind,6,Lelystad,Onshore,2015,2,,21.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005368,Kloosterlanden,Wind,4.7,Deventer,Onshore,2015,2,,11,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005288,Burgerveen,Wind,4.6,Haarlemmermeer,Onshore,2015,2,,8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005431,flushing,Wind,2.3,flushing,Onshore,2015,,,5.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005409,Northeast Binnendijks,Wind,217.5,Northeast,Onshore,2014,29,,524.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005332,Greenchoice Hartelkanaal,Wind,24,Rotterdam,Onshore,2014,8,,79,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005341,Hartelbrug II,Wind,24,Rotterdam,Onshore,2014,8,,75,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005315,Europaweg-Zuid,Wind,12.48,flushing,Onshore,2014,7,,28,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005486,Zierikzee,Wind,10.2,Schouwen-Duiveland,Onshore,2014,3,,31.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005377,Laak Vaart,Wind,10,Halderberge,Onshore,2014,5,,28.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005405,Nieuwegein,Wind,10,Nieuwegein,Onshore,2014,5,,28.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005437,Sabina polder,Wind,9,Moerdijk,Onshore,2014,3,,20.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005287,Buren,Wind,8,Neighbors,Onshore,2014,4,,20,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005308,Duiven,Wind,8,pigeons,Onshore,2014,4,,22,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005430,Rembrandt,Wind,6,Coevorden,Onshore,2014,3,,17.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005464,Vlaardingen,Wind,6,Vlaardingen,Onshore,2014,2,,13.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005485,Zeshoek,Wind,6,Lelystad,Onshore,2014,2,,16.1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005382,Leeuwarden,Wind,1.8,Leeuwarden,Onshore,2014,2,,3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005426,Princess Alexia,Wind,122.4,Zeewolde,Onshore,2013,36,,304.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005375,Kreekraksluis,Wind,77.5,Reimerswaal,Onshore,2013,31,,210.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005453,Sternweg,Wind,27,Zeewolde,Onshore,2013,9,,54.9,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005353,Hoevensche Beemden,Wind,15,Halderberge,Onshore,2013,5,,32,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005454,Suurhoffbrug,Wind,12,Rotterdam,Onshore,2013,4,,31.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005459,Van Gogh,Wind,11.5,Etten-Leur,Onshore,2013,5,,27,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005490,Zwartenbergseweg,Wind,10,Etten-Leur,Onshore,2013,5,,28,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005331,Giessenwind,Wind,9,Giessenlanden,Onshore,2013,3,,14,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005392,Maas estuary,Wind,9,Rotterdam,Onshore,2013,3,,25.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005356,Houten,Wind,6,Wooden,Onshore,2013,3,,17,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005397,more Wind,Wind,4.6,Haarlemmermeer,Onshore,2013,2,,8.1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005354,Hondtocht,Wind,13.8,dronten,Onshore,2012,6,,25,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005400,Neeltje Jans,Wind,12,Veere,Onshore,2012,4,,31.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005435,Roompotsluis,Wind,12,Veere,Onshore,2012,4,,32.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005401,Down,Wind,11.5,Leudal,Onshore,2012,5,,24,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005457,tollbooth Countries,Wind,9.9,Zwolle,Onshore,2012,4,,21.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005473,Westenwind,Wind,9.9,Dalfsen,Onshore,2012,4,,21.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005434,Roggenplaat,Wind,9.2,Schouwen-Duiveland,Onshore,2012,4,,27.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005455,Test Site Lelystad,Wind,8.3,Lelystad,Onshore,2012,3,,26,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005383,Lely Flevoland,Wind,5.2,Lelystad,Onshore,2012,2,,14,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005448,Sortiva,Wind,4.6,Alkmaar,Onshore,2012,2,,11.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005310,ECN Testpark,Wind,29.5,Dutch Crown,Onshore,2011,10,,90,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005415,Oldebroeker Tour,Wind,13.8,dronten,Onshore,2011,6,,23.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005480,Wisse Wind,Wind,11.5,Tholen,Onshore,2011,5,,29,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005395,Martina Cornelia Polder,Wind,10,Goeree-Overflakkee,Onshore,2011,4,,26.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005422,Oudenstaart,Wind,10,Tilburg,Onshore,2011,5,,25.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005412,Noordpolder,Wind,9.2,Tholen,Onshore,2011,4,,23.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005301,Defensie Coevorden,Wind,9,Coevorden,Onshore,2011,3,,19,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005381,Lansinghage,Wind,9,Zoetermeer,Onshore,2011,3,,19.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005462,Velsen,Wind,9,Velsen,Onshore,2011,3,,24.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005297,De Nes,Wind,4.6,Waterland,Onshore,2011,2,,9,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005366,Kerkmeerweg,Wind,2.55,langedijk,Onshore,2011,3,,6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005460,Luna,Wind,6.9,heerhugowaard,Onshore,2010,3,,18,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005418,Oom Kees,Wind,6,Dutch Crown,Onshore,2010,2,,16.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005474,Westereems,Wind,213.3,Eemsmond,Onshore,2009,69,,554.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005278,Annavosdijk,Wind,15,Tholen,Onshore,2009,5,,34,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005277,Anna Mariapolder,Wind,14.4,Reimerswaal,Onshore,2009,16,,32,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005438,Sabina Polder,Wind,5.95,Moerdijk,Onshore,2009,7,,11.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005427,Princess Amalia,Wind,120,Offshore,Onshore,2008,60,,342,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005303,Delfzijl Zuid,Wind,78.2,Delfzijl,Onshore,2008,34,,167,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005335,GroWind,Wind,63,Eemsmond,Onshore,2008,21,,0,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005274,Afrikahaven,Wind,27,Amsterdam,Onshore,2008,9,,64,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005337,Hagenwind,Wind,16,Aalten,Onshore,2008,8,,40,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005476,Weststad Oosterhout,Wind,15,Oosterhout,Onshore,2008,6,,32.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005361,Jacoba Rippolder,Wind,12.5,North Beveland,Onshore,2008,5,,36,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005282,Bernhardweg,Wind,12,borsele,Onshore,2008,12,,24,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005309,Echteld,Wind,8,Neder-Betuwe,Onshore,2008,4,,18,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005440,Schagen,Wind,6.4,Schagen,Onshore,2008,8,,18.9,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005394,Marrum,Wind,5.25,Ferwerderadiel,Onshore,2008,7,,8.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005399,Midlum,Wind,5.1,Harlingen,Onshore,2008,6,,13.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005374,Krabbersgat,Wind,4,enkhuizen,Onshore,2008,5,,8.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005373,Koegorspolder,Wind,44,Terneuzen,Onshore,2007,22,,99,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005484,Zeebiestocht,Wind,23,Dronten,Onshore,2007,10,,40,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005369,Kluutmolen,Wind,20,Almere,Onshore,2007,10,,44,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005275,Amsterdam-Westpoort,Wind,15,Amsterdam,Onshore,2007,5,,34,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005380,Rozenburg Peninsula,Wind,15,Rotterdam,Onshore,2007,10,,38.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005432,Rijnwoude,Wind,12,Alphen aan den Rijn,Onshore,2007,4,,25.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005281,Beabuorren,Wind,10.4,Súdwest Friesland,Onshore,2007,8,,25,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005363,Kats II,Wind,9,North Beveland,Onshore,2007,3,,21,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005389,Lopik,Wind,6,Lopik,Onshore,2007,3,,12.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005421,Oudendijk,Wind,4.8,Koggenland,Onshore,2007,6,,11.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005312,Egmond aan Zee,Wind,108,Offshore,Offshore,2006,36,,297,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005376,Kubbeweg,Wind,34,dronten,Onshore,2006,17,,73.1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005393,mammoth Tour,Wind,23,Lelystad,Onshore,2006,10,,43,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005403,Neushoorntocht,Wind,23,Lelystad,Onshore,2006,10,,39,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005304,Dintelhaven,Wind,15,Rotterdam,Onshore,2006,5,,44,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005461,Pallandt,Wind,14,Goeree-Overflakkee,Onshore,2006,7,,30.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005306,Distripark,Wind,12,waddinxveen,Onshore,2006,4,,24,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005433,River Dune Tour,Wind,11.55,dronten,Onshore,2006,7,,20.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005362,Jacobahaven,Wind,9,North Beveland,Onshore,2006,3,,23,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005472,Westeinde,Wind,6.3,Dutch Crown,Onshore,2006,7,,14,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005293,Culemborg,Wind,6,Culemborg,Onshore,2006,3,,13,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005276,Andijkerwind,Wind,2.55,Medemblik,Onshore,2006,3,,6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005283,Blauw,Wind,1.6,Koggenland,Onshore,2006,2,,4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005355,Hoofdplaatpolder,Wind,10,Lock,Onshore,2005,5,,25,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005466,Volkerak,Wind,9.35,Moerdijk,Onshore,2005,11,,15.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005285,BP Amsterdam,Wind,9,Amsterdam,Onshore,2005,3,,21,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005350,Herkingen,Wind,8.25,Goeree-Overflakkee,Onshore,2005,3,,17,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005311,Ecopark Waalwijk,Wind,7.5,Waalwijk,Onshore,2005,5,,17,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005296,De Mars,Wind,6,Zutphen,Onshore,2005,3,,12,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005346,Heijbro,Wind,6,Lelystad,Onshore,2005,3,,0,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005483,WUR,Wind,6,Lelystad,Onshore,2005,6,,11.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005295,De Horn,Wind,4.8,Medemblik,Onshore,2005,6,,11,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005291,Carl Fellingerwei,Wind,2.7,Súdwest Friesland,Onshore,2005,3,,5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005299,Amstelvogel,Wind,2,Parent-Amstel,Onshore,2005,,,5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005313,EPZ,Wind,24.05,borsele,Onshore,2004,7,,58,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005343,Hartelkanaal,Wind,22.5,Rotterdam,Onshore,2004,9,,59,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005424,arrow Staartweg,Wind,18,Lelystad,Onshore,2004,12,,30.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005284,Bloesemlaan,Wind,16.15,Zeewolde,Onshore,2004,18,,28,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005442,Scholl Waterway,Wind,15.35,Zeewolde,Onshore,2004,17,,29.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005482,Wulpweg,Wind,14.6,Zeewolde,Onshore,2004,17,,32,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005417,Ooievaarsweg,Wind,14.2,Zeewolde,Onshore,2004,15,,26.9,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005447,Slufter dike West,Wind,13.5,Rotterdam,Onshore,2004,9,,44.1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005342,Hartelbrug-West,Wind,12,Rotterdam,Onshore,2004,6,,27,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005446,Slufter North Dike,Wind,12,Rotterdam,Onshore,2004,8,,37.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005452,Sterappel Avenue,Wind,9.2,Zeewolde,Onshore,2004,10,,16.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005338,Halsteren,Wind,6.8,Bergen op Zoom,Onshore,2004,8,,13,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005388,Lijsbeth Tijs,Wind,5.95,Koggenland,Onshore,2004,7,,11.9,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005357,Ibisweg,Wind,4.25,Zeewolde,Onshore,2004,5,,10,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005487,Zodewiwa,Wind,4,Zeewolde,Onshore,2004,4,,6.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005336,Gruttoweg,Wind,22.41,Zeewolde,Onshore,2003,26,,46,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005423,Piet de Wit,Wind,21,Goeree-Overflakkee,Onshore,2003,12,,36,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005307,Dodaarsweg,Wind,18.7,Zeewolde,Onshore,2003,22,,34,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005398,gulls Tour,Wind,18,Lelystad,Onshore,2003,10,,31,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005387,Lepelaarweg,Wind,15.15,Zeewolde,Onshore,2003,16,,28.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005471,Water Cape Tour,Wind,14,Dutch Crown,Onshore,2003,8,,34.1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005439,Along the Wind,Wind,12.6,dronten,Onshore,2003,7,,24.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005334,Groettocht,Wind,11.55,Dutch Crown,Onshore,2003,7,,27,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005479,Windstroom,Wind,10.8,Dronten,Onshore,2003,6,,19.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005477,Willem Anna Polder,Wind,9,Kapelle,Onshore,2003,10,,19,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005469,worth Tour,Wind,8.65,Dutch Crown,Onshore,2003,5,,20.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005408,North Wind,Wind,8,dronten,Onshore,2003,4,,16.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005467,flint Tour,Wind,8,Lelystad,Onshore,2003,4,,18.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005449,Wind Gauge,Wind,6,staphorst,Onshore,2003,3,,10.8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005458,Ulketocht,Wind,6,Dutch Crown,Onshore,2003,8,,15.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005286,Buorren 4,Wind,4.25,Súdwest Friesland,Onshore,2003,5,,9,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005386,Lepelaarpad,Wind,3.85,Zeewolde,Onshore,2003,4,,7.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005370,Kluutweg,Wind,2.55,Zeewolde,Onshore,2003,3,,5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005402,Nerefco,Wind,22.5,Rotterdam,Onshore,2002,9,,61,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005420,Old Lander Tour,Wind,19.8,Dutch Crown,Onshore,2002,12,,46.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005316,EWI,Wind,14,dronten,Onshore,2002,7,,32,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005416,Olster-Tour,Wind,12,dronten,Onshore,2002,6,,25.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005317,Futenweg,Wind,10.5,Zeewolde,Onshore,2002,6,,17,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005407,northerners Tour,Wind,10.5,Lelystad,Onshore,2002,6,,19.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005367,Klokbekertocht,Wind,9.9,dronten,Onshore,2002,6,,18,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005348,Hemweg,Wind,5.28,Amsterdam,Onshore,2001,8,,13,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005413,Noordzeeweg,Wind,4.62,Amsterdam,Onshore,2001,7,,11.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005444,Sloterdijk,Wind,2.64,Amsterdam,Onshore,2001,4,,6.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005360,Jaap Rodenburg,Wind,16.5,Almere,Onshore,2000,10,,30,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005371,Knarweg,Wind,14.5,Lelystad,Onshore,2000,15,,25,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005314,Etten-Leur,Wind,6.5,Etten-Leur,Onshore,2000,5,,12,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005478,Windpowercentre,Wind,4.75,Harlingen,Onshore,2000,4,,10.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005414,Olay,Wind,3.3,borsele,Onshore,2000,5,,7.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005429,Reigerweg,Wind,12.41,Zeewolde,Onshore,1999,14,,22.4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005333,Groetpolder,Wind,11.4,Dutch Crown,Onshore,1999,19,,21,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005443,Sloewind,Wind,6,flushing,Onshore,1999,8,,12,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005292,Clothildis,Wind,4.8,strijen,Onshore,1999,6,,7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005425,Plavuizenweg 6,Wind,4.25,Lelystad,Onshore,1999,3,,8.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005428,Rachel Carson (Eemmeerdijk),Wind,18,Zeewolde,Onshore,1998,18,,16.2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005463,Visvijverweg,Wind,4.96,Lelystad,Onshore,1998,8,,10.3,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005372,Kneeshoek,Wind,4.8,Dutch Crown,Onshore,1998,8,,10,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005396,Meedhuizen,Wind,3,Delfzijl,Onshore,1998,5,,4.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005305,Dinteloord,Wind,2.4,Steenbergen,Onshore,1998,4,,4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005359,Irene Vorrink,Wind,16.8,Lelystad,Onshore,1997,28,,28,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005468,worth Polder,Wind,4.75,Dutch Crown,Onshore,1997,19,,8.36,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005339,Haringvliet,Wind,3.6,hellevoetsluis,Onshore,1997,6,,7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005475,Westerse Polder,Wind,3.5,Cromstrijen,Onshore,1997,7,,6.16,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005406,Noorderpolder,Wind,3,Menameradiel,Onshore,1997,5,,5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005465,Flushing outer,Wind,1.58,flushing,Onshore,1997,7,,3.22,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005470,Wagendorp,Wind,3,Dutch Crown,Onshore,1996,5,,6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005340,Harkstede,Wind,0.96,Slochteren,Onshore,1996,12,,2,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005344,Hayumerlaan 2,Wind,0.8,Súdwest Friesland,Onshore,1996,2,,1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005329,Geestmerambacht,Wind,0.68,langedijk,Onshore,1996,3,,1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005294,De Bjirmen,Wind,6,Franekeradeel,Onshore,1995,12,,12,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005481,WLF,Wind,1.35,De Fryske Marren,Onshore,1995,6,,2.76,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005445,Finally Roog,Wind,1,Harlem,Onshore,1995,4,,1.7,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005451,Stavenisse,Wind,0.68,Tholen,Onshore,1995,3,,1.35,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005352,Hikkaarderdyk 24,Wind,0.5,Ferwerderadiel,Onshore,1995,2,,1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005384,Lely IJsselmeer,Wind,2,Medemblik,Onshore,1994,4,,3.6,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005365,Kennemerwind,Wind,0.71,Schagen,Onshore,1994,9,,1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005289,Burgerveen-Oost,Wind,4.15,Haarlemmermeer,Onshore,1993,4,,8,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005441,scheemda,Wind,0.96,Oldambt,Onshore,1993,12,,1.56,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005358,Indufor,Wind,3.25,flushing,Onshore,1989,13,,4,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1019302,William Alexander,Coal,253,,,,,,,,,,ENTSOE (generation and capacity),https://transparency.entsoe.eu/generation/r2/installedCapacityPerProductionUnit/show,,,,,,,,Netherlands,,,,,,,,,,,,,
+1005450,St. Antoine Dijk,Wind,10,Halderberge,Onshore,2009,5,,22.5,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005351,Hiddum-Houw,Wind,5.23,Súdwest Friesland,Onshore,1995,11,,10,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005273,A7,Wind,8,Súdwest Friesland,Onshore,2009,4,,27,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005349,Herbayum,Wind,2.5,Franekeradeel,Onshore,1995,10,,1,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005290,Burgervlotbrug,Wind,7.65,Schagen,Onshore,2009,9,,23,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0
+1005456,little Inga,Wind,5.5,Bildt,Onshore,1995,11,,11,,Wind Stats Netherlands,http://windstats.nl/turbines.php,,,,,,,,,,Netherlands,,,,,,,,,,,,0,0

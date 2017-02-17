@@ -1,0 +1,251 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,Data Year
+1003653,ABAKAN CHP,Coal,270,,,1982,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003659,Argayash CHP,Coal,195,,,1954,,Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003663,BARNAUL THERMAL POWER STATION-2,Coal,275,,,1955,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003665,BELOVO TPP,Coal,1240,,,1964,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003669,Berezovskaya GRES,Coal,"2,300",,,,,e·on Russia,"6,920",CHP,e·on Russia,http://www.eon.com/content/dam/eon-com/en/downloads/a/Acquisition_of_OGK4_17092007.pdf,,,,,,,,Russia,,,,,,,,,,,,2007
+1003683,Cherepetskaya,Coal,"1,735",,,1953-1999,4(15)3(300),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003684,Cherepovetskaya GRES,Coal,"1,051.60",,,,,OGK-2 (subsidiary of GazProm),3088,,OGK-2,http://www.ogk2.ru/eng/about/branch/cherepovetskaya/,,,,,53%,,,Russia,,,,,,,,,,,,2014
+1003688,CHP-17,Coal,192,,,1950,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003691,CHP-22,Coal,"1,310",,,1966,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003706,"GTPP ""NOVOKUZNETSKAYA""",Coal,297.44,,,2014,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003708,Gusinoozyorskaya,Coal,"1,130",,,1976-2002,2(170)2(180)2(200),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,51.2984,106.484,,,,,,,,,2016
+1003721,KANSK CHP,Coal,24,,,1955,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003725,KEMEROVO GRES,Coal,485,,,1934,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003728,Kharanorskaya,Coal,"1,910",,,1922,,Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003730,Kirov CHPP-3,Coal,385,,,1942,,t+group,,1,t+group,Kirov CHPP-3,,,,,,,,Russia,,,,,,,,,,,,
+1003730,Kirov CHPP-4,Coal,353,,,1963,,t+group,,1,t+group,Kirov CHPP-4,,,,,,,,Russia,,,,,,,,,,,,
+1003731,Kirov TPP-5,Coal,450,,,1980,,t+group,,1,t+group,Kirov TPP-5,,,,,,,,Russia,,,,,,,,,,,,
+1003740,KRASNOYARSK CHP-1,Coal,481,,,1943,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003740,KRASNOYARSK CHP-2,Coal,465,,,1979,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003740,KRASNOYARSK CHP-3,Coal,208,,,1992,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003741,Krasnoyarskaya GRES-2,Coal,"1,250",,,,,OGK-2 (subsidiary of GazProm),4650,,OGK-2,http://www.ogk2.ru/eng/about/branch/krasnoyarskaya/,,,,,42%,,,Russia,,,,,,,,,,,,2014
+1003742,Krostromskaya,Coal,"3,600",,,1969-1980,"8(300), 1200",Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,57.45963,41.17408,,,,,,,,,2016
+1003746,KUZNETSK THERMAL POWER STATION,Coal,108,,,1944,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003753,MINUSINSK CHP,Coal,85,,,1997,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003755,NAZAROVO GRES,Coal,1243,,,1961,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003756,Nerunginskya TPP,Coal,570,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003763,Novgorod CHPP,Coal,190,,,1968,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003765,Novo-Irkustsk,Coal,655,,,1960,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003766,NOVO-KEMEROVO CHP,Coal,565,,,1955,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003768,Novo-Zimanskaya,Coal,240,,,1973,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003770,Novocherkasskaya GRES,Coal,"1,884",,,,,OGK-2 (subsidiary of GazProm),10797,,OGK-2,http://www.ogk2.ru/eng/about/branch/novocherkasskaya/,,,,,65%,,,Russia,,,,,,,,,,,,2014
+1003778,Partizanskaya TPP,Coal,203,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003786,Primorskaya TPP,Coal,"1,467",,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003790,Reftinskaya GRES,Coal,"3,800",,,1970-1980,6(300)4(500),PSJC Enel Russia (OGK-5),20037,Generation from 2015,PSJC Enel Russia (OGK-5),Reftinskaya GRES,,,,,,,,Russia,,,,,,,,,,,,2015
+1003792,RVC BTC,Coal,430,,,1982,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003804,Serovskaya GRES,Coal,538,,,,,OGK-2 (subsidiary of GazProm),1826,,OGK-2,http://www.ogk2.ru/eng/about/branch/serovskaya/,,,,,38.80%,,,Russia,,,,,,,,,,,,2014
+1003807,Severodvinsk CHPP-1,Coal,136,,,1941,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003807,Severodvinsk CHPP-2,Coal,42,,,1955,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003817,Sosnogorsk TPP,Coal,377,,,1960,,t+group,,1,t+group,Sosnogorsk TPP,,,,,,,,Russia,,,,,,,,,,,,
+1003826,Thermal Power Station 10,Coal,"1,100",,,1959-1962,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003827,Thermal Power Station 11,Coal,250,,,1959,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003827,Thermal Power Station 16,Coal,80,,,1966,8(10),Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003827,Thermal Power Station 6,Coal,270,,,1961,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003828,Thermal Power Station 9,Coal,475,,,,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003830,Togliatti,Coal,620,,,1960,,t+group,,1,t+group,Togliatti,,,,,,,,Russia,,,,,,,,,,,,
+1003832,TOM-USINSK GRES,Coal,1345.4,,,1958,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003839,Troitskaya GRES,Coal,"1,574",,,,,OGK-2 (subsidiary of GazProm),3185,,OGK-2,http://www.ogk2.ru/eng/about/branch/troitskaya/,,,,,23%,,,Russia,,,,,,,,,,,,2014
+1003847,Ust Illminsk (TPP),Coal,525,,,1978,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003854,Vorkuta HPP-2,Coal,270,,,1955,,t+group,,1,t+group,Vorkuta HPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003855,Vortkuta HPP-1,Coal,25,,,1943,,t+group,,1,t+group,Vortkuta HPP-1,,,,,,,,Russia,,,,,,,,,,,,
+1003673,Boguchanskaya HPP,Hydro,"2,997",Angara Rive,Dam with Reservoir,2012,,RusHydro,"8,362",,RusHydro,RusHydro,,,,,,,,Russia,,58.6947,99.1489,,,,,,,,,
+1003674,Bratsk HPP,Hydro,"4,500",,,1954-1967,18(250),Irkutskenergo,"22,300",,Irkutskenergo,Irkutskenergo Branches,,,,,,,,Russia,,56.28707,101.7852,,,,,,,,,2015
+1003675,Byreyskaya HPP,Hydro,"2,010",,,,,RusHydro,"6,066",,RusHydro,RusHydro,,,,,,,,Russia,,50.27078,130.3119,,,,,,,,,
+1003676,Cascade of Kubanskiye HPPs,Hydro,477,,,,,RusHydro,"1,384",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003677,Cascade of Verkhnevolzhskiye HPPs,Hydro,477,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003678,Cascade of Viluysky HPPs,Hydro,680,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003679,Cheboksarskaya HPP,Hydro,"1,370",,,,,RusHydro,"1,890",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003695,Dagestan Branch,Hydro,"1,786",,,,,RusHydro,"4,014",,RusHydro,RusHydro,,,,,,,,Russia,,46.8712,46.8712,,,,,,,,,
+1003709,HPP of the Northern Ossetian Branch,Hydro,95,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003710,Ikustsk,Hydro,662,,,1958,3(83),Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003715,Kabardino-Balkarian Branch,Hydro,158,,,,,RusHydro,565,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003720,Kamskaya HPP,Hydro,546,,,,,RusHydro,"1,998",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003722,Karachaevo-Cherkessian Branch HPP,Hydro,160,,,,,RusHydro,1,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003726,KEMEROVO HPP,Hydro,80,,,1940,,Kuzbassenergo,,,Kuzbassenergo,http://sibgenco.ru/about/activity/electric-power-generation/,,,,,,,,Russia,,,,,,,,,,,,2015
+1003734,Kolymskaya HPP,Hydro,900,,,,,RusHydro,"1,558",,RusHydro,RusHydro,,,,,,,,Russia,,62.059073,150.415802,,,,,,,,,
+1003739,Krasnoyarsk,Hydro,"6,000",,Dam with Reservoir,1972,,EvroSibEnergo,"18,300",Generation is annual average,EvroSibEnergo,http://www.kges.ru/q=comp/10/133,,,,,,,,Russia,,,,,,,,,,,,2005
+1003759,Nizhegorodskaya HPP,Hydro,520,,,,,RusHydro,"1,281",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003774,Novosibirskaya HPP,Hydro,460,,,,,RusHydro,"2,118",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003779,Pavlovskaya HPP,Hydro,166.4,,CCGT,1959,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003799,Saransk HPP-2,Hydro,350,,,1958,,t+group,,1,t+group,Saransk HPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003802,Saratovskaya HPP,Hydro,"1,378",,,,,RusHydro,"5,600",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003803,Sayano-Shushensky Branch,Hydro,"6,721",,,,,RusHydro,"20,375",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003810,Shirokovskaya HPP,Hydro,28,,,1948,,t+group,,1,t+group,Shirokovskaya HPP,,,,,,,,Russia,,,,,,,,,,,,
+1003831,Tolmachyovskiye HPPs,Hydro,45,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003846,Ust Illminsk (HPP),Hydro,"3,840",,,1974,,Irkutskenergo,,,Irkutskenergo,http://en.irkutskenergo.ru/qa/divisions.html,,,,,,,,Russia,,,,,,,,,,,,2015
+1003853,Volzhskaya HPP,Hydro,"2,639.50",,,,,RusHydro,"11,566",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003856,Votkinskaya HPP,Hydro,"1,020",,,,,RusHydro,"2,793",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003861,Yumaguzinskaya HPP,Hydro,45,,CCGT,2004,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003865,Zagorskaya PSPP,Hydro,"1,200",,,,,RusHydro,"1,860",,RusHydro,RusHydro,,,,,,,,Russia,,56.4819,38.19111,,,,,,,,,
+1003867,Zaramagsky HPP,Hydro,342,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003869,Zeyskaya HPP,Hydro,"1,330",,,,,RusHydro,"6,428",,RusHydro,RusHydro,,,,,,,,Russia,,53.7693,127.3059,,,,,,,,,
+1003870,Zhigulevskaya HPP,Hydro,"2,383",,,,,RusHydro,"10,488",,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003654,Adlerskaya TPP,Natural Gas,351,,,,,OGK-2 (subsidiary of GazProm),"2,538",,OGK-2,http://www.ogk2.ru/eng/about/branch/adlerskaya/,,,,,72.40%,,,Russia,,,,,,,,,,,,2014
+1003655,Alexin TPP,Natural Gas,62,,,1941,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003656,Amurskaya CHPP,Natural Gas,285,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003657,Anadyr CHPP,Natural Gas,46,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003658,Anadyrskaya Gas Engine CHPP,Natural Gas,304,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003660,Arkhangelsk CHPP,Natural Gas,450,,,1970,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003661,Artyomovskaya CHPP,Natural Gas,400,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003662,Balakovo TPP-4,Natural Gas,370,,,1962,,t+group,,1,t+group,Balakovo TPP-4,,,,,,,,Russia,,,,,,,,,,,,
+1003664,Belgorod TPP (thermal power plant),Natural Gas,60,,,1938,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003667,Berezniki CHPP-10,Natural Gas,27,,,1953,,t+group,,1,t+group,Berezniki CHPP-10,,,,,,,,Russia,,,,,,,,,,,,
+1003668,Berezniki CHPP-2,natural Gas,98,,,1947,,t+group,,1,t+group,Berezniki CHPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003668,Berezniki CHPP-4,Natural Gas,29.4,,,1931,,t+group,,1,t+group,Berezniki CHPP-4,,,,,,,,Russia,,,,,,,,,,,,
+1003670,Bezymyanskaya CHP,Natural Gas,170,,,1938,6 units,t+group,,1,t+group,Bezymyanskaya CHP,,,,,,,,Russia,,,,,,,,,,,,
+1003672,Blagoveshenskaya CHPP,Natural Gas,280,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003680,Cheboksary CHPP=2,Natural Gas,460,,,1979,,t+group,,1,t+group,Cheboksary CHPP=2,,,,,,,,Russia,,,,,,,,,,,,
+1003681,Chelyabinsk CHP-1,Natural Gas,233,,,1942,,Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003681,Chelyabinsk CHP-2,Natural Gas,320,,,1960-1968,2(60)2(100),Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003681,Chelyabinsk CHP-3,Natural Gas,576,,,1996-2011,,Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003682,Chelyabinsk GRES,Natural Gas,495,,,1996-2004,"286, 209",Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003685,CHP Volga Car,Natural Gas,"1,172",,,1967,11 units,t+group,,1,t+group,CHP Volga Car,,,,,,,,Russia,,,,,,,,,,,,
+1003686,CHP-11 (MJ Ufaev),Natural Gas,330,,,1936,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003687,CHP-12,Natural Gas,408,,,1941,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003687,CHP-16,Natural Gas,360,,,1955,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003689,CHP-20,Natural Gas,730,,,1952,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003690,CHP-21,Natural Gas,"1,760",,,1963,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003692,CHP-23,Natural Gas,"1,420",,,1966,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003692,CHP-25,Natural Gas,"1,370",,,1975,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003692,CHP-26,Natural Gas,"1,840",,,1979,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003692,CHP-27,Natural Gas,"1,060",,,1992,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003693,CHP-8,Natural Gas,605,,,1930,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003694,Chulmanskaya CHPP,Natural Gas,48,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003696,Dankov TPP,Natural Gas,10,,,1961,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003697,Dyagilev TPP,Natural Gas,110,,,1958,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003698,Dzerzhinsk TPP,Natural Gas,580,,,2005,,t+group,,1,t+group,Dzernzhinsk TPP,,,,,,,,Russia,,,,,,,,,,,,
+1003699,Dzhubginskaya,Natural Gas,138,,,2013,,Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003700,Efremov TPP,Natural Gas,160,,,1931,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003701,Egvenkinotskaya TPP,Natural Gas,34,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003702,Elets TPP,Natural Gas,57,,,1955,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003703,Engels TPP-3,Natural Gas,182,,,1958,,t+group,,1,t+group,Engels TPP-3,,,,,,,,Russia,,,,,,,,,,,,
+1003704,GES-1 (PG Smidovich),Natural Gas,576,,,1897,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003705,"GT-TPP (gas turbine TPP) ""Luch""",Natural Gas,60,,,2005,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003707,Gubkin TPP,Natural Gas,29,,,1954,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003711,Iriklinskaya,Natural Gas,2430,,,1970,8(300)1(30),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003712,Ivanovskaya CHPP-2,natural Gas,200,,,1954,,t+group,,1,t+group,Ivanova Branch,,,,,,,,Russia,,,,,,,,,,,,
+1003712,Ivanovskaya CHPP-3,natural Gas,330,,,1974,,t+group,,1,t+group,Ivanova Branch,,,,,,,,Russia,,,,,,,,,,,,
+1003713,Ivanovskiye,Natural Gas,325,,,2008,,Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003714,Izhevsk HPP-1,Natural Gas,291,,,1986-2011,"60, 231",t+group,,1,t+group,Izhevsk HPP-1,,,,,,,,Russia,,,,,,,,,,,,
+1003714,Izhevsk HPP-2,Natural Gas,390,,,1982,,t+group,,1,t+group,Izhevsk HPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003716,Kaliningradskaya,Natural Gas,900,,,2005,,Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,54.66046,20.58146,,,,,,,,,2016
+1003718,Kaluga TPP,Natural Gas,41.8,,,1948,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003719,Kamchatskiye CHPPs,Natural Gas,407,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003723,Kargalinskaya,Natural Gas,320,,,1973,,t+group,,1,t+group,Kargalinskaya CHP,,,,,,,,Russia,,,,,,,,,,,,
+1003724,Karmanovskaya TPP,Natural Gas,"1,831.10",,,1968,,Bashkir,"19,567",Generation is from 2014,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003727,Khabarovskiye CHPPs,Natural Gas,"1,155",,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003729,Kirishskaya GRES,Natural Gas,"2,595",,,,,OGK-2 (subsidiary of GazProm),5796,,OGK-2,http://www.ogk2.ru/eng/about/branch/kirishskaya/,,,,,25.50%,,,Russia,,,,,,,,,,,,2014
+1003732,Kizelovskaya TPP-3,Natural Gas,29,,,2004,,t+group,,1,t+group,Kizelovskaya TPP-3,,,,,,,,Russia,,,,,,,,,,,,
+1003735,Komsomolskaya CHPP,Natural Gas,360,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003736,Komsomolskiye CHPPs,Natural Gas,600,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003737,Konakovskaya,Natural Gas,"2,520",,,1964-1969,3(320)5(300),PSJC Enel Russia (OGK-5),7753,Gross generation from 2015,PSJC Enel Russia (OGK-5),Konakovskaya,,,,,,,,Russia,,,,,,,,,,,,2015
+1003738,Kostroma CHPP-1,Natural Gas,33,,,1930,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003738,Kostroma CHPP-2,Natural Gas,170,,,1978,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003743,Kumertauskaya TPP,Natural Gas,120,,CCGT,1954,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003745,Kursk TPP-4*,Natural Gas,4.8,,,1934,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003747,Kyzym Mobile PP,Natural Gas,72,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003748,Labytnangi Mobile PP,Natural Gas,73,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003750,Livny TPP,Natural Gas,42,,,1958,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003751,Magadanskaya CHPP,Natural Gas,96,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003752,Mezhdunarodnaya,Natural Gas,121,,,2007,1 unit,Technoproexport,,9,Technoproexport,Technoproexport (p.6-7),,,,,,,,Russia,,,,,,,,,,,,
+1003754,Mirninskaya TPP,Natural Gas,72,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003757,Nevinnomysskya,Natural Gas,"1,530",,CCGT,2011,14 units,PSJC Enel Russia (OGK-5),8601,Generation from 2015,PSJC Enel Russia (OGK-5),Nevinnomysskya,,,,,,,,Russia,,44.658,41.93,,,,,,,,,2015
+1003758,Nikolaevskaya CHPP,Natural Gas,131,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003760,Nizhnetouriskaya,Natural Gas,460,,,2015,,t+group,,1,t+group,Nizhnetouriskaya,,,,,,,,Russia,,,,,,,,,,,,
+1003761,Nizhnevartovskaya,Natural Gas,"2,013",,,1993-2014,3 units,Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003762,Northwest CHP,Natural Gas,900,,,2000-2006,2(450),Technoproexport,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,Russia,,,,,,,,,,,,
+1003764,Novo Sverdlovsk,Natural Gas,557,,,1982,,t+group,,1,t+group,Novo Sverdlovsk,,,,,,,,Russia,,,,,,,,,,,,
+1003767,"Novo-Sterlitamakskaya TPP, a generation facility of Sterlitamakskaya TPP",Natural Gas,255,,CCGT,1977,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003769,Novocheboksarsk CHPP-2,Natural Gas,370,,,1965,,t+group,,1,t+group,Novocheboksarsk CHPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003771,Novogorkovskaya CHP,Natural Gas,548,,CCGT,2014,,t+group,,1,t+group,Novogorkovskay CHP,,,,,,,,Russia,,,,,,,,,,,,
+1003772,Novokuibyshevsk HPP-1,Natural Gas,372,,,1951,6 unit,t+group,,1,t+group,Novokuibyshevsk HPP-1,,,,,,,,Russia,,,,,,,,,,,,
+1003773,Novomoskovsk SDPS,Natural Gas,323.7,,,1934,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003776,Orel TPP,Natural Gas,330,,,1946,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003777,Orsk TPP-1,Natural Gas,245,,,1938,,t+group,,1,t+group,Orsk TPP-1,,,,,,,,Russia,,,,,,,,,,,,
+1003780,Pechorskaya,Natural Gas,"1,060",,,1979,2(210)2(215),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003781,Penza TPP-1,natural Gas,385,,,1943,,t+group,,1,t+group,Penza TPP-1,,,,,,,,Russia,,,,,,,,,,,,
+1003781,Penza TPP-2,natural Gas,16,,,1957,,t+group,,1,t+group,Penza TPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003782,Perm HPP-13,Natural Gas,34,,,2006,,t+group,,1,t+group,Perm HPP-13,,,,,,,,Russia,,,,,,,,,,,,
+1003782,Perm HPP-14,Natural Gas,330,,,1961-2009,,t+group,,1,t+group,Perm HPP-14,,,,,,,,Russia,,,,,,,,,,,,
+1003782,Perm HPP-6,Natural Gas,180,,,1942,,t+group,,1,t+group,Perm HPP-6,,,,,,,,Russia,,,,,,,,,,,,
+1003783,Perm HPP-9,Natural Gas,410,,,1951-1980,,t+group,,1,t+group,Perm HPP-9,,,,,,,,Russia,,,,,,,,,,,,
+1003784,Permskaya,Natural Gas,"2,400",,,1986-1991,3(800),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003785,Pervouralsk TEZ,Natural Gas,36,,,1956,,t+group,,1,t+group,Pervouralsk TEZ,,,,,,,,Russia,,,,,,,,,,,,
+1003787,Priufimskaya TPP,Natural Gas,210,,CCGT,1976,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003788,Pskovskaya GRES,Natural Gas,440,,,,,OGK-2 (subsidiary of GazProm),992,,OGK-2,http://www.ogk2.ru/eng/about/branch/pskovskaya/,,,,,25.80%,,,Russia,,,,,,,,,,,,2014
+1003789,Raychikhiskaya TPP,Natural Gas,102,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003793,Ryazanskaya GRES,Natural Gas,"3,070",,,,,OGK-2 (subsidiary of GazProm),6323,,OGK-2,http://www.ogk2.ru/eng/about/branch/ryazanskaya/,,,,,23.50%,,,Russia,,,,,,,,,,,,2014
+1003794,Sakhalinskaya TPP,Natural Gas,252,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003795,Sakmarskaya TPP,Natural Gas,460,,,1969,,t+group,,1,t+group,Sakmarskaya TPP,,,,,,,,Russia,,,,,,,,,,,,
+1003796,Salavatskaya TPP,Natural Gas,185,,CCGT,1953,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003797,Samara GRES,Natural Gas,61,,,1900,,t+group,,1,t+group,Samara GRES,,,,,,,,Russia,,,,,,,,,,,,
+1003798,Samara TPP,Natural Gas,440,,,1971,5 units,t+group,,1,t+group,Samara TPP,,,,,,,,Russia,,,,,,,,,,,,
+1003800,Saratov HPP-2,Natural Gas,224,,,1950,,t+group,,1,t+group,Saratov HPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003800,Saratov HPP-5,Natural Gas,445,,,1978,,t+group,,1,t+group,Saratov HPP-5,,,,,,,,Russia,,,,,,,,,,,,
+1003801,Saratov TPP- HPP 1,Natural Gas,72,,,1930,,t+group,,1,t+group,Saratov TPP- HPP 1,,,,,,,,Russia,,,,,,,,,,,,
+1003806,Severo-Zapadnaya,Natural Gas,900,,,2000-2006,2(450),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003808,Shaturskaya GRES,Natural Gas,"1,500",,,,,e·on Russia,"4,760",CHP,e·on Russia,http://www.eon.com/content/dam/eon-com/en/downloads/a/Acquisition_of_OGK4_17092007.pdf,,,,,,,,Russia,,,,Peat,,,,,,,,2007
+1003809,Shchekinskaya SDPS*,Natural Gas,400,,,1950,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003811,"Sibay TPP, a generation facility of Zauralskaya TPP",Natural Gas,16,,CCGT,2011,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003813,Smolensk TPP-2,Natural Gas,275,,,1973,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003814,Smolenskaya GRES,Natural Gas,630,,,,,e·on Russia,"2,390",CHP,e·on Russia,http://www.eon.com/content/dam/eon-com/en/downloads/a/Acquisition_of_OGK4_17092007.pdf,,,,,,,,Russia,,,,,,,,,,,,2007
+1003815,Sochinskaya,Natural Gas,236,,,2004,2(78)1(80),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003816,Sormovo cogeneration station,natural Gas,350,,,1974,,t+group,,1,t+group,Sormovo Cogeneration Station,,,,,,,,Russia,,,,,,,,,,,,
+1003818,Srednevralskaya,Natural Gas,"1,657",,,2011,,PSJC Enel Russia (OGK-5),8029,Generation from 2015,PSJC Enel Russia (OGK-5),Srednevralskaya,,,,,,,,Russia,,57.00324,60.46345,,,,,,,,,2015
+1003819,Stavropolskaya GRES,Natural Gas,"2,400",,,,,OGK-2 (subsidiary of GazProm),8496,,OGK-2,http://www.ogk2.ru/eng/about/branch/stavropolskaya/,,,,,40.40%,,,Russia,,45.3116,41.51256,,,,,,,,,2014
+1003820,Sterlitamakskaya TPP,Natural Gas,345,,CCGT,1957,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003821,Surgutskaya GRES-1,Natural Gas,"3,268",,,,,OGK-2 (subsidiary of GazProm),21615,,OGK-2,http://www.ogk2.ru/eng/about/branch/surgutskaya/,,,,,75%,,,Russia,,,,,,,,,,,,2014
+1003821,Surgutskaya GRES-2,Natural Gas,"5,600",,,,,e·on Russia,"32,890",CHP,e·on Russia,http://www.eon.com/content/dam/eon-com/en/downloads/a/Acquisition_of_OGK4_17092007.pdf,,,,,,,,Russia,,,,,,,,,,,,2007
+1003822,Sverdlovsk CHP,Natural Gas,36,,,1992,,t+group,,1,t+group,Sverdlovsk CHP,,,,,,,,Russia,,,,,,,,,,,,
+1003823,Syzran TPP,Natural Gas,372,,,1947,,t+group,,1,t+group,Syzran TPP,,,,,,,,Russia,,,,,,,,,,,,
+1003824,Tambov TPP,Natural Gas,235,,,1954,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003825,Tchailkovsky CHP-18,Natural Gas,200,,,1978,,t+group,,1,t+group,Tchailkovsky CHP-18,,,,,,,,Russia,,,,,,,,,,,,
+1003829,Tobolsk CHP,Natural Gas,665,,,1980-2011,"165, 170, 140 (Thermal units), 213 (CCGT)",Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003833,TPP Quadra,Natural Gas,116.9,,,2011,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003834,TPP-1,Natural Gas,175,,,1955,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003834,TPP-1,Natural Gas,138,,,1933,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003835,"TPP-1, a generation facility of Ufimskaya TPP-4",Natural Gas,77.74,,CCGT,1938,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003836,TPP-2,Natural Gas,127,,,1957,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003836,TPP-2,Natural Gas,515,,,1978,,Quandra,,,Quandra,Quadra Production Capacity,,,,,,,,Russia,,,,,,,,,,,,
+1003837,TPP-3 (R.E. Klasson),Natural Gas,548,,,1914,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003838,TPP-9,Natural Gas,210,,,1933,,Mosenergo (subsidiary of Gazprom),,,Mosenergo,https://web.archive.org/web/20160314015543/http://www.mosenergo.ru/catalog/228.aspx,,,,,,,,Russia,,,,,,,,,,,,2010
+1003840,Tyumen CHP-1,Natural Gas,662,,,1960-2010,2(40)3(77)1(220)1(230),Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003840,Tyumen CHP-2,Natural Gas,755,,,1986-1989,"3(180), 1(215)",Fortum,,,Fortum,Fortum Heat and Power,,,,,,,,Russia,,,,,,,,,,,,2016
+1003842,Ufimskaya TPP-2,Natural Gas,514,,CCGT,1940,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003842,Ufimskaya TPP-3,Natural Gas,95,,CCGT,1951,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003842,Ufimskaya TPP-4,Natural Gas,270,,CCGT,1956,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1003843,Ulyanovsk TPP-1,Natural Gas,435,,,1973,,t+group,,1,t+group,Ulyanovsk TPP-1,,,,,,,,Russia,,,,,,,,,,,,
+1003843,Ulyanovsk TPP-2,Natural Gas,417,,,1978,,t+group,,1,t+group,Ulyanovsk TPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003844,Urengoy Mobile PP,Natural Gas,72,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003845,Urengoyskaya,Natural Gas,498,,,1987,,Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003845,Urengoyskaya,Natural Gas,450,,,2012,1 unit,Technoproexport,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,Russia,,,,,,,,,,,,
+1003848,Vanovskie,Natural Gas,650,,,2007-2012,2(325),Technoproexport,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,Russia,,,,,,,,,,,,
+1003849,Verkhnetagilskaya,Natural Gas,"1,497",,,1956-1964,4(88)2(100)2(165)3(205),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003850,Vladivostok CHPP,Natural Gas,497,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003851,Vladmir Branch,Natural Gas,596,,,1962,,t+group,,1,t+group,Vladmir,,,,,,,,Russia,,,,,,,,,,,,
+1003852,Vologda CHP,Natural Gas,146,,CCGT,2011,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003857,Yakutskaya TPP,Natural Gas,320,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003858,Yaroslavl TPP-1,Natural Gas,345,,,1961,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003858,Yaroslavl TPP-2,Natural Gas,160,,,1965,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003858,Yaroslavl TPP-3,Natural Gas,320,,,1961-1970,,TGC-2,,,TGC-2,TGC2 Main Factors,,,,,,,,Russia,,,,,,,,,,,,
+1003859,Yavinskaya GRES,Natural Gas,"1,000",,,,,e·on Russia,"4,070",CHP,e·on Russia,http://www.eon.com/content/dam/eon-com/en/downloads/a/Acquisition_of_OGK4_17092007.pdf,,,,,,,,Russia,,59.3393,57.24566,,,,,,,,,2007
+1003860,Yoshkar-Ola CHPP-2,Natural Gas,195,,,1984,,t+group,,1,t+group,Yoshkar-Ola CHPP-2,,,,,,,,Russia,,,,,,,,,,,,
+1003862,Yuzhnaya,Natural Gas,450,,,2011,1 unit,Technoproexport,,,Technoproexport,Technoproexport (p.6-7),,,,,,,,Russia,,,,,,,,,,,,
+1003863,Yuzhno-Sakhalinskaya CHPP,Natural Gas,316,,,,,RusHydro,,,RusHydro,RusHydro,,,,,,,,Russia,,,,,,,,,,,,
+1003864,Yuzhnouralskaya 1,Natural Gas,882,,,1952-1991,2(200 use coal) 2(50)(35)(83)(100)2(82),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003864,Yuzhnouralskaya 2,Natural Gas,834,,,2014,2(400),Inter RAO,,,Inter RAO,http://irao-generation.com/en/stations/,,,,,,,,Russia,,,,,,,,,,,,2016
+1003866,Zakamskaya,Natural Gas,69,,,1986,,t+group,,1,t+group,Zakamskaya,,,,,,,,Russia,,,,,,,,,,,,
+1003868,Zauralskaya TPP,Natural Gas,14.95,,CCGT,2004,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+1023915,Balakovo NPP,Nuclear,"4,000",,,1985-1993,4(1000),Rosatom,"29,820",,IAEA PRIS,http://www.balnpp.rosenergoatom.ru/,,,,,,,,,,,,,,,,,,,,
+1003666,Beloyarsk,Nuclear,"1,480",x,,1980-2007,"600, 840",Rosatom,"4,523",,IAEA PRIS,Rosenergoatom,,,,,,,,Russia,,,,,,,,,,,,
+1003671,Bilibino,Nuclear,48,,,1973-1977,4(12),Rosatom,220,,IAEA PRIS,Rosenergoatom,,,,,,,,Russia,,,,,,,,,,,,
+1003717,Kalinn NPP,Nuclear,"4,000",x,,1984-2011,4(1000),Rosatom,"33,441",,IAEA PRIS,Kalinn NPP,,,,,95.44,,,Russia,,57.9033,35.05547,,,,,,,,,
+1003733,Kola NPP,Nuclear,"1,760",,,1973-1984,4(440),Rosatom,"10,361",,IAEA PRIS,Kola NPP,,,,,,,,Russia,,,,,,,,,,,,
+1003744,Kursk,Nuclear,"3,070",,,2001-2014,,Rosatom,"29,223",,IAEA PRIS,Rosenergoatom,,,,,,,,Russia,,,,,,,,,,,,
+1003749,Leningrad NPP,Nuclear,"4,000",,,1973-1981,4(1000),Rosatom,"25,373",,IAEA PRIS,Leningrad NPP,,,,,,,,Russia,,,,,,,,,,,,
+1003775,Novovoronezh,Nuclear,"1,834",,,1971-1980,,Rosatom,"13,242",,IAEA PRIS,Novovoronezh NPP,,,,,,,,Russia,,,,,,,,,,,,
+1003791,Rostov NPP,Nuclear,"4,000",,,1976-1985,,Rosatom,"15,704",,IAEA PRIS,Rostov,,,,,,,,Russia,,,,,,,,,,,,
+1003812,Smolensk,Nuclear,"3,000",,,1982-1990,,Rosatom,"23,673",,IAEA PRIS,Smolensk NPP,,,,,,,,Russia,,,,,,,,,,,,
+1003841,Tyupkildy Wind Farm,Wind,2.2,,,2001,,Bashkir,,,Bashkir,http://bgkrb.ru/eng/activities/index.php,,,,,,,,Russia,,,,,,,,,,,,2014
+,,,197117.93,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

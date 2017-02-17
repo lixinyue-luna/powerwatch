@@ -1,0 +1,315 @@
+NOTE: This Power Watch database of power plants is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.
+name,pw_idnr,capacity_mw,year_of_capacity_data,annual_generation_gwh,year_of_generation_data,country,owner,source,url,latitude,longitude,fuel1,fuel2,fuel3,fuel4
+CUCHILDEO,CHL0000025,0.77,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-41.9599640425,-72.4826821648,Hydro
+COYA,CHL0000024,12.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.2049226669,-70.5257110971,Hydro
+DON WALTERIO,CHL0000027,3.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.5577599126,-72.516183795,Hydro
+CURILLINQUE,CHL0000026,92.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.805523383,-70.941665959,Hydro
+COLBUN,CHL0000021,474.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.6861239388,-71.3712457802,Hydro
+CIPRESES,CHL0000020,106.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.7865990861,-70.8077321363,Hydro
+CONTRA,CHL0000023,0.33,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.3773325947,-72.8820622877,Hydro
+COLLIL,CHL0000022,7.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.6861239388,-71.3712457802,Hydro
+LAS PAMPAS,CHL0000142,0.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.3678204141,-71.4088892295,Other
+LAUTARO,CHL0000143,26.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.5393575048,-72.4697215742,Other
+HBS,CHL0000140,2.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.3935293719,-72.3601625539,Other
+LAJA,CHL0000141,12.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.1690584806,-72.4086755629,Other
+DONGO,CHL0000029,6.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.3328591027,-72.0059523312,Hydro
+DONA HILDA,CHL0000028,0.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.3328591027,-72.0059523312,Hydro
+LICANTEN,CHL0000144,6.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.987255148,-72.0208160359,Other
+LOMA LOS COLORADOS,CHL0000145,2.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.9556931541,-70.8043558444,Other
+NUEVA ALDEA III,CHL0000149,37.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-36.6614965701,-72.4810644255,Other
+LOS SAUCES I,CHL0000210,1.65,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-88.6188399907,-461.08020627,Oil
+LOS SAUCES II,CHL0000211,1.65,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-88.6188399907,-461.08020627,Oil
+QUINTAY,CHL0000230,3.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.925649138,-118.171055125,Oil
+SAN GREGORIO,CHL0000231,0.48,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9429117638,-120.708580715,Oil
+MONTE PATRIA,CHL0000232,9.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.7556797229,-100.143005231,Oil
+PUNITAQUI,CHL0000233,9.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8368561318,-106.868430423,Oil
+RENCA,CHL0000234,100.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.6397322475,-93.7677514734,Oil
+EMELDA,CHL0000235,69.25,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.3377241985,-83.4511775309,Oil
+PUNTA COLORADA,CHL0000236,17.08,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.7924893622,-102.845902638,Oil
+CENIZAS,CHL0000237,16.29,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.544258956,-89.8612027268,Oil
+CANDELARIA,CHL0000238,272.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.6026399582,-92.1480778471,Oil
+NEHUENCO III,CHL0000239,103.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8445028888,-107.669564808,Oil
+C.T. SALMOFOOD CASTRO,CHL0000312,1.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-102.3065752,-7285.07538305,Oil
+ESCUADRON,CHL0000139,14.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-36.9352405574,-73.1574239208,Other
+ENERGIA PACIFICO,CHL0000138,15.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.981677265,-70.6975680017,Other
+COELEMU,CHL0000137,7.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-36.5108434512,-72.7369252734,Other
+ENERGIA BIOBIO,CHL0000136,7.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-36.8347714443,-73.0961282726,Other
+CMPC PACIFICO,CHL0000135,33.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.7915255566,-72.4825593105,Other
+CMPC LAJA,CHL0000134,25.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.1704674511,-72.4066785637,Other
+CHOLGUAN,CHL0000133,13.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.1648776273,-72.0674231417,Other
+CELCO,CHL0000132,8.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.3236976718,-72.4168890552,Other
+ARAUCO,CHL0000131,24.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.208928938,-73.2276676721,Other
+ANCALI 1,CHL0000130,1.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5902701017,-72.3006115532,Other
+CANELA,CHL0000159,18.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.2883671979,-71.6302459647,Wind
+CABO NEGRO  FASE I,CHL0000158,2.34,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-52.9492017801,-70.8306051094,Wind
+TERMOELECTRICA ANDINA,CHL0000296,168.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5818589944,-91.3009172691,Coal
+SANTA IRENE,CHL0000151,0.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.4712377882,-71.2940521929,Other
+LOMA LOS COLORADOS II,CHL0000146,18.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.9567087119,-70.8046011341,Other
+TAMM,CHL0000153,0.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.6714171839,-70.9299603873,Other
+SANTA MARTA,CHL0000152,13.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.7004318307,-70.7978541015,Other
+VALDIVIA,CHL0000155,61.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-39.5590388507,-72.9010805568,Other
+TREBAL MAPOCHO,CHL0000154,8.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5404253125,-70.8362625591,Other
+ALTO BAGUALES,CHL0000157,1.98,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-45.5264170681,-72.106049304,Wind
+MASISA,CHL0000147,11.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.0448911711,-72.399647201,Other
+CMPC PACIFICO,CHL0000273,91.18,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.4496744876,-204.071371145,Biomass
+SAUZALITO,CHL0000108,12.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.2356777826,-70.6552380403,Hydro
+POZO ALMONTE SOLAR 2,CHL0000118,7.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-20.2740612733,-69.7520496877,Solar
+VICTORIA,CHL0000305,1.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.2160370403,-163.438221764,
+TRUENO,CHL0000109,5.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.6010122908,-72.0472389981,Hydro
+NUEVA RENCA,CHL0000258,800.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.6390757227,-93.7377500491,Oil
+LAS VEGAS,CHL0000227,2.32,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.760940154,-100.501716294,Oil
+EL TOTORAL,CHL0000226,3.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9174851072,-116.990438621,Oil
+LOS PINOS,CHL0000225,92.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.2508621912,-169.238929359,Oil
+NUEVA VENTANAS,CHL0000224,272.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8835787781,-112.319240599,Coal
+ANTILHUE,CHL0000223,101.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-90.9276787722,-1169.04717668,Oil
+SAN FRANCISCO DE MOSTAZAL,CHL0000222,24.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.6392389358,-93.745203635,Oil
+LOS VIENTOS,CHL0000221,125.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.7613533177,-100.530241965,Oil
+CENTRAL YUNGAY,CHL0000220,218.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.2120175476,-162.774451649,Oil,Gas
+VENTANAS,CHL0000253,333.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8836043722,-112.322577215,Coal
+PLACILLA,CHL0000229,3.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8996490493,-114.476705125,Oil
+LINARES NORTE,CHL0000228,0.48,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8997724188,-114.493709667,Oil
+COLLIPULLI,CHL0000304,3.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.1617794,-154.577032973,
+CHILOE,CHL0000263,9.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-94.8326682243,-2826.17928728,Oil
+CASA BLANCA,CHL0000285,2.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.858425007,-109.219897701,Oil
+SALTA,CHL0000307,100.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-81.210230856,-44.8980793275,Oil,Gas
+TERMOELECTRICA NORGENER,CHL0000300,277.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.4774485445,-87.5475798916,Coal
+TERMOELECTRICA TARAPACA,CHL0000301,181.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.4726722676,-87.3924366873,Coal,Oil
+TERMOELECTRICA TOCOPILLA,CHL0000302,0.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.479016192,-87.5987735412,Coal,Oil,Gas
+SANTA MARIA,CHL0000262,370.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-92.6188704541,-1822.5688356,Coal
+PORVENIR,CHL0000178,17.71,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.27208135,-81.7837871132,Oil,Gas
+SOUTHERN BULBS,CHL0000215,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.9791371953,-310.216667161,Oil
+ORAFTI,CHL0000308,60.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.288008471,-175.52520123,Gas
+CEMENTOS BIOBIO,CHL0000261,13.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.7852227542,-102.273828084,Oil
+TERMOELECTRICA MEJILLONES,CHL0000299,591.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5817799519,-91.2977693268,Coal,Gas
+LAGUNA VERDE,CHL0000260,66.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9318524638,-119.077393568,Oil
+PUNTA COLORADA,CHL0000168,20.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-29.3666061376,-71.058370774,Wind
+PUNTA PALMERAS,CHL0000169,45.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.2344807381,-71.6404219912,Wind
+EOLICA SAN PEDRO,CHL0000164,36.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5106919491,-72.4938146047,Wind
+LEBU,CHL0000165,7.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5106919491,-72.4938146047,Wind
+LOS CURUROS,CHL0000166,109.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.0335284597,-71.6054375259,Wind
+MONTE REDONDO,CHL0000167,48.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.0770173731,-71.657966736,Wind
+CANELA II,CHL0000160,60.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.302738825,-71.6233771757,Wind
+EL ARRAYAN,CHL0000161,115.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-30.5792818507,-71.6980575469,Wind
+EL TOQUI,CHL0000162,1.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-45.0253336386,-71.9680685287,Wind
+EOLICA CUEL,CHL0000163,33.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5106919491,-72.4938146047,Wind
+EL PENON,CHL0000284,74.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8382897261,-107.015963633,Oil
+HUASCO,CHL0000247,91.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8530344435,-108.605395666,Oil
+TALINAY ORIENTE,CHL0000170,90.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-30.8469267211,-71.5875096491,Wind
+HORCONES,CHL0000265,25.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-94.3942495845,-2614.86656007,Oil
+CONSTITUCION 1,CHL0000264,9.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.5127235125,-215.718497269,Oil
+PURISIMA,CHL0000090,0.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.2020675664,-71.1820162566,Hydro
+QUELTEHUES,CHL0000091,49.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.8128440361,-70.2192319069,Hydro
+QUILLAILEO,CHL0000092,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.6930042443,-71.8082707108,Hydro
+QUILLECO,CHL0000093,70.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.3358283454,-71.9566570796,Hydro
+RALCO,CHL0000094,690.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.9979540357,-71.5179764786,Hydro
+RAPEL,CHL0000095,378.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.0412747119,-71.5887915828,Hydro
+RECA,CHL0000096,1.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-39.7584778255,-72.0768611674,Hydro
+RENAICO,CHL0000097,6.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.8138376804,-72.4156762353,Hydro
+RIO AZUL,CHL0000098,1.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-43.4906034252,-72.1234133614,Hydro
+RIO HUASCO,CHL0000099,5.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-28.6762024166,-70.6450859547,Hydro
+C.T. POLINCAY,CHL0000311,4.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-89.3925650086,-671.905655502,Oil
+CENTRAL TERMICA COCHAMO,CHL0000310,6.45,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.053083958,-137.427680824,Oil
+ANCUD,CHL0000306,3.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-106.776447672,-10656.4403477,
+DIESEL ARICA,CHL0000287,14.32,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5455465089,-89.9086971738,Oil
+CHAPIQUINA,CHL0000018,10.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-18.3728633329,-69.5487735693,Hydro
+CHIBURGO,CHL0000019,19.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.6614648904,-71.3550194813,Hydro
+QUINTERO,CHL0000250,289.78,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8839036013,-112.361612123,Gas
+CENTRAL CAMPICHE,CHL0000251,272.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8836238308,-112.325114194,Coal
+SAN LORENZO DE D. DE ALMAGRO,CHL0000256,55.84,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.3477540484,-83.7186001734,Oil
+OLIVOS,CHL0000257,120.12,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8874014895,-112.821329764,Oil
+TENO,CHL0000254,53.57,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.7850173889,-102.257961695,Oil
+TALTAL,CHL0000255,240.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5977374885,-91.9446159283,Oil
+BOQUIAMARGO,CHL0000010,1.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.8689267834,-71.6146845239,Hydro
+CALLAO,CHL0000011,3.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.8874225603,-72.3393434132,Hydro
+CANUTILLAR,CHL0000012,172.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-41.5281280803,-72.3417966037,Hydro
+CAPULLO,CHL0000013,12.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.8189483095,-72.4000152341,Hydro
+CARENA,CHL0000014,10.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5286403755,-70.9528590635,Hydro
+CAVANCHA,CHL0000015,2.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-20.2370829637,-70.1273219243,Hydro
+CHACABUQUITO,CHL0000016,25.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.8535707212,-70.5061190218,Hydro
+CHACAYES,CHL0000017,112.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.2755189793,-70.452316883,Hydro
+UCUQUER,CHL0000173,7.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.0442106887,-71.6098153905,Wind
+TOTORAL,CHL0000172,46.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.3260497476,-71.5995347391,Wind
+OJOS DE AGUA,CHL0000078,9.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.7859075086,-70.8075615783,Hydro
+PALMUCHO,CHL0000079,32.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.0404328363,-71.4780386319,Hydro
+TRES PUENTES,CHL0000177,79.04,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.4886330163,-87.9158398585,Oil,Gas
+PUNTA ARENAS,CHL0000176,10.9,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.4913972718,-88.0079542045,Oil,Gas
+VALLE DE LOS VIENTOS,CHL0000175,90.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-22.4796011752,-68.8263055141,Wind
+UCUQUER 2,CHL0000174,10.75,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.0399811873,-71.6280633675,Wind
+MARIPOSAS,CHL0000072,6.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.5960883453,-71.2641700035,Hydro
+HIDROBONITO MC 1,CHL0000073,9.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.9177857968,-72.4035369514,Hydro
+MAMPIL,CHL0000070,55.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5363947902,-71.7073993722,Hydro
+MARIA ELENA,CHL0000071,0.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.7718969917,-72.4875277236,Hydro
+MUCHI,CHL0000076,1.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.3162451266,-72.226912562,Hydro
+NALCAS,CHL0000077,6.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.8951469871,-72.3400645618,Hydro
+HIDROBONITO MC 2,CHL0000074,3.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.9177857968,-72.4035369514,Hydro
+MONREAL,CHL0000075,3.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-45.8699848898,-72.0612653167,Hydro
+PUERTO WILLIAMS,CHL0000179,2.65,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-84.661391055,-60.197078916,Oil
+C.T. CHAITEN,CHL0000313,0.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.3693873343,-189.654654524,Oil
+PUCLARO,CHL0000087,5.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-29.9960509179,-70.8638186763,Hydro
+PROVIDENCIA,CHL0000086,14.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.4697236625,-71.2728849746,Hydro
+PILMAIQUEN,CHL0000085,40.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.6379102984,-72.6491368696,Hydro
+PICHILONCO,CHL0000084,1.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.3389255934,-72.2992758843,Hydro
+PEUCHEN,CHL0000083,85.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5411538339,-71.596273024,Hydro
+PEHUI,CHL0000082,1.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.5566805211,-72.5161390622,Hydro
+PEHUENCHE,CHL0000081,570.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.7308006918,-71.1635391454,Hydro
+PANGUE,CHL0000080,467.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.9107841592,-71.6121401256,Hydro
+PUNTILLA,CHL0000089,21.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.618502303,-70.5351608773,Hydro
+PULLINQUE,CHL0000088,51.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-39.5956813987,-72.2172898644,Hydro
+EL SALVADOR,CHL0000241,23.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.348738615,-83.7450451759,Oil
+CENTRAL CARDONES,CHL0000240,153.04,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.542509061,-89.7968467538,Oil
+CURACAUTIN,CHL0000243,2.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9200461249,-117.359121669,Oil
+COLMITO,CHL0000242,60.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8802035639,-111.882270594,Oil
+CURAUMA,CHL0000245,2.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8989727083,-114.383590564,Oil
+DIEGO DE ALMAGRO,CHL0000244,23.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.3481428389,-83.7290387252,Oil,Gas
+BLANCO,CHL0000009,53.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.9170649665,-70.32890125,Hydro
+AYSEN,CHL0000008,6.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-45.3755335046,-72.7099788174,Hydro
+AUXILIAR DEL MAIPO (CAEMSA),CHL0000007,5.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.6426894092,-70.6336424109,Hydro
+ANTUCO,CHL0000006,320.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.3098805158,-71.6267537126,Hydro
+ANGOSTURA,CHL0000005,323.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.7125892039,-71.8167457201,Hydro
+ALTO HOSPICIO,CHL0000004,1.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-20.2505850752,-70.109746464,Hydro
+ALLIPEN,CHL0000003,2.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.9986523344,-72.2228942819,Hydro
+ALFALFAL,CHL0000002,178.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5012475506,-70.1926576997,Hydro
+ABANICO,CHL0000001,136.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.3644251541,-71.4894027027,Hydro
+MALLARAUCO,CHL0000069,3.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5874033006,-71.0044229967,Hydro
+MAITENES,CHL0000068,31.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5307034623,-70.2617884696,Hydro
+SAN CLEMENTE,CHL0000104,5.9,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.5982090751,-71.3557023872,Hydro
+SAN IGNACIO,CHL0000105,37.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.6146683728,-71.5414580575,Hydro
+RUCUE,CHL0000102,178.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.3604877207,-71.8656901638,Hydro
+SAN ANDRES,CHL0000103,40.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.7345815706,-70.3825466036,Hydro
+ROBLERIA,CHL0000100,4.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.8503178653,-71.2805902655,Hydro
+RUCATAYO,CHL0000101,59.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.6191529117,-72.704159861,Hydro
+LOS HIERROS,CHL0000061,25.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.8578606936,-71.0639078143,Hydro
+LOS CORRALES 2,CHL0000060,1.04,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.6471743661,-72.3148268559,Hydro
+LOS MORROS,CHL0000063,3.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.6477831592,-70.6561125457,Hydro
+LOS MOLLES,CHL0000062,18.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-30.7442294533,-70.5866992923,Hydro
+LOS QUILOS,CHL0000065,39.9,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.8664496086,-70.4078423383,Hydro
+LOS PADRES,CHL0000064,2.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5278871152,-71.7062769889,Hydro
+MAISAN,CHL0000067,0.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.9838175701,-72.6639935798,Hydro
+MACHICURA,CHL0000066,95.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.7324516034,-71.3978025864,Hydro
+ATACAMA,CHL0000286,780.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5841027137,-91.3905029649,Gas
+SAN ISIDRO II,CHL0000281,406.35,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.848190677,-108.068582799,Gas
+ESTANDARTES,CHL0000294,4.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.436909517,-86.2686387736,Oil
+SAN ISIDRO I,CHL0000280,379.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.848190677,-108.068582799,Gas
+TERMOELECTRICA ANGAMOS,CHL0000297,545.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5568170087,-90.3296904695,Coal
+ESPERANZA,CHL0000283,22.09,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.6297203166,-93.3157328963,Oil
+TERMOPACIFICO,CHL0000282,99.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5400968158,-89.7084932054,Oil
+PLANTA CURICO,CHL0000276,2.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8110697168,-104.411166042,Coal
+TRAPEN,CHL0000274,74.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-88.9086299295,-536.621014559,Oil
+CONCON,CHL0000275,2.72,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8802340251,-111.886186834,Oil
+NUEVA ALDEA I (EX ITATA),CHL0000148,14.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-36.659747095,-72.4731012562,Other
+NEHUENCO I,CHL0000277,380.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8445028888,-107.669564808,Gas
+DEGAN,CHL0000270,36.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-100.850049231,-6296.09827643,Oil
+ESCUADRON,CHL0000271,12.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-93.2807794573,-2105.78302453,
+TIRUA,CHL0000272,2.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-102.315744739,-7291.47610414,Oil
+MULTIEXPORT 1,CHL0000212,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-88.3549225086,-396.080733759,Oil
+NEHUENCO II,CHL0000278,390.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8445028888,-107.669564808,Gas
+COLIHUES,CHL0000279,48.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.6270167369,-93.1956422423,Oil
+SAUCE ANDES,CHL0000106,1.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.8351603524,-70.5410954485,Hydro
+SOLAR HORNITOS,CHL0000115,0.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-27.7346877942,-70.1911979945,Solar
+ESPERANZA,CHL0000114,2.88,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-26.2933759301,-69.6275331097,Solar
+MARIA ELENA,CHL0000117,68.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-22.2204038712,-69.5766344545,Solar
+LA HUAYCA SPS-1,CHL0000116,1.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-20.454560652,-69.5340123884,Solar
+LOS BAJOS,CHL0000058,5.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.6354047156,-70.5948221632,Hydro
+LOS CORRALES,CHL0000059,1.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.6472106802,-72.3148168301,Hydro
+LOS COLONOS,CHL0000113,0.64,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-41.007119631,-72.6873839864,Hydro
+LAS FLORES,CHL0000112,1.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.084701166,-72.3034799452,Hydro
+LAS VERTIENTES,CHL0000054,1.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.59258567,-70.4696683315,Hydro
+LICAN,CHL0000055,18.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.6180309786,-72.4014027781,Hydro
+LIRCAY,CHL0000056,19.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.5372777651,-71.2613573268,Hydro
+LOMA ALTA,CHL0000057,40.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.7908226487,-70.9818583635,Hydro
+LA CONFLUENCIA,CHL0000050,163.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.8334975149,-70.5542210645,Hydro
+LA HIGUERA,CHL0000051,155.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.7515504696,-70.7144061251,Hydro
+LA PALOMA,CHL0000052,4.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-30.7003910704,-71.0372671864,Hydro
+LAGO ATRAVESADO,CHL0000053,11.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-45.7561375917,-72.2888373195,Hydro
+LAS PAMPAS,CHL0000252,0.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8555773043,-108.893025401,Other
+DIESEL TAMAYA,CHL0000292,103.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.4030336328,-85.2606015916,Oil
+SAUZAL,CHL0000107,76.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-34.2527566664,-70.6309979951,Hydro
+CORONEL,CHL0000269,55.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-93.5359453586,-2218.88142072,Gas
+CHUYACA,CHL0000268,12.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-89.4104030381,-677.101557724,Oil
+SANTA BARBARA,CHL0000188,0.22,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.5333620741,-219.592307942,Oil
+AMENGUAL,CHL0000189,0.17,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9466643518,-121.265665128,Oil
+LA JUNTA,CHL0000186,0.29,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.0255314234,-133.190573018,Oil
+PUYUHUAPI,CHL0000187,0.29,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.1165806,-147.353621265,Oil
+PUERTO IBANEZ,CHL0000184,0.16,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8671669225,-110.254574695,Oil
+MANIHUALES,CHL0000185,0.83,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9230125569,-117.788125102,Oil
+CHACABUCO,CHL0000182,9.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.2200390744,-164.100285257,Oil
+AYSEN TERMICO,CHL0000183,1.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.2116319554,-162.710837994,Oil
+PUERTO NATALES,CHL0000180,10.11,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9034576883,-115.004392399,Oil,Gas
+TEHUELCHE,CHL0000181,10.11,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.9075564115,-115.57821735,Oil
+DANISCO,CHL0000205,1.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-93.1263119348,-2038.36824752,Oil
+DIESEL ZOFRI,CHL0000293,6.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.4371163634,-86.2749557192,Oil
+FLORIDA,CHL0000043,28.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5476902939,-70.5453560734,Hydro
+EYZAGUIRRE,CHL0000042,1.9,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.608071892,-70.51069334,Hydro
+ENSENADA,CHL0000041,1.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-41.272004238,-72.5407926409,Hydro
+EL TRARO,CHL0000040,0.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-47.2284934808,-72.6214681724,Hydro
+JUNCAL,CHL0000047,29.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.9169864184,-70.3286541223,Hydro
+ISLA,CHL0000046,70.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.8099667475,-70.8350109653,Hydro
+HORNITOS,CHL0000045,61.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.9005537262,-70.2633174672,Hydro
+GUAYACAN,CHL0000044,12.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.6028434633,-70.3597184347,Hydro
+LA ARENA,CHL0000049,3.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-41.6812432126,-72.6455199894,Hydro
+JUNCALITO,CHL0000048,1.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.9011208949,-70.2696550897,Hydro
+CHUFKEN (TRAIGUEN),CHL0000267,1.62,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.7009954549,-252.144722074,Oil
+DIESEL ENAEX,CHL0000288,2.7,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5917018933,-91.6972385221,Oil
+DIESEL AGUAS BLANCAS,CHL0000303,2.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.2437247993,-81.1040783034,Oil
+PLANTA DE ACIDO SULFURICO MEJILLONES,CHL0000295,17.5,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5813153816,-91.2792783533,Cogeneration
+DIESEL IQUIQUE,CHL0000290,43.01,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.441867981,-86.4206318243,Oil
+LOS ESPINOS,CHL0000259,136.96,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8816180175,-112.06465017,Oil
+VOLCAN,CHL0000111,13.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.8206887525,-70.2147943103,Hydro
+TRUFULTRUFUL,CHL0000110,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.8445406663,-71.6632493481,Hydro
+CMPC LAJA,CHL0000216,111.15,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-88.2042139358,-360.669624814,Biomass
+NUEVA ALDEA III,CHL0000199,65.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.5545271138,-223.59594233,Biomass
+BOCAMINA II,CHL0000198,350.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-93.4386994463,-2175.52497572,Coal
+WATTS 1,CHL0000218,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-89.4775871746,-696.800982752,Oil
+WATTS 2,CHL0000219,1.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-89.4513634322,-689.087420734,Oil
+LAGO VERDE,CHL0000195,0.15,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8706484189,-110.679563459,Oil
+FUTALEUFU,CHL0000194,0.48,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8843212684,-112.416175457,Oil
+BOCAMINA,CHL0000197,127.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-93.4386994463,-2175.52497572,Coal
+BIOMAR,CHL0000196,2.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-92.8408922321,-1915.91083264,Oil
+CALETA ANDRADE,CHL0000191,0.48,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-90.3045934484,-955.4716599,Oil
+TAPERA,CHL0000190,0.21,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8262869545,-105.817456168,Oil
+PALENA,CHL0000193,0.58,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8663310324,-110.153621155,Oil
+CHILE CHICO,CHL0000192,2.06,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8226699753,-105.472162513,Oil
+DIESEL MANTOS BLANCOS,CHL0000291,28.64,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.3780198157,-84.5479946962,Oil
+SANTA FE,CHL0000150,67.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.5144178702,-72.6518871772,Other
+CENTRAL TERMICA HORNOPIREN,CHL0000309,2.83,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.1663056655,-155.308179336,Oil
+EL RINCON,CHL0000036,0.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.5480958446,-70.5432092159,Hydro
+EL TARTARO,CHL0000037,0.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-32.5622968285,-70.6910612788,Hydro
+EL LLANO,CHL0000034,1.9,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.6218773668,-70.5357058224,Hydro
+EL MANZANO,CHL0000035,4.9,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.837367545,-71.8131013472,Hydro
+EL CANELO,CHL0000032,6.04,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-38.8395864196,-71.7571115306,Hydro
+EL DIUTO,CHL0000033,3.3,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.4229276581,-72.0817019349,Hydro
+DONGUIL,CHL0000030,0.25,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-39.1203513567,-72.6746032898,Hydro
+EL ARRAYAN,CHL0000031,0.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-40.5982024865,-72.46483909,Hydro
+POZO ALMONTE SOLAR 3,CHL0000119,16.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-20.2487957675,-69.7502524977,Solar
+GUACOLDA,CHL0000246,610.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.854209739,-108.737837927,Coal
+MULTIEXPORT 2,CHL0000213,1.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-88.3663972138,-398.828677795,Oil
+EL TORO,CHL0000038,450.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-37.275099421,-71.452828592,Hydro
+EL TORO 2,CHL0000039,1.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-20.2286282377,-70.0512662337,Hydro
+TAPIHUE,CHL0000249,6.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8578392394,-109.152249915,Gas
+TERMOELECTRICA HORNITOS,CHL0000298,170.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.5906747912,-91.6554760387,Coal
+LONQUIMAY,CHL0000248,1.65,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.8301384484,-106.193072987,Oil
+DIESEL INACAL,CHL0000289,6.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-86.528590516,-89.292688574,Oil
+VINALES,CHL0000156,22.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-35.3707227793,-72.4110606909,Other
+SKRETTING OSORNO,CHL0000214,3.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-89.492783206,-701.285026155,Oil
+CANETE,CHL0000266,4.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-99.0503380204,-5151.79958142,Oil
+LOS ALAMOS,CHL0000209,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-101.012887341,-6403.90659318,Oil
+LEBU,CHL0000208,3.88,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.1255134658,-148.770241497,Oil
+TALTAL,CHL0000171,99.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-25.0690244473,-69.8821801215,Wind
+CONTULMO,CHL0000204,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-93.4208579267,-2167.60429362,Oil
+JCE,CHL0000207,0.8,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.1255134658,-148.770241497,Oil
+EAGON,CHL0000206,3.2,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.3483324726,-185.952020383,Oil
+SANTA LIDIA,CHL0000201,132.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.2401559554,-167.446100947,Oil
+MAULE,CHL0000200,6.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.5120735862,-215.596994736,Oil
+PETROPOWER,CHL0000203,74.09,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-92.7280955402,-1868.27812624,Coal
+NUEVA ALDEA II,CHL0000202,11.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-87.5483868766,-222.431218859,Oil,Gas
+SOLAR TECHOS DE ALTAMIRA,CHL0000128,0.15,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-33.4791069734,-70.5380135013,Solar
+TAMBO REAL,CHL0000129,2.94,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-30.0485276557,-70.7701883424,Solar
+TRONGOL,CHL0000217,4.4,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-97.1369209459,-4032.88973866,Oil
+PSF CASAS BLANCAS,CHL0000120,2.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.1949837493,-71.0308242753,Solar
+SDGX01,CHL0000121,1.28,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-30.2271627975,-71.092482695,Solar
+SOLAR SANTA CECILIA,CHL0000122,3.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-29.1171775452,-70.9133927677,Solar
+SOLAR DIEGO DE ALMAGRO,CHL0000123,28.1,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-26.3789341728,-70.0200625524,Solar
+SOLAR LAS TERRAZAS,CHL0000124,3.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-27.6285415019,-70.3407997134,Solar
+SOLAR LLANO DE LLAMPOS,CHL0000125,101.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-27.117460615,-70.1711436602,Solar
+SOLAR PSF LOMAS COLORADAS,CHL0000126,2.0,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-31.1863824228,-71.0225509443,Solar
+SOLAR SAN ANDRES,CHL0000127,50.6,2016,None,None,Chile,,Energía Abierta (Chile),http://energiaabierta.cl/electricidad/,-27.2542245145,-70.1112209731,Solar

@@ -1,0 +1,9 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language
+1000011,Aksombo,Hydro,1038,,Dam with Reservoir,1961,,,6508,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,94.46,,Ghana,,6.2998,0.0594,,,,,,,,
+1000012,Bui,Hydro,400,,Dam with Reservoir,2013,,,730,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,,,Ghana,,8.1822,-2.1661,,,,,,,,
+1000014,Kpong,Hydro,160,,Run-of-the-river,1982,,,1147,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,,,Ghana,,6.1201,0.1255,,,,,,,,
+1000015,Takoradi 1,Natural Gas,330,,CCGT,,"1x330, 1x220, 1x132",,1688,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,56.8,,Ghana,,4.883333,-1.75,,,,,,,,
+1000016,Tema,Natural Gas,160,,OCGT,2008,"1x110, 1x50",,1212,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,79%,,Ghana,,5.67,-0.02,,,,,,,,
+1000017,Mines Reserve,Distallate Fuel Oil,80,,Sub-critical Thermal,2008,,,194,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,,,Ghana,,,,,,,,,,,
+1000018,Susan Asogoli,Distallate Fuel Oil,200,,OCGT,2010,,,1254,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,,,Ghana,,,,,,,,,,,
+1000019,CENIT,Light Crude Oil,226,,OCGT,2002,,,512,,Volta River Authority,http://www.vra.com/resources/annual_reports/2014%20Annual%20Report.pdf,,,,,,,,Ghana,,,,,,,,,,,

@@ -1,0 +1,56 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,Data Year
+1005127,Okhotnykovo Solar Park,Solar,80,,PV,2011,"355,902 modues",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005128,Perovo Solar Park,Solar,106,,PV,2011,"455,532 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005129,Rodnikovoye,Solar,8,,PV,2011,"30,075 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005130,Mityaevo,Solar,32,,PV,2012,"134,000 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005131,Starokozache,Solar,44,,PV,2012,"183,964 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005132,Dunayskaya,Solar,43,,PV,2012,?,Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005133,Voznesensk,Solar,29,,PV,2013,"121,176 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005134,Priozernaya,Solar,55,,PV,2013,"227,744 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005135,Limanskaya,Solar,43,,PV,2013,"181,192 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005136,Bolgrad,Solar,34,,PV,2013,"141,182 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005137,Nikolaevka,Solar,70,,PV,2013,"290,098 modules",Activ Solar,,,Activ Solar,http://www.activsolar.com/products/pv-project-development/project-references,,,,,,,Operating,Ukraine,,,,,,,,,,,,2016
+1005099,Trypilska,Coal,1800,,Sub-critical thermal,1969-1972,6 units,Centrenergo,,,Centrenergo,http://www.centrenergo.com/en/divisions/trip/,,406.9,,,,,Operating,Ukraine,,,,,,,,,,,,2012
+1005103,Zmiivska,Coal,2200,,Sub-critical thermal,1960-1969,6(175)+3(275)+320,Centrenergo,,,Centrenergo,http://www.centrenergo.com/en/divisions/zmey/,,404.5,,,,,Operating,Ukraine,,,,,,,,,,,,2012
+1005107,Vuglegirska,Coal,3600,,Sub-critical thermal,1972-1976,4(300)+3(800),Centrenergo,,,Centrenergo,http://www.centrenergo.com/en/divisions/vug/,,367.8,,,,,Operating,Ukraine,,,,,,,,,,,,2012
+1005115,Dniester,Hydro,702,,Dam,1981-1987,6 (117),Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005116,Dniester (pumped storage),Hydro,648,,Pumped Storage,2009-2011,2 units (324 and 416),Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005117,Tashlyk,Hydro,313,,Pumped Storage,2006-2007,2 units (151 and 207),Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005118,Kakhovka,Hydro,343,,Dam,1955-1956,6 units,Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005119,Dniprodzerzhynsk,Hydro,357,,Dam,1963-1964,7(44) 1(49),Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005120,Dneipro HPP 2,Hydro,887,,Dam,1974-1981,6(113)2(104.5),Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005121,Kremenchug,Hydro,625,,Dam,1959-1966,12 units,Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005122,Kaniv,Hydro,528,,Dam,1972-1975,24 units,Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005123,Kiev,Hydro,440,,Dam,1965-1968,20 units,Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005124,Kiev (pumped storage),Hydro,235,,Pumped Storage,1970-1972,6 units,Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,,,,,,,,,,,2011
+1005105,Starobeshivska,Coal,1775,,Sub-critical thermal,1961-1967,9(175)+200,Donbascenergo,,,Donbascenergo,http://www.de.com.ua/starobeshevskaya_TES,,421.8,,,,,Operating,Ukraine,,,,,,,,,,,Старобешевская ТЭС,2013
+1005109,Slavyanskaya,Coal,800,,Sub-critical thermal,1971,1 unit,Donbascenergo,,,Donbascenergo,http://www.de.com.ua/slavyanskaya_TES,,410.9,,,,,Operating,Ukraine,,,,,,,,,,,Славянская ТЭС,2013
+1005096,Dobrotvorsky,Coal,500,,Sub-critical thermal,1961-1964,2(100) 2(150),DTEK,"1,844",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,425.3,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005097,Burshtynska TES,Coal,2400,,Sub-critical thermal,1965-1969,8(195)+ 4(185),DTEK,"10,039",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,413.9,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005098,Ladyzhinska,Coal,1800,,Sub-critical thermal,1970-1971,6 units,DTEK,"5,345",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,378.6,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005100,Krivorozhskaya,Coal,"2,334",,Sub-critical thermal,1965-1973,3(195)3(282)3(300),DTEK,"6,994",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,383.5,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005101,Zaporiska,Coal,"2,825",,Sub-critical thermal,1972-1977,4(300) 1(800),DTEK,"5,552",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,358.6,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005102,Prydniprovska,Coal,"1,195",,Sub-critical thermal,1959-1966,4(150) 1(285)1(300),DTEK,"3,986",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,411.5,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005104,Kurakhovskaya,Coal,1517,17041,Sub-critical thermal,1972-1975,7 units,DTEK,"5,966",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005106,Zuivska,Coal,1245,,Sub-critical thermal,1982-1988,4 units,DTEK,"4,338",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,,,,,,Operating,Ukraine,,48.03316,38.28866,,,,,,,,,2015
+1005108,Mironovskaya,Coal,815,,Sub-critical thermal,1953-1956,"3 units (600, 100, 115)",Donbascenergo,,,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005110,Luhanska,Coal,"1,210",,Sub-critical thermal,1963-1969,2(175)+4(200),DTEK,"4,825.00",,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,,,,,,Operating,Ukraine,,48.74781,39.2624,,,,,,,,,2015
+1005125,Kiev CHP-5,Natural Gas,700,,Sub-critical thermal,1971-1976,2(100)+2(250),Kyivenergo,,,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005125,Kiev CHP-6,Natural Gas,500,,Sub-critical thermal,1982-1984,2 units,Kyivenergo,,,DTEK,http://www.dtek.com/library/file/dtek-report-eng-2015-web.PDF,,,,,,,Operating,Ukraine,,,,,,,,,,,,2015
+1005111,Khmelnytska,Nuclear,2000,,PWR,1987-2004,2 units,Energoatom,,,Energoatom,http://www.energoatom.kiev.ua/en/separated/npp_khmelnytska/,,,,,,,Operating,Ukraine,,50.3024,26.64733,,,,,,,,ХМЕЛЬНИЦЬКА АЕС,2016
+1005112,Rivne (Rouno,Nuclear,2835,,PWR,1980-2004,"420, 415, 2(1000)",Energoatom,,,Energoatom,http://www.energoatom.kiev.ua/en/separated/npp_rivne/,,,,,,,Operating,Ukraine,,,,,,,,,,,РІВНЕНСЬКА АЕС,2016
+1005113,South Ukraine,Nuclear,3000,,PWR,1982-1989,3 units,Energoatom,,,Energoatom,http://www.energoatom.kiev.ua/en/separated/npp_su/,,,,,,,Operating,Ukraine,,,,,,,,,,,ЮЖНО-УКРАЇНСЬКА АЕС,2016
+1005114,Zaporozhye,Nuclear,6000,13835,PWR,1984-1995,6 units,Energoatom,,,Energoatom,http://www.energoatom.kiev.ua/en/separated/npp_zp/,,,,,,,Operating,Ukraine,,,,,,,,,,,ЗАПОРІЗЬКА АЕС,2016
+1005126,Karkov CHP-5,Natural Gas,540,30876,Sub-critical thermal,1979-1980,2(120)+300,Naftogaz Ukrainy,,,Naftogaz Ukrainy,http://www.tec5.kharkov.ua/eng/index.php,,,,,,,Operating,Ukraine,,,,,,,,,,,Харківська ТЕЦ-5,2016
+1005147,Novorossiyske,Wind,9,,Onshore Wind,2012,3 turbines,Vindkraft Ukraina,,,Vindkraft Ukraina,http://2er.eu/en/projects/roadmap,,,,,,,Operating,Ukraine,,,,,,,,,,,,2014
+1005148,Beregove,Wind,21,,Onshore Wind,2014,7 turbines,Vindkraft Ukraina,,,Vindkraft Ukraina,http://2er.eu/en/projects/roadmap,,,,,,,Operating,Ukraine,,,,,,,,,,,,2014
+1005144,Donuzlauskaya,Wind,19,,Onshore Wind,,,,,,Wind Energy Projects in Crimea,http://strast-online.ru/english/articles.php?id=1824,,,,,,,Operating,Ukraine,,,,,,,,,,,,2014
+1005145,Vodenergomnaladzka,Wind,26,,Onshore Wind,,,,,,Wind Energy Projects in Crimea,http://strast-online.ru/english/articles.php?id=1824,,,,,,,Operating,Ukraine,,,,,,,,,,,,2014
+1005146,Tarkhankutskaya,Wind,16,,Onshore Wind,,,,,,Wind Energy Projects in Crimea,http://strast-online.ru/english/articles.php?id=1824,,,,,,,Operating,Ukraine,,,,,,,,,,,,2014
+1005138,Ochakovskiy,Wind,38,,Onshore Wind,,15 turbines,Wind Parks of Ukraine LLC,,,Wind Parks of Ukraine LLC,http://wpu.com.ua/en/wind_parks/commissioned-wind-parks/ochakovsky/,,,,,,,Operating,Ukraine,,,,,,,,,,,,2013
+1005139,Novoazovskiy,Wind,58,,Onshore Wind,,23 turbines,Wind Parks of Ukraine LLC,,,Wind Parks of Ukraine LLC,http://wpu.com.ua/en/wind_parks/commissioned-wind-parks/novoazovsky/,,,,,,,Operating,Ukraine,,,,,,,,,,,,2013
+1005140,Vetroenergoprom,Wind,31,,Onshore Wind,1996-2013,"204 (USW SG100s), 6(T600-48s), 2 WTU 2,5 MW",Wind Parks of Ukraine LLC,,,Wind Parks of Ukraine LLC,http://wpu.com.ua/en/wind_parks/commissioned-wind-parks/vetroenergoprom/,,,,,,,Operating,Ukraine,,,,,,,,,,,,2013
+1005141,Lutuginskiy,Wind,25,,Onshore Wind,,10 turbines,Wind Parks of Ukraine LLC,,,Wind Parks of Ukraine LLC,http://wpu.com.ua/en/wind_parks/commissioned-wind-parks/lutuginskiy/,,,,,,,Operating,Ukraine,,,,,,,,,,,,2013
+1005142,Krasnodonskiy,Wind,25,,Onshore Wind,,10 turbines,Wind Parks of Ukraine LLC,,,Wind Parks of Ukraine LLC,http://wpu.com.ua/en/production/,,,,,,,Operating,Ukraine,,,,,,,,,,,,2013
+1005143,Kerchenskiy,Wind,25,,Onshore Wind,,10 turbines,Wind Parks of Ukraine LLC,,,Wind Parks of Ukraine LLC,http://wpu.com.ua/en/production/,,,,,,,Operating,Ukraine,,,,,,,,,,,,2013
+1005120,Dneipro HPP 1,Hydro,651,,Dam,1932,9(72) 1(3),Dnipro-SHEM PJSC,,,Dnipro-SHEM PJSC,http://sgem.com.ua/our_activity.html,,,,,,,Operating,Ukraine,,," ",,,,,,,,,2011

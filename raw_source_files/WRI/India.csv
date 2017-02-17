@@ -1,0 +1,848 @@
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Effeciency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,CO2_annual_reported,CO2_specific_emissions_tCO2/MWh
+1019939,ASHOKNAGAR MILL,Biomass,17,Maharashtra,,,,Ashok Ssk ltd,,,Ashok Ssk ltd,ASHOK SSK LTD,,,,,,,,India,,19.586682,74.706067,,,,,recirculating,,,,,
+1019922,KOLLEGAL SUGAR,Biomass,16,Karnataka,,,,Bannari Sugars ltd,,,Bannari Sugars ltd,BANNARI AMMAN SUGARS LTD,,,,,,,,India,,12.10561,76.76056,,,,,recirculating,,,,,
+1019911,CORE GREEN SUGAR,Biomass,24,Karnataka,,,,Core Fuels ltd,,,Core Fuels ltd,CORE GREEN SUGAR & FUELS LTD,,,,,,,,India,,16.547136,77.082515,,,,,recirculating,,,,,
+1019985,SHIROL MILL,Biomass,36,Maharashtra,,,,Datta Ssk ltd,,,Datta Ssk ltd,DATTA SSK LTD,,,,,,,,India,,16.749338,74.58537,,,,,recirculating,,,,,
+1019950,DAUND SUGAR,Biomass,30,Maharashtra,,,,Daund Sugar ltd,,,Daund Sugar ltd,DAUND SUGAR LTD,,,,,,,,India,,18.427097,74.63385,,,,,recirculating,,,,,
+1019914,DAVANGERE MILL,Biomass,24,Karnataka,,,,Davangere Co ltd,,,Davangere Co ltd,DAVANGERE SUGAR CO LTD,,,,,,,,India,,14.327699,75.880828,,,,,recirculating,,,,,
+1019938,ARVINDNAGAR SUGAR,Biomass,10,Maharashtra,,,,Dr Ssk ltd,,,Dr Ssk ltd,DR BABASAHEB AMBEDKAR SSK LTD,,,,,,,,India,,18.084452,76.185138,,,,,recirculating,,,,,
+1019954,PARBHANI GANGAKHED,Biomass,30,Maharashtra,,,,Gangakhed Energy ltd,,,Gangakhed Energy ltd,GANGAKHED SUGARS & ENERGY LTD,,,,,,,,India,,18.905653,76.728229,,,,,recirculating,,,,,
+1019925,KUNDARGI MILL,Biomass,16.5,Karnataka,,,,Gem Sugars ltd,,,Gem Sugars ltd,GEM SUGARS LTD,,,,,,,,India,,16.265119,75.530243,,,,,recirculating,,,,,
+1019920,KCSF SANGUR,Biomass,18,Karnataka,,,,Gm Energy ltd,,,Gm Energy ltd,GM SUGARS & ENERGY LTD,,,,,,,,India,,14.775317,75.313131,,,,,recirculating,,,,,
+1019974,NAGPUR GMT,Biomass,10,Maharashtra,,,,Gmt Pvt ltd,,,Gmt Pvt ltd,GMT MINING & POWER PVT LTD,,,,,,,,India,,21.058185,79.484983,,,,,recirculating,,,,,
+1019932,SAMEERWADI MILL,Biomass,24,Karnataka,,,,Godavari Mills ltd,,,Godavari Mills ltd,GODAVARI SUGAR MILLS LTD,,,,,,,,India,,16.391758,75.04106,,,,,recirculating,,,,,
+1019903,JAISALMER GODAWARI,Biomass,50,Rajasthan,,,,Godawari Energy ltd,,,Godawari Energy ltd,GODAWARI GREEN ENERGY LTD,,,,,,,,India,,27.600954,72.22418,,,,,,,,,,
+1019961,KOLHAPUR HEMARUS,Biomass,20,Maharashtra,,,,Hemarus Technologies ltd,,,Hemarus Technologies ltd,HEMARUS TECHNOLOGIES LTD,,,,,,,,India,,16.032741,74.458331,,,,,recirculating,,,,,
+1019905,BAGALKOT ICP,Biomass,28,Karnataka,,,,Indian Power ltd,,,Indian Power ltd,INDIAN CANE POWER LTD,,,,,,,,India,,16.280441,75.225002,,,,,recirculating,,,,,
+1019958,HAPURI MILL,Biomass,24,Maharashtra,,,,Jawahar Ssk ltd,,,Jawahar Ssk ltd,JAWAHAR SSK LTD,,,,,,,,India,,16.603779,74.404456,,,,,dry,,,,,
+1019981,SANGLI KRANTI,Biomass,19.7,Maharashtra,,,,Kranti Ssk ltd,,,Kranti Ssk ltd,KRANTI SSK LTD,,,,,,,,India,,17.135394,74.427182,,,,,recirculating,,,,,
+1019963,KOLHAPUR KUMBHI,Biomass,17.5,Maharashtra,,,,Kumbhi Ssk ltd,,,Kumbhi Ssk ltd,KUMBHI KASARI SSK LTD,,,,,,,,India,,16.688979,74.120148,,,,,dry,,,,,
+1019965,LOKMANGAL SUGAR ETHANOL,Biomass,31.5,Maharashtra,,,,Lokmangal Lokmangal group,,,Lokmangal Lokmangal group,LOKMANGAL GROUP,,,,,,,,India,,17.44618,75.716138,,,,,recirculating,,,,,
+1019966,MAHATMA SUGAR,Biomass,15,Maharashtra,,,,Mahatma Power ltd,,,Mahatma Power ltd,MAHATMA SUGAR & POWER LTD,,,,,,,,India,,20.855794,78.581434,,,,,recirculating,,,,,
+1019987,SONAI MILL,Biomass,16,Maharashtra,,,,Mula Ssk ltd,,,Mula Ssk ltd,http://viainfotech.biz/Biomass/theme5/document/green_market/REC-project-list.pdf,,,,,,,,India,,19.38036,74.839714,,,,,recirculating,,,,,
+1019979,RANJANI MILL,Biomass,12.5,Maharashtra,,,,Natural Alliend indust,,,Natural Alliend indust,NATURAL SUGAR & ALLIEND INDUST,,,,,,,,India,,18.535429,76.245004,,,,,recirculating,,,,,
+1019923,KOPPA SUGAR,Biomass,26,Karnataka,,164.2,,Nsl Sugars ltd,,,Nsl Sugars ltd,NSL SUGARS LTD,,,,,,,,India,,12.70201,76.97874,,,,,recirculating,,,,,
+1019935,TUNGABHADRA SUGAR,Biomass,28,Karnataka,,,,Nsl Sugars ltd,,,Nsl Sugars ltd,NSL SUGARS LTD,,,,,,,,India,,15.660921,76.875631,,,,,recirculating,,,,,
+1020007,NARASINGPUR,Biomass,10,Madhya Pradesh,,,,Orient Power ltd,,,Orient Power ltd,ORIENT GREEN POWER LTD,,,,,,,,India,,22.964874,78.813218,,,,,dry,,,,,
+1019957,HINGOLI MILL,Biomass,18.9,Maharashtra,,,,Purna Ssk ltd,,,Purna Ssk ltd,PURNA SSK LTD,,,,,,,,India,,19.282857,77.138422,,,,,dry,,,,,
+1019975,NAGPUR MILL,Biomass,,Maharashtra,,,,Purti Sugar ltd,,,Purti Sugar ltd,PURTI POWER & SUGAR LTD,,,,,,,,India,,20.806182,79.054762,,,,,recirculating,,,,,
+1019918,HIRIYUR BIOMASS,Biomass,25,Karnataka,,,,Rk Pvt ltd,,,Rk Pvt ltd,http://rkmpowergen.in/,,,,,,,,India,,13.98079,76.627896,,,,,dry,,,,,
+1019980,SAHAKAR SHIROMANI,Biomass,18,Maharashtra,,,,Sahakar Shiromani vasantrao,,,Sahakar Shiromani vasantrao,http://www.sitsonindia.com/pdf/EPC%20power%20projects.pdf,,,,,,,,India,,17.707986,75.136063,,,,,recirculating,,,,,
+1019984,SBT SUGAR,Biomass,16,Maharashtra,,,,Sahakarmaharshi Bhausaheb thor,,,Sahakarmaharshi Bhausaheb thor,SAHAKARMAHARSHI BHAUSAHEB THOR,,,,,,,,India,,19.612459,74.192369,,,,,recirculating,,,,,
+1019884,BILIYAKALAN PLANT,Biomass,10,Rajasthan,,,,Sangam Spinners ltd,,,Sangam Spinners ltd,SANGAM SPINNERS LTD,,,,,,,,India,,25.226697,74.621565,,,,,dry,,,,,
+1019915,DUGGAVATHI MILL,Biomass,22,Karnataka,,,,Shamanur Sugars ltd,,,Shamanur Sugars ltd,SHAMANUR SUGARS LTD,,,,,,,,India,,14.628424,75.844762,,,,,recirculating,,,,,
+1019917,HAVALGA SUGAR,Biomass,25.5,Karnataka,,,,Shree Sugars ltd,,,Shree Sugars ltd,SHREE RENUKA SUGARS LTD,,,,,,,,India,,17.12016,76.400355,,,,,recirculating,,,,,
+1019928,MUNOLI DISTILLERY,Biomass,11.2,Karnataka,,,,Shree Sugars ltd,,,Shree Sugars ltd,SHREE RENUKA SUGARS LTD,,,,,,,,India,,15.855548,75.100248,,,,,recirculating,,,,,
+1019904,ATHANI SUGAR,Biomass,24,Karnataka,,,,Shree Sugars ltd,,,Shree Sugars ltd,SHREE RENUKA SUGARS LTD,,,,,,,,India,,16.770815,74.919117,,,,,recirculating,,,,,
+1019933,SANKESHWAR MILL,Biomass,26,Karnataka,,,,Shri Hiranyakeshi ssk,,,Shri Hiranyakeshi ssk,SHRI HIRANYAKESHI SSK,,,,,,,,India,,16.247807,74.500258,,,,,recirculating,,,,,
+1019934,SHRI MALAPRABHA,Biomass,22,Karnataka,,,,Shri Malaprabha ssk,,,Shri Malaprabha ssk,SHRI MALAPRABHA SSK,,,,,,,,India,,15.693334,74.716162,,,,,once-through,,,,,
+1019993,VENUNAGAR SUGAR,Biomass,19.8,Maharashtra,,,,Shri Ssk ltd,,,Shri Ssk ltd,http://viainfotech.biz/Biomass/theme5/document/green_market/REC-project-list.pdf,,,,,,,,India,,17.738206,75.321818,,,,,recirculating,,,,,
+1019952,DNYANESHWAR MILL,Biomass,12.96,Maharashtra,,,,Shri Ssk ltd,,,Shri Ssk ltd,SHRI DNYANESHWAR SSK LTD,,,,,,,,India,,19.449584,75.038185,,,,,dry,,,,,
+1019986,SHRI SHANKAR,Biomass,20,Maharashtra,,,,Shri Ssk ltd,,,Shri Ssk ltd,http://viainfotech.biz/Biomass/theme5/document/green_market/REC-project-list.pdf,,,,,,,,India,,17.867644,74.840459,,,,,recirculating,,,,,
+1019962,KOLHAPUR KAGAL,Biomass,20,Maharashtra,,,,Shri Vedganga ssk,,,Shri Vedganga ssk,SHRI DUDHGANGA VEDGANGA SSK,,,,,,,,India,,16.589048,74.299261,,,,,recirculating,,,,,
+1019982,SANGLI MIRAJ BIOMASS,Biomass,10,Maharashtra,,,,Sinewave Pvt ltd,,,Sinewave Pvt ltd,SINEWAVE BIOMASS POWER PVT LTD,,,,,,,,India,,16.917136,74.482116,,,,,recirculating,,,,,
+1019931,RAMANAGARAM MILL,Biomass,11,Karnataka,,,,Spr Pvt ltd,,,Spr Pvt ltd,SPR SUGARS PVT LTD,,,,,,,,India,,12.714481,77.45237,,,,,recirculating,,,,,
+1019921,KM DODDI SUGAR,Biomass,26,Karnataka,,,,Sri Sugars ltd,,,Sri Sugars ltd,SRI CHAMUNDESWARI SUGARS LTD,,,,,,,,India,,12.480627,77.041068,,,,,recirculating,,,,,
+1019906,BELGAUM UGAR,Biomass,22.8,Karnataka,,,,Ugar Works ltd,,,Ugar Works ltd,UGAR SUGAR WORKS LTD,,,,,,,,India,,16.650534,74.820945,,,,,recirculating,,,,,
+1019944,BHANDARA VARAM,Biomass,10,Maharashtra,,,,Varam Pvt ltd,,,Varam Pvt ltd,VARAM BIOENERGY PVT LTD,,,,,,,,India,,21.081325,79.770772,,,,,recirculating,,,,,
+1019983,SANGLI VASANTDADA,Biomass,12.5,Maharashtra,,,,Vasantdada Ssk ltd,,,Vasantdada Ssk ltd,http://viainfotech.biz/Biomass/theme5/document/green_market/REC-project-list.pdf,,,,,,,,India,,16.880968,74.589755,,,,,recirculating,,,,,
+1019907,BELLAD-BAGEWADI,Biomass,15,Karnataka,,,,Vishwanath Sugars ltd,,,Vishwanath Sugars ltd,VISHWANATH SUGARS LTD,,,,,,,,India,,16.27737,74.711138,,,,,dry,,,,,
+1019995,YASHWANTRAO MOHITE,Biomass,16,Maharashtra,,,,Yashwantrao Krishna ssk,,,Yashwantrao Krishna ssk,http://viainfotech.biz/Biomass/theme5/document/green_market/REC-project-list.pdf,,,,,,,,India,,17.165295,74.245615,,,,,recirculating,,,,,
+1019959,KARAD MILL,Biomass,,Maharashtra,,,,Ym Ssk ltd,,,Ym Ssk ltd,YM KRISHNA SSK LTD,,,,,,,,India,,17.165749,74.245905,,,,,recirculating,,,,,
+1020004,KYMORE,Coal,50,Madhya Pradesh,,,,Acc Acc ltd,,,Acc Acc ltd,ACC LTD,,,,,,,,India,,24.052891,80.614376,,,,,,,,,,
+1019947,CHANDA CEMENT WORKS,Coal,40,Maharashtra,,,,Acc Acc ltd,,,Acc Acc ltd,ACC LTD,,,,,,,,India,,19.921312,79.1133,,,,,recirculating,,,,,
+1019937,WADI CEMENT PLANT,Coal,75,Karnataka,,,,Acc Acc ltd,,,Acc Acc ltd,ACC LTD,,,,,,,,India,,17.055218,76.977524,,,,,recirculating,,,,,
+1019891,LAKHERI CEMENT PLANT,Coal,25,Rajasthan,,,,Acc Acc ltd,,,Acc Acc ltd,ACC LTD,,,,,,,,India,,25.673179,76.190123,,,,,dry,,,,,
+1019969,MARATHA CEMENT PLANT,Coal,45,Maharashtra,,,,Ambuja Cements ltd,,,Ambuja Cements ltd,AMBUJA CEMENTS LTD,,,,,,,,India,,19.703036,79.220568,,,,,recirculating,,,,,
+1019896,RABRIYAWAS CEMENT,Coal,18.7,Rajasthan,,,,Ambuja Cements ltd,,,Ambuja Cements ltd,AMBUJA CEMENTS LTD,,,,,,,,India,,26.298396,74.123409,,,,,dry,,,,,
+1019941,BALLARPUR BILT POWER,Coal,67.5,Maharashtra,,,,Ballarpur Industries ltd,,,Ballarpur Industries ltd,BALLARPUR INDUSTRIES LTD,,,,,,,,India,,19.860106,79.342111,,,,,recirculating,,,,,
+1019945,BHIGWAN MILL,Coal,30,Maharashtra,,,,Ballarpur Industries ltd,,,Ballarpur Industries ltd,BALLARPUR INDUSTRIES LTD,,,,,,,,India,,18.24165,74.752901,,,,,recirculating,,,,,
+1019997,BINA REFINERY,Coal,99,Madhya Pradesh,,,,Bharat Refinery ltd,,,Bharat Refinery ltd,BHARAT OMAN REFINERY LTD,,,,,,,,India,,24.250825,78.16064,,,,,recirculating,,,,,
+1019885,BINANI CEMENT PLANT,Coal,69.6,Rajasthan,,,,Binani Industries ltd,,,Binani Industries ltd,BINANI INDUSTRIES LTD,,,,,,,,India,,24.826304,73.090142,,,,,dry,,,,,
+1020009,SATNA CEMENT PLANT,Coal,29,Madhya Pradesh,,,,Birla Corp ltd,,,Birla Corp ltd,BIRLA CORP LTD,,,,,,,,India,,24.595881,80.858048,,,,,recirculating,,,,,
+1019886,CHANDERIA CEMENT WORKS,Coal,35,Rajasthan,,,,Birla Corp ltd,,,Birla Corp ltd,BIRLA CORP LTD,,,,,,,,India,,24.929259,74.636731,,,,,dry,,,,,
+1019912,DANAPUR BMM,Coal,25,Karnataka,,,,Bmm Pvt ltd,,,Bmm Pvt ltd,BMM ISPAT PVT LTD,,,,,,,,India,,15.170681,76.37699,,,,,dry,,,,,
+1001080,BAKRESWAR,COAL,"1,050.00",WEST BENGAL,Sub-critical Thermal,1999-2009,5,,"6,274",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,23.8285,87.4513,OIL,,,,,,,,"7,002,915",1.12
+1001132,D.P.L.,COAL,891,WEST BENGAL,?,1960-2014,8,,"1,501",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,23.52115,87.30231,OIL,,,,,,,,"2,353,129",1.57
+1001196,JOJBERA,COAL,360,JHARKHAND,Sub-critical Thermal,1995-2005,4,,"2,102",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,22.7554,86.2491,OIL,,,,,,,,"2,284,874",1.09
+1001275,MAHADEV PRASAD STPP,COAL,540,JHARKHAND,,2012-2013,2,,"2,289",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,22.8395,86.06129,OIL,,,,,,,,"2,331,881",1.02
+1001462,TENUGHAT,COAL,420,JHARKHAND,Dam with Reservoir,1994-1996,7,,"2,000",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,23.725479,85.836219,OIL,,,,,,,,"2,369,131",1.18
+1001183,I.B.VALLEY,COAL,420,ORISSA,Sub-critical Thermal,1994-1995,2,,"2,547",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.69462,83.86033,OIL,,,,,,,,"2,628,492",1.03
+1001333,OBRAA,COAL,"1,322.00",UTTAR PRADESH,Sub-critical Thermal,1968-1992,13,,"3,549",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,24.4445,82.98,OIL,,,,,,,,"3,822,503",1.08
+1001066,AMAR KANTAK,COAL,450,MADHYA PRADESH,?,1977-2008,3,,"2,642",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,22.238975,82.716959,OIL,,,,,,,,"3,981,091",1.51
+1001242,KORBAEAST,COAL,940,CHATTISGARH,Sub-critical Thermal,1966-2007,8,,"4,329",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,22.38261,82.71688,OIL,,,,,,,,"5,324,468",1.23
+1001243,KORBAWEST,COAL,"1,340.00",CHATTISGARH,Sub-critical Thermal,1983-2013,5,,"7,119",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,22.4118,82.6888,OIL,,,,,,,,"7,785,541",1.09
+1001509,VINDH_CHAL STPS,COAL,"4,260.00",MADHYA PRADESH,Sub-critical Thermal,1987-2013,12,,"26,761",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,24.0983,82.6719,OIL,,,,,,,,"25,787,060",0.96
+1001199,K_GUDEM NEW,COAL,"1,000.00",ANDHRA PRADESH,Sub-critical Thermal,1997-2011,3,,"6,492",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,17.6219,80.69355,OIL,,,,,,,,"6,296,263",0.97
+1001198,K_GUDEM,COAL,720,ANDHRA PRADESH,Sub-critical Thermal,1966-1978,8,,"3,822",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,17.6219,80.69355,OIL,,,,,,,,"4,992,367",1.31
+1001506,VIJAYWADA,COAL,"1,260.00",ANDHRA PRADESH,Sub-critical Thermal,1979-1995,6,,"8,187",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,16.59838,80.53699,OIL,,,,,,,,"8,168,610",1
+1001371,R_GUNDEM STPS,COAL,"2,600.00",ANDHRA PRADESH,Sub-critical thermal,1983-2004,7,,"18,560",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,18.7572,79.456,OIL,,,,,,,,"17,728,647",0.96
+1001122,CHANDRAPUR_Coal,COAL,"2,340.00",MAHARASHTRA,Sub-critical Thermal,1983-1997,7,,"9,918",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,20.0063,79.29,OIL,,,,,,,,"11,934,220",1.2
+1001200,K_KHEDA II,COAL,"1,340.00",MAHARASHTRA,Sub-critical Thermal,1989-2011,5,,"6,457",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.2818,79.116,OIL,,,,,,,,"7,031,153",1.09
+1001119,BUTIBORI TPP II,COAL,600,MAHARASHTRA,?,2012-2014,2,,416,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,20.927508,78.933918,OIL,,,,,,,,"466,464",1.12
+1001178,H_GANJ B,COAL,665,UTTAR PRADESH,Sub-critical Thermal,1968-2012,9,,"2,433",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,28.01791,78.13265,OIL,,,,,,,,"2,573,492",1.06
+1001067,AMARAVATI TPP,COAL,"1,350",MAHARASHTRA,?,2013-2015,2,,"1,034",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.07822,77.900878,OIL,,,,,,,,"1,036,049",1
+1001469,Torangallu,COAL,860,KARNATAKA,Sub-critical Thermal,1999-2009,2,,"6,593",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,15.187047,76.660653,OIL,,,,,,,,"4,229,546",0.93
+1001190,INDRA GANDHI STPP,COAL,"1,500.00",HARYANA,Sub-critical Thermal,2010-2012,3,,"4,924",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,28.4849,76.3754,OIL,,,,,,,,"4,746,844",0.96
+1001172,Guru Hargobind (LEH.MOH.),COAL,920,PUNJAB,?,1997-2008,4,,"5,475",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,30.26879,75.16196,OIL,,,,,,,,"6,056,940",1.11
+1001483,UKAI_Coal,COAL,"1,350.00",GUJARAT,Sub-critical thermal,1976-2013,6,,"4,500",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.2093,73.5574,OIL,,,,,,,,"5,137,407",1.14
+1001474,TROMBAY_Coal,COAL,750,MAHARASHTRA,Sub-critical thermal,1984-2009,2,,"5,004",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,19.0004,72.89832,OIL,,,,,,,,"4,548,773",0.91
+1001164,GANDHI NAGAR,COAL,870,GUJARAT,Sub-critical Thermal,1977-1998,5,,"1,710",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,25.250248,72.676491,OIL,,,,,,,,"1,850,684",1.08
+1001276,MAHAN TPP,COAL,600,MADHYA PRADESH,Sub-critical Thermal,2013-2015,1,,734,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"808,602",1.1
+1001212,KAMALANGA,COAL,"1,050.00",ORISSA,Sub-critical Thermal,2013-2014,3,,"1,186",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,177,306",0.99
+1001412,SASAN UMPP,COAL,"1,980.00",MADHYA PRADESH,Super-critical Thermal,2013-2014,3,,"2,748",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,390,689",0.87
+1001428,SIMHAPURI TPP,COAL,450,ANDHRA PRADESH,Sub-critical thermal,2012-2014,3,,"1,971",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,037,396",1.03
+1001467,TIRORA TPP,COAL,"2,640.00",MAHARASHTRA,Super-critical thermal,2012-2014,4,,"9,615",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"9,279,393",0.97
+1001110,BINA TPP,COAL,500,MADHYA PRADESH,?,2012-2013,2,,"1,428",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,500,761",1.05
+1001300,MOUDA STPS,COAL,"1,000.00",MAHARASHTRA,Sub-critical Thermal,2012-2013,2,,664,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"757,142",1.14
+1001306,MUNDRA UMPP,COAL,"4,000.00",GUJARAT,Super-critical,2012-2013,5,,"21,973",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"18,453,695",0.84
+1001463,THAMMINAPATNAM TPP,COAL,300,ANDHRA PRADESH,Sub-critical Thermal,2012-2013,0,,"1,265",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,488,280",1.18
+1001501,VALLUR ntpc/ntecl,COAL,"1,000.00",TAMIL NADU,Sub-critical Thermal,2012-2013,2,,"3,684",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,996,527",1.08
+1001234,KODERMA,COAL,"1,000.00",JHARKHAND,Sub-critical Thermal,2011-2013,2,,"1,404",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,999,666",1.42
+1001090,BARKHERA TPP,COAL,90,UTTAR PRADESH,?,2011-2012,2,,448,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"592,051",1.32
+1001150,DURGAPUR STEEL TPS,COAL,"1,000.00",WEST BENGAL,Sub-critical Thermal,2011-2012,2,,"4,118",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,089,430",0.99
+1001218,KASAIPALLI,COAL,270,CHATTISGARH,Sub-critical Thermal,2011-2012,2,,"1,673",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,842,186",1.1
+1001281,MAITHON RB TPP,COAL,"1,050.00",JHARKHAND,Sub-critical Thermal,2011-2012,2,,"5,963",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,721,466",0.96
+1001288,MAQSOODPUR IPP,COAL,90,UTTAR PRADESH,Sub-critical Thermal,2011-2012,2,,463,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"612,854",1.32
+1001399,ROSA TPP PH 1,COAL,"1,200.00",UTTAR PRADESH,Sub-critical Thermal,2010-2012,4,,"6,899",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,154,751",1.04
+1001439,STERLITE TPP,COAL,"2,400.00",ORISSA,Sub-critical Thermal,2010-2012,4,,"7,640",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,663,270",1
+1001197,JSW RATNAGIRI TPP,COAL,"1,200.00",MAHARASHTRA,Sub-critical Thermal,2010-2011,4,,"6,769",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,809,579",1.01
+1001292,MEJIA TPS EXT,COAL,"1,000.00",WEST BENGAL,Sub-critical thermal,2010-2011,2,,"4,724",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,452,077",0.94
+1001480,UDUPI TPP,COAL,"1,200.00",KARNATAKA,Sub-critical thermal,2010-2011,2,,"6,372",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,687,406",0.89
+1001513,WARDHA WARORA,COAL,540,MAHARASHTRA,Sub-critical Thermal,2010-2011,4,,"2,311",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,633,869",1.14
+1001127,CHHABRA TPS,COAL,750,RAJASTHAN,Sub-critical Thermal,2009-2013,3,,"2,823",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,186,762",1.13
+1001305,MUNDRA TPP,COAL,"4,620.00",GUJARAT,Sub-critical Thermal and Super-critical Thermal,2009-2012,9,,"27,586",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"25,293,756",0.92
+1001351,PATHADI TPS PH I,COAL,600,CHATTISGARH,Sub-critical Thermal,2009-2010,2,,"2,036",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,017,039",0.99
+1001346,PARAS,COAL,500,MAHARASHTRA,Sub-critical Thermal,2008-2010,2,,"2,999",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,136,427",1.05
+1001105,BHILAI TPP,COAL,500,CHATTISGARH,Sub-critical Thermal,2008-2009,2,,"3,319",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,228,618",0.97
+1001097,BELLARY TPS,COAL,"1,000.00",KARNATAKA,Sub-critical Thermal,2007-2012,2,,"5,652",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,480,955",1.15
+1001431,SIPAT STPS,COAL,"2,980.00",CHATTISGARH,Super-critical Thermal,2007-2012,5,,"18,033","2 units are sub-critical 500 mw, 3 units are 660 super-critical",Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"16,987,645",0.94
+1001376,RAIGARH TPP,COAL,"1,000.00",CHATTISGARH,Sub-critical Thermal,2007-2008,4,,"7,443",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,286,731",0.98
+1001403,SAGARDIGHI TPP,COAL,600,WEST BENGAL,Sub-critical Thermal,2007-2008,2,,"2,952",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,244,959",1.44
+1001427,SIMHADRI,COAL,"2,000.00",ANDHRA PRADESH,Sub-critical thermal,2002-2012,4,,"13,839",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"13,135,293",0.95
+1001444,SURATGARH,COAL,"1,500.00",RAJASTHAN,Sub-critical Thermal,1998-2009,6,,"8,556",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"9,333,896",1.09
+1001117,BUDGE BUDGE,COAL,750,WEST BENGAL,Sub-critical Thermal,1997-2009,3,,"5,493",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,237,633",0.95
+1001291,MEJIA,COAL,"1,340.00",WEST BENGAL,Sub-critical thermal,1995-2007,6,,"7,229",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,611,141",1.05
+1001451,TALCHER STPS,COAL,"3,000.00",ORISSA,Sub-critical Thermal,1995-2005,6,,"20,347",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"19,571,815",0.96
+1001390,RAYAL SEEMA,COAL,"1,050.00",ANDHRA PRADESH,Sub-critical Thermal,1994-2010,5,,"6,348",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,256,929",0.99
+1001329,NORTH CHENNAI,COAL,"1,830",TAMIL NADU,Sub-critical Thermal,1994-1996,3,,"5,619",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,862,941",1.04
+1001409,SANJAY GANDHI,COAL,"1,340.00",MADHYA PRADESH,Sub-critical thermal,1993-2008,5,,"7,308",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"8,534,366",1.17
+1001204,KAHALGAON,COAL,"2,340.00",BIHAR,Sub-critical Thermal,1992-2009,4,,"13,427",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"13,207,658",0.98
+1001133,DADRI (NCTPP),COAL,"1,820.00",UTTAR PRADESH,?,1991-2010,6,,"12,312",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"11,969,343",0.97
+1001236,KOLAGHAT,COAL,"1,260.00",WEST BENGAL,Sub-critical Thermal,1990-1993,6,,"5,592",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,178,052",1.28
+1001435,SOUTHERN REPL.,COAL,135,WEST BENGAL,Sub-critical Thermal,1990-1991,2,,949,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,139,972",1.2
+1001393,RIHAND,COAL,"3,000.00",UTTAR PRADESH,Sub-critical Thermal,1988-2013,6,,"17,061",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"16,551,102",0.97
+1001487,UNCHAHAR,COAL,"1,050.00",UTTAR PRADESH,Sub-critical thermal,1988-2006,5,,"7,204",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,244,547",1.01
+1001426,SIKKA REP.,COAL,240,GUJARAT,Sub-critical thermal,1988-1993,2,,525,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"677,201",1.29
+1001454,TANDA,COAL,440,UTTAR PRADESH,Sub-critical Thermal,1988-1990,4,,"3,152",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,781,078",1.2
+1001072,ANPARA,COAL,"1,630.00",UTTAR PRADESH,?,1987-1994,5,,"7,133",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,619,708",0.93
+1001293,METTUR,COAL,840,TAMIL NADU,Sub-critical Thermal,1987-1990,4,,"5,928",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,484,724",1.09
+1001159,FARAKKA STPS,COAL,"2,100.00",WEST BENGAL,Sub-critical Thermal,1986-2011,6,,"12,406",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"12,062,884",0.97
+1001113,BOKARO B,COAL,630,JHARKHAND,Sub-critical Thermal,1986-1993,3,,"1,520",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,982,382",1.3
+1001375,RAICHUR,COAL,"1,720.00",KARNATAKA,Sub-critical Thermal,1985-2010,6,,"8,801",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"10,149,192",1.15
+1001308,MUZAFFARPUR,COAL,220,BIHAR,Sub-critical,1985-1986,2,,282,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"372,939",1.32
+1001348,PARICHA,COAL,"1,140.00",UTTAR PRADESH,Sub-critical Thermal,1984-2013,6,,"5,771",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,252,133",1.08
+1001398,ROPAR,COAL,"1,260.00",PUNJAB,Sub-critical Thermal,1984-1993,6,,"7,330",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,815,516",1.07
+1001241,KORBA STPS,COAL,"2,600.00",CHATTISGARH,Sub-critical Thermal,1983-2010,7,,"19,353",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"18,626,349",0.96
+1001245,KOTA,COAL,"1,240.00",RAJASTHAN,Sub-critical Thermal,1982-2009,7,,"8,526",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"9,188,235",1.08
+1001512,WANAKBORI,COAL,"1,470.00",GUJARAT,Sub-critical Thermal,1982-1998,7,,"4,542",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,005,165",1.1
+1001429,SINGRAULI STPS,COAL,"2,000.00",UTTAR PRADESH,Sub-critical thermal,1982-1987,7,,"14,882",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"14,531,698",0.98
+1001468,TITAGARH,COAL,240,WEST BENGAL,Sub-critical Thermal,1982-1985,4,,"1,629",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,819,572",1.12
+1001114,BONGAIGAON,COAL,0,ASSAM,Sub-critical Thermal,1981-1985,4,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001349,PARLI,COAL,"1,130.00",MAHARASHTRA,Sub-critical Thermal,1980-2010,5,,"2,998",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,367,730",1.12
+1001109,BHUSAWAL,COAL,"1,420.00",MAHARASHTRA,Sub-critical Thermal,1979-2012,4,,"4,361",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,218,208",1.2
+1001342,PANIPAT,COAL,"1,360.00",HARYANA,Sub-critical Thermal,1979-2005,8,,"4,659",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,985,500",1.07
+1001476,TUTICORIN,COAL,"1,050.00",TAMIL NADU,Sub-critical thermal,1979-1992,5,,"7,253",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"7,685,462",1.06
+1001317,NASIK,COAL,900,MAHARASHTRA,,1979-2014,6,,"3,822",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,236,448",1.11
+1001471,TORR POWER SAB.,COAL,400,GUJARAT,Sub-critical Thermal,1978-1997,4,,"2,466",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,643,412",1.07
+1001240,KORADI,COAL,620,MAHARASHTRA,Sub-critical Thermal,1978-1983,3,,"2,066",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,596,634",1.26
+1001343,PANKI,COAL,210,UTTAR PRADESH,Sub-critical Thermal,1976-1985,3,,628,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"916,788",1.46
+1001410,SANTALDIH,COAL,980,WEST BENGAL,Sub-critical thermal,1974-2011,6,,"2,463",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,601,524",1.06
+1001158,F_BAD EXTN.,COAL,0,HARYANA,?,1974-1981,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001175,GNDTP(BHATINDA),COAL,440,PUNJAB,Sub-critical Thermal,1974-1979,4,,"1,453",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,709,609",1.18
+1001077,BADARPUR,COAL,705,DELHI,Sub-critical,1973-1981,5,,"3,769",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,312,169",1.14
+1001155,ENNORE,COAL,450,TAMIL NADU,Sub-critical Thermal,1970-1975,5,,"1,011",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,731,804",1.71
+1001087,BARAUNI,COAL,220,BIHAR,Sub-critical Thermal,1969-1985,4,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001413,SATPURA,COAL,"1,517.50",MADHYA PRADESH,Sub-critical thermal,1968-2013,9,,"4,191",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,516,788",1.55
+1001450,TALCHER,COAL,460,ORISSA,Sub-critical Thermal,1967-1983,6,,"3,424",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,078,641",1.19
+1001149,DURGAPUR,COAL,350,WEST BENGAL,Sub-critical Thermal,1967-1981,2,,"1,679",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,853,793",1.1
+1001185,I.P.STATION,COAL,0,DELHI,Sub-critical Thermal,1967-1971,4,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001353,PATRATU,COAL,770,JHARKHAND,Sub-critical Thermal,1966-1986,10,,610,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,Operating,India,,,,OIL,,,,,,,,"1,087,704",1.78
+1001082,BANDEL,COAL,450,WEST BENGAL,Sub-critical Thermal,1965-1982,5,,"1,189",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,628,654",1.37
+1001124,CHANDRAPURA,COAL,890,JHARKHAND,Sub-critical Thermal,1964-2010,8,,"4,348",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,608,873",1.06
+1001113,BOKARO A,COAL,0,JHARKHAND,Sub-critical Thermal,1951-1960,0,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001320,NEWCOSSIPORE,COAL,160,WEST BENGAL,Sub-critical Thermal,1949-1963,4,,104,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"287,827",2.78
+1001089,BARH STPP II,COAL,660,BIHAR,?,2016,0,,5,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,238",0.87
+1001452,TAMNAR TPP,COAL,"1,200.00",CHATTISGARH,Super-critical thermal,2014,2,,92,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"115,052",1.24
+1001075,AVANTHA BHANDAR TPP,COAL,600,CHATTISGARH,?,2014,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001120,CHAKABURA TPP,COAL,30,CHATTISGARH,?,2014,1,,3,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,937",1.19
+1001289,MARWA TPP,COAL,500,CHATTISGARH,Sub-critical Thermal,2014,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001085,BARADARHA TPP,COAL,600,CHATTISGARH,?,2014,1,,2,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,365",2.8
+1001380,RAJPURA TPP,COAL,700,PUNJAB,Super-critical Thermal,2014,1,,349,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"349,395",1
+1001327,NIWARI TPP,COAL,45,MADHYA PRADESH,Sub-critical Thermal,2013,1,,274,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"341,303",1.25
+1001063,ALKALTARA TPP,COAL,600,CHATTISGARH,Sub-critical thermal,2013,1,,"1,668",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,717,933",1.03
+1001222,KAWAI TPP,COAL,"1,320.00",RAJASTHAN,Super-critical Thermal,2013,2,,"3,439",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,286,120",0.96
+1001188,IEPL BELA TPP,COAL,270,MAHARASHTRA,?,2013,1,,23,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"26,701",1.17
+1001220,KATGHORA TPP,COAL,35,CHATTISGARH,Sub-critical Thermal,2012,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001252,KUNDARKI TPP,COAL,90,UTTAR PRADESH,Sub-critical thermal,2012,2,,443,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"586,367",1.32
+1001277,MAHATMA GANDHI TPP,COAL,"1,320.00",HARYANA,Super-critical Thermal,2012,2,,"5,825",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,281,671",0.91
+1001296,MIHAN TPP,COAL,246,MAHARASHTRA,Sub-critical Thermal,2012,1,,244,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"246,619",1.01
+1001405,SALAYA TPP,COAL,"1,200.00",GUJARAT,Sub-critical Thermal,2012,2,,"5,031",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"5,015,350",1
+1001497,UTRAULA TPP,COAL,90,UTTAR PRADESH,Sub-critical thermal,2012,2,,478,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"633,684",1.32
+1001168,GEPL,COAL,120,MAHARASHTRA,?,2012,2,,95,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"139,272",1.47
+1001069,"ANAPARA ""C""",COAL,"1,200.00",UTTAR PRADESH,Sub-critical Thermal,2011,2,,"6,397",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,230,068",0.97
+1001226,KHAMBERKHERA IPP,COAL,90,UTTAR PRADESH,Sub-critical Thermal,2011,2,,440,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"587,860",1.33
+1001447,SVPL,COAL,63,CHATTISGARH,Sub-critical Thermal,2011,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001206,KAKATIYA TPP,COAL,500,ANDHRA PRADESH,Sub-critical Thermal,2010,0,,"2,943",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,806,630",0.95
+1001516,YAMUNANAGAR TPP,COAL,600,HARYANA,Sub-critical Thermal,2007,2,,"3,158",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,483,270",1.1
+1001140,DHARIWAL INF TPP,COAL,300,MAHARASHTRA,?,2005,1,,167,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"183,596",1.1
+1001388,RATIJA TPP,COAL,50,CHATTISGARH,Sub-critical Thermal,2005,1,,184,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"253,115",1.37
+1001295,METTUR TPS EXT,COAL,600,TAMIL NADU,Sub-critical Thermal,2005,0,,"1,846",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,840,326",1
+1001379,RAJIV GANDHI TPS HISAR,COAL,"1,200.00",HARYANA,Sub-critical Thermal,2005,2,,"4,126",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,157,438",0.95
+1001507,VIJAYWADA TPPIV,COAL,500,ANDHRA PRADESH,Sub-critical Thermal,2005,1,,"3,596",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,408,152",0.95
+1001377,RAJGHAT,COAL,135,DELHI,Sub-critical Thermal,2005,2,,323,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"485,375",1.5
+1001370,R_GUNDEM B,COAL,62.5,ANDHRA PRADESH,Sub-critical thermal,2005,1,,395,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"486,475",1.23
+1001139,DHANU,COAL,500,MAHARASHTRA,Sub-critical Thermal,1995,2,,"3,739",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,620,959",0.97
+1001154,EMCO WARORA TPP,COAL,600,MAHARASHTRA,Sub-critical Thermal,2013,2,,"1,985",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,224,591",1.12
+1001425,Shri Singaji MALWA TPP,COAL,600,MADHYA PRADESH,Super-critical thermal,2013,1,,196,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"271,888",1.39
+1001304,MULAJORE,COAL,0,WEST BENGAL,Sub-critical Thermal,1996,4,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001477,TUTICORIN IND BARATH,COAL,300,TAMIL NADU,Sub-critical thermal,,0,,782,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"896,876",1.15
+1019919,KALLUR GRINDING,Coal,30,Karnataka,,,,Chettinad Corp ltd,,,Chettinad Corp ltd,CHETTINAD CEMENT CORP LTD,,,,,,,,India,,17.38211,77.438902,,,,,dry,,,,,
+1019890,KOTA COMPLEX,Coal,125,Rajasthan,,,,Dcm & chem,,,Dcm & chem,DCM SHRIRAM FERT & CHEM,,,,,,,,India,,25.138574,75.888302,,,,,recirculating,,,,,
+1019900,SHRIRAM RAYONS PLANT,Coal,40,Rajasthan,,,,Dcm Industries ltd,,,Dcm Industries ltd,DCM SHRIRAM INDUSTRIES LTD,,,,,,,,India,,25.1296,75.883174,,,,,recirculating,,,,,
+1020016,TADALI,Coal,600,Maharashtra,,,,Dhariwal Pvt ltd,,,Dhariwal Pvt ltd,DHARIWAL INFRASTRUCT PVT LTD,,,,,,,,India,,20.011636,79.203632,,,,,recirculating,,,,,
+1019956,GRACE INDUSTRIES,Coal,25,Maharashtra,,,,Grace Industries ltd,,,Grace Industries ltd,GRACE INDUSTRIES LTD,,,,,,,,India,,20.005803,79.18449,,,,,dry,,,,,
+1019930,RAJASHREE CEMENT,Coal,38.5,Karnataka,,,,Grasim Cement ltd,,,Grasim Cement ltd,GRASIM CEMENT LTD,,,,,,,,India,,17.142678,77.174903,,,,,recirculating,,,,,
+1020006,NAGDA GRASIM,Coal,45.5,Madhya Pradesh,,,,Grasim Industries ltd,,,Grasim Industries ltd,GRASIM INDUSTRIES LTD,,,,,,,,India,,23.446863,75.40797,,,,,recirculating,,,,,
+1019970,MUL GRETA,Coal,15,Maharashtra,,,,Greta Energy ltd,,,Greta Energy ltd,GRETA ENERGY LTD,,,,,,,,India,,20.080511,79.714825,,,,,dry,,,,,
+1019948,CHANDRAPUR GUPTA,Coal,120,Maharashtra,,,,Gupta Ltd gepl),,,Gupta Ltd gepl),GUPTA ENERGY PVT LTD (GEPL),,,,,,,,India,,19.929979,79.134594,,,,,recirculating,,,,,
+1019924,KOPPAL HKMP,Coal,12,Karnataka,,,,Hare Pvt ltd,,,Hare Pvt ltd,HARE KRISHNA METALLICS PVT LTD,,,,,,,,India,,15.316006,76.250727,,,,,dry,,,,,
+1019996,ANUPPUR,Coal,600,Madhya Pradesh,,,,Hindustan Pvt lt,,,Hindustan Pvt lt,HINDUSTAN POWERPROJECTS PVT LT,,,,,,,,India,,23.066617,81.784085,,,,,recirculating,,,,,
+1019887,CHANDERIA SMELTER,Coal,234,Rajasthan,,,,Hindustan Zinc ltd,,,Hindustan Zinc ltd,HINDUSTAN ZINC LTD,,,,,,,,India,,24.963695,74.66557,,,,,recirculating,,,,,
+1019897,RAJPURA DARIBA MINE,Coal,160,Rajasthan,,,,Hindustan Zinc ltd,,,Hindustan Zinc ltd,HINDUSTAN ZINC LTD,,,,,,,,India,,24.964314,74.119722,,,,,recirculating,,,,,
+1019901,ZAWAR MINES,Coal,80,Rajasthan,,,,Hindustan Zinc ltd,,,Hindustan Zinc ltd,HINDUSTAN ZINC LTD,,,,,,,,India,,24.350033,73.747705,,,,,recirculating,,,,,
+1019908,BELLARY HOTHUR,Coal,10,Karnataka,,,,Hothur Pvt ltd,,,Hothur Pvt ltd,HOTHUR ISPAT PVT LTD,,,,,,,,India,,15.183116,76.790909,,,,,recirculating,,,,,
+1019942,BELA NAGPUR,Coal,270,Maharashtra,,,,Ideal Projects ltd,,,Ideal Projects ltd,IDEAL ENERGY PROJECTS LTD,,,,,,,,India,,20.80495,79.054679,,,,,recirculating,,,,,
+1019883,BANSWARA CEMENT,Coal,20,Rajasthan,,,,India Ltd icl),,,India Ltd icl),INDIA CEMENTS LTD (ICL),,,,,,,,India,,23.602571,74.256168,,,,,dry,,,,,
+1019998,DURG SPONGE IRON,Coal,12.8,Madhya Pradesh,,,,Jai Industries ltd,,,Jai Industries ltd,JAI BALAJI INDUSTRIES LTD,,,,,,,,India,,21.187826,81.209918,,,,,recirculating,,,,,
+1019909,BELLARY JANKI,Coal,18,Karnataka,,,,Janki Corp ltd,,,Janki Corp ltd,JANKI CORP LTD,,,,,,,,India,,15.177662,77.10362,,,,,recirculating,,,,,
+1020001,JAYPEE SIDHI CEMENT,Coal,155,Madhya Pradesh,,,,Jaypee Ltd jccl),,,Jaypee Ltd jccl),JAYPEE CEMENT CORP LTD (JCCL),,,,,,,,India,,24.327215,81.329331,,,,,recirculating,,,,,
+1020000,JAYPEE REWA CEMENT,Coal,54.5,Madhya Pradesh,,,,Jaypee Ltd jccl),,,Jaypee Ltd jccl),JAYPEE CEMENT CORP LTD (JCCL),,,,,,,,India,,24.564955,81.174822,,,,,dry,,,,,
+1019999,JAYPEE BELA CEMENT,Coal,63.5,Madhya Pradesh,,,,Jaypee Ltd jccl),,,Jaypee Ltd jccl),JAYPEE CEMENT CORP LTD (JCCL),,,,,,,,India,,24.528595,81.169768,,,,,dry,,,,,
+1019927,MUDHOL CEMENT,Coal,50,Karnataka,,,,Jk Cement ltd,,,Jk Cement ltd,http://www.jkcement.com/power-plants,,,,,,,,India,,16.201712,75.300537,,,,,dry,,,,,
+1019882,BAMANIA CEMENT,Coal,10,Rajasthan,,,,Jk Cement ltd,,,Jk Cement ltd,JK CEMENT LTD,,,,,,,,India,,24.692887,74.689036,,,,,dry,,,,,
+1019894,NIMBAHERA JK CEMENT,Coal,33.2,Rajasthan,,,,Jk Cement ltd,,,Jk Cement ltd,JK CEMENT LTD,,,,,,,,India,,24.642767,74.684319,,,,,dry,,,,,
+1019889,JAYKAYPURAM PLANT,Coal,66,Rajasthan,,,,Jk Cement ltd,,,Jk Cement ltd,JK LAKSHMI CEMENT  LTD,,,,,,,,India,,24.696321,73.001699,,,,,dry,,,,,
+1019936,VASAVADATTA CEMENT,Coal,50.7,Karnataka,,,,Kesoram Industries ltd,,,Kesoram Industries ltd,KESORAM INDUSTRIES LTD,,,,,,,,India,,17.160457,77.292993,,,,,dry,,,,,
+1020002,KAMAL SPONGE,Coal,12,Madhya Pradesh,,,,Kjs Ahluwalia group,,,Kjs Ahluwalia group,KJS AHLUWALIA GROUP,,,,,,,,India,,24.626554,80.830996,,,,,recirculating,,,,,
+1019955,GHUGUS LMEL,Coal,30,Maharashtra,,,,Lloyds Industries ltd,,,Lloyds Industries ltd,LLOYDS STEEL INDUSTRIES LTD,,,,,,,,India,,19.93056,79.119996,,,,,recirculating,,,,,
+1019994,WARDHA WORKS,Coal,80,Maharashtra,,,,Lloyds Industries ltd,,,Lloyds Industries ltd,LLOYDS STEEL INDUSTRIES LTD,,,,,,,,India,,20.69637,78.638507,,,,,recirculating,,,,,
+1020005,MAIHAR CEMENT PLANT,Coal,31.4,Madhya Pradesh,,,,Maihar Cement ltd,,,Maihar Cement ltd,MAIHAR CEMENT LTD,,,,,,,,India,,24.202137,80.799681,,,,,dry,,,,,
+1019892,MANGLAM CEMENT,Coal,25,Rajasthan,,,,Manglam Cement ltd,,,Manglam Cement ltd,MANGLAM CEMENT LTD,,,,,,,,India,,24.71756,75.952152,,,,,dry,,,,,
+1019968,MANIKGARH CEMENT,Coal,50,Maharashtra,,,,Manikgarh Manikgarh cement,,,Manikgarh Manikgarh cement,MANIKGARH CEMENT,,,,,,,,India,,19.723491,79.176078,,,,,dry,,,,,
+1019949,CHANDRAPUR MANIKGHAR,Coal,10,Maharashtra,,,,Manikghar Cement co,,,Manikghar Cement co,MANIKGHAR CEMENT CO,,,,,,,,India,,19.7218,79.175665,,,,,dry,,,,,
+1020003,KASRAWAD FACTORY,Coal,10,Madhya Pradesh,,,,Maral Overseas ltd,,,Maral Overseas ltd,MARAL OVERSEAS LTD,,,,,,,,India,,22.133494,75.456846,,,,,recirculating,,,,,
+1019988,TADALI SPONGE IRON,Coal,33,Maharashtra,,,,Mukesh Gupta group,,,Mukesh Gupta group,http://sanvijay.com/gil.html,,,,,,,,India,,20.012296,79.186251,,,,,recirculating,,,,,
+1019910,BHADRAVATI MILL,Coal,41,Karnataka,,,,Mysore Mills ltd,,,Mysore Mills ltd,MYSORE PAPER MILLS LTD,,,,,,,,India,,13.827399,75.713137,,,,,recirculating,,,,,
+1020008,NEPANAGAR MILL,Coal,12.27,Madhya Pradesh,,,,National And paper,,,National And paper,NATIONAL NEWSPRINT AND PAPER,,,,,,,,India,,21.450379,76.401426,,,,,recirculating,,,,,
+1019895,NITIN PLANT,Coal,10.5,Rajasthan,,,,Nitin Spinners ltd,,,Nitin Spinners ltd,NITIN SPINNERS LTD,,,,,,,,India,,25.204181,74.609234,,,,,dry,,,,,
+1019916,GULBARGA CEMENT,Coal,55,Karnataka,,,,Orient Cement ltd,,,Orient Cement ltd,ORIENT CEMENT LTD,,,,,,,,India,,17.108409,77.132456,,,,,,,,,,
+1019977,NASIK SINNAR,Coal,270,Maharashtra,,,,Rattanindia Power ltd,,,Rattanindia Power ltd,RATTANINDIA POWER LTD,,,,,,,,India,,19.8658,74.083457,,,,,recirculating,,,,,
+1019902,DAHANU FRESNEL,Coal,100,Rajasthan,,,,Reliance Power ltd,,,Reliance Power ltd,RELIANCE POWER LTD,,,,,,,,India,,26.780331,72.009104,,,,,,,,,,
+1019893,MORDI PLANT,Coal,46,Rajasthan,,,,Rswm Rswm ltd,,,Rswm Rswm ltd,RSWM LTD,,,,,,,,India,,23.549627,74.407163,,,,,dry,,,,,
+1019899,SHREE MEGA POWER,Coal,300,Rajasthan,,,,Shree Cement ltd,,,Shree Cement ltd,SHREE CEMENT LTD,,,,,,,,India,,26.074292,74.38578,,,,,dry,,,,,
+1019898,RAS CEMENT PLANT,Coal,36,Rajasthan,,,,Shree Cement ltd,,,Shree Cement ltd,SHREE CEMENT LTD,,,,,,,,India,,26.263001,74.187828,,,,,dry,,,,,
+1019978,PUNE MILL,Coal,30,Maharashtra,,,,Sinarmas Paper ltd,,,Sinarmas Paper ltd,SINARMAS PULP & PAPER LTD,,,,,,,,India,,18.241663,74.753066,,,,,recirculating,,,,,
+1019943,BHANDARA STEEL MILL,Coal,15,Maharashtra,,,,Sunflag Co ltd,,,Sunflag Co ltd,SUNFLAG IRON & STEEL CO LTD,,,,,,,,India,,21.232004,79.631112,,,,,recirculating,,,,,
+1019929,RAICHUR STEEL,Coal,35,Karnataka,,,,Surana Industries ltd,,,Surana Industries ltd,SURANA INDUSTRIES LTD,,,,,,,,India,,16.302687,77.360807,,,,,recirculating,,,,,
+1019972,MURBAD PLANT,Coal,15,Maharashtra,,,,Technocraft Technocraft group,,,Technocraft Technocraft group,TECHNOCRAFT GROUP,,,,,,,,India,,19.260996,73.363759,,,,,dry,,,,,
+1019976,NAGPUR SPONGE IRON,Coal,65,Maharashtra,,,,Topworth Metals ltd,,,Topworth Metals ltd,TOPWORTH URJA & METALS LTD,,,,,,,,India,,20.927599,79.245549,,,,,dry,,,,,
+1019940,AWARPUR CEMENT PLANT,Coal,46,Maharashtra,,,,Ultratech Cement ltd,,,Ultratech Cement ltd,ULTRATECH CEMENT LTD,,,,,,,,India,,19.788136,79.151759,,,,,recirculating,,,,,
+1019881,ADITYA CEMENT WORKS,Coal,98,Rajasthan,,,,Ultratech Cement ltd,,,Ultratech Cement ltd,ULTRATECH CEMENT LTD,,,,,,,,India,,24.766276,74.609043,,,,,dry,,,,,
+1019960,KHOPOLI WORKS,Coal,60,Maharashtra,,,,Uttam Steels ltd,,,Uttam Steels ltd,UTTAM GALVA STEELS LTD,,,,,,,,India,,18.771203,73.258966,,,,,recirculating,,,,,
+1020010,VARDHAM BUDNI,Coal,25.8,Madhya Pradesh,,,,Vardham Vardham group,,,Vardham Vardham group,VARDHAM GROUP,,,,,,,,India,,22.78082,77.651503,,,,,recirculating,,,,,
+1020011,VARDHAM SATLAPUR,Coal,30.75,Madhya Pradesh,,,,Vardham Vardham group,,,Vardham Vardham group,VARDHAM GROUP,,,,,,,,India,,23.075205,77.552557,,,,,recirculating,,,,,
+1020013,VIKRAM CEMENT,Coal,46,Madhya Pradesh,,,,Vikram Vikram cement,,,Vikram Vikram cement,VIKRAM CEMENT,,,,,,,,India,,24.575293,74.801186,,,,,dry,,,,,
+1001280,MAITHON GT,DISL,0,JHARKHAND,Diesel Generator,1995-2011,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001517,YELHANKA (DG),DISL,127.9,KARNATAKA,Diesel Generator,1993-1994,6,,21,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"17,842",0.85
+1001340,PAMPORE GT,DISL,175,JAMMU & KASHMIR,Diesel Generator,1989-1995,7,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001261,LEIMAKHONG DG,DISL,36,MANIPUR,Diesel Generator,1985-2002,6,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001270,LVS POWER DG,DISL,36.8,ANDHRA PRADESH,Diesel Generator,2001,2,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001407,SAMAYANALLUR DG,DISL,106,TAMIL NADU,Diesel Generator,2001,1,,347,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"211,560",0.61
+1001096,BELLARY DG,DISL,25.2,KARNATAKA,Diesel Generator,2000,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001235,KOJIKODE DG,DISL,128,KERALA,Diesel Generator,1999,1,,187,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"116,045",0.62
+1001219,KASARGODE DG,DISL,21.8,KERALA,Diesel Generator,1999,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001115,BRAMHAPURAM DG,DISL,106.6,KERALA,Diesel Generator,1997,1,,28,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"17,820",0.64
+1019971,MUMBAI BPCL,Gas,31.2,Maharashtra,,,,Bharat Corp ltd,,,Bharat Corp ltd,BHARAT PETROCHEMICALS CORP LTD,,,,,,,,India,,19.01595,72.894826,,,,,recirculating,,,,,
+1001359,PIPAVAV CCCP,GAS,702,GUJARAT,CCGT,2013-2014,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001364,PRAGATI CCCP III,GAS,"1,185.60",DELHI,CCGT,2010-2014,5,,606,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"262,688",0.43
+1001395,RITHALA CCCP,GAS,94.8,DELHI,CCGT,2010-2011,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001237,KONASEEMA CCCP,GAS,445,ANDHRA PRADESH,CCGT,2009-2010,2,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001441,SUGEN CCCP,GAS,"1,147.50",GUJARAT,CCGT,2009-2009,3,,"2,230",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"785,280",0.35
+1001500,VALANTHARVI GT,GAS,52.8,TAMIL NADU,,2005-2006,2,,362,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"178,443",0.49
+1001143,DHUVARAN CCPP,GAS,219.1,GUJARAT,CCGT,2003-2007,4,,182,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"85,204",0.47
+1001255,KUTTALAM GT,GAS,101,TAMIL NADU,CCGT,2003-2004,2,,594,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"245,809",0.41
+1001086,BARAMURA,GAS,42,TRIPURA,OCGT,2002-2010,2,,258,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"211,836",0.82
+1001502,VALUTHUR GT,GAS,186.2,TAMIL NADU,CCGT,2002-2008,5,,"1,181",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"533,230",0.45
+1001365,PRAGATI CCGT,GAS,330,DELHI,CCGT,2002-2003,3,,"2,357",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"1,004,730",0.43
+1001180,HAZIRA CCCP,GAS,156.1,GUJARAT,CCGT,2001-2002,3,,268,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"125,092",0.47
+1001238,KONDAPALLI GT,GAS,716,ANDHRA PRADESH,OCGT,2000-2010,5,,"1,400",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"624,338",0.45
+1001157,F_BAD CCGT,GAS,431.6,HARYANA,CCGT,1999-2000,3,,"1,687",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"728,605",0.43
+1001224,KAYAM KULAM GT,GAS,350,KERALA,OCGT,1998-1999,3,,941,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"554,681",0.59
+1001176,GODAVARI GT,GAS,205.2,ANDHRA PRADESH,OCGT,1997-1998,4,,"1,056",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"481,216",0.46
+1001336,PAGUTHAN,GAS,655,GUJARAT,CCGT,1997-1998,4,,247,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"117,895",0.48
+1001194,JEGURUPADU GT,GAS,445.7,ANDHRA PRADESH,OCGT,1996-2009,6,,961,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"435,767",0.45
+1001221,KATHALGURI GT,GAS,291,ASSAM,CCGT,1995-1998,9,,"1,687",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"1,005,752",0.6
+1001382,RAMGARH GT,GAS,220.5,RAJASTHAN,CCGT,1994-2013,5,,613,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,DISL,,,,,,,,"514,788",0.84
+1001162,GANDHAR GT,GAS,648,GUJARAT,OCGT,1994-1995,4,,"1,281",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"587,689",0.46
+1001473,TROMBAY GT,GAS,180,MAHARASHTRA,CCGT,1993-1994,2,,"1,242",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"526,862",0.42
+1001134,DADRI GT,GAS,816.4,UTTAR PRADESH,CCGT,1992-1994,6,,"3,315",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,DISL,,,,,,,,"1,449,581",0.44
+1001223,KAWAS GT,GAS,645,GUJARAT,OCGT,1992-1993,6,,"1,350",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"626,931",0.46
+1001496,UTRAN GT,GAS,135,GUJARAT,CCGT,1992-1993,4,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001160,G.I.P.C.L. GT,GAS,310,GUJARAT,OCGT,1991-1997,6,,"1,015",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"491,986",0.48
+1001397,ROKHIA GT,GAS,95,TRIPURA,OCGT,1990-2013,9,,450,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"375,272",0.83
+1001508,VIJESWARAN GT,GAS,272.3,ANDHRA PRADESH,OCGT,1990-1997,5,,"1,025",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"477,200",0.47
+1001504,VATWA TORR,GAS,100,GUJARAT,CCGT,1990-1991,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,0,0
+1001073,ANTA GT,GAS,419.3,RAJASTHAN,CCGT,1989-1990,4,,"1,920",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"864,392",0.45
+1001074,AURAIYA GT,GAS,652,UTTAR PRADESH,CCGT,1989-1990,6,,"1,730",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"804,213",0.46
+1001184,I.P.GT,GAS,270,DELHI,OCGT,1986-1996,9,,"1,009",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,DISL,,,,,,,,"521,916",0.52
+1001259,LAKWA GT,GAS,157.2,ASSAM,CCGT,1983-2011,8,,834,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,DISL,,,,,,,,"582,747",0.7
+1001492,URAN GT,GAS,672,MAHARASHTRA,CCGT,1982-1996,10,,"3,194",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,GAS,,,,,,,,"1,502,219",0.47
+1001297,MOBILE GAS TG,GAS,0,ASSAM,OCGT,1981-1982,2,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001314,NAMRUP GT,GAS,119.5,ASSAM,CCGT,1965-1985,6,,495,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"432,406",0.87
+1001136,DGEN MEGA CCCP,GAS,800,GUJARAT,CCGT,2014,2,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001338,PALATANA CCPP,GAS,363.6,TRIPURA,CCGT,2013,1,,959,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"406,950",0.42
+1001181,HAZIRAGSECL,GAS,351,GUJARAT,OCGT,2012,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001142,DHOLPUR,GAS,330,RAJASTHAN,CCGT,2007,3,,933,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"459,596",0.49
+1001505,VEMAGIRI CCCP,GAS,388.5,ANDHRA PRADESH,CCGT,2006,2,,172,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"65,276",0.38
+1001217,KARUPPUR GT,GAS,119.8,TAMIL NADU,OCGT,2005,2,,696,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"304,110",0.44
+1001355,PEDDAPURAM CCGT(Samalkot),GAS,220,ANDHRA PRADESH,,2005,1,,466,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"270,617",0.58
+1001156,ESSAR GT IMP.,GAS,515,GUJARAT,CCGT,2005,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,0,0
+1001455,TANIR BAVI,GAS,220,KARNATAKA,CCGT,2001,5,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,0,0
+1001248,KOVILKALAPPAL,GAS,107,TAMIL NADU,CCGT,2001,0,,460,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"199,476",0.43
+1001335,P.NALLUR CCGT,GAS,330.5,TAMIL NADU,CCGT,2001,1,,"1,426",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,NAPT,,,,,,,,"728,420",0.51
+1001060,AGARTALA GT,GAS,84,TRIPURA,CCGT,1998,4,,632,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"505,999",0.8
+1001152,Eastern India Powertech,GAS,15.5,ASSAM,?,1997,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001167,GAUTAMI CCCP,GAS,468.6,ANDHRA PRADESH,CCGT,2009,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001495,UTRAN CCCP EXT,GAS,374.6,GUJARAT,CCGT,,0,,8,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"3,936",0.49
+1019888,GADEPAN WORKS,Gas,35,Rajasthan,,,,Chambal & chem,,,Chambal & chem,CHAMBAL FERTILISERS & CHEM,,,,,,,,India,,25.152114,76.18196,,,,,recirculating,,,,,
+1019926,MANGALORE REFINERY,Gas,166.5,Karnataka,,,,Mangalore & petrochem,,,Mangalore & petrochem,MANGALORE REFINERY & PETROCHEM,,,,,,,,India,,12.982093,74.849576,,,,,recirculating,,,,,
+1020012,VIJAIPUR WORKS,Gas,75,Madhya Pradesh,,,,National Ltd nfl),,,National Ltd nfl),NATIONAL FERTILIZERS LTD (NFL),,,,,,,,India,,24.497793,77.151325,,,,,recirculating,,,,,
+1019992,URAN ONGC,Gas,62.6,Maharashtra,,,,Ongc Gas corp,,,Ongc Gas corp,ONGC - OIL & NATURAL GAS CORP,,,,,,,,India,,18.868123,72.929285,,,,,recirculating,,,,,
+1020015,MUMBAI ONGC,Gas,75,Maharashtra,,,,Ongc Gas corp,,,Ongc Gas corp,ONGC - OIL & NATURAL GAS CORP,,,,,,,,India,,18.998835,72.89972,,,,,once-through,,,,,
+1019991,TROMBAY WORKS,Gas,18,Maharashtra,,,,Rashtriya & fert,,,Rashtriya & fert,http://documents.worldbank.org/curated/en/442061468041961880/pdf/multi-page.pdf,,,,,,,,India,,19.036558,72.889211,,,,,recirculating,,,,,
+1019989,THAL WORKS,Gas,30,Maharashtra,,,,Rashtriya & fert,,,Rashtriya & fert,RASHTRIYA CHEMICALS & FERT,,,,,,,,India,,18.702636,72.870854,,,,,recirculating,,,,,
+1020017,PATALGANGA,Gas,66,Maharashtra,,,,Reliance Ltd ril),,,Reliance Ltd ril),RELIANCE INDUSTRIES LTD (RIL),,,,,,,,India,,18.883362,73.181428,,,,,recirculating,,,,,
+1019913,DANDELI MILL,Gas,10.3,Karnataka,,,,West Mills wcpm),,,West Mills wcpm),WEST COAST PAPER MILLS (WCPM),,,,,,,,India,,15.252904,74.628264,,,,,recirculating,,,,,
+1001394,RIHAND_Hydro,HYDRO,300,UTTAR PRADESH,Dam with Reservoir,1962,6,,501,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,24.20419,83.08306,,,,,,,,,0,0
+1001141,DHAULI GANGA,HYDRO,280,UTTARAKHAND,Dam with Reservoir,2005,4,,281,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,29.9783,80.5727,,,,,,,,,0,0
+1001511,VISHNU PRAYAG,HYDRO,400,UTTARAKHAND,Run of the River,2006,4,,436,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,30.5669,79.5468,,,,,,,,,0,0
+1001347,PARBATIIII,HYDRO,390,HIMACHAL,?,2014,3,,5,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,31.7398,77.2576,,,,,,,,,0,0
+1001201,KADAMPARI,HYDRO,400,TAMIL NADU,Pumped Storage,1987-1988,4,,502,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,10.4104,77.0435,,,,,,,,,0,0
+1001491,UPPER SINDH I& II,HYDRO,127.6,JAMMU & KASHMIR,Run of the River,1973-2002,5,,214,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,34.19799895,75.12447166,,,,,,,,,0,0
+1001503,VARAHI,HYDRO,345,KARNATAKA,Dam with Reservoir,1989-1990,3,,"1,314",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,13.657607,74.948387,,,,,,,,,0,0
+1001419,SHARAVATHY,HYDRO,"1,035.00",KARNATAKA,Dam with Reservoir,1964-1977,10,,"5,566",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,14.2352,74.7673,,,,,,,,,0,0
+1001401,S.SAROVAR RBPH,HYDRO,"1,000.00",GUJARAT,Dam with Reservoir,2005-2006,5,,"5,196",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.83013,73.75011,,,,,,,,,0,0
+1001484,UKAI_Hydro,HYDRO,300,GUJARAT,Dam with Reservoir,1974-1976,4,,809,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.24781,73.58659,,,,,,,,,0,0
+1001493,URI II,HYDRO,240,JAMMU & KASHMIR,Run of the River,2013-2014,4,,402,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001130,CHUTAK,HYDRO,44,JAMMU & KASHMIR,Run-of-river,2012-2013,4,,34,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001309,MYNTDU,HYDRO,126,MEGHALAYA,Run of the River,2011-2013,3,,412,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001246,KOTESHWAR,HYDRO,400,UTTARAKHAND,Run of the River,2011-2012,4,,"1,514",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001257,KUTTIYADI Add ext,HYDRO,100,KERALA,,2010-2011,2,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001366,PRIYADARSHNI JURALA,HYDRO,234,ANDHRA PRADESH,Dam with Reservoir,2008-2010,6,,269,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001065,ALMATTI DAM,HYDRO,290,KARNATAKA,?,2004-2005,6,,505,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001189,INDIRA SAGAR,HYDRO,"1,000.00",MADHYA PRADESH,Dam with Reservoir,2004-2005,8,,"4,058",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001121,CHAMERA II,HYDRO,300,HIMACHAL,Dam with Reservoir,2003-2004,3,,"1,389",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001319,NATHPA JHAKRI,HYDRO,"1,500.00",HIMACHAL,Dam with Reservoir,2003-2004,6,,"7,155",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001282,MALANA,HYDRO,186,HIMACHAL,Run of River,2001-2011,4,,655,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001231,KHOPOLI,HYDRO,72,MAHARASHTRA,Dam on River,2001-2003,3,,321,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001437,SRISAILAM LBPH,HYDRO,900,ANDHRA PRADESH,Dam with Reservoir,2001-2003,6,,"1,457",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001263,LIKIM RO,HYDRO,24,NAGALAND,?,2001-2002,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001420,SHARAVATHY TAIL RACE (Gerusupa),HYDRO,240,KARNATAKA,?,2001-2002,4,,616,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001488,UPPAR INDRAVATI,HYDRO,600,ORISSA,Dam with Reservoir,1999-2001,4,,"2,504",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001430,SINGUR,HYDRO,15,ANDHRA PRADESH,,1999-2000,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001232,KODASALI,HYDRO,120,KARNATAKA,?,1998-1999,3,,326,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001514,WARNA,HYDRO,16,MAHARASHTRA,?,1998-1999,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001203,KADRA,HYDRO,150,KARNATAKA,Dam with Reservoir,1997-1999,3,,365,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001458,TEESTA IIII,HYDRO,67.5,WEST BENGAL,Run of the River,1997-1999,9,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001108,BHIVPURI,HYDRO,75,MAHARASHTRA,Dam with reservoir,1997-1998,5,,303,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001493,URI,HYDRO,480,JAMMU & KASHMIR,Run of the River,1996-1997,4,,"2,508",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001151,E.G. CANAL,HYDRO,15,BIHAR,?,1995-1997,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001383,RAMMAM,HYDRO,50,WEST BENGAL,Run of the River,1995-1996,4,,264,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001179,HASDEOBANGO,HYDRO,120,CHATTISGARH,Dam with Reservoir,1994-1995,3,,250,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001283,MALLARPUR,HYDRO,9,KARNATAKA,?,1993-1994,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001434,SONE WEST CANAL,HYDRO,6.6,BIHAR,?,1993-1994,4,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001479,U.ROGNICHU,HYDRO,8,SIKKIM,?,1993-1994,4,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001084,BANSAGAR,HYDRO,425,MADHYA PRADESH,Dam with Reservoir,1991-2006,10,,"1,921",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001498,VAIGAI DAM,HYDRO,13.5,TAMIL NADU,,1990-1999,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001202,KADANA,HYDRO,240,GUJARAT,Dam with Reservoir,1990-1998,4,,409,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001239,KOPILI,HYDRO,225,ASSAM,Dam with Reservoir,1988-2003,5,,790,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001489,UPPER KOLAB,HYDRO,320,ORISSA,Dam with Reservoir,1988-1993,4,,868,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001404,SALAL I & II,HYDRO,690,JAMMU & KASHMIR,Dam with Reservoir,1987-1995,6,,"3,218",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001071,ANOOPGARH ST I&II,HYDRO,9,RAJASTHAN,?,1987-1988,6,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001107,BHIRA TAIL RACE,HYDRO,80,MAHARASHTRA,Dam with reservoir,1987-1988,2,,95,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001267,LOWER METTUR,HYDRO,120,TAMIL NADU,Run of the River,1987-1988,8,,278,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001360,POCHAMPAD,HYDRO,27,ANDHRA PRADESH,Run of the River,1987-1988,3,,85,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001482,UKAI LBC,HYDRO,5,GUJARAT,?,1987-1988,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001515,WY.CANAL A D,HYDRO,62.4,HARYANA,?,1986-2004,8,,204,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001100,BHANDARDHARA,HYDRO,34,MAHARASHTRA,Dam with reservoir,1986-1996,2,,90,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001278,MAHI BAJAJ I&II,HYDRO,140,RAJASTHAN,Dam with Reservoir,1986-1989,4,,226,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001356,PENCH,HYDRO,160,MADHYA PRADESH,Dam with Reservoir,1986-1987,2,,425,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001438,STAKNA,HYDRO,4,JAMMU & KASHMIR,,1986-1987,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001392,RENGALI,HYDRO,250,ORISSA,Dam with Reservoir,1985-1992,5,,906,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001284,MANERI BHALI,HYDRO,394,UTTARAKHAND,Run of River,1984-2008,7,,"1,209",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001311,N_SAGAR RBC & EXTN.,HYDRO,90,ANDHRA PRADESH,Run of the River,1983-1990,3,,250,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001303,MUKERIAN I IV,HYDRO,207,PUNJAB,Run of the River,1983-1989,12,,"1,240",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001436,SRISAILAM,HYDRO,770,ANDHRA PRADESH,Dam with Reservoir,1982-1987,7,,"1,308",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001079,BAIRA SIUL,HYDRO,198,HIMACHAL,Run-of-river,1980-1981,3,,635,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001129,CHILLA,HYDRO,144,UTTARAKHAND,Run-of-river,1980-1981,4,,781,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001209,KALINADI,HYDRO,855,KARNATAKA,Dam with Reservoir,1979-1984,6,,"2,630",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001262,LIGANAMAKKI,HYDRO,55,KARNATAKA,,1979-1980,0,,267,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001313,NAGARJUNA SAGAR,HYDRO,815.6,ANDHRA PRADESH,Dam with Reservoir,1978-1985,8,,"1,309",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001361,PONG,HYDRO,396,HIMACHAL,Dam with Reservoir,1978-1983,6,,"1,758",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001265,LOWER JHELUM,HYDRO,105,JAMMU & KASHMIR,,1978-1979,3,,514,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001135,DEHAR,HYDRO,990,HIMACHAL,Run-of-river,1977-1983,6,,"3,143",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001440,SUBERNREKHA I&II,HYDRO,130,JHARKHAND,?,1977-1980,2,,109,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001187,IDUKKI,HYDRO,780,KERALA,Dam with Reservoir,1976-1986,6,,"2,725",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001177,GUMTI,HYDRO,15,TSECL,?,1976-1984,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001269,LOWER SILERU,HYDRO,460,ANDHRA PRADESH,Dam with Reservoir,1976-1978,4,,"1,262",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001381,RAMGANGA,HYDRO,198,UTTARAKHAND,Dam with Reservoir,1975-1977,3,,232,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001128,CHIBRO (YAMUNA),HYDRO,240,UTTARAKHAND,Dam with Reservoir,1975-1976,4,,945,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001081,BALIMELA,HYDRO,510,ORISSA,Dam with Reservoir,1973-2008,8,,"1,648",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001256,KUTTIADI & EXTN.,HYDRO,125,KERALA,,1972-2001,4,,846,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001126,CHENANI I&III,HYDRO,30.8,JAMMU & KASHMIR,?,1971-2000,8,,87,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001478,U.B.D.C. ST.I& II,HYDRO,91.4,PUNJAB,Run of the River,1971-1991,6,,360,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001094,BASSI,HYDRO,60,HIMACHAL,Run-of-river,1970-1981,4,,228,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001244,KOSI,HYDRO,20,BIHAR,?,1970-1978,4,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001233,KODAYARI&II,HYDRO,100,TAMIL NADU,Dam on River,1970-1971,2,,158,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001332,OBRA,HYDRO,99,UTTAR PRADESH,Dam with Reservoir,1970-1971,3,,202,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001373,R.P.SAGAR,HYDRO,172,RAJASTHAN,Dam with Reservoir,1968-1969,4,,508,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001490,UPPER SILERU I&II,HYDRO,240,ANDHRA PRADESH,Dam with Reservoir,1967-1995,4,,458,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001192,JALDHAKA I&II,HYDRO,35,WEST BENGAL,Run of the River,1967-1983,5,,158,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001402,SABARIGIRI,HYDRO,300,KERALA,Dam with Reservoir,1966-1967,6,,"1,627",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001485,UMIAM,HYDRO,114,MEGHALAYA,Dam with Reservoir,1965-1992,8,,253,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001137,DHAKRANI,HYDRO,33.8,UTTARAKHAND,Run-of-river,1965-1970,3,,170,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001138,DHALIPUR,HYDRO,51,UTTARAKHAND,Dam with Reservoir,1965-1970,3,,254,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001344,PANNIAR,HYDRO,30,KERALA,?,1963-2001,2,,169,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001098,BHADRA,HYDRO,39.2,KARNATAKA,,1963-1998,5,,63,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001249,KOYNA COMPLEX,HYDRO,"1,956.00",MAHARASHTRA,Dam with Reservoir,1962-2000,18,,"3,809",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001307,MUNIRABAD,HYDRO,28.3,KARNATAKA,Dam with Reservoir,1962-1965,3,,102,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001316,NARIMANGLAM,HYDRO,45,KERALA,Run of the River,1961-1963,3,,364,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001251,KUNDAH IV,HYDRO,555,TAMIL NADU,Dam with Reservoir,1960-1988,15,,"1,521",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001099,BHAKRA,HYDRO,"1,325.00",HIMACHAL,Dam with Reservoir,1960-1968,10,,"6,179",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001165,GANDHI SAGAR,HYDRO,115,MADHYA PRADESH,Dam with Reservoir,1960-1966,5,,404,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001341,PANCHET,HYDRO,80,BIHAR,Dam with Reservoir,1959-1991,2,,127,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001358,PERIYAR,HYDRO,140,TAMIL NADU,Dam with Reservoir,1958-1965,4,,461,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001182,HIRAKUD I&II,HYDRO,331.5,ORISSA,Dam with Reservoir,1958-1964,10,,"1,014",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001448,T.B. DAM,HYDRO,36,ANDHRA PRADESH,?,1957-1964,4,,81,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001362,PORINGALKUTTU,HYDRO,48,KERALA,Dam with Reservoir,1957-1960,4,,122,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001279,MAITHON,HYDRO,63.2,BIHAR,Dam with Reservoir,1957-1958,3,,97,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001423,SHOLAYAR,HYDRO,54,KERALA,Dam with Reservoir,1956-1968,3,,232,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001247,KOTLA,HYDRO,77.7,PUNJAB,Run of the River,1956-1961,3,,482,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001163,GANDHARBAL,HYDRO,15,JAMMU & KASHMIR,?,1955-1963,4,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001166,GANGUWAL,HYDRO,77.7,PUNJAB,Run of the River,1955-1962,3,,503,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001272,MACHKUND,HYDRO,114.8,ANDHRA PRADESH,Dam with reservoir,1955-1959,6,,570,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001229,KHATIMA,HYDRO,41.4,UTTARAKHAND,Dam on Canal,1955-1956,3,,114,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001414,SENGULAM,HYDRO,48,KERALA,Dam with Reservoir,1954-2001,4,,141,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001302,MOYAR,HYDRO,36,TAMIL NADU,Run of the River,1952-1953,3,,148,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001195,JOG,HYDRO,139.2,KARNATAKA,?,1949-2001,8,,266,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001339,PALLIVASAL,HYDRO,37.5,KERALA,Run of the River,1948-2001,6,,214,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001345,PAPANASAM,HYDRO,32,TAMIL NADU,?,1944-1951,4,,137,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001421,SHIMSAPURA,HYDRO,17.2,KARNATAKA,?,1938-1940,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001294,METTUR DAM,HYDRO,250,TAMIL NADU,Dam with Reservoir,1937-1966,8,,459,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001368,PYKARA,HYDRO,59.2,TAMIL NADU,Dam with Reservoir,1933-1954,6,,64,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001418,SHANAN,HYDRO,110,PUNJAB,Run of the River,1932-1982,5,,354,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001106,BHIRA,HYDRO,300,MAHARASHTRA,Pumped Storage,1927-1995,7,,965,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001432,SIVASAMUNDRUM,HYDRO,42,KARNATAKA,Run of the River,1922-1934,10,,218,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001459,TEESTA LOW DAMIII,HYDRO,132,WEST BENGAL,Run of the River,2014,4,,186,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001384,RAMPUR,HYDRO,206,HIMACHAL,Run of the River,2014,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001131,CHUZACHEN,HYDRO,99,SIKKIM,?,2013,2,,290,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001325,NIMOO BAZGO,HYDRO,45,JAMMU & KASHMIR,Run of the River,2013,3,,50,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001121,CHAMERAIII,HYDRO,231,HIMACHAL,Run-of-river,2012,3,,933,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001118,BUDHIL,HYDRO,70,HIMACHAL,Run-of-river,2012,2,,220,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001215,KARCHAM WANGTOO,HYDRO,"1,000.00",HIMACHAL,Run of the River,2011,4,,"4,630",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001416,SEWAII,HYDRO,120,JAMMU & KASHMIR,Run of the River,2010,3,,499,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001078,BAGLIHAR HEP,HYDRO,450,JAMMU & KASHMIR,Run-of-river,2008,3,,"2,786",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001460,TEESTA V,HYDRO,510,SIKKIM,Run of the River,2008,3,,"2,288",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001148,DULHASTI,HYDRO,390,JAMMU & KASHMIR,Run-of-river,2007,3,,"2,139",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001214,KARBI LANGPI,HYDRO,100,ASSAM,Run of the River,2007,2,,420,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001367,PURULIA PSS,HYDRO,900,WEST BENGAL,Pumped Storage,2007,4,,781,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001461,TEHRI ST 1,HYDRO,"1,000.00",UTTARAKHAND,Run of the River,2007,4,,"4,040",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001260,LARGI,HYDRO,126,HIMACHAL,,2006,3,,596,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001274,MADHIKHEDA,HYDRO,40,MADHYA PRADESH,Dam with Reservoir,2006,2,,136,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001103,BHAWANI KATTALAI BARRAGE,HYDRO,30,TAMIL NADU,Run-of-River,2006,2,,41,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001104,BHAWANI KATTALAI II,HYDRO,30,TAMIL NADU,Run-of-River,2005,2,,86,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001064,ALLAIN DUHANGAN,HYDRO,192,HIMACHAL,Dam with Reservoir,2005,2,,697,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001171,GHATGHAR PSS,HYDRO,250,MAHARASHTRA,Pumped Storage,2005,2,,392,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001369,PYKARA ALIMATE,HYDRO,150,TAMIL NADU,Run of the River,2005,3,,397,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001273,MADHAVAMANTRI,HYDRO,4.5,KARNATAKA,?,2005,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001315,NARAYANPUR,HYDRO,11.6,KARNATAKA,,2005,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001417,SHAHPUR,HYDRO,6.6,KARNATAKA,?,2005,5,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001464,THIROT,HYDRO,4.5,HIMACHAL,?,2005,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001422,SHIVAPURA,HYDRO,18,KARNATAKA,?,2005,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001400,S.SAROVAR CHPH,HYDRO,250,GUJARAT,Pumped Storage,2004,5,,657,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001125,CHEMBUKADAVUII,HYDRO,3.8,KERALA,?,2004,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001494,URUMII,HYDRO,3.8,KERALA,?,2004,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001093,BASPA,HYDRO,300,HIMACHAL,Run-of-river,2003,3,,"1,339",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001385,RANGANADI,HYDRO,405,ARUNACHAL,Run of the River,2002,3,,976,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001416,SEWAIII,HYDRO,9,JAMMU & KASHMIR,Run of the River,2002,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001457,TAWA,HYDRO,13.5,MADHYA PRADESH,?,2002,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001254,KUTHUNGAL,HYDRO,21,KERALA,?,2001,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001146,DOYANG,HYDRO,75,NAGALAND,?,2000,3,,244,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001169,GHANVI,HYDRO,22.5,HIMACHAL,?,2000,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001386,RANGITIII,HYDRO,60,SIKKIM,Run of the River,2000,3,,353,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001387,RANJIT SAGAR,HYDRO,600,PUNJAB,Dam with Reservoir,2000,4,,"1,568",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001350,PARSEN_S VALLE,HYDRO,30,TAMIL NADU,?,2000,1,,42,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001147,DUDH GANGA,HYDRO,24,MAHARASHTRA,?,2000,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001378,RAJGHAT (MP),HYDRO,45,MADHYA PRADESH,Dam with Reservoir,1999,3,,56,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001207,KAKKAD,HYDRO,50,KERALA,Run of the River,1999,2,,246,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001446,SURYA,HYDRO,6,MAHARASHTRA,?,1998,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001331,NURANANG,HYDRO,6,ARUNACHAL,,1997,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001268,LOWER PERIYAR,HYDRO,180,KERALA,Run of the River,1997,3,,598,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001144,DIMBE,HYDRO,5,MAHARASHTRA,?,1997,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001083,BANER,HYDRO,12,HIMACHAL,,1996,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001161,GAJ,HYDRO,10.5,HIMACHAL,?,1996,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001286,MANIKDOH,HYDRO,6,MAHARASHTRA,?,1996,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001216,KARGIL,HYDRO,3.8,JAMMU & KASHMIR,?,1995,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001121,CHAMERAI,HYDRO,540,HIMACHAL,Dam with Reservoir,1994,3,,"2,329",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001211,KALLADA,HYDRO,15,KERALA,?,1994,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001287,MANIYAR,HYDRO,12,KERALA,?,1994,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001481,UJJAINI,HYDRO,12,MAHARASHTRA,?,1994,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001357,PENNA AHOBELAM,HYDRO,20,ANDHRA PRADESH,?,1994,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001301,MOYAGCHU,HYDRO,4,SIKKIM,?,1993,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001285,MANI DPH,HYDRO,9,KARNATAKA,?,1993,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001228,KHARA,HYDRO,72,UTTAR PRADESH,Run of the River,1992,3,,417,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001396,RMC MANGROL,HYDRO,6,RAJASTHAN,?,1992,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001442,SURAT GARH,HYDRO,4,RAJASTHAN,?,1992,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001453,TANAKPUR,HYDRO,94.2,UTTARAKHAND,Run of the River,1992,3,,382,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001170,GHAT PRABHA,HYDRO,32,KARNATAKA,Dam with Reservoir,1992,2,,82,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001310,N_SAGAR LBC,HYDRO,60,ANDHRA PRADESH,Run of the River,1992,2,,98,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001112,BIRSINGHPUR,HYDRO,20,MADHYA PRADESH,,1991,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001225,KHADAVASLA I&II,HYDRO,16,MAHARASHTRA,?,1991,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001449,TAGO,HYDRO,4.5,ARUNACHAL,,1991,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001102,BHATSA,HYDRO,15,MAHARASHTRA,?,1991,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001213,KANHER,HYDRO,4,MAHARASHTRA,?,1991,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001408,SANJAY BHABA,HYDRO,120,HIMACHAL,?,1989,3,,534,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001088,BARGI,HYDRO,90,MADHYA PRADESH,Dam with Reservoir,1988,2,,545,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001354,PAWANA,HYDRO,10,MAHARASHTRA,,1988,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001070,ANDHRA,HYDRO,17,HIMACHAL,?,1987,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001186,IDAMALAYAR,HYDRO,75,KERALA,Dam with Reservoir,1987,2,,384,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001465,TILLARI,HYDRO,60,MAHARASHTRA,Dam with Reservoir,1986,1,,116,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001415,SERVALAR,HYDRO,20,TAMIL NADU,Dam with Reservoir,1986,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001068,ANANDPUR SAHIB STI&II,HYDRO,134,PUNJAB,Sub-critical Thermal,1985,4,,731,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001337,PAITHON,HYDRO,12,MAHARASHTRA,?,1985,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001210,KALINADI SUPA,HYDRO,100,KARNATAKA,Dam with Reservoir,1985,0,,467,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001111,BINWA,HYDRO,6,HIMACHAL,,1984,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001227,KHANDONG,HYDRO,50,MEGHALAYA,Dam on River,1984,2,,179,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001230,KHODRI,HYDRO,120,UTTARAKHAND,Run of the River,1984,4,,434,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001145,DONKARAYI,HYDRO,25,ANDHRA PRADESH,?,1984,1,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001264,LOKTAK,HYDRO,105,MANIPUR,Dam with Reservoir,1983,3,,637,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001258,KYREDEMKULAI,HYDRO,60,MEGHALAYA,,1979,2,,133,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001174,GIRI BATA,HYDRO,60,HIMACHAL,Run of the River,1978,2,,229,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001445,SURULIYAR,HYDRO,35,TAMIL NADU,Dam with Reservoir,1978,1,,100,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001499,VAITARNA,HYDRO,60,MAHARASHTRA,Dam with Reservoir,1976,1,,132,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001250,KULHAL,HYDRO,30,UTTARAKHAND,?,1975,3,,178,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001510,VIR,HYDRO,9,MAHARASHTRA,?,1975,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001191,J.SAGAR,HYDRO,99,RAJASTHAN,Run of the River,1973,3,,321,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001424,SHOLAYAR I&II,HYDRO,95,TAMIL NADU,Dam with Reservoir,1971,3,,266,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001062,ALIYAR,HYDRO,60,TAMIL NADU,Dam with Reservoir,1970,1,,148,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001153,ELDARI,HYDRO,22.5,MAHARASHTRA,,1968,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001411,SARKARPATHY,HYDRO,30,TAMIL NADU,Dam with Reservoir,1966,1,,137,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001290,MATATILLA,HYDRO,30.6,UTTAR PRADESH,,1965,3,,115,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001299,MOHARA,HYDRO,9,JAMMU & KASHMIR,?,1962,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001486,UMTRU,HYDRO,11.2,MEGHALAYA,?,1957,4,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001328,NIZAM SAGAR,HYDRO,10,ANDHRA PRADESH,,1956,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001352,PATHRI,HYDRO,20.4,UTTARAKHAND,Dam with Reservoir,1955,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001374,RADHANAGRI,HYDRO,4.8,MAHARASHTRA,,1952,4,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001298,MOHAMAD PUR,HYDRO,9.3,UTTARAKHAND,?,1950,3,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001326,NIRGAJANI(Ganga Canal),HYDRO,5,UTTAR PRADESH,?,1937,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001334,OMKARESHWAR,HYDRO,520,MADHYA PRADESH,Dam with Reservoir,2007,8,,"1,625",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001433,SONE EAST CANAL,HYDRO,3.3,BIHAR,,1996,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001466,TILLAYA,HYDRO,4,JHARKHAND,,1953,2,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001104,BHAWANI KATTALAI III,HYDRO,30,TAMIL NADU,Run-of-River,,2,,25,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001266,LOWER LAGYAP,HYDRO,12,SIKKIM,,,0,,"-",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001091,BARSINGAR LIGNITE,Lignite,250,RAJASTHAN,Sub-critical Thermal,2010-2011,2,,"1,257",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,630,330",1.3
+1001193,JALLIPPA KAPURDI TPP,Lignite,"1,080.00",RAJASTHAN,Sub-critical Thermal,2009-2013,8,,"3,697",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"4,633,521",1.25
+1001173,GIRAL,Lignite,250,RAJASTHAN,Sub-critical Thermal,2007-2008,2,,287,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"588,310",2.05
+1001321,NEYVELI FST EXT,Lignite,420,TAMIL NADU,Sub-critical Thermal,2002-2003,2,,"3,014",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,728,901",1.24
+1001443,SURAT LIG.,Lignite,500,GUJARAT,Sub-critical Thermal,1999-2010,4,,"2,617",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"3,293,883",1.26
+1001253,KUTCH LIG.,Lignite,290,GUJARAT,Sub-critical thermal,1990-2009,4,,"1,553",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,272,040",1.46
+1001322,NEYVELI ST II,Lignite,"1,470.00",TAMIL NADU,Sub-critical Thermal,1986-1993,7,,"10,104",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"13,442,190",1.33
+1001322,NEYVELI ST I,Lignite,600,TAMIL NADU,Sub-critical Thermal,1962-1970,9,,"3,595",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"6,659,159",1.85
+1001323,NEYVELI TPS EXP II,Lignite,250,TAMIL NADU,Sub-critical Thermal,2012,1,,19,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"24,204",1.28
+1001061,AKRIMOTA LIG,Lignite,250,GUJARAT,?,2005,2,,822,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"1,038,442",1.26
+1001324,NEYVELI TPS(Z),Lignite,250,TAMIL NADU,Sub-critical Thermal,2002,1,,"1,718",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,OIL,,,,,,,,"2,134,707",1.24
+1001389,RATNAGIRI GAS,NAPT,"1,967.10",MAHARASHTRA,CCGT,1998-2007,10,,"1,409",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,GAS,,,,,,,,"561,700",0.4
+1001391,RELIANCE ENERGY,NAPT,48,GOA,?,1999,1,,234,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,GAS,,,,,,,,"137,909",0.59
+1001116,BSES Kerala CCGT,NAPT,165,KERALA,CCGT,1999,4,,337,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,DISL,,,,,,,,"185,636",0.55
+1001092,BASIN BRIDGE GT,NAPT,120,TAMIL NADU,OCGT,1996,4,,1,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,DISL,,,,,,,,889,1.08
+1001271,M.A.P.P.,NUCLEAR,440,TAMIL NADU,PHWR,1983-1985,2,,"1,892",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,12.557084,80.175387,,,,,,,,,0,0
+1001312,N.A.P.S,NUCLEAR,440,UTTAR PRADESH,PHWR,1989-1992,2,,"2,403",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,28.155965,78.408919,,,,,,,,,0,0
+1001372,R.A.P.S.,NUCLEAR,"1,180.00",RAJASTHAN,PHWR,1972-2010,6,,"8,211",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,24.8747,75.6189,,,,,,,,,0,0
+1001208,KAKRAPARA,NUCLEAR,440,GUJARAT,PHWR,1992-1995,2,,"2,999",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,21.238371,73.348949,,,,,,,,,0,0
+1001205,KAIGA,NUCLEAR,880,KARNATAKA,PHWR,1999-2011,4,,"5,938",,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1001456,TARAPUR,NUCLEAR,"1,400.00",MAHARASHTRA,BWR and PHWR,1960-2006,4,,"8,966","2x160 BWR units, 2x540 PHWR units",Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,,,,,,,,,0,0
+1019967,MAHUL REFINERY,Oil,22,Maharashtra,,,,Bharat Corp ltd,,,Bharat Corp ltd,BHARAT PETROLEUM CORP LTD,,,,,,,,India,,19.016178,72.896321,,,,,,,,,,
+1001095,BELGAUM DG,OIL,81.3,KARNATAKA,Diesel Generator,2001,3,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,15.900129,74.543317,DISL,,,,,,,,0,0
+1001076,B. BRIDGE D.G,OIL,200,TAMIL NADU,Diesel Generator,1998-1999,4,,804,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"481,988",0.6
+1001123,CHANDRAPUR_Oil,OIL,0,ASSAM,Sub-critical Thermal,1972-1989,2,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,0,0
+1001472,TROMBAY,OIL,500,MAHARASHTRA,Sub-critical Thermal,2005,1,,454,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,GAS,,,,,,,,"317,209",0.7
+1001406,SAMALPATTI DG,OIL,105.7,TAMIL NADU,Diesel Generator,2001,1,,299,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,n/a,,,,,,,,"182,682",0.61
+1001475,TROMBAY_Oil,OIL,150,MAHARASHTRA,Sub-critical thermal,1965,1,,0,,Central Energy Agency,http://www.cea.nic.in/annualreports.html,,,,,,,,India,,,,GAS,,,,,,,,0,0
+1019946,BUTIBORI PLANT,Oil,81.5,Maharashtra,,,,Indo Synthetics ltd,,,Indo Synthetics ltd,INDO RAMA SYNTHETICS LTD,,,,,,,,India,,20.922514,78.953503,,,,,recirculating,,,,,
+1019953,DOLVI ISPAT,Oil,67.6,Maharashtra,,,,Jsw Steel ltd,,,Jsw Steel ltd,JSW STEEL LTD,,,,,,,,India,,18.690037,73.038997,,,,,recirculating,,,,,
+1020014,MUMBAI JINDAL,Oil,25.2,Maharashtra,,,,Jsw Steel ltd,,,Jsw Steel ltd,JSW STEEL LTD,,,,,,,,India,,18.530863,72.946508,,,,,recirculating,,,,,
+1019951,DIGHE WORKS,Oil,22,Maharashtra,,,,Mukand Mukand ltd,,,Mukand Mukand ltd,MUKAND LTD,,,,,,,,India,,19.189561,73.003995,,,,,recirculating,,,,,
+1019990,THANE PLANT,Oil,22.5,Maharashtra,,,,Nocil Nocil rubber,,,Nocil Nocil rubber,NOCIL RUBBER,,,,,,,,India,,19.087512,73.025796,,,,,recirculating,,,,,
+1019973,NAGOTHANE COMPLEX,Oil,78.9,Maharashtra,,,,Reliance Reliance petrochemicals,,,Reliance Reliance petrochemicals,RELIANCE PETROCHEMICALS,,,,,,,,India,,18.882879,73.186198,,,,,recirculating,,,,,
+1019964,LODHIVALI,Oil,40,Maharashtra,,,,Tata Co ltd,,,Tata Co ltd,TATA POWER CO LTD,,,,,,,,India,,18.900159,73.203168,,,,,recirculating,,,,,
+1020239,ACME Solar Tower,Solar,2.5,Bikaner,CSP,2011,1,Solar Paces,,Power Tower,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=262,,,,,,,Operating,India,,28.1839,73.24068,,,,,,,,,,
+1020242,Godawari,Solar,50,Nokh,CSP,2013,1,Godwari Green Energy Limited,118,Parabolic Trough,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=247,,,,,,,Operating,India,,27.6003,72.22409,,,,,,,,,,
+1020240,Dhursar,Solar,125,Dhursar,CSP,2014,1,Reliance Power,280,Linear Fresnel Reflector,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=272,,,,,,,Operating,India,,26.7846,72.00827,,,,,,,,,,
+1020241,Diwakar,Solar,100,Askandra,CSP,2013,1,Lanco Infratech,,Parabolic Trough,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=258,,,,,,,Operating,India,,27.7355,71.69174,,,,,,,,,,
+1020238,Abhijeet,Solar,50,Phalodi,CSP,2015,1,Ener-t International Ltd.,,Parabolic Trough,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=254,,,,,,,Operating,India,,,,,,,,,,,,,
+1020243,Gujurat Solar On,Solar,28,Kutch,CSP,2014,1,Cargo Solar Power,130,Parabolic Trough,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=263,,,,,,,Operating,India,,,,,,,,,,,,,
+1020245,Megha Solar Plant,Solar,50,Anantapur,CSP,2014,1,Megha Engineering and Infrastructure,110,Parabolic Trough,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=264,,,,,,,Operating,India,,,,,,,,,,,,,
+1020244,KVK Energy Solar Project,Solar,100,Askandra,CSP,2013,1,KVK Energy Ventures Ltd,,Parabolic Trough,NREL CSP Database,http://www.nrel.gov/csp/solarpaces/project_detail.cfm/projectID=260,,,,,,,Operating,India,,,,,,,,,,,,,
+1026104,Amarsar Solar Power Plant,Solar,1,,PV,,,Nav Bharat Buildcon Private Limited,,,Navbharat,http://www.navbharatbuildcon.com/windmill--solar-plant.html,,,,,,,Operating,India,,28.3615,74.24017,,,,,,,,,,
+1026105,Ananthapur - Meil Solar Power Plant,Solar,50,,PV,,,MEIL Green Power Limited,,,Meil.In/P,http://www.meil.in/power-projects,,,,,,,Operating,India,,14.9455,77.68702,,,,,,,,,,
+1026106,Askandra - DREPL Solar Power Plant,Solar,5,,PV,,,DDE Renewable Energy Private Limited (DREPL),,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.3473,71.69171,,,,,,,,,,
+1026107,Askandra - Electromech Maritech Solar Power Plant,Solar,5,,PV,,,Electromech Maritech Private Limited,,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.36,71.69177,,,,,,,,,,
+1026108,Askandra - Finehope Solar Power Plant,Solar,5,,PV,,,Finehope Allied Engineering Private Limited,,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.3632,71.69177,,,,,,,,,,
+1026109,Askandra - Khaya Solar Power Plant,Solar,5,,PV,,,Khaya Solar Projects Private Limited,,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.3661,71.69161,,,,,,,,,,
+1026110,Askandra - Newton Solar Power Plant,Solar,5,,PV,,,Newton Solar Private Limited,,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.3537,71.69173,,,,,,,,,,
+1026111,Askandra - Saidham Solar Power Plant,Solar,5,,PV,,,Saidham Overseas Private Limited,,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.3504,71.69177,,,,,,,,,,
+1026112,Askandra - Vasavi Solar Power Plant,Solar,5,,PV,,,Vasavi Solar Power Private Limited,,,Lancosola,http://www.lancosolar.com/pdfs/rajasthan-pv-project-details.pdf,,,,,,,Operating,India,,27.3566,71.69174,,,,,,,,,,
+1026113,Bamani Solar Power Plant,Solar,1,,PV,,,Dr Babasaheb Ambedkar SSK Limited,,,Ambed K Sugar,http://www.ambedkarsugar.com/solar_power.php,,,,,,,Operating,India,,18.0791,76.18069,,,,,,,,,,
+1026114,Bamanwali Solar Power Plant,Solar,1,,PV,,,AEW Infratech Private Limited,,,AES Winfra,http://www.aewinfra.com/solar.html,,,,,,,Operating,India,,28.3683,73.5286,,,,,,,,,,
+1026115,Bap - GIS 1-2 Solar Power Plant,Solar,15,,PV,,,Green Infra Solar Farms Private Limited (GIS),,,Sembcorp,http://www.sembcorp.com/en/media/features?Id=9179,,,,,,,Operating,India,,27.3827,72.31885,,,,,,,,,,
+1026116,Bap - GIS 3 Solar Power Plant,Solar,10,,PV,,,Green Infra Solar Farms Private Limited (GIS),,,Sembcorp,http://www.sembcorp.com/en/media/features?Id=9179,,,,,,,Operating,India,,27.3893,72.31338,,,,,,,,,,
+1026117,Bap - OPG Solar Power Plant,Solar,5,,PV,,,OPG Energy Private Limited,,,CDM,https://cdm.unfccc.int/filestorage/Jyh1M,,,,,,,Operating,India,,27.3525,72.35535,,,,,,,,,,
+1026118,Bap - Punj Lloyd Solar Power Plant,Solar,5,,PV,,,Punj Lloyd Solar Private Limited,,,Punj Lloyd,http://www.punjlloyd.com/energy/renewables,,,,,,,Operating,India,,27.3851,72.30424,,,,,,,,,,
+1026119,Bapodar - Hiraco Solar Power Plant,Solar,20,,PV,,,Hiraco Renewable Energy Private Limited (HREPL),,,Hiraco India,http://www.hiracoindia.com,,,,,,,Operating,India,,21.5967,69.84302,,,,,,,,,,
+1026120,Bapodar - MBEDL Solar Power Plant,Solar,15,,PV,,,Moser Baer Energy & Development Limited (MBEDL),,,Moserbaer Solar,http://www.moserbaersolar.com,,,,,,,Operating,India,,21.6024,69.84415,,,,,,,,,,
+1026121,Bavadi Barsingha - Giriraj Solar Power Plant,Solar,36.3,,PV,,,Giriraj Enterprises,,,Lingandwi,http://sterlingandwilson.com/giriraj-enterprises-solar-rajasthan,,,,,,,Operating,India,,27.4387,72.32453,,,,,,,,,,
+1026122,Bavadi Barsingha - LEPL Solar Power Plant,Solar,10,,PV,,,LEPL Projects Limited,,,LEPL,http://www.lepl.in,,,,,,,Operating,India,,27.4523,72.33881,,,,,,,,,,
+1026123,Bhadrada Solar Power Plant,Solar,5,,PV,,,Lanco Solar Energy Private Limited,,,Lancosola,http://www.lancosolar.com,,,,,,,Operating,India,,23.6688,71.57823,,,,,,,,,,
+1026124,Bhatkota Solar Power Plant,Solar,3,,PV,,,Abellon CleanEnergy Limited,,,CleanEnerg teLeanenergy,http://www.abelloncleanenergy.com,,,,,,,Operating,India,,23.5594,73.28597,,,,,,,,,,
+1026125,Bitta Solar Power Plant,Solar,40,,PV,,,Adani Power Limited,,,Adani Power Limite r Er,http://www.adanipower.com,,,,,,,Operating,India,,23.2579,69.02545,,,,,,,,,,
+1026126,Boha Solar Power Plant,Solar,4.2,,PV,,,Madhav Solar Private Limited,,,Madhav Group,http://www.madhavcorp.com,,,,,,,Operating,India,,29.8504,75.48998,,,,,,,,,,
+1026127,Bonada Solar Power Plant,Solar,1,,PV,,,Rays Power Private Limited,,,Power Private edM/Pdf,http://www.rrecl.com/PDF/Details%20of%20Rajasthan.pdf,,,,,,,Operating,India,,26.5249,71.52125,,,,,,,,,,
+1026128,Chandrapur Solar Power Plant,Solar,5,,PV,,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),http://mahagenco.in,,,,,,,Operating,India,,20.0209,79.27125,,,,,,,,,,
+1026129,Charanka Solar Power Plant,Solar,221,,PV,,,Charanka Solar Park,,,Solar for India,https://natgrp.org/charanka-gujarat-solar-park/,,,,,,,Operating,India,,23.90701,71.18813,,,,,,,,,,
+1026130,Chingerbandh Solar Power Plant,Solar,5,,PV,,,Alex Green Energy Private Limited,,,P3 Green,http://www.p3green.com,,,,,,,Operating,India,,20.6729,83.11067,,,,,,,,,,
+1026131,Dadri Solar Power Plant,Solar,5,,PV,,,Government of India,,,National Thermal Power Corporation (NTPC) Limited,http://www.ntpc.co.in,,,,,,,Operating,India,,28.5787,77.63143,,,,,,,,,,
+1026132,Deh Solar Power Plant,Solar,2,,PV,,,Sanjeev Prakashan,,,Solar for India,https://natgrp.files.wordpress.com/solar-power-rajasthan-upto-march-2013.pdf,,,,,,,Operating,India,,27.9253,72.88994,,,,,,,,,,
+1026133,Dhabla Sondhya Solar Power Plant,Solar,28.2,,PV,,,Ujaas Energy Limited,,,Ujaas Energy Limited,http://ujaas.com,,,,,,,Operating,India,,23.8267,75.89875,,,,,,,,,,
+1026134,Dhanera Solar Power Plant,Solar,25,,PV,,,Sand Land Real Estates Pvt Ltd,,,Est vt Arind,http://www.firstsolarind.com,,,,,,,Operating,India,,24.5216,72.19988,,,,,,,,,,
+1026135,Dhank - Aravali Solar Power Plant,Solar,5,,PV,,,Aravali Infrapower Private Limited (AIPL),,,Aravali Infrapower Private Limited (AIPL),http://www.aipl.in,,,,,,,Operating,India,,21.7766,70.0773,,,,,,,,,,
+1026136,Dugar Solar Power Plant,Solar,1,,PV,,,Sovox Renewables Private Limited,,,Sovox Renewables Private Limited,http://www.rrecl.com/PDF/Details%20of20Rajasthan.pdf,,,,,,,Operating,India,,26.2776,72.65098,,,,,,,,,,
+1026137,Gadna 1 Solar Power Plant,Solar,3,,PV,,,SunBorne Energy Gujarat,,,SunBorne Energy Gujarat,http://sunborneenergy.com,,,,,,,Operating,India,,27.4269,72.3896,,,,,,,,,,
+1026138,Gadna 2 Solar Power Plant,Solar,5,,PV,,,SunBorne Energy Gujarat,,,SunBorne Energy Gujarat,http://sunborneenergy.com,,,,,,,Operating,India,,27.4296,72.39693,,,,,,,,,,
+1026139,Gandhinagar Solar Power Plant,Solar,1,,PV,,,Pandit Deendayal Petrolium University (PDPU),,,Pandit Deendayal Petrolium University (PDPU),http://www.pdpu.ac.in,,,,,,,Operating,India,,23.1534,72.66903,,,,,,,,,,
+1026140,Garacharma Solar Power Plant,Solar,5,,PV,,,National Thermal Power Corporation (NTPC) Limited,,,National Thermal Power Corporation (NTPC) Limited,http://www.ntpc.co.in,,,,,,,Operating,India,,11.6117,92.71089,,,,,,,,,,
+1026141,Godelai Solar Power Plant,Solar,1,,PV,,,Zamil New Delhi Infrastructure Private Limited,,,Ministry of New and Renewable Energy,http://mnre.gov.in/file-manager/UserFiles/State%20wise%20commissioning%20status%20of%20grid%20connected%20solar%20power%20projects/Rajasthan.pdf,,,,,,,Operating,India,,26.6532,72.53768,,,,,,,,,,
+1026142,Gondri Solar Power Plant,Solar,5,,PV,,,Shree Saibaba Green Power Private Limited,,,Rajasthan Renewable Energy Corporation Limited (RREC),http://energy.rajasthan.gov.in/content/dam/raj/energy/common/Details%20of%20commissioned%20Solar%20Projects%20.pdf,,,,,,,Operating,India,,18.3055,76.6551,,,,,,,,,,
+1026143,Grewal Solar Power Plant,Solar,1.8,,PV,,,Solaer,,,Solaer,https://www.google.com/maps/d/embed?mid=1bXiXRcLRnBCUfpkHM2J5EVryhG4&ll=31.06035315253383%2C35.02284616406246&z=8,,,,,,,Operating,India,,30.4613,74.61884,,,,,,,,,,
+1026144,Gulabpura Solar Power Plant,Solar,5,,PV,,,Amrit Energy Private Limited,,,Amrit Energy Private Limited,http://www.rrecl.com/PDF/Details%0Rajasthan.pdf,,,,,,,Operating,India,,25.86,74.65671,,,,,,,,,,
+1026145,Gwal Pahari Solar Power Plant,Solar,3,,PV,,,Solar Energy Centre,,,Ministry of New and Renewable Energy,http://www.mnre.gov.in,,,,,,,Operating,India,,28.4272,77.15958,,,,,,,,,,
+1026146,Horti Solar Power Plant,Solar,20,,PV,,,Essel MP Energy Limited,,,Essel MP Energy Limited,http://www.esselgroup.com,,,,,,,Operating,India,,17.9054,76.32241,,,,,,,,,,
+1026147,Isanpur Solar Power Plant,Solar,1,,PV,,,Harsha Engineers Limited,,,Harsha Engineers Limited,http://harshaengineers.com,,,,,,,Operating,India,,22.4809,72.52354,,,,,,,,,,
+1026148,Itnal Solar Power Plant,Solar,3,,PV,,,Karnataka Power Corporation Limited,,,Karnataka Power Corporation Limited,http://karnatakapower.com,,,,,,,Operating,India,,16.4018,74.66407,,,,,,,,,,
+1026149,Jafrabad Solar Power Plant,Solar,15,,PV,,,Sunkon Energy Private Limited,,,Sunkon Energy Private Limited,http://www.jinkosolar.com/press_detail_568.html?lan=en,,,,,,,Operating,India,,20.8772,71.28005,,,,,,,,,,
+1026150,Jamuria Solar Power Plant,Solar,2,,PV,,,West Bengal Energy Development Corporation Limited (WBEDCL),,,West Bengal Energy Development Corporation Limited (WBEDCL),http://wbpdcl.co.in,,,,,,,Operating,India,,23.7162,87.06954,,,,,,,,,,
+1026151,Kamuthi Solar Power Plant,Solar,648,,PV,,,Adani Power Limited,,,Adani Power Limite r Er,http://www.adanipower.com,,,,,,,Operating,India,,9.33812,78.39171,,,,,,,,,,
+1026152,Karmaria Solar Power Plant,Solar,15,,PV,,,SunBorne Energy Gujarat One Pvt,,,SunBorne Energy Gujarat One Pvt,http://sunborneenergy.com,,,,,,,Operating,India,,23.35,70.38798,,,,,,,,,,
+1026153,Kathauti 1 Solar Power Plant,Solar,5,,PV,,,Azure Power (Rajasthan) Private Limited,,,Azure Power (Rajasthan) Private Limited,http://www.azurepower.com,,,,,,,Operating,India,,27.224,74.25236,,,,,,,,,,
+1026154,Kathauti 2 Solar Power Plant,Solar,40,,PV,,,Azure Power (Rajasthan) Private Limited,,,Azure Power (Rajasthan) Private Limited,http://www.azurepower.com,,,,,,,Operating,India,,27.2089,74.25525,,,,,,,,,,
+1026155,Katol - Citra Solar Power Plant,Solar,2,,PV,,,Citra Real Estate Limited,,,Real Estate e,http://www.mahaurja.com/PDF/PG2_GridConnSPPCommissioned.pdf,,,,,,,Operating,India,,21.317,78.60245,,,,,,,,,,
+1026156,Katol - Sepset Solar Power Plant,Solar,2,,PV,,,Sepset Construction Limited,,,Sepset Constructio te,http://www.mahaurja.com/PDF/PG2_GridConnSPPCommissioned.pdf,,,,,,,Operating,India,,21.3174,78.60013,,,,,,,,,,
+1026157,Khadoda Solar Power Plant,Solar,10,,PV,,,Gujarat Urja Vikas Nigam Limited,,,Gujarat Urja Vikas Nigam Limited,http://www.azurepower.com,,,,,,,Operating,India,,23.443,73.20137,,,,,,,,,,
+1026158,Khandala Solar Power Plant,Solar,5.2,,PV,,,Firestone Trading Private Limited,,,Firestone Trading Private Limited,http://www.mahaurja.com/PDF/PG2_GridConnSPPCommissioned.pdf,,,,,,,Operating,India,,18.6051,75.03806,,,,,,,,,,
+1026159,Khetusar - Northern Solar Power Plant,Solar,20,,PV,,,Northern Solaire Prakash Private Limited,,,Solaire Direct,http://www.solairedirect.com,,,,,,,Operating,India,,27.3225,71.99508,,,,,,,,,,
+1026160,Khetusar - Suryauday Solar Power Plant,Solar,10,,PV,,,Suryauday Solaire Prakash Private Limited,,,Solaire Direct,http://www.solairedirect.com,,,,,,,Operating,India,,27.3247,71.99102,,,,,,,,,,
+1026161,Khilchipur Solar Power Plant,Solar,25,,PV,,,ACME Solar Energy,,,ACME Solar Energy,http://www.acme.in,,,,,,,Operating,India,,24.0682,76.58904,,,,,,,,,,
+1026162,Khirsara - Unity Solar Power Plant,Solar,5,,PV,,,Unity Power Limited,,,Unity Power Limite r World,http://www.backboneworld.com,,,,,,,Operating,India,,23.3578,70.05477,,,,,,,,,,
+1026163,Khirsara - Welspun Solar Power Plant,Solar,15,,PV,,,Welspun Urja India Limited,,,Urja India edEnewables,http://www.welspunrenewables.com,,,,,,,Operating,India,,23.3618,70.05355,,,,,,,,,,
+1026164,Khirwa Solar Power Plant,Solar,1,,PV,,,Conflux Infratech Private Limited,,,Infratech e M/Pdf,http://www.rrecl.com/PDF/Details%20of%Rajasthan.pdf,,,,,,,Operating,India,,27.301,72.32359,,,,,,,,,,
+1026165,Komal West Solar Power Plant,Solar,1,,PV,,,Tata Power Solar Systems Limited (TPREL),,,S Limited Rsolar,http://www.tatapowersolar.com,,,,,,,Operating,India,,11.0118,79.58981,,,,,,,,,,
+1026166,Lakhewali Solar Power Plant,Solar,2.1,,PV,,,Atma Powers Private Limited,,,Powers Privat te,http://www.peda.gov.in/main/SPVPowerProjects.html,,,,,,,Operating,India,,30.4368,74.33159,,,,,,,,,,
+1026167,Lakhmirwala Solar Power Plant,Solar,20,,PV,,,Essel Clean Energy Limited,,,Clean Energy edOjects.Com,http://esselinfraprojects.com,,,,,,,Operating,India,,29.8509,75.40234,,,,,,,,,,
+1026168,Lallian Kalan Solar Power Plant,Solar,1,,PV,,,IK Energy Private Limited,,,PEDA,http://www.peda.gov.in/main/SPVPowerProjects.html,,,,,,,Operating,India,,31.2496,75.48257,,,,,,,,,,
+1026169,Lathi Solar Power Plant,Solar,1,,PV,,,Lanco Solar Power Limited,,,Lancosola,http://www.lancogroup.com,,,,,,,Operating,India,,27.0321,71.53222,,,,,,,,,,
+1026170,Mandrup - Giriraj Solar Power Plant,Solar,6.6,,PV,,,Giriraj Enterprises,,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),http://www.mahaurja.com/PDF/PG2_GridConnSPPCommissioned.pdf,,,,,,,Operating,India,,17.4999,75.78101,,,,,,,,,,
+1026171,Mirpur Kalan - Alianz Eco Solar Power Plant,Solar,2.1,,PV,,,Alianz Eco Power Private Limited,,,PEDA,http://www.peda.gov.in/main/SPVPowerProjects.html,,,,,,,Operating,India,,29.7303,75.30986,,,,,,,,,,
+1026172,Mirpur Kalan - Nexgen Solux Solar Power Plant,Solar,1,,PV,,,Nexgen Solux Private Limited,,,PEDA,http://www.peda.gov.in/main/SPVPowerProjects.html,,,,,,,Operating,India,,29.7311,75.30795,,,,,,,,,,
+1026173,Mithapur Solar Power Plant,Solar,17,,PV,,,Tata Power Solar Systems Limited (TPREL),,,Tata Power Solar,http://www.tatapowersolar.com,,,,,,,Operating,India,,22.4077,68.99251,,,,,,,,,,
+1026174,Mulshi Solar Power Plant,Solar,3,,PV,,,Tata Power Solar Systems Limited (TPREL),,,Tata Power Solar,http://www.tatapowersolar.com,,,,,,,Operating,India,,18.4921,73.50806,,,,,,,,,,
+1026175,Muradwala Dal Singh Solar Power Plant,Solar,21,,PV,,,Solairedirect Projects India Private Limited,,,Solaire Direct,https://www.solairedirect.com,,,,,,,Operating,India,,29.7303,75.30986,,,,,,,,,,
+1026176,Naini Solar Power Plant,Solar,5.8,,PV,,,EMC Limited,,,EMC Limited,http://www.emcpower.com,,,,,,,Operating,India,,25.3723,81.87169,,,,,,,,,,
+1026177,Nokh - GGEL Solar Power Plant,Solar,50,,PV,,,Godawari Green Energy Limited (GGEL),,,Hira Group,http://hiragroup.com,,,,,,,Operating,India,,27.6007,72.22417,,,,,,,,,,
+1026178,Nokh - Precision Technik Solar Power Plant,Solar,5,,PV,,,Precision Technik Private Limited,,,Precision Technik Private Limited,http://www.rrecl.com/PDF/Details%20of%20Rajasthan.pdf,,,,,,,Operating,India,,27.5728,72.20598,,,,,,,,,,
+1026179,Nokha Daiya Solar Power Plant,Solar,5,,PV,,,Alex Spectrum Radiations Private Limited,,,Ministry of New and Renewable Energy,http://mnre.gov.in/file-manager/UserFiles/State%20wise%20commissioning%20status%20of%20grid%20connected%20solar%20power%20projects/Rajasthan.pdf,,,,,,,Operating,India,,28.1371,72.9661,,,,,,,,,,
+1026180,Panandhro Solar Power Plant,Solar,5,,PV,,,Gujarat Mineral Development Corporation Limited (GMDC),,,,http://www.gmdcltd.com,,,,,,,Operating,India,,23.6788,68.7653,,,,,,,,,,
+1026181,Patodi Solar Power Plant,Solar,1,,PV,,,Vivek Pharmachem (India) Limited,,,Rajasthan Renewable Energy Corporation Limited (RREC),http://energy.rajasthan.gov.in/content/dam/raj/energy/common/Details%20of%20commissioned%20Solar%20Projects%20.pdf,,,,,,,Operating,India,,26.0748,72.26765,,,,,,,,,,
+1026182,Phagi Solar Power Plant,Solar,1,,PV,,,Rajasthan Renewable Energy Corporation Limited (RREC),,,Rajasthan Renewable Energy Corporation Limited (RREC),http://energy.rajasthan.gov.in/content/dam/raj/energy/common/Details%20of%20commissioned%20Solar%20Projects%20.pdf,,,,,,,Operating,India,,26.5653,75.56222,,,,,,,,,,
+1026183,Pokhran FVE Solar Power Plant,Solar,40,,PV,,,Reliance Power Limited,,,Reliance Power Lim r Power,http://www.reliancepower.co.in,,,,,,,Operating,India,,26.8022,72.00776,,,,,,,,,,
+1026184,Pokhran THE Solar Power Plant,Solar,100,,PV,,,Reliance Power Limited,,,Reliance Power Lim r Power,http://www.reliancepower.co.in,,,,,,,Operating,India,,26.7874,72.00985,,,,,,,,,,
+1026185,Pratapgarh Solar Power Plant,Solar,9,,PV,,,Integrated Coal Mining (ICML),,,Coal Mi ICM,http://icmlindia.com,,,,,,,Operating,India,,23.3682,70.7432,,,,,,,,,,
+1026186,Precious Solar Power Plant,Solar,15.2,,PV,,,Precious Energy Services Pvt Ltd,,,Se Pvt Rsolar,http://www.moserbaersolar.com,,,,,,,Operating,India,,23.9151,71.9424,,,,,,,,,,
+1026187,Punjawa - Sikh Wala Solar Power Plant,Solar,19,,PV,,,Azure Urja Private Limited,,,Urja Private edEr,http://www.azurepower.com,,,,,,,Operating,India,,30.0208,74.54598,,,,,,,,,,
+1026188,Rajgarh - NTPC Solar Power Plant,Solar,50,,PV,,,National Thermal Power Corporation (NTPC),,,National Thermal Power Corporation (NTPC),http://www.ntpc.co.in,,,,,,,Operating,India,,23.9637,76.71905,,,,,,,,,,
+1026189,Rajgarh - Ujaas Solar Power Plant,Solar,16.5,,PV,,,Ujaas Energy Limited,,,Ujaas Energy Limited,http://ujaas.com,,,,,,,Operating,India,,23.9796,76.73292,,,,,,,,,,
+1026190,Raksa Solar Power Plant,Solar,2,,PV,,,Astonfield Management Limited,,,Astonfield Management Limited,http://astonfield.com,,,,,,,Operating,India,,25.4106,78.48054,,,,,,,,,,
+1026191,Ram Tirath Jaga Solar Power Plant,Solar,10,,PV,,,Welspun Solar Punjab Private Limited,,,Welspun Solar Punjab Private Limited,http://www.welspunrenewables.com,,,,,,,Operating,India,,29.9619,75.16309,,,,,,,,,,
+1026192,Ramagundam Solar Power Plant,Solar,10,,PV,,,Government of India,,,National Thermal Power Corporation (NTPC),http://www.ntpc.co.in,,,,,,,Operating,India,,18.764,79.48725,,,,,,,,,,
+1026193,Rapar Khokhara Solar Power Plant,Solar,5,,PV,,,Taxus Infrastructure and Power Projects Pvt Ltd,,,Taxus Infrastructure and Power Projects Pvt Ltd,http://taxusgroup.com,,,,,,,Operating,India,,23.2592,70.00966,,,,,,,,,,
+1026194,Rasulpur Solar Power Plant,Solar,1,,PV,,,Ganges Enterprises Private Limited,,,Rajasthan Renewable Energy Corporation Limited (RREC),http://energy.rajasthan.gov.in/content/dam/raj/energy/common/Details%20of%20commissioned%20Solar%20Projects%20.pdf,,,,,,,Operating,India,,27.9363,75.67903,,,,,,,,,,
+1026195,Ravra - IOC Solar Power Plant,Solar,5,,PV,,,Indian Oil Corporation (IOC),,,Indian Oil Corporation (IOC),https://www.iocl.com,,,,,,,Operating,India,,27.4108,72.21638,,,,,,,,,,
+1026196,Ravra - NWEPL Solar Power Plant,Solar,5,,PV,,,Northwest Energy Private Limited (NWEPL),,,Sterling and Wilson,http://sterlingandwilson.com/northwest-energy-pvt-ltd,,,,,,,Operating,India,,27.4118,72.21273,,,,,,,,,,
+1026197,Ravra - SEI Solar Power Plant,Solar,5,,PV,,,SEI Solar Energy Private Limited,,,SEI Solar Energy Private Limited,http://ifcext.ifc.org/ifcext/91,,,,,,,Operating,India,,27.4092,72.21933,,,,,,,,,,
+1026198,Ravra - Welspun Solar Power Plant,Solar,50,,PV,,,Welspun Solar AP Private Limited,,,Welspun Solar AP Private Limited,http://www.welspunrenewables.com,,,,,,,Operating,India,,27.4137,72.15768,,,,,,,,,,
+1026199,Rojhani Solar Power Plant,Solar,30.5,,PV,,,Ujaas Energy Limited,,,Ujaas Energy Limited,http://ujaas.com,,,,,,,Operating,India,,23.7025,75.92456,,,,,,,,,,
+1026200,Sadeipali - ASPL Solar Power Plant,Solar,5,,PV,,,Aftaab Solar Private Limited (ASPL),,,Aftaab Solar Private Limited (ASPL),http://www.cdmindia.gov.in/project_details_view.php?id=1511,,,,,,,Operating,India,,20.731,83.45379,,,,,,,,,,
+1026201,Sadeipali - REHPL Solar Power Plant,Solar,1,,PV,,,Raajratna Energy Holdings Private Limited (REHPL),,,Raajratna Energy Holdings Private Limited (REHPL),http://rehpl.co.in,,,,,,,Operating,India,,20.7325,83.46322,,,,,,,,,,
+1026202,Sakri 1A Solar Power Plant,Solar,100,,PV,,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),http://mahagenco.in,,,,,,,Operating,India,,21.0726,74.38623,,,,,,,,,,
+1026203,Sakri 1B Solar Power Plant,Solar,25,,PV,,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),,,Maharashtra State Power Generation Co Ltd (MAHAGENCO),http://mahagenco.in,,,,,,,Operating,India,,21.0864,74.3529,,,,,,,,,,
+1026204,Sangatpura Solar Power Plant,Solar,10,,PV,,,Omega Solar Projects Private Limited,,,Lancosola,http://www.lancosolar.com,,,,,,,Operating,India,,29.9611,75.77669,,,,,,,,,,
+1026205,Shiloj Solar Power Plant,Solar,10,,PV,,,Mono Steel (India) Ltd,,,Mono Steel (India) Ltd,http://www.monosteel.in,,,,,,,Operating,India,,20.8183,71.00629,,,,,,,,,,
+1026206,Shirsoli Solar Power Plant,Solar,8.5,,PV,,,Jain Solar,,,Jain Solar,http://www.jains.com/Solar/Renewable%20energy.htm,,,,,,,Operating,India,,17.4999,75.78101,,,,,,,,,,
+1026207,Shivasamundra Solar Power Plant,Solar,5,,PV,,,Karnataka Power Corporation Limited,,,Karnataka Power Corporation Limited,http://karnatakapower.com,,,,,,,Operating,India,,12.3003,77.16378,,,,,,,,,,
+1026208,Shivlakha - Backbone Solar Power Plant,Solar,5,,PV,,,Backbone Enterprises Limited,,,Backbone Enterprises Limited,http://www.backboneworld.com,,,,,,,Operating,India,,23.3585,70.6206,,,,,,,,,,
+1026209,Shivlakha - CPEC Solar Power Plant,Solar,5,,PV,,,S J Green Park Energy Private Limited,,,S J Green Park Energy Private Limited,http://www.madhavgrp.co.in/SJ_solar.html,,,,,,,Operating,India,,23.383,70.61457,,,,,,,,,,
+1026210,Shivlakha - Konark Solar Power Plant,Solar,5,,PV,,,Konark Gujarat Private Limited,,,Konark Gujarat Private Limited,http://www.konarkgroup.co.in,,,,,,,Operating,India,,23.3654,70.62675,,,,,,,,,,
+1026211,Singrauli Solar Power Plant,Solar,15,,PV,,,Government of India,,,National Thermal Power Corporation (NTPC),http://www.ntpc.co.in,,,,,,,Operating,India,,24.1185,82.64155,,,,,,,,,,
+1026212,Sivaganga Solar Power Plant,Solar,5,,PV,,,Moser Baer Clean Energy Limited (MBCEL),,,Moser Baer Clean Energy Limited (MBCEL),http://www.moserbaerprojects.com,,,,,,,Operating,India,,9.80433,78.44869,,,,,,,,,,
+1026213,Solitaire Solar Power Plant,Solar,15,,PV,,,Solitaire Energies Pvt Ltd,,,Moser Baer Clean Energy Limited (MBCEL),http://www.moserbaersolar.com,,,,,,,Operating,India,,23.9116,71.9324,,,,,,,,,,
+1026214,Supe Solar Power Plant,Solar,2,,PV,,,Clover Solar Private Limited (CSPL),,,Clover Solar Private Limited (CSPL),http://www.cloversolar.com,,,,,,,Operating,India,,18.3198,74.3686,,,,,,,,,,
+1026215,Talcher Kaniha Solar Power Plant,Solar,10,,PV,,,National Thermal Power Corporation (NTPC),,,National Thermal Power Corporation (NTPC),http://www.ntpc.co.in,,,,,,,Operating,India,,21.0866,85.09872,,,,,,,,,,
+1026216,Tata BP - Electronics City Solar Panel Plant,Solar,0,,PV,,,Tata BP Solar India Limited,,,Tata BP Solar India Limited,http://www.tatabpsolar.com,,,,,,,Operating,India,,12.8491,77.67524,,,,,,,,,,
+1026217,Teona Pujarian Solar Power Plant,Solar,22,,PV,,,Welspun Solar Punjab Private Limited,,,Welspun Solar Punjab Private Limited,http://www.welspunrenewables.com,,,,,,,Operating,India,,27.4137,72.15768,,,,,,,,,,
+1026218,Tinwari - MB Solar Power Plant,Solar,5,,PV,,,Moser Baer Solar Limited (MBSL),,,Moser Baer Solar Limited (MBSL),http://www.moserbaersolar.com,,,,,,,Operating,India,,26.5182,72.85356,,,,,,,,,,
+1026219,Vastan Solar Power Plant,Solar,5,,PV,,,Gujarat Industries Power Company Limited (GIPCL),,,Gujarat Industries Power Company Limited (GIPCL),http://www.gipcl.com,,,,,,,Operating,India,,21.4239,73.12726,,,,,,,,,,
+1026220,Wadgam Solar Power Plant,Solar,15,,PV,,,ACME Cleantech Solutions Private Limited,,,ACME Cleantech Solutions Private Limited,http://www.acme.in,,,,,,,Operating,India,,22.3172,72.43974,,,,,,,,,,
+1026221,Warora Solar Power Plant,Solar,25,,PV,,,Videocon Industries Limited,,,Videocon Industries Limited,http://www.gmrgroup.in/energy-gmr-gujarat-solar-power-ltd.aspx,,,,,,,Operating,India,,20.301,79.02373,,,,,,,,,,
+1026222,Yelesandra Solar Power Plant,Solar,3,,PV,,,Karnataka Power Corporation Limited,,,Karnataka Power Corporation Limited,http://karnatakapower.com,,,,,,,Operating,India,,12.8932,78.16537,,,,,,,,,,
+1026064,Nagercoli Wind Farm,Wind,37.6,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/5/D/0/5D0I7GCWXZ1VFNS6ROQKHTMYL8JA39/Nagercoil%20PDD%20Corrected_c.pdf?t=bkl8b2pkZGlofDAiW_GZYG7HXm3tF_Ie-IsH,,,,,,,Operating,India,,8.1784,77.68727,,,,,,,,,,
+1026065,NuPower Tirunelveli Wind Farm,Wind,150,,Onshore Wind,,,NuPower,,,CDM,https://cdm.unfccc.int/filestorage/3/x/NUSA0ZGPJRT6YXIMEVOB74WDHQ5KF8.pdf/Final%20PDD.pdf?t=QzV8b2picHExfDDzqlVY2T6pSjzHeaKJVjyC,,,,,,,Operating,India,,9.07372,77.47532,,,,,,,,,,
+1026066,Udumalpet Wind Farm,Wind,25.7,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1174563974.61/view,,,,,,,Operating,India,,10.6143,77.23702,,,,,,,,,,
+1026067,Kottamangalam Wind Farm,Wind,56.25,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/a/1/0JPNG5S4A821KD6IUHWBOEYRVFTL3X.pdf/ALWE%20PDD_Ver%206%20_06.03.2013_%20Clean%20.pdf?t=dlV8b2picjMyfDAQ_TbHluMZz9jMHYOK8XbU,,,,,,,Operating,India,,10.6558,77.24706,,,,,,,,,,
+1026068,Arasinagundi Wind Farm,Wind,13.2,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1216117082.43/view,,,,,,,Operating,India,,14.4791,76.34817,,,,,,,,,,
+1026069,Anabura Wind Farm,Wind,16.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1216117082.43/view,,,,,,,Operating,India,,14.5751,76.39264,,,,,,,,,,
+1026070,MSPL Wind Farm,Wind,78.9,,Onshore Wind,,,MSPL,,,CDM,https://cdm.unfccc.int/filestorage/I/M/8/IM82KOV79XD6W1FSRY0APUBQT5HNG3/PDD%20Version%203.1?t=eXJ8b2pkY3A3fDDe6Zq2yZtRMfXDrbXuYkLx,,,,,,,Operating,India,,15.1579,75.79648,,,,,,,,,,
+1026071,Hirewaddatti Wind Farm,Wind,49,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/s/x/8LZ62R4VIOK570F3AWSBNTUECYJ9XD.pdf/3_Revsied_PDD_JAL_2013_01_08_Clean_mode.pdf?t=VkZ8b2pkY2xwfDD7-5fVv-HnyeV-IOsi3cee,,,,,,,Operating,India,,15.1997,75.76196,,,,,,,,,,
+1026072,Gadag Wind Farm,Wind,25.6,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1239021527.94/view,,,,,,,Operating,India,,15.3418,75.58678,,,,,,,,,,
+1026073,Belgaum Gadag Wind Farm,Wind,24.8,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1204705646.68/view,,,,,,,Operating,India,,15.4038,75.56247,,,,,,,,,,
+1026074,Belgaum Wind farm,Wind,50.4,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/K/H/4/KH4609PBJU1SRCMD8W7FNQ2LTZGIO5/ENRE%20PDD%20version%205_0_21_12_2010%20Clean%20Mode.pdf?t=dWt8b2picnVxfDDdBloH5bI-0qA-0I--EtaE,,,,,,,Operating,India,,15.9349,74.70069,,,,,,,,,,
+1026075,Belagwi Wind Turbines,Wind,1.7,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/t/h/3ZTDL1JSY8F96X7WM05GQEOBHVCRKU.pdf/PDD_0.85%20MW%20x%202%20Wind?t=OUd8b2pibmtifDA3QWPDKTd9w1VzFuhHzr3p,,,,,,,Operating,India,,16.4961,74.54172,,,,,,,,,,
+1026076,Satara Wind Farm,Wind,100,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/0/5/A/05AYCZFT4LWMHD216PU9SV7XO8BENR/PDD%20Version%201.2?t=U2Z8b2picWJsfDAiEl4MxIcSh1urnyFbvIy_,,,,,,,Operating,India,,17.2387,73.90962,,,,,,,,,,
+1026077,Maloshi Wind Farm,Wind,14.65,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/A/R/Q/ARQ8TKW54JBLF1U3E6OXVHCDSN9M70/PDD-CEM-0792-27-09.pdf?t=V0d8b2pibmNpfDBisKvrZGRCvGuhGr5W8zZF,,,,,,,Operating,India,,17.5727,73.90318,,,,,,,,,,
+1026078,Tata Wind Farm,Wind,50.4,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/i/o/Z9N7VXYJ5LIE8WRQM1SB3H4FDA6U2K.pdf/PDD%20with%20revised%20MP%20(ver%2010.0)(Clean%20mode).pdf?t=Qmt8b2picnBrfDBPz_lFTjdrigpAyplKqoQb,,,,,,,Operating,India,,19.1757,74.84409,,,,,,,,,,
+1026079,BP Brahmanvel Wind Farm,Wind,40,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/T/0/C/T0CJ85FSL1WN9VEXID67ZOBMQRGAPH/Revised%20PDD%20-%20Clean.pdf?t=UE58b2pkZGN1fDC4di78ksdJWNuCM4aKL4xu,,,,,,,Operating,India,,21.2083,74.15431,,,,,,,,,,
+1026080,HZL Nandurbar Maharashtra,Wind,25.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1351776938.73/view,,,,,,,Operating,India,,21.3027,74.30911,,,,,,,,,,
+1026081,Gorsar Wind Farm,Wind,7.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/d/d/56KO8FQND07Y3H12PBALXWG9MRC4JV.pdf/PDD_-_GMDC_V05.pdf?t=bGh8b2pkZDEwfDAxL3Mrj_s1ZpnXL5ljSdCb,,,,,,,Operating,India,,21.3131,69.9187,,,,,,,,,,
+1026082,Jodiya Wind Farm,Wind,33,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/d/d/56KO8FQND07Y3H12PBALXWG9MRC4JV.pdf/PDD_-_GMDC_V05.pdf?t=bGh8b2pkZDEwfDAxL3Mrj_s1ZpnXL5ljSdCb,,,,,,,Operating,India,,22.7532,70.39612,,,,,,,,,,
+1026083,Bera Wind Farm,Wind,150,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/z/g/GHX720LOZTBENA6IVS1PJCWF8YMKUD.pdf/2347%20Revised%20PDD.pdf?t=YUh8b2picHN3fDCY1tP_B8ik_E25vGal7UR-,,,,,,,Operating,India,,23.0544,68.87821,,,,,,,,,,
+1026084,Rucha Soya Wind Farm,Wind,35.1,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/z/4/H6BE40Q3YPZ7ULD8OWFR1AIT5V2SXM.pdf/8592%20PDD.pdf?t=Sjd8b2pkZHV0fDDHMHx5kl40-cCl4qrFlA08,,,,,,,Operating,India,,23.0562,70.60039,,,,,,,,,,
+1026085,ONGC Kutch Wind Farm,Wind,51,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/F/X/W/FXWNHT2DU5RV3BGL7YA8ZKPI46OS9E/2856_PDD_clean.pdf?t=RGp8b2picmp5fDB2P7QGVKqmOvLt7pNBaIqW,,,,,,,Operating,India,,23.1689,68.69753,,,,,,,,,,
+1026086,Kosa Wind Farm,Wind,33,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/w/m/64TXH0Y1V9ZCISBKO3F758PEQNUJDR.pdf/PDD__V-2_5_19_10_2012.pdf?t=akh8b2pkZTFtfDAP0pu4sjZSao0P-GV-Qzqn,,,,,,,Operating,India,,23.3183,68.69876,,,,,,,,,,
+1026087,Surajbari Creek Wind Farm,Wind,30,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/M/7/A/M7ACU21YQXKW5HF8R03TPIJZENO4B9/PDD_30MW_Gujarat_MSPL%20Limited_rev.pdf?t=NlZ8b2pkZ2FofDBI3_hXb8zCdgFEZVKDwM4F,,,,,,,Operating,India,,23.3232,70.64167,,,,,,,,,,
+1026088,Bhat Khedi Wind Farm,Wind,98.7,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/h/l/W9FUXHOTR0Y5V2KQBIS4MPN17JEZLC.pdf/PDD%20-%2098.7%20MW%20wind%20power%20project%20at%20Ratlam%20in%20Madhya%20Pradesh%20by%20DJ%20Energy%20Private%20Limited.pdf?t=R2x8b2picWpsfDACMivhrOTU62i3hfmcbopg,,,,,,,Operating,India,,23.6756,75.0565,,,,,,,,,,
+1026089,Devgarh Wind Farm,Wind,37.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/Y/I/R/YIR8M4NQJKLW63H1OZCGBTSA729PU5/37.5_MW_PDD_-_37.5_MW_Wind_power_project_at_Pratapgarh%2C_Rajasthan?t=WTF8b2pkZHAyfDApG31asZJ6b9TuTgaPGJDE,,,,,,,Operating,India,,23.964,74.62147,,,,,,,,,,
+1026090,Belagau Wind Farm,Wind,1,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/7/l/SG76AFZB9EYTJ4321MOWIKQ8PCDNXR.pdf/9684%20PDD.pdf?t=emF8b2pibm5jfDCvkTnPwzrrv5OWSd79JKVI,,,,,,,Operating,India,,26.7272,70.83043,,,,,,,,,,
+1026091,ONGC Jerat Wind Farm,Wind,102,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/L/M/Z/LMZG56NYST19Q7IHD4EPXJRF2VB03W/PDD.pdf?t=R1p8b2picTYxfDApzXyA-gGP8NbbOgKvi68C,,,,,,,Operating,India,,26.818,71.06428,,,,,,,,,,
+1026092,Mokla Wind farm,Wind,52.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/_/r/F932EYQBPVM7IXZ4KWRUG5HT6S0ACL.pdf/7895-PDD-26%20Oct%2012.pdf?t=aEJ8b2picjhvfDAyiJ_x---be015MnlJwvjn,,,,,,,Operating,India,,27.1611,70.68096,,,,,,,,,,
+1026093,Mokal Wind Farm,Wind,31.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/o/t/LOE8KY3952J1UZAFN6CHMPQBVD7RS0.pdf/PDD_RSMML.pdf?t=QUZ8b2pkZzRzfDAgGCgKw2iEeb78bqr1DaV0,,,,,,,Operating,India,,27.1657,70.74554,,,,,,,,,,
+1026094,HZL Parewar Wind Farm,Wind,27.3,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/x/_/BYO3D0NJE4W2ZULSAXTQC61IM5HV9R.pdf/7873-PDD-25%20Oct%2012.pdf?t=ZGh8b2pkZ3A5fDB5_GTLkYcWdSL2xW6rf1F3,,,,,,,Operating,India,,27.2492,70.67219,,,,,,,,,,
+1026095,Enercon Chitradurga Wind Farm,Wind,68.8,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1185356859.49/view,,,,,,,Operating,India,,13.7276,76.51374,,,,,,,,,,
+1026096,Jangi Wind Farm,Wind,91.8,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1342443620.03/view,,,,,,,Operating,India,,23.2409,70.50904,,,,,,,,,,
+1026097,Tiruppur 2,Wind,1.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/PJR%20CDM1355461708.47/view,,,,,,,Operating,India,,10.79,77.33004,,,,,,,,,,
+1026098,Tiruppur,Wind,1.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/PJR%20CDM1355461708.47/view,,,,,,,Operating,India,,10.8139,77.37853,,,,,,,,,,
+1026099,Jeloo Wind Farm,Wind,29.6,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1312546277.77/view,,,,,,,Operating,India,,26.5255,72.76293,,,,,,,,,,
+1026100,Davangere Wind Farm,Wind,125,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1142448670.58/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026101,Essel Mining Wind Farm,Wind,75,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/O/6/L/O6LOWTE60VD7BDDY8ZB8AQBVNQQZCJ/1115%20PDD%20revised.pdf?t=dWd8b2picW9kfDBLXNNinuA2EARAJAJta6Yw,,,,,,,Operating,India,,,,,,,,,,,,,
+1026102,Tamilnadu Wind Farm,Wind,74,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/filestorage/2/F/R/2FRTLO45MK87SJZUYCDN9GWHBAEP3X/7647_PDD_-Ver_12%28PRC%29_Clean.pdf?t=MWx8b2picXlqfDDrpXwmh5zMU8K3xoiuspy8,,,,,,,Operating,India,,,,,,,,,,,,,
+1026103,VRL Wind Farm,Wind,42.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1225104443.35/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026339,K.N. Ram Kaltek Wind Farm,Wind,10.25,,Onshore Wind,,,K. N. Ram,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1351922842.98/view,,,,,,,Operating,India,,21.2261,74.23929,,,,,,,,,,
+1026340,KS Oils Chinnakuyili Wind Farm,Wind,12,,Onshore Wind,,,KS Oils,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1300103078.33/view,,,,,,,Operating,India,,10.9328,77.0912,,,,,,,,,,
+1026341,Kaladonger Wind Farm,Wind,75.6,,Onshore Wind,,,Bindu Vau Urja Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1356681143.52/view,,,,,,,Operating,India,,27.0931,70.99963,,,,,,,,,,
+1026342,Kohinoor Wind Farm,Wind,24,,Onshore Wind,,,Kohinoor Planet Construction Pvt. Ltd,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1302691944.71/view,,,,,,,Operating,India,,26.6797,71.02601,,,,,,,,,,
+1026343,LITL Uthumalai,Wind,10,,Onshore Wind,,,Loyal Textile Mills Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1200600517.28/view,,,,,,,Operating,India,,8.99686,77.53704,,,,,,,,,,
+1026344,LTML Wind Energy Project in Tamil Nadu,Wind,9.7,,Onshore Wind,,,Loyal Textile Mills Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RINA1359562234.41/view,,,,,,,Operating,India,,9.08698,77.60547,,,,,,,,,,
+1026345,Lalpur Wind Farm,Wind,50.4,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1354282051.48/view,,,,,,,Operating,India,,22.1694,69.82704,,,,,,,,,,
+1026346,Liberty Oil Satara Wind Farm,Wind,2.4,,Onshore Wind,,,Liberty Oil Mills Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/Applus1436171071.3/view,,,,,,,Operating,India,,17.8613,74.07328,,,,,,,,,,
+1026347,Anikkadavu Wind Farm,Wind,19.8,,Onshore Wind,,,Madras Cement Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1379744232.36/viewhttps://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1278588174.29/view,,,,,,,Operating,India,,10.7245,77.18925,,,,,,,,,,
+1026348,MRMPL Mudari Wind Farm,Wind,20,,Onshore Wind,,,Jodhpur Vidyut Vitran Nigam Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1278588174.29/view,,,,,,,Operating,India,,26.8051,70.73805,,,,,,,,,,
+1026349,NMDC Anehalu Wind Farm,Wind,10.5,,Onshore Wind,,,NMDC,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1323884913.69/view,,,,,,,Operating,India,,14.098,76.31543,,,,,,,,,,
+1026350,Nagda Hills Wind Energy project,Wind,6.25,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1135356510.37/view,,,,,,,Operating,India,,22.8985,76.07182,,,,,,,,,,
+1026351,Nallakonda Wind Farm,Wind,50.4,,Onshore Wind,,,Tadas Wind Energy,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1355495522.4/view,,,,,,,Operating,India,,14.1651,77.57129,,,,,,,,,,
+1026352,Nargund Wind Farm,Wind,7.2,,Onshore Wind,,,Bhoruka Power,,,CDM,https://cdm.unfccc.int/Projects/DB/PJR%20CDM1353582075.03/view,,,,,,,Operating,India,,15.7319,75.37894,,,,,,,,,,
+1026653,Frost International Palankottai Wind Farm,Wind,4.25,,Onshore Wind,,,Frost International Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1354554757.67/view,,,,,,,Operating,India,,9.12686,77.64585,,,,,,,,,,
+1026654,Theni Wind Farm,Wind,24,,Onshore Wind,,,Green Infra Wind Power Projects Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1374760004.52/view,,,,,,,Operating,India,,9.96211,77.37085,,,,,,,,,,
+1026655,Bannari Amman Spinning Mills Wind Power Project,Wind,11.2,,Onshore Wind,,,Enercon India Ltd.,,,CDM,https://cdm.unfccc.int/filestorage/S/7/J/S7JBL0QFRHWA1DEZ2O4NUTG5Y6VKMP/PDD%20BASML%20Version%2003.pdf?t=Mmh8b2pxZWR0fDDj8zCpobgUeh2ry3t0r5N5,,,,,,,Operating,India,,10.7389,77.416,,,,,,,,,,
+1026656,HZL Palladum Wind Farm,Wind,21,,Onshore Wind,,,HZL,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1352807242.64/view,,,,,,,Operating,India,,10.8674,77.45883,,,,,,,,,,
+1026657,Sai Sulphonates Wind Mill,Wind,1.5,,Onshore Wind,,,Sai Sulphonates,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1318484242.75/view,,,,,,,Operating,India,,10.9262,77.38406,,,,,,,,,,
+1026658,GIWPP Telagi,Wind,23.1,,Onshore Wind,,,Bangalore Electricity Supply Company Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1323884772.8/view,,,,,,,Operating,India,,14.6534,75.86134,,,,,,,,,,
+1026659,Thimmapuram Wind Farm,Wind,200,,Onshore Wind,,,Rayala Wind Power Company Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1351859167.83/view,,,,,,,Operating,India,,14.7053,77.3355,,,,,,,,,,
+1026660,Tadas wind farm,Wind,100,,Onshore Wind,,,Tadas Wind Energy Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RINA1356126148.87/view,,,,,,,Operating,India,,15.1069,75.16606,,,,,,,,,,
+1026661,Ingaleshwar Wind Farm,Wind,100.8,,Onshore Wind,,,Fortune Five Hydel Projects Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1351166669.28/view,,,,,,,Operating,India,,16.6208,76.02226,,,,,,,,,,
+1026662,EMCO Sonurle Wind Farm,Wind,9,,Onshore Wind,,,EMCO Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/PJR%20CDM1328594375.93/view,,,,,,,Operating,India,,16.8265,73.92692,,,,,,,,,,
+1026663,Patan Taluka Wind Farm,Wind,65.6,,Onshore Wind,,,Tratnagiri Wind Power Projects Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/SIRIM1355276782.28/view,,,,,,,Operating,India,,17.2684,73.83681,,,,,,,,,,
+1026664,BEL Chikhalhol Wind Farm,Wind,20,,Onshore Wind,,,Bhilwara Energy Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RINA1416216844.8/view,,,,,,,Operating,India,,17.3816,74.53455,,,,,,,,,,
+1026665,Vaayu Ashti Wind Farm,Wind,50.4,,Onshore Wind,,,Vaayu Renew,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1350385874.53/view,,,,,,,Operating,India,,19.108,74.98849,,,,,,,,,,
+1026666,Roaring 40s Wind Farms (Khandke) Private Limited - Phase II,Wind,50.4,,Onshore Wind,,,Roaring 40's Wind Farms Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1263981578.63/view,,,,,,,Operating,India,,19.1474,74.87631,,,,,,,,,,
+1026667,Enercon Sonoshi Wind Farm,Wind,20,,Onshore Wind,,,Enercon India Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1279516994.31/view,,,,,,,Operating,India,,19.6274,73.78388,,,,,,,,,,
+1026668,Khori Wind Farm,Wind,20.8,,Onshore Wind,,,REI Agro Limited,,,CDM,https://cdm.unfccc.int/filestorage/L/V/Q/LVQ9ANSCJX8164E5H7PWYIB3O0RZ2U/Revised%20PDD%20Version%2006%20dated%205th%20June%202012%20-%20Clean%20mode.pdf?t=akx8b2pxZm9ufDC6M3RsDeQKejKPRFouqWsR,,,,,,,Operating,India,,21.167,74.3272,,,,,,,,,,
+1026669,AES Saurashtra Windfarms,Wind,39.2,,Onshore Wind,,,AES,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1328700673.83/view,,,,,,,Operating,India,,21.9038,69.37323,,,,,,,,,,
+1026670,Enercon Babarzar Wind Farm,Wind,11.2,,Onshore Wind,,,Enercon India Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/URSCert1371557111.17/view,,,,,,,Operating,India,,22.1421,69.84423,,,,,,,,,,
+1026671,GACL Kutch Wind Farm,Wind,39,,Onshore Wind,,,Gujurat Alkalies and Chemicals Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1346053136.1/view,,,,,,,Operating,India,,23.0272,69.94938,,,,,,,,,,
+1026672,Chhadavada Wind Farm,Wind,21,,Onshore Wind,,,India Oil Corporation Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1304071464.49/view,,,,,,,Operating,India,,23.2443,70.46031,,,,,,,,,,
+1026673,Powerica Jangi Vandjiya,Wind,21.8,,Onshore Wind,,,Powerica Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1411994965.49/view,,,,,,,Operating,India,,23.2478,70.59478,,,,,,,,,,
+1026674,LNJP Bahla Basti Wind Farm,Wind,20,,Onshore Wind,,,LNJ Power Ventures Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/KBS_Cert1356901378.31/view,,,,,,,Operating,India,,26.5114,71.49741,,,,,,,,,,
+1026675,BCPL Wind Farm,Wind,5,,Onshore Wind,,,Bharat Petroleum Corporation Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1218300485.48/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026676,NSL Wind Farm,Wind,27.65,,Onshore Wind,,,Nuziveedu Seeds limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1173772302.89/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026677,Sivalaperi Wind Farm,Wind,24,,Onshore Wind,,,Green Infra Wind Power Projects Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1352192814.76/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026678,Ruchi Soya Palsodi Wind Farm,Wind,22.5,,Onshore Wind,,,Rucha Soya Industries Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1285157251.43/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026679,RSMNL Wind Farm,Wind,22.5,,Onshore Wind,,,Rajasthan State Mines and Minerals Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1201770524.09/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026680,Vankuswade Wind Farm,Wind,21,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1172467864.06/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026750,Patnaik Hatti Wind Farm,Wind,15,,Onshore Wind,,,Patnaik Minerals Pvt. Ltd,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1306214743.43/view,,,,,,,Operating,India,,21.190233,74.379501,,,,,,,,,,
+1026751,Patnaik Jamnagar Wind Farm,Wind,35.2,,Onshore Wind,,,Patnaik Minerals Pvt. Ltd,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1288029478.94/view,,,,,,,Operating,India,,22.098305,70.272861,,,,,,,,,,
+1026752,Relaxo Footwear Kui Inda Wind Farm,Wind,6,,Onshore Wind,,,Relaxo Footwears Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1316100537.64/view,,,,,,,Operating,India,,26.458625,72.470573,,,,,,,,,,
+1026753,Wind power project by Riddhi Siddhi Gluco Biols Limited (RSGBL),Wind,34.65,,Onshore Wind,,,Riddhi Siddhi Gluco Biols Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1356711565.56/view,,,,,,,Operating,India,,8.870894,77.446646,,,,,,,,,,
+1026754,Sterling Agro Akal Wind Farm,Wind,3,,Onshore Wind,,,Sterling Agro Industries ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1333450990.34/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026755,Sterling Agro Mokla Wind Farm,Wind,6.3,,Onshore Wind,,,Sterling Agro Industries ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1333450990.34/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026756,Sterling Karnataka site,Wind,6.25,,Onshore Wind,,,Sterling Agro Industries ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1333450990.34/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026757,Sterling Madhya Pradesh site,Wind,6,,Onshore Wind,,,Sterling Agro Industries ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1333450990.34/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026758,TVS Kunnur Wind Farm,Wind,9.35,,Onshore Wind,,,TVS Energy limited,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1331114727.08/view,,,,,,,Operating,India,,9.943818,77.507747,,,,,,,,,,
+1026759,UPL Dharapuram Wind Farm,Wind,1.7,,Onshore Wind,,,UPL,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1351718801.6/view,,,,,,,Operating,India,,10.837983,77.512325,,,,,,,,,,
+1026760,Weizzmann Forex Idukki Wind Farm,Wind,3.6,,Onshore Wind,,,Weizzmann Forex Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1323254431.52/view,,,,,,,Operating,India,,9.888057,77.221607,,,,,,,,,,
+1026761,iEnergy Theni Wind Farm,Wind,16.5,,Onshore Wind,,,iEnergy Wind Farms,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1345031355.85/view,,,,,,,Operating,India,,9.934411,77.476775,,,,,,,,,,
+1026762,Sumilon Shikarpur Wind Farm,Wind,3.6,,Onshore Wind,,,Sumilon Industries Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/KBS_Cert1356901324.44/view,,,,,,,Operating,India,,23.24142,70.726245,,,,,,,,,,
+1026763,Sumilon Vershamedi Wind Farm,Wind,3.6,,Onshore Wind,,,Sumilon Industries Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/KBS_Cert1356901324.44/view,,,,,,,Operating,India,,22.971953,70.54434,,,,,,,,,,
+1026764,Sonu Wind Farm,Wind,8.4,,Onshore Wind,,,Centaur Mercantile Pvt. Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1321971513.67/view,,,,,,,Operating,India,,27.208071,70.695801,,,,,,,,,,
+1026765,Torrent Gujurat Wind Farm,Wind,49.6,,Onshore Wind,,,Torrent Power Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/SGS-UKL1353506542.98/view,,,,,,,Operating,India,,22.103999,69.832258,,,,,,,,,,
+1026766,IL&FS Kaladeh Wind Farm,Wind,24,,Onshore Wind,,,IL&FS Wind Power Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1346322352.66/view,,,,,,,Operating,India,,22.83962287,76.19062578,,,,,,,,,,
+1026767,TVS Virali Wind Farm,Wind,25.5,,Onshore Wind,,,TVS Energy Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1354626555.71/view,,,,,,,Operating,India,,17.501035,74.700102,,,,,,,,,,
+1026768,Andrha Lake Wind Farm,Wind,113.6,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1348755977.79/view,,,,,,,Operating,India,,18.858045,73.639555,,,,,,,,,,
+1026769,Wind power project in Rajasthan,Wind,42,,Onshore Wind,,,Mytrah Energy (India) Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1354785555.66/view,,,,,,,Operating,India,,27.1715,70.6877,,,,,,,,,,
+1026770,Ratedi Mondri Wind Farm,Wind,26.4,,Onshore Wind,,,Ratedi Wind Power Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RINA1354700454.05/view,,,,,,,Operating,India,,26.802636,70.773589,,,,,,,,,,
+1026771,SWPPL Madhavakurichi,Wind,10.5,,Onshore Wind,,,SWPPL,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1351312018.91/view,,,,,,,Operating,India,,8.823047,77.627104,,,,,,,,,,
+1026772,SWPPL Vadakkupanavadali,Wind,10.5,,Onshore Wind,,,SWPPL,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1351312018.91/view,,,,,,,Operating,India,,9.078179,77.591046,,,,,,,,,,
+1026773,SWPPL Manurpalayam,Wind,21,,Onshore Wind,,,SWPPL,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1351312018.91/view,,,,,,,Operating,India,,10.816643,77.31994,,,,,,,,,,
+1026774,TVS Tirunelveli Wind Farm,Wind,14.4,,Onshore Wind,,,TVS Energy Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1336676184.92/view,,,,,,,Operating,India,,8.91646,77.659014,,,,,,,,,,
+1026775,Kottathara Village Wind Farm,Wind,3,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1315830379.2/view,,,,,,,Operating,India,,11.09511,76.6709,,,,,,,,,,
+1026776,Yelisirur wind power project,Wind,25.5,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/TUEV-RHEIN1351077305.18/view,,,,,,,Operating,India,,15.275751,75.58106,,,,,,,,,,
+1026777,Jangi village wind farm,Wind,10.5,,Onshore Wind,,,Energy Infratech Private Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1279520653.8/view,,,,,,,Operating,India,,23.208028,70.546539,,,,,,,,,,
+1026778,Karur Textile Park Wind Farm,Wind,6,,Onshore Wind,,,Karur Textile Park limited,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1297334588.3/view,,,,,,,Operating,India,,8.309145,77.619099,,,,,,,,,,
+1026784,Shree Southern Wind Farm,Wind,2.25,,Onshore Wind,,,Shree Naman Developers Ltd.,,,CDM,https://cdm.unfccc.int/filestorage/D/O/R/DORZF791H8K4NWACPQ5IMTUYLG2VXE/CDM_PDD_v6.pdf?t=WGN8b2sxbDRnfDDF8h6MT3w9DKjkxFa903Mt,,,,,,,Operating,India,,17.572392,74.338613,,,,,,,,,,
+1026785,Shree Sangli Wind Farm,,16.5,,Onshore Wind,,,Shree Naman Developers Ltd.,,,CDM,https://cdm.unfccc.int/filestorage/D/O/R/DORZF791H8K4NWACPQ5IMTUYLG2VXE/CDM_PDD_v6.pdf?t=WGN8b2sxbDRnfDDF8h6MT3w9DKjkxFa903Mt,,,,,,,Operating,India,,17.303081,74.631,,,,,,,,,,
+1026786,Shree Nashik Wind Farm,,10.5,,Onshore Wind,,,Shree Naman Developers Ltd.,,,CDM,https://cdm.unfccc.int/filestorage/D/O/R/DORZF791H8K4NWACPQ5IMTUYLG2VXE/CDM_PDD_v6.pdf?t=WGN8b2sxbDRnfDDF8h6MT3w9DKjkxFa903Mt,,,,,,,Operating,India,,19.845039,73.907443,,,,,,,,,,
+1026787,Tata Power Gadag Plains Wind Farm,Wind,50.4,,Onshore Wind,,,Tata Power,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1352368180.64/view,,,,,,,Operating,India,,15.330156,75.576742,,,,,,,,,,
+1026788,Powerica Kutch Wind Farm,Wind,14.85,,Onshore Wind,,,,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1270819651.34/view,,,,,,,Operating,India,,23.189658,70.621583,,,,,,,,,,
+1026789,SIIL Jaibhim Wind Farm,Wind,33.6,,Onshore Wind,,,Serum Institute of India Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1340102581.62/view,,,,,,,Operating,India,,21.127019,74.267319,,,,,,,,,,
+1026790,Landewadi Wind Farm,Wind,4,,Onshore Wind,,,Serum Institute of India Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1335362700.21/view,,,,,,,Operating,India,,,,,,,,,,,,,
+1026791,Powerica Tirunelveli Wind Farm,Wind,16.5,,Onshore Wind,,,Powerica Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1264590823.08/view,,,,,,,Operating,India,,9.019812,77.450122,,,,,,,,,,
+1026792,Powerica Theni Wind Farm,Wind,9.9,,Onshore Wind,,,Powerica Limited,,,CDM,https://cdm.unfccc.int/Projects/DB/LRQA%20Ltd1300097036.88/view,,,,,,,Operating,India,,9.985486,77.577672,,,,,,,,,,
+1026793,GFL Gudhepanchgani,Wind,23.1,,Onshore Wind,,,GFL,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1202913883.06/view,,,,,,,Operating,India,,17.13093,73.976497,,,,,,,,,,
+1026794,HZL Samana Wind Farm,Wind,88.8,,Onshore Wind,,,Hindustan Zinc Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1211956663.14/view,,,,,,,Operating,India,,22.033534,70.2313,,,,,,,,,,
+1026795,HZL Gadag Wind Farm,Wind,34.4,,Onshore Wind,,,Hindustan Zinc Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1208874936.63/view,,,,,,,Operating,India,,15.365388,75.56393,,,,,,,,,,
