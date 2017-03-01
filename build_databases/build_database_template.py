@@ -97,10 +97,10 @@ with open(RAW_FILE_NAME,'rU') as f:
 
         # assign ID number
         idnr = pw.make_id(SAVE_CODE,count)
-        new_location = pw.LocationObject("",latitude,longitude)
+        new_location = pw.LocationObject(pw.NO_DATA_UNICODE,latitude,longitude)
         new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
             plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
-            plant_source=SOURCE_NAME,source_url=SOURCE_URL)
+            plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL)
         plants_dictionary[idnr] = new_plant
         count += 1
 
