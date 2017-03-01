@@ -90,6 +90,7 @@ In all other cases, we use manual data or GEO data. In a few cases, multiple met
 | Chile 		| A  	  | [CNE](http://datos.energiaabierta.cne.cl/developers/)
 | China   		| A,M  	  | [Sourcewatch (coal)](http://www.sourcewatch.org/index.php/Category:Existing_coal_plants_in_China)
 | Finland       | M/A     | [EA](http://www.energiavirasto.fi/en/voimalaitosrekisteri)
+| India         | M/A     | [CEA](http://www.cea.nic.in/), [RRI](https://www.recregistryindia.nic.in/)
 | Mexico        | M/A     | [SENER](http://base.energia.gob.mx/dgaic/DA/P/DGPlaneacionInformacionEnergeticas/CapacidadInstaladaPlantasProceso/SENER_05_CapacidadInstaladaPlantasPorPlantasProceso-PMXE1C18.csv)
 | Portugal      | M/A     | [INEGI](http://e2p.inegi.up.pt/#Tec7)
 | Switzerland   | M/A     | [BFE](http://www.bfe.admin.ch/geoinformation/05061/05249/index.html?lang=en)
