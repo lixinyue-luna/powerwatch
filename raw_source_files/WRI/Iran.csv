@@ -1,5 +1,4 @@
 PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language,Year of Data
-1008113,Abadan C.C.,Natural Gas,494,,CCGT,2002-2003,4,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008114,Ahwaz (ramiin),Oil,1903,,Sub-Critical Thermal,1980-1985,8,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008115,Amir Kabir,Hydro,90,,Dam,1961,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008116,Aras,Hydro,22,,Dam,1971,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
@@ -14,7 +13,6 @@ PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual
 1008125,Chadormaloo,Natural Gas,40,,CCGT,2003,1,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008126,Chahbahar (Kenarak),oil,64,,OCGT,1978,6,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008127,Crumia,Natural Gas,636,,CCGT,2007-2008,4,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
-1008128,Damavand C.C.,Natural Gas,1908,,CCGT,2003-2005,12,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008129,Dez,Hydro,520,,Dam,1962,8,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008130,Dorood Zan Dam,Hydro,10,,Dam,1989,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008131,Doroud,Oil,60,,OCGT,1977,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
@@ -32,7 +30,6 @@ PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual
 1008143,Islam Abad(Isfahan),Natural Gas,835,,Sub-Critical Thermal,1969-1980,5,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008144,Jahrom,Natural Gas,954,,CCGT,2008,6,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008145,Jiroft,Hydro,32,,Dam,1977,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
-1008146,Kahak,Wind,20,,Wind Turbine,2014,8,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008147,Kahnodje,Oil,789,,Sub-Critical Thermal,2007,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008148,Kalan,Hydro,115.5,,Dam,1998,3,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008149,Kangan,Natural Gas,164,,OCGT,1995,7,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
@@ -101,3 +98,6 @@ PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual
 1008211,Zobahan,Natural Gas,162,,Sub-Critical Thermal,1970-1978,5,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1008212,Zobahan (gas),Natural Gas,139,,OCGT,1975,2,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
 1023916,Bushehr,Nuclear,1000,,PWR,2011,1,Nuclear Power Production and Development Company of Iran,3198.24,2015,IAEA,https://www.iaea.org/PRIS/CountryStatistics/ReactorDetails.aspx?current=310,,,,,,,Operating,Iran,,,,,,,,,,,,2015
+1008146,Kahak,Wind,100,,Wind Turbine,2014,8,,,,CDM,https://cdm.unfccc.int/Projects/DB/RINA1436349705.61/view,,,,,,,Operating,Iran,,36.130890,49.726174,,,,,,,,,
+1008113,Abadan C.C.,Natural Gas,820,,CCGT,2002,4,,,,TAVANIR,http://www2.tavanir.org.ir/info/stat87/sanatlhtml/Links/j14%20-1/main.htm,,,,,,,Operating,Iran,,,,,,,,,,,,
+1008128,Damavand C.C.,Natural Gas,2800,,CCGT,2006-2016,18,Moshanir,,,Moshanir,http://www.moshanir.co.ir/en/damavand.aspx,,,,,,,Operating,Iran,,,,,,,,,,,,
