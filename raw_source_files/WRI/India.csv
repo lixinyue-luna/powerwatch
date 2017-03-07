@@ -846,3 +846,4 @@ PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual
 1026793,GFL Gudhepanchgani,Wind,23.1,,Onshore Wind,,,GFL,,,CDM,https://cdm.unfccc.int/Projects/DB/RWTUV1202913883.06/view,,,,,,,Operating,India,,17.13093,73.976497,,,,,,,,,,
 1026794,HZL Samana Wind Farm,Wind,88.8,,Onshore Wind,,,Hindustan Zinc Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1211956663.14/view,,,,,,,Operating,India,,22.033534,70.2313,,,,,,,,,,
 1026795,HZL Gadag Wind Farm,Wind,34.4,,Onshore Wind,,,Hindustan Zinc Ltd.,,,CDM,https://cdm.unfccc.int/Projects/DB/BVQI1208874936.63/view,,,,,,,Operating,India,,15.365388,75.56393,,,,,,,,,,
+1026848,Kudankulam,NUCLEAR,"2,000",Tamil Nadu,WER,2013-2016,2,,"4,252",Second UNit came online August 2016,IAEA PRIS,https://www.iaea.org/PRIS/CountryStatistics/ReactorDetails.aspx?current=853,,,,,,,,India,,8.168941,77.712608,,,,,,,,,,

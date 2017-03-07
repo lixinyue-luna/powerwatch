@@ -37,7 +37,8 @@ UNICODE_ENCODING = "utf-8"
 NO_DATA_UNICODE = u""   # used to indicate no data for a Unicode-type attribute in the PowerPlant class
 NO_DATA_NUMERIC = None  # used to indicate no data for a numeric-type attribute in the PowerPlant class
 NO_DATA_OTHER = None 	# used to indicate no data for object- or list-type attribute in the PowerPlant class
-NO_DATA_SET = None
+NO_DATA_SET = set([])	# used to indicate no data for set-type attribute in the PowerPlant class
+
 ### CLASS DEFINITIONS ###
 
 class PowerPlant(object):
@@ -81,7 +82,7 @@ class PowerPlant(object):
 
 		# check and set list for fuel types
 		if not plant_fuel:
-			setattr(self,'fuel',set([]))
+			setattr(self,'fuel',NO_DATA_SET)
 		elif type(plant_fuel) is unicode:
 			setattr(self,'fuel',set([plant_fuel]))
 		elif type(plant_fuel) is str:
@@ -92,7 +93,7 @@ class PowerPlant(object):
 			setattr(self,'fuel',plant_fuel)
 		else:
 			print("Error trying to create plant with fuel of type {0}.".format(plant_fuel))
-			setattr(self,'fuel',set([]))
+			setattr(self,'fuel',NO_DATA_SET)
 
 		# set data for other attributes
 		# TODO: check data type for these
@@ -223,7 +224,7 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 		return fuel_set
 	except:
 		print(u"-Error: Couldn't identify fuel type {0}".format(fuel_instance_u))
-		return set([])
+		return NO_DATA_SET
 
 ### HEADER NAMES ###
 
@@ -275,10 +276,10 @@ def standardize_country(country_instance, country_thesaurus):
 				return country_primary_name
 	except:
 		print("Error: Couldn't identify country name {0}".format(country_instance))
-		return u"Unknown"
+		return NO_DATA_UNICODE
 
 	print("Couldn't identify country {0}".format(country_instance))
-	return u"Unknown"
+	return NO_DATA_UNICODE
 
 ### COUNTRY BORDERS ###
 
@@ -325,7 +326,7 @@ def format_string(value,encoding = UNICODE_ENCODING):
 		clean_value = unicode_value.replace("\n"," ").replace("\r"," ").replace(","," ").strip()
 		return clean_value
 	except:
-		return u"Unknown"
+		return NO_DATA_UNICODE
 
 ### PARSE DATA RETURNED BY ELASTIC SEARCH ###
 
@@ -334,14 +335,14 @@ def parse_powerplant_data(json_data,db_source):
 
 	# initialize parsed values
 	parsed_values = {}
-	parsed_values['idnr'] = 0
-	parsed_values['name'] = u"Unknown"
-	parsed_values['country'] = u"Unknown"
-	parsed_values['latitude'] = 0.0
-	parsed_values['longitude'] = 0.0
-	parsed_values['fuel'] = u"Unknown"
-	parsed_values['owner'] = u"Unknown"
-	parsed_values['capacity'] = 0.0
+	parsed_values['idnr'] = NO_DATA_NUMERIC
+	parsed_values['name'] = NO_DATA_UNICODE
+	parsed_values['country'] = NO_DATA_UNICODE
+	parsed_values['latitude'] = NO_DATA_NUMERIC
+	parsed_values['longitude'] = NO_DATA_NUMERIC
+	parsed_values['fuel'] = NO_DATA_UNICODE
+	parsed_values['owner'] = NO_DATA_UNICODE
+	parsed_values['capacity'] = NO_DATA_NUMERIC
 
 	# values common to all databases
 	score = float(json_data['_score'])
