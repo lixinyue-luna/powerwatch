@@ -64,8 +64,8 @@ with open(RAW_FILE_NAME,'rU') as f:
 
     for row in datareader:
         try:
-            name = u"{}".format(row[name_col])
-            # name = pw.format_string(row[name_col], encoding = 'utf-8')
+            # name = u"{}".format(row[name_col])
+            name = pw.format_string(row[name_col], encoding = 'utf-8')
         except:
             print(u"Error: Can't read plant name.")
             continue                       # must have plant name - don't read plant if not
