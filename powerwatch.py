@@ -324,6 +324,8 @@ def format_string(value,encoding = UNICODE_ENCODING):
 		else:
 			unicode_value = value.decode(encoding)
 		clean_value = unicode_value.replace("\n"," ").replace("\r"," ").replace(","," ").strip()
+		# TODO: Find better way to handle substitute characters than this:
+		clean_value = clean_value.replace(u"\u001A","")
 		return clean_value
 	except:
 		return NO_DATA_UNICODE

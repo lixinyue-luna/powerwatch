@@ -1,0 +1,304 @@
+ID	MemberState	ReferenceYear	NumberOfPlants	Organization	Address1	Address2	City	State	PostalCode	NameOfContactPerson	Phone	EMail
+1	AT	2004	80	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+2	AT	2005	80	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+3	AT	2006	80	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+4	AT	2007	91	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+5	AT	2008	95	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+6	AT	2009	101	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+7	AT	2010	100	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+8	AT	2011	97	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+9	AT	2012	95	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+10	AT	2013	97	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas Reichard	+43 (0)1 711 00-8216	thomas.reichard@bmwfw.gv.at
+21	DE	2004	618	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+22	DE	2005	618	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+23	DE	2006	618	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+24	DE	2007	596	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+25	DE	2008	597	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+26	DE	2009	598	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+27	DE	2010	609	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+28	DE	2011	615	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+29	DE	2012	622	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Robert Kludt	+49-340-2103-2945	robert.kludt@uba.de
+31	EE	2004	14	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+32	EE	2005	14	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+33	EE	2006	14	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+34	EE	2007	13	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+35	EE	2008	13	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+36	EE	2009	15	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+37	EE	2010	17	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+38	EE	2011	16	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+39	EE	2012	17	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+40	EE	2013	20	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Elo Mandel	372 6736 628	Elo.Mandel@envir.ee
+47	HR	2010	19	Croatian Environment Agency	Trg Maršala Tita 8	Ksaver 208	Zagreb	HR	10000	Nina Zovko	+38514884867	nina.zovko@azo.hr
+48	HR	2011	19	Croatian Environment Agency	Trg Maršala Tita 8	Ksaver 208	Zagreb	HR	10000	Nina Zovko	+38514884867	nina.zovko@azo.hr
+49	HR	2012	19	Croatian Environment Agency	Trg Maršala Tita 8	Ksaver 208	Zagreb	HR	10000	Nina Zovko	+38514884867	nina.zovko@azo.hr
+50	HR	2013	19	Croatian Environment Agency	Trg Maršala Tita 8	Ksaver 208	Zagreb	HR	10000	Nina Zovko	+38514884867	nina.zovko@azo.hr
+51	SE	2004	156	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+52	SE	2005	156	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+53	SE	2006	156	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+54	SE	2007	133	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+55	SE	2008	140	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+56	SE	2009	143	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+57	SE	2010	137	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+58	SE	2011	136	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+59	SE	2012	135	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+60	SE	2013	131	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+61	DK	2004	32	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+62	DK	2005	32	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+63	DK	2006	32	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+64	DK	2007	25	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+65	DK	2008	25	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+66	DK	2009	25	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+67	DK	2010	95	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+68	DK	2011	94	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+69	DK	2012	94	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+70	DK	2013	79	Environmental Protection Agency	Strandgade 19		København K	DK	1401	Anne Jensen	+45 72 54 43 52	annje@mst.dk
+71	GR	2004	40	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	
+72	GR	2005	40	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+73	GR	2006	40	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+74	GR	2007	57	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+75	GR	2008	59	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+76	GR	2009	60	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+77	GR	2010	64	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+78	GR	2011	65	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+79	GR	2012	67	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+80	GR	2013	76	Ministry of Reconstruction of Production, Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+91	IT	2004	399	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+92	IT	2005	405	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+93	IT	2006	396	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+94	IT	2007	410	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+95	IT	2008	425	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+96	IT	2009	426	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+97	IT	2010	462	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+98	IT	2011	466	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+99	IT	2012	458	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+100	IT	2013	444	ISPRA	Via Cesare Pavese 313		Rome	IT	00144	Francesca Lena	06 5007 2599	francescalena@isprambiente.it
+101	LV	2004	23	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+102	LV	2005	23	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+103	LV	2006	23	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+104	LV	2007	25	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+105	LV	2008	26	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+106	LV	2009	24	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+107	LV	2010	22	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+108	LV	2011	20	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+109	LV	2012	18	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+110	LV	2013	20	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+111	LU	2004	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+112	LU	2005	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+113	LU	2006	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+114	LU	2007	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+115	LU	2008	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+116	LU	2009	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+117	LU	2010	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+118	LU	2011	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+119	LU	2012	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+120	LU	2013	1	Administration de l´environnement	1 Avenue du Rock´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+121	HU	2004	44	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+122	HU	2005	44	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+123	HU	2006	44	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+124	HU	2007	47	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+125	HU	2008	47	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+126	HU	2009	49	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+127	HU	2010	49	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+128	HU	2011	51	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+129	HU	2012	51	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+130	HU	2013	47	Ministry of Agriculture	Kossuth tér 11.		Budapest	HU	1055	Gabriella Kun	+3617952450	gabriella.kun@fm.gov.hu
+131	BE	2004	100	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+132	BE	2005	100	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+133	BE	2006	100	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+134	BE	2007	96	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+135	BE	2008	96	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+136	BE	2009	98	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+137	BE	2010	108	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+138	BE	2011	102	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+139	BE	2012	99	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+140	BE	2013	103	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+32 22275672	vanpoucke@irceline.be
+141	CZ	2004	123	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+142	CZ	2005	120	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+143	CZ	2006	118	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+144	CZ	2007	119	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+145	CZ	2008	112	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+146	CZ	2009	110	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+147	CZ	2010	110	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+148	CZ	2011	108	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+149	CZ	2012	108	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+150	CZ	2013	106	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková		ilona.dvorakova@chmi.cz
+151	FR	2004	268	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+152	FR	2005	268	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+153	FR	2006	268	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+154	FR	2007	239	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+155	FR	2008	236	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+156	FR	2009	241	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+157	FR	2010	258	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+158	FR	2011	257	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+159	FR	2012	254	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+160	FR	2013	256	Ministère de l´écologie du développement durable et de l´énergie : Bureau de la qualité de l´air	Tour séquoïa		La Défense Cedex	FR	92055	Matthieu Laé	01 40 81 93 68	matthieu.lae@developpement-durable.gouv.fr
+161	NL	2004	107	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	
+162	NL	2005	110	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+163	NL	2006	138	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+164	NL	2007	186	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+165	NL	2008	186	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+166	NL	2009	169	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+167	NL	2010	179	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+168	NL	2011	179	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+169	NL	2012	189	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+170	NL	2013	197	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+171	PL	2004	94	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+172	PL	2005	94	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+173	PL	2006	94	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+174	PL	2007	95	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+175	PL	2008	94	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+176	PL	2009	123	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+177	PL	2010	103	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+178	PL	2011	104	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+179	PL	2012	105	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland			Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+180	PL	2013	99	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland	Chmielna 132/134		Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+181	PT	2004	24	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+182	PT	2005	24	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+183	PT	2006	24	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+184	PT	2007	22	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+185	PT	2008	31	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+186	PT	2009	33	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+187	PT	2010	35	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+188	PT	2011	35	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+189	PT	2012	35	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+190	PT	2013	32	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+191	RO	2004	181	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+192	RO	2005	183	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+193	RO	2006	182	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+194	RO	2007	174	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+195	RO	2008	171	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+196	RO	2009	172	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+197	RO	2010	173	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+198	RO	2011	173	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+199	RO	2012	176	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+200	RO	2013	178	National Environmental Protection Agency	Splaiul Independentei nr.294, sector 6		Bucuresti	RO	060031	Moraru Alexandru	0040212071127	alex.moraru@anpm.ro
+201	BG	2004	29	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+202	BG	2005	29	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+203	BG	2006	29	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+204	BG	2007	28	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+205	BG	2008	27	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+206	BG	2009	27	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+207	BG	2010	27	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+208	BG	2011	25	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+209	BG	2012	26	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+210	BG	2013	24	Ministry of Environment and Water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	35929406353	iyotova@moew.government.bg
+211	CY	2004	3	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+212	CY	2005	3	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+213	CY	2006	3	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+214	CY	2007	3	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+215	CY	2008	3	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+216	CY	2009	16	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+217	CY	2010	16	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+218	CY	2011	17	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+219	CY	2012	17	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+220	CY	2013	22	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+221	ES	2004	140	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+222	ES	2005	140	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+223	ES	2006	140	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+224	ES	2007	148	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+225	ES	2008	152	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+226	ES	2009	177	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+227	ES	2010	196	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+228	ES	2011	210	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+229	ES	2012	222	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+230	ES	2013	226	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero		manuel.pujadas@ciemat.es
+231	FI	2004	192	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+232	FI	2005	192	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+233	FI	2006	192	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+234	FI	2007	205	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+235	FI	2008	207	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+236	FI	2009	201	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+237	FI	2010	190	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+238	FI	2011	190	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+239	FI	2012	195	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+240	FI	2013	179	Finnish Environment Institute SYKE	POB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+247	SK	2010	75	Slovak environmental Agency	Tajovského 28		Banská Bystrica	SK	975 90	Radoslav Virgovič	+421484374178	radoslav.virgovic@sazp.sk
+248	SK	2011	76	Slovak environmental Agency	Tajovského 28		Banská Bystrica	SK	975 90	Radoslav Virgovič	+421484374178	radoslav.virgovic@sazp.sk
+249	SK	2012	72	Slovak environmental Agency	Tajovského 28		Banská Bystrica	SK	975 90	Radoslav Virgovič	+421484374178	radoslav.virgovic@sazp.sk
+250	SK	2013	74	Slovak environmental Agency	Tajovského 28		Banská Bystrica	SK	975 90	Radoslav Virgovič	+421484374178	radoslav.virgovic@sazp.sk
+251	LT	2004	39	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+252	LT	2005	39	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+253	LT	2006	39	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+254	LT	2007	35	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+255	LT	2008	32	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+256	LT	2009	31	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+257	LT	2010	29	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+258	LT	2011	29	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+259	LT	2012	27	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+260	LT	2013	27	Environmental Protection Agency	Juozapavičiaus st. 9		Vilnius	LT	LT-09311	Genovaitė Lunskutė	+370 706 62 010	genovaite.lunskute@aaa.am.lt
+261	SI	2004	9	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+262	SI	2005	9	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+263	SI	2006	9	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+264	SI	2007	16	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+265	SI	2008	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+266	SI	2009	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+267	SI	2010	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+268	SI	2011	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+269	SI	2012	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+270	SI	2013	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	SI-1000	dr. Joze Roth	++386 1 478 7378	joze.roth@gov.si
+271	UK	2004	253	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+272	UK	2005	253	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+273	UK	2006	253	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+274	UK	2007	288	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+275	UK	2008	294	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+276	UK	2009	340	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+277	UK	2010	350	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+278	UK	2011	350	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+279	UK	2012	373	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+280	UK	2013	386	Department for Environment Food & Rural Affairs	Nobel House	17 Smith Square17 Smith Square	London	UK	SW1P 3JR	Eamonn Prendergast	020 7238 1692	eamonn.prendergast@defra.gsi.gov.uk
+281	IE	2004	19	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+282	IE	2005	19	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+283	IE	2006	19	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+284	IE	2007	28	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+285	IE	2008	28	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+286	IE	2009	29	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+287	IE	2010	30	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+288	IE	2011	27	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+289	IE	2012	28	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+290	IE	2013	27	Environmental Protection Agency	PO Box 3000	Johnstown Castle Estate	Wexford	IE	NA	Paul Duffy	+353 91 60600	p.duffy@epa.ie
+291	MT	2004	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+292	MT	2005	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+293	MT	2006	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+294	MT	2007	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+295	MT	2008	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+296	MT	2009	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+297	MT	2010	10	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+298	MT	2011	11	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+299	MT	2012	11	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+300	MT	2013	11	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Vincent Cassar	+35622907204	lcp@mepa.org.mt
+301	DE	2013	610	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Unit Emissions Situation		i2.6@uba.de
+303	SK	2004	79	Slovak Environment Agency	Tajovskeho 28		Banska Bystrica	SK	97590	Radoslav Virgovic	+421484374178	radoslav.virgovic@sazp.sk
+304	SK	2005	77	Slovak Environment Agency	Tajovskeho 28		Banska Bystrica	SK	97590	Radoslav Virgovic	+421484374178	radoslav.virgovic@sazp.sk
+305	SK	2006	76	Slovak Environment Agency	Tajovského 28		Banská Bystrica	SK	97590	Radoslav Virgovic	+421484374178	radoslav.virgovic@sazp.sk
+306	SK	2007	74	Slovak Environment Agency	Tajovskeho 28		Banska Bystrica	SK	97590	Radoslav Virgovic	+421484374178	radoslav.virgovic@sazp.sk
+307	SK	2008	72	Slovak Environment Agency	Tajovskeho 28		Banska Bystrica	SK	97590	Radoslav Virgovič	+421484374178	radoslav.virgovic@sazp.sk
+308	SK	2009	72	Slovak Environment Agency	Tajovskeho 28		Banska Bystrica	SK	97590	Radoslav Virgovič	+421484374178	radoslav.virgovic@sazp.sk
+309	AT	2014	99	Federal Ministry of Science, Research and Economy	Stubenring 1		Vienna	AT	1010	Dipl.-Ing. Thomas REICHARD	+43 1 711 00-8216	thomas.reichard@bmwfw.gv.at
+310	BE	2014	104	IRCEL	Kunstlaan 10-11		Brussels	BE	1210	Charlotte Vanpoucke	+322 2275672	vanpoucke@irceline.be
+311	BG	2014	24	Ministry of Environment and water	22 Maria Louiza Blvd		Sofia	BG	1000	Iskra Yotova	+359 2940 6353	iyotova@moew.government.bg
+312	CY	2014	22	Department of Labour Inspection, Ministry of Labour, Welfare and Social Insurance	Department of Labour Inspection		Nicosia	CY	1493	Mr. Philippos Vassiliou	+35722405635	pvassiliou@dli.mlsi.gov.cy
+313	CZ	2014	105	Czech Hydrometeorological Institute	Na Šabatce 17		Praha	CZ	14306	Ilona Dvořáková	+420 244 032 427	ilona.dvorakova@chmi.cz
+314	DE	2014	604	Umweltbundesamt	Wörlitzer Platz 1	Postbox 1406	Dessau-Roßlau	DE	D-06844	Unit Emissions Situation		i2.6@uba.de
+315	DK	2014	79	Danish Environmental Protection Agency	Standgade 29		København K	DK	1401	Anne Jensen	+ 45 72 54 43 52	annje@mst.dk
+316	EE	2014	21	Estonian Environment Agency	Mustamäe tee 33		Tallinn	EE	10616	Kaili Raud	372 6736 629	kaili.raud@envir.ee
+317	ES	2014	226	CIEMAT (Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas)	Avenida Complutense Nº 40		Madrid	ES	28040	Manuel Pujadas Cordero	+34913466712	manuel.pujadas@ciemat.es
+318	FI	2014	180	Finnish Environment Institute SYKE	PB 140		Helsinki	FI	00251	Kristina Saarinen	+358400148715	kristina.saarinen@ymparisto.fi
+319	FR	2014	254	Ministère de l´écologie, du développement durable et de l´énergie	Tour séquoïa		Paris La Défense cedex	FR	92055	Matthieu Laé	01 40 81 21 22	matthieu.lae@developpement-durable.gouv.fr
+320	GR	2014	77	Ministry of Environment and Energy	11, Alexandras Ave		Athens	GR	11473	Alexandra Tsakiraki	+302106417813	a.tsakiraki@prv.ypeka.gr
+321	HR	2014	18	Croatian Agency for the Environment and Nature	Radnicka cesta 80		Zagreb	HR	10000	Nina Zovko	+ 385 1 4886 867	nina.zovko@azo.hr
+322	HU	2014	46	Ministry of Agriculture	11	Kossuth tér	Budapest	HU	1055	Gabriella Kun		gabriella.kun@fm.gov.hu
+323	IE	2014	27	Environmental Protection Agency	PO Box 3000	Johnstown Castle	Wexford	IE	Y35 W821	Paul Duffy	+353 47 77600	p.duffy@epa.ie
+324	IT	2014	407	ISPRA	Viale Cesare Pavese 305	Via Vitaliano Brancati 48	Rome	IT	00144	FRANCESCA LENA	0650072599	francesca.lena@isprambiente.it
+325	LT	2014	28	Lithuanian Environmental Protection Agency	Juozapaviciaus str. 9		Vilnius	LT	09311	Vaclovas Berzinskas	+370-70662031	vaclovas.berzinskas@aaa.am.lt
+326	LU	2014	1	Administration de l´environnement	1 Avenue du Roch´n´Roll		Esch-sur-Alzette	LU	4361	Marc Schuman (PhD)	+352 405656-553	marc.schuman@aev.etat.lu
+327	LV	2014	21	"State Ltd ""Latvian Environment, Geology and Meteorology Centre"""	Maskavas Street 165		Riga	LV	LV -1019	Evita Vitola	+371 67770051	evita.vitola@lvgmc.lv
+328	MT	2014	11	Malta Environment and Planning Authority	St. Francis Ravelin		Floriana	MT	FRN 1230	Perit Vincent Cassar	+35622907204	lcp@mepa.org.mt
+329	NL	2014	216	National Institute for Public Health and the Environment	P.O. Box 1		Bilthoven	NL	3720 BA	Wim van der Maas	+31 6 47330903	wim.van.der.maas@rivm.nl
+330	PL	2014	97	Institute of Environmental Protection – National Research Institute The National Centre for Emissions Management Poland	Chmielna 132/134		Warsaw	PL	00-805	Krystian Grzybowski	+48 22 569 65 45	krystian.grzybowski@kobize.pl
+331	PT	2014	30	Agência Portuguesa do Ambiente	Rua da Murgueira - 9/9A - Zambujal, Ap. 7585		Amadora	PT	2611-865	Dília Jardim	(351) 21 472 82 00	dilia.jardim@apambiente.pt
+332	RO	2014	178	Ministry of Environment, Water and Forests	Bulevardul Libertatii nr. 12, sector 5		Bucuresti	RO	040129	Iliuta Paraschiv	0040213160421	iliuta.paraschiv@mmediu.ro
+333	SE	2014	142	Swedish Environmental Protection Agency	Valhallavägen 195		Stockholm	SE	10648	Johannes Morfeldt	+46106981039	johannes.morfeldt@naturvardsverket.se
+334	SI	2014	18	Ministry of the Environment and Spatial Planning	Dunajska cesta 47		Ljubljana	SI	1000	Tone Kvasič	++386 1 478 7378	tone.kvasic@gov.si
+335	SK	2014	70	Slovak Environment Agency	Tajovskeho 28		Banska Bystrica	SK	975 90	Radoslav Virgovic	+421484374178	radoslav.virgovic@sazp.sk
+336	UK	2014	335	Department for Environment, Food and Rural Affairs	Nobel House	17 Smith Square	London	UK	SW1P 3JR	Olu Ogunbadejo	0207 238 4335	olu.ogunbadejo@defra.gsi.gov.uk
+337	XK	2014	5	KEPA	Ex Rilindja		Prishtina	XK	10000	Sabit Restelica	+37744192960	sabit.restelica@rks-gov.net
