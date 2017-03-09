@@ -8,6 +8,8 @@ If you're just looking for the data, the latest database is available in CSV for
 
 This work is made possible and supported by [Google](https://www.google.com).
 
+All code and data for this project are published under a [Creative Commons-Attribution 3.0 United States (CC BY 3.0 US) license](https://creativecommons.org/licenses/by/3.0/us/).
+
 ## Database description
 
 The PowerWatch database is built in several steps. 
