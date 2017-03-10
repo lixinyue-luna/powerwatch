@@ -40,7 +40,7 @@ COLNAMES = ["propietario","potencia mw","coordenada este","coordenada norte","us
 # set locale to Spain (Chile is not usually available in locales)
 locale.setlocale(locale.LC_ALL,"es_ES")
 
-# TODO: check back in the future to see if the Agency provides location inforamtion in csv files or not
+# TODO: check back in the future to see if the Agency provides location information in csv files or not
 # Disable download for now. The Agency removed location information in some datasets. Use locally saved file instead.
 # # optional raw file(s) download
 # FILES = {}
@@ -93,8 +93,6 @@ for dataset in DATASETS:
 
             if dataset["fuel"] is "Various":
                 fuel_type = pw.standardize_fuel(row[fuel_col],fuel_thesaurus)
-                #fuel_type_list = row[fuel_col].split("/")
-                #fuel_type = [pw.standardize_fuel(ft,fuel_thesaurus) for ft in fuel_type_list]
 
             try:
                 capacity = locale.atof(row[capacity_col])
