@@ -3,3 +3,5 @@ Matching error: no GEO location for WRI plant WRI1020285, GEO plant GEODB0044110
 Starting PowerWatch build run at Mon Mar  6 11:40:01 2017.
 Starting PowerWatch build run at Mon Mar  6 11:52:17 2017.
 Matching error: no GEO location for WRI plant WRI1020285, GEO plant GEODB0044110
+Starting PowerWatch build run at Mon Mar 20 11:21:49 2017.
+Matching error: no GEO location for WRI plant WRI1020285, GEO plant GEODB0044110
