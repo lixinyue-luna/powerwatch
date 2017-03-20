@@ -104,7 +104,6 @@ PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual
 1019335,Tianwan,Nuclear,1980,Lianyungang,PWR,2006-2007,2x990,,,,IAEA PRIS,https://www.iaea.org/PRIS/CountryStatistics/CountryDetails.aspx?current=CN,,,,,,,,,Operating,China,,34.687465,119.459981,,,,,
 1000512,Chitan,Hydro,400,Jinxi,,1980,,,2009,Hydro,Large Dam Safety Supervision Center,http://www.dam.com.cn/damView/list.jsp,Global Reservoir and Dam,http://sedac.ciesin.columbia.edu/data/collection/grand-v49,,,,,,,Operating,China,,26.710417,117.117083,,,Taining,,
 1026009,TBEA Awati,Solar,20,,PV,,,"TBEA SunOasis Co., Ltd.",,,CDM,https://cdm.unfccc.int/filestorage/7/9/HPM7FIJEV6XW9Z51GS0CAOUT2NYRLD.pdf/Awati-PDD-clean-2012.09.06?t=U2h8b2o5eTJ3fDACnEhdO4TARlVLWThhZUFa,,,,,,,,,Operating,China,,40.4999,80.17381,,,,,
-1019336,Yangjiang,Nuclear,3000,Yangjiang,PWR,2013-2015,3x1000,,,,IAEA PRIS,https://www.iaea.org/PRIS/CountryStatistics/CountryDetails.aspx?current=CN,,,,,,,,,Operating,China,,21.709188,112.261146,,,,,
 1025983,Jingneng Bejing Badaling,Solar,31,,PV,,,Beijing Jingneng Clean Energy Corporation Limited,,,CDM,https://cdm.unfccc.int/filestorage/b/w/MRNZTE62WL5VS7P0O3YD8AG4HJ9FCX.pdf/PDD.pdf?t=bHh8b2o5d2JjfDDkXaPKSJ8RjiRBQC1_xptQ,,,,,,,,,Operating,China,,40.5232,116.0073,,,,,
 1000513,Yunfeng,Hydro,400,Yalu Jiang,Gravity Dam with Reservoir,1971,4x100,,,Multi-national dam,Large Dam Safety Supervision Center,http://www.dam.com.cn/damView/list.jsp,Global Reservoir and Dam,http://sedac.ciesin.columbia.edu/data/collection/grand-v88,,,,,,,Operating,China,,41.382917,126.512917,,,Jian,,
 1023888,Niutouling,Wind,43,Guangdong,Onshore Wind,,,,,,China Wind Power Center,http://www.cwpc.cn/cwpp/en/information/wind-farms-china/wind-farm-map/,,,,,,,,,Operating,China,,23.437144,117.068,,,,,
@@ -444,3 +443,4 @@ PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual
 1029839,Zhangjiagang - Huaxing Gas,Natural Gas,760,,,,,Zhangjiagang Huaxing Power Co Ltd,,,CDM,https://cdm.unfccc.int/Projects/DB/DNV-CUK1237357899.03/view,,,,,,,,,Operating,China,,31.8874,120.596,,,,,
 1029840,Zhengzhou 2 Gas,Natural Gas,780,,,,,Zhengzhou Combined Cycle Power Co Ltd,,,CDM,https://cdm.unfccc.int/filestorage/1/a/79,,,,,,,,,Operating,China,,34.79666,113.5272,,,,,
 ,,,21826.5,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1019336,Yangjiang,Nuclear,4000,Yangjiang,PWR,2013-2017,4x1000,,,,IAEA PRIS,https://www.iaea.org/PRIS/CountryStatistics/CountryDetails.aspx?current=CN,,,,,,,,,Operating,China,,21.709188,112.261146,,,,,

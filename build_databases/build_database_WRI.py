@@ -113,7 +113,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 except:
                     location = u""
                 try:
-                    generation = float(row[generation_col])
+                    generation = float(pw.format_string(row[generation_col].replace(",","")))
                 except:
                     generation = 0.0
                 try:
