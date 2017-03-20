@@ -14,7 +14,7 @@ Austria,AUT,AT,0,0,Austria,Austria,1nDSeYXRF3V7ElTbpHkROw002ciAibRnEW4YrlhLP
 Azerbaijan,AZE,AZ,0,0,Azerbaijan,Azerbaijan,1EtyA_0-pIa4F9CYktpRWVl6bu8yOKJ0U2M1aq0ND
 Bahamas,BHS,BS,0,1,Bahamas,Bahamas The,
 Bahrain,BHR,BH,0,0,Bahrain,Bahrain,1u97RUc1nSfrt-fJr73MU8gP3ychZBTzk0a8xuHW9
-Bangladesh,BGD,BD,0,1,Bangladesh,Bangladesh,
+Bangladesh,BGD,BD,0,0,Bangladesh,Bangladesh,
 Barbados,BRB,BB,0,1,Barbados,Barbados,
 Belarus,BLR,BY,0,1,Belarus,Belarus,
 Belgium,BEL,BE,0,0,Belgium,Belgium,1GkJVy6iW4UY-LZNx384-lYSxI4zNROhJI8gYF5G6
@@ -78,12 +78,12 @@ Greece,GRC,GR,0,0,Greece,Greece,11pObXr0GzlIiB9NUZkKVTOSuGKTASOm7oIpHubcc
 Greenland,GRL,GL,0,1,Greenland,Greenland,
 Grenada,GRD,GD,0,1,Grenada,Grenada,
 Guam,GUM,GU,0,1,Guam,Guam,
-Guatemala,GTM,GT,0,1,Guatemala,Guatemala,
+Guatemala,GTM,GT,0,0,Guatemala,Guatemala,
 Guinea,Guinea,GN,0,0,GIN,Guinea,15Qfadhum7Gofn-tldeu84Cmr22WcCii0zL0orrCI
 Guinea-Bissau,GNB,GW,0,0,Guinea-Bissau,Guinea-Bissau,1X4QvAy1ESdL9jCzNGfaUAM_pji96p7J4PGFwgJfk
 Guyana,GUY,GY,0,0,Guyana,Guyana,19cM1SSFdAx6e5NCWap-g9i4oSwahUHFiVDOif4-d
 Haiti,HTI,HT,0,1,Haiti,Haiti,
-Honduras,HND,HN,0,1,Honduras,Honduras,
+Honduras,HND,HN,0,0,Honduras,Honduras,
 Hong Kong,HKG,HK,0,1,Hong Kong,Hong Kong (China),
 Hungary,HUN,HU,0,0,Hungary,Hungary,1eaPjlNzYLg2ztZi8ZV2nKFpVD0Y3x3TKxPQUUjzL
 Iceland,ISL,IS,0,0,Iceland,Iceland,1XJUEyH2J31SBKPhhBXnKJdhBbzDUbRxad3Je7RlQ
@@ -182,7 +182,7 @@ Sri Lanka,LKA,LK,0,1,Sri Lanka,Sri Lanka,
 Sudan,SDN,SD,0,0,Sudan,Sudan,1ZVXJtKUajwK_c-wM2mDUJd_623xO2mS6xchISrhp
 Suriname,SUR,SR,0,0,Suriname,Suriname,1CC9tTrZT9VM8yaPLud6uU5G2dYo9Bdm1ftRJLPQ4
 Swaziland,SWZ,SZ,0,0,Swaziland,Swaziland,17UuuDbmU_cqkmuhi5bLgXM7zOoGfV9ZpdOPkQeRD
-Sweden,SWE,SE,0,1,Sweden,Sweden,
+Sweden,SWE,SE,0,0,Sweden,Sweden,
 Switzerland,CHE,CH,0,0,Switzerland,Switzerland,1tvTfRhrogh3D9Y3IBpuEPai4sHbjoqPlUxfGAoED
 Syrian Arab Republic,SYR,SY,0,1,Syrian Arab Republic,Syria,
 Taiwan,TWN,TW,0,0,Republic of China Taiwan,Taiwan,10Ru5sGBmWb9SzK-QYRMayhF_MzlWt4hBRp-NiJz1
