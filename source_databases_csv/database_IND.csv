@@ -1,0 +1,491 @@
+NOTE: This Power Watch database of power plants is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.
+name,pw_idnr,capacity_mw,year_of_capacity_data,annual_generation_gwh,year_of_generation_data,country,owner,source,url,latitude,longitude,fuel1,fuel2,fuel3,fuel4
+KUTTALAM GT,IND0000212,101.0,2015,452.527,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KUTTIADI,IND0000213,125.0,2015,736.76765,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KUTCH LIG.,IND0000210,290.0,2015,1393.879,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KUTHUNGAL,IND0000211,21.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LAKWA GT,IND0000216,157.2,2015,855.342825,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+LARGI,IND0000217,126.0,2015,606.64155,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KUTTIYADI Add ext,IND0000214,100.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KYREDEMKULAI,IND0000215,60.0,2015,112.5345,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LEIMAKHONG DG,IND0000218,36.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+LIGANAMAKKI,IND0000219,55.0,2015,254.98865,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PRAGATI CCCP -III,IND0000328,1371.2,2015,2156.08,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+BHAWANI KATTALAI -III,IND0000049,30.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHAWANI KATTALAI -II,IND0000048,30.0,2015,136.8722,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHAWANI KATTALAI BARRAGE,IND0000047,30.0,2015,67.5605,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHATSA,IND0000046,15.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHATGARH,IND0000045,16.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHANDARDHARA,IND0000044,34.0,2015,65.073,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHAKRA,IND0000043,1325.0,2015,5241.80925,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHADRA,IND0000042,39.2,2015,50.33705,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BELLARY TPS,IND0000041,1000.0,2015,5445.763,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BELLARY DG,IND0000040,25.2,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+NIRGAJANI(Ganga Canal),IND0000289,5.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NIMOO BAZGO,IND0000288,45.0,2015,75.17225,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+POCHAMPAD,IND0000324,27.0,2015,12.80565,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PONG,IND0000325,396.0,2015,1320.7232,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PERIYAR,IND0000322,140.0,2015,524.9222,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PIPAVAV CCCP,IND0000323,702.0,2015,2.20585,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+PENCH,IND0000320,160.0,2015,388.17935,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PENNA AHOBELAM,IND0000321,20.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NEWCOSSIPORE,IND0000281,160.0,2015,54.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal
+NELLORE,IND0000280,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NEYVELI ST I,IND0000283,600.0,2015,3193.101,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NEYVELI FST EXT,IND0000282,420.0,2015,3107.282,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NEYVELI TPS EXP -II,IND0000285,500.0,2015,125.38,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NEYVELI ST II,IND0000284,1470.0,2015,10063.18,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NIGRI,IND0000287,1320.0,2015,1643.8983,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PRAGATI CCGT,IND0000329,330.0,2015,1799.976,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+SABARIGIRI,IND0000368,300.0,2015,1218.60635,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+HAZIRA CCCP,IND0000133,156.1,2015,206.547,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+HASDEOBANGO,IND0000132,120.0,2015,256.8891,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BASSI,IND0000038,60.0,2015,293.53495,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+HALDIA,IND0000130,600.0,2015,337.232,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+I.P.GT,IND0000137,270.0,2015,904.388,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+I.B.VALLEY,IND0000136,420.0,2015,2498.546,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+HIRAKUD I&II,IND0000135,331.5,2015,882.6645,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+HAZIRA-GSECL,IND0000134,351.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+BARGI,IND0000032,90.0,2015,495.9677,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BARH STPP II,IND0000033,1320.0,2015,1221.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+IDAMALAYAR,IND0000139,75.0,2015,370.7967,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+I.P.STATION,IND0000138,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BASIN BRIDGE GT,IND0000036,120.0,2015,2.85387,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+BASPA,IND0000037,300.0,2015,1246.3171,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BARKHERA TPP,IND0000034,90.0,2015,505.76,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BARSINGAR LIGNITE,IND0000035,250.0,2015,1255.732,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TEESTA LOW DAM-III,IND0000429,132.0,2015,392.21905,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TEESTA  I-III,IND0000428,67.5,2015,142.53773,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TANIR BAVI,IND0000425,220.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+TANDA,IND0000424,440.0,2015,2790.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TAWA,IND0000427,13.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TARAPUR,IND0000426,1400.0,2015,9335.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+TALWANDI SABO,IND0000421,660.0,2015,1423.7245,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TALCHER STPS,IND0000420,3000.0,2015,22215.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TANAKPUR,IND0000423,94.2,2015,444.47645,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TAMNAR TPP,IND0000422,2400.0,2015,2321.6,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NEYVELI TPS(Z),IND0000286,250.0,2015,1680.976,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SERVALAR,IND0000382,20.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SEWA-II,IND0000383,120.0,2015,594.0747,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UKAI_Hydro,IND0000455,300.0,2015,687.17685,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SINGRAULI STPS,IND0000397,2000.0,2015,13431.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SHARAVATHY TAIL RACE (Gerusupa),IND0000388,240.0,2015,554.1155,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SIMHADRI,IND0000395,2000.0,2015,14196.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SIKKA REP.,IND0000394,490.0,2015,829.691,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+Shri Singaji MALWA TPP,IND0000393,1200.0,2015,1584.581,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SHOLAYAR I&II,IND0000392,95.0,2015,260.2721,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MONARCHAK CCPP,IND0000258,65.4,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+MOUDA STPS,IND0000259,1000.0,2015,2096.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MOHAMAD PUR,IND0000256,9.3,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MOHARA,IND0000257,9.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MIHAN TPP,IND0000254,246.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MOBILE GAS T-G,IND0000255,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+METTUR DAM,IND0000252,250.0,2015,440.4069,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+METTUR TPS EXT,IND0000253,600.0,2015,2802.37,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MELAMARUTHUR (MUTHIARA),IND0000250,600.0,2015,805.76,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+METTUR,IND0000251,840.0,2015,5697.399,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DHANU,IND0000089,500.0,2015,3642.26,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DHALIPUR,IND0000088,51.0,2015,229.9843,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DAMODARAM SANJEEVAIAH,IND0000083,1600.0,2015,1025.3845,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DADRI GT,IND0000082,816.4,2015,2462.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+DADRI (NCTPP),IND0000081,1820.0,2015,11466.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+D.P.L.,IND0000080,891.0,2015,1228.69,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DHAKRANI,IND0000087,33.75,2015,148.66295,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DGEN MEGA CCCP,IND0000086,1200.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+DERANG,IND0000085,1200.0,2015,481.94575,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DEHAR,IND0000084,990.0,2015,3135.3047,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RAMPUR,IND0000350,412.02,2015,1310.98215,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+JALLIPPA KAPURDI TPP,IND0000146,1080.0,2015,6555.64,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KAYAM KULAM GT,IND0000179,350.0,2015,792.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+JEGURUPADU GT,IND0000147,445.674,2015,573.441,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KAWAI TPP,IND0000177,1320.0,2015,7399.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KATHALGURI GT,IND0000176,291.0,2015,1695.81264,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KATGHORA TPP,IND0000175,35.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KASARGODE DG,IND0000174,21.84,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+KASAIPALLI,IND0000173,270.0,2015,1564.163,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KARUPPUR GT,IND0000172,119.8,2015,560.352,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KARGIL,IND0000171,3.75,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KARCHAM WANGTOO,IND0000170,1000.0,2015,4219.22785,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHIBRO (YAMUNA),IND0000076,240.0,2015,867.7395,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHILLA,IND0000077,144.0,2015,796.48755,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHENANI I&III,IND0000074,30.8,2015,57.12693,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHHABRA TPS,IND0000075,1000.0,2015,4088.539,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+CHANDRAPURA,IND0000072,890.0,2015,4488.057,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+CHEMBUKADAVU-II,IND0000073,3.75,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHANDRAPUR_Coal,IND0000070,2840.0,2015,11385.842,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+CHANDRAPUR_Oil,IND0000071,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+SALAYA TPP,IND0000371,1200.0,2015,6224.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SALAL I & II,IND0000370,690.0,2015,3474.1221,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SAMALPATTI DG,IND0000373,105.7,2015,223.650436183,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+SALORA,IND0000372,135.0,2015,124.7792,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SANJAY BHABA,IND0000375,120.0,2015,542.36455,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SAMAYANALLUR DG,IND0000374,106.0,2015,243.634,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+CHUTAK,IND0000078,44.0,2015,35.3225,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHUZACHEN,IND0000079,99.0,2015,428.7057,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KAWAS GT,IND0000178,645.0,2015,1694.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+F_BAD CCGT,IND0000108,431.586,2015,1527.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+F_BAD EXTN.,IND0000109,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+JOG,IND0000148,139.2,2015,345.15555,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DURGAPUR STEEL TPS,IND0000102,1000.0,2015,3633.396,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+E.G. CANAL,IND0000103,15.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DULHASTI,IND0000100,390.0,2015,2165.54785,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BANSAGAR (II),IND0000026,30.0,2015,85.65955,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ENNORE,IND0000106,450.0,2015,485.136,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+ESSAR GT IMP.,IND0000107,515.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+ELDARI,IND0000104,22.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+EMCO WARORA TPP,IND0000105,600.0,2015,3277.35,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+UKAI_Coal,IND0000454,1350.0,2015,6105.916,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SASAN UMPP,IND0000379,3960.0,2015,15069.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+UMIAM I II &IV,IND0000456,114.0,2015,251.94395,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UMTRU,IND0000457,11.2,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+U.ROGNICHU,IND0000450,8.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UDUPI TPP,IND0000451,1200.0,2015,6020.85,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+UJJAINI,IND0000452,12.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SARKARPATHY,IND0000378,30.0,2015,133.5688,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UNCHAHAR,IND0000458,1050.0,2015,6925.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+UPPAR INDRAVATI,IND0000459,600.0,2015,2682.94785,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TUTICORIN,IND0000446,1050.0,2015,7043.329,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KOTA,IND0000201,1240.0,2015,8010.253,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KOSI,IND0000200,20.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KOTLA,IND0000203,77.65,2015,428.1684,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KOTESHWAR,IND0000202,400.0,2015,1204.11915,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KOYNA COMPLEX,IND0000205,1956.0,2015,3036.541,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KOVILKALAPPAL,IND0000204,107.0,2015,373.2247,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KUNDAH I-V,IND0000207,555.0,2015,1542.91665,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KULHAL,IND0000206,30.0,2015,155.3792,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KUNDARKI TPP,IND0000209,90.0,2015,483.043,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KUNDANKULAM,IND0000208,1000.0,2015,3875.32315,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+SANTALDIH,IND0000377,980.0,2015,3125.74,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SANJAY GANDHI,IND0000376,1340.0,2015,6229.793,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PORINGALKUTTU,IND0000326,32.0,2015,150.2649,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PORINGALKUTTU L,IND0000327,16.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UKAI LBC,IND0000453,5.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+R.P.SAGAR,IND0000335,172.0,2015,379.4134,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+R.A.P.S.,IND0000334,1180.0,2015,6945.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+R_GUNDEM STPS,IND0000337,2600.0,2015,19224.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+R_GUNDEM - B,IND0000336,62.5,2015,173.1111,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PURULIA PSS,IND0000331,900.0,2015,1401.80575,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PRIYADARSHNI JURALA,IND0000330,234.0,2015,223.52675,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PYKARA ALIMATE,IND0000333,150.0,2015,365.19485,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PYKARA,IND0000332,59.2,2015,38.805,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RAGHUNATHPUR TPP PH-I,IND0000339,600.0,2015,11.47245,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RADHANAGRI,IND0000338,4.8,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PEDDAPURAM CCGT(Samalkot),IND0000319,220.0,2015,160.8728,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+DHUVARAN,IND0000093,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+BARADARHA TPP,IND0000029,1200.0,2015,265.78,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BANSAGAR (IV),IND0000028,20.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+J.SAGAR,IND0000144,99.0,2015,294.68915,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+JALDHAKA I&II,IND0000145,35.0,2015,108.8729,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+INDIRA SAGAR,IND0000142,1000.0,2015,2529.1905,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+INDRA GANDHI STPP,IND0000143,1500.0,2015,6587.527,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+IDUKKI,IND0000140,780.0,2015,2481.729,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+IEPL  BELA TPP,IND0000141,270.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BAKRESWAR,IND0000021,1050.0,2015,7235.281,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BAIRA SIUL,IND0000020,198.0,2015,792.68665,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BANDEL,IND0000023,450.0,2015,946.141,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BALIMELA,IND0000022,510.0,2015,1332.53385,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BANSAGAR (I),IND0000025,315.0,2015,1075.9532,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BANER,IND0000024,12.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BANSAGAR (III),IND0000027,60.0,2015,120.44475,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+JOJBERA,IND0000149,427.5,2015,2692.7,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DOYANG,IND0000098,75.0,2015,164.32425,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DUDH GANGA,IND0000099,24.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SURAT GARH,IND0000410,4.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SURAT LIG.,IND0000411,500.0,2015,2866.784,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SURATGARH,IND0000412,1500.0,2015,9155.18,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SURULIYAR,IND0000413,35.0,2015,102.91285,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SURYA,IND0000414,6.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SVPL,IND0000415,63.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SWASTIK KORBA,IND0000416,25.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+T.B. DAM,IND0000417,36.0,2015,181.687,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TAGO,IND0000418,4.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TALCHER,IND0000419,460.0,2015,3382.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KAKATIYA TPP,IND0000159,500.0,2015,4106.29,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MEJIA TPS EXT,IND0000249,1000.0,2015,5111.95,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MEJIA,IND0000248,1340.0,2015,5521.9,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MAQSOODPUR  IPP,IND0000245,90.0,2015,473.91,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MANIYAR,IND0000244,12.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MATATILLA,IND0000247,30.6,2015,80.1373,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MARWA TPP,IND0000246,500.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MANERI BHALI,IND0000241,394.0,2015,1261.7197,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MALLARPUR,IND0000240,9.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MANIKDOH,IND0000243,6.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MANI DPH,IND0000242,9.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+YELHANKA (DG),IND0000489,127.92,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+YAMUNANAGAR TPP,IND0000488,600.0,2015,3194.35982,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+WY.CANAL A -D,IND0000487,62.4,2015,184.4531,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+WARNA,IND0000486,16.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+WARDHA WARORA,IND0000485,540.0,2015,1045.82,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+WANAKBORI,IND0000484,1470.0,2015,6753.87,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+VISHNU PRAYAG,IND0000483,400.0,2015,1806.8603,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+VIR,IND0000482,9.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+VINDH_CHAL STPS,IND0000481,4260.0,2015,27594.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+VIJESWARAN GT,IND0000480,272.3,2015,638.9885,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+SHIMSAPURA,IND0000389,17.2,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KHANDONG,IND0000182,50.0,2015,87.4207,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KHARA,IND0000183,72.0,2015,362.1004,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KHADAVASLA I&II,IND0000180,16.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KHAMBERKHERA IPP,IND0000181,90.0,2015,474.37,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KHOPOLI,IND0000186,72.0,2015,302.23125,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KODASALI,IND0000187,120.0,2015,383.8312,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KHATIMA,IND0000184,41.4,2015,44.9541,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KHODRI,IND0000185,120.0,2015,404.95505,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KODAYAR-I&II,IND0000188,100.0,2015,201.0099,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KODERMA,IND0000189,1000.0,2015,1721.426,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BUTIBORI TPP -II,IND0000065,600.0,2015,3305.9567,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BUDHIL,IND0000064,70.0,2015,234.65085,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHAMERA II,IND0000067,300.0,2015,1491.21645,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHAKABURA TPP,IND0000066,60.0,2015,373.919000362,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BRAMHAPURAM DG,IND0000061,106.6,2015,8.1158,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+BONGAIGAON,IND0000060,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BUDGE BUDGE,IND0000063,750.0,2015,5371.95,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BSES Kerala CCGT,IND0000062,165.0,2015,145.56,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+RAJGHAT (MP),IND0000344,45.0,2015,82.11735,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RAJIV GANDHI  TPS HISAR,IND0000345,1200.0,2015,5380.2671,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RAJPURA TPP,IND0000346,1400.0,2015,5373.91,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RAMGANGA,IND0000347,198.0,2015,268.48085,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RAICHUR,IND0000340,1720.0,2015,9983.018,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RAIGARH TPP,IND0000341,1000.0,2015,7368.39,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RAIKHEDA,IND0000342,685.0,2015,20.24275,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RAJGHAT,IND0000343,135.0,2015,359.1398,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+HAMPI,IND0000131,36.0,2015,2.03975,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GEPL,IND0000119,120.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GAUTAMI CCCP,IND0000118,468.57,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+BELGAUM DG,IND0000039,81.3,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+G.I.P.C.L. GT,IND0000111,310.0,2015,699.4,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+FARAKKA STPS,IND0000110,2100.0,2015,12467.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GANDHAR GT,IND0000113,648.0,2015,1562.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+GAJ,IND0000112,10.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GANDHI NAGAR,IND0000115,870.0,2015,3034.575,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GANDHARBAL,IND0000114,15.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GANGUWAL,IND0000117,77.65,2015,420.77555,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GANDHI SAGAR,IND0000116,115.0,2015,270.78925,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+U.B.D.C. ST.-I& II,IND0000449,91.35,2015,381.95861,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TUTICORIN JV,IND0000448,500.0,2015,6.34865,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TROMBAY GT,IND0000443,180.0,2015,1119.27,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+TROMBAY,IND0000442,500.0,2015,770.18,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+TORR POWER SAB.,IND0000441,400.0,2015,2720.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TORANGALLU IMP,IND0000440,260.0,2015,2074.31,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TUTICORIN- IND BARATH,IND0000447,300.0,2015,1262.6,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BARAMURA,IND0000030,42.0,2015,304.8328,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+TROMBAY_Oil,IND0000445,150.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+TROMBAY_Coal,IND0000444,750.0,2015,3797.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BARAUNI,IND0000031,220.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MAHATMA GANDHI TPP,IND0000234,1320.0,2015,6147.8,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MAHI BAJAJ I&II,IND0000235,140.0,2015,184.9108,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MAITHON,IND0000236,63.2,2015,137.3498,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MAITHON GT,IND0000237,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+MADHAVAMANTRI,IND0000230,4.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MADHIKHEDA,IND0000231,40.0,2015,96.6742,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MAHADEV PRASAD STPP,IND0000232,540.0,2015,1999.65,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MAHAN TPP,IND0000233,600.0,2015,468.36,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MAITHON RB TPP,IND0000238,1050.0,2015,6311.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MALANA,IND0000239,186.0,2015,575.9458,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KOLAGHAT,IND0000191,1260.0,2015,6449.761,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KOJIKODE DG,IND0000190,128.0,2015,194.11479,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+RIHAND_Hydro,IND0000360,300.0,2015,571.35885,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PANNIAR,IND0000308,30.0,2015,154.1255,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PAPANASAM,IND0000309,32.0,2015,117.63885,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RITHALA CCCP,IND0000361,94.8,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+PAINAMPURAM,IND0000300,660.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PAITHON,IND0000301,12.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PALATANA CCPP,IND0000302,1090.8,2015,2391.796,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+PALLIVASAL,IND0000303,37.5,2015,210.6017,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PAMPORE GT,IND0000304,175.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+PANCHET,IND0000305,80.0,2015,128.6137,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PANIPAT,IND0000306,1360.0,2015,3921.79,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PANKI,IND0000307,210.0,2015,852.537,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KORBA-WEST,IND0000199,1340.0,2015,9013.4173,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KORBA-EAST,IND0000198,940.0,2015,5373.7458,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KAIGA,IND0000158,880.0,2015,5866.94,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+RANGANADI,IND0000351,405.0,2015,1103.9326,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KADANA,IND0000155,240.0,2015,210.47235,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KADAMPARI,IND0000154,400.0,2015,499.9875,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KAHALGAON,IND0000157,2340.0,2015,14471.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KADRA,IND0000156,150.0,2015,403.1143,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+K_GUDEM,IND0000151,720.0,2015,3968.141,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+JSW RATNAGIRI TPP,IND0000150,1200.0,2015,6942.29,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+K_KHEDA II,IND0000153,1340.0,2015,7513.134,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+K_GUDEM NEW,IND0000152,1000.0,2015,6792.303,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+ANTA GT,IND0000014,419.33,2015,1611.987,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+AURAIYA GT,IND0000015,652.0,2015,1607.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+AVANTHA BHANDAR TPP,IND0000016,600.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+B. BRIDGE D.G,IND0000017,200.0,2015,573.274,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+ANAPARA "C",IND0000010,1200.0,2015,7744.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+ANDHRA,IND0000011,16.95,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ANOOPGARH ST I&II,IND0000012,9.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ANPARA,IND0000013,1630.0,2015,9670.879,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+STERLITE TPP,IND0000407,2400.0,2015,7599.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+STAKNA,IND0000406,4.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SRISAILAM LBPH,IND0000405,900.0,2015,1792.58205,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SRISAILAM,IND0000404,770.0,2015,1146.96635,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SOUTHERN REPL.,IND0000403,135.0,2015,905.97,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SONE WEST CANAL,IND0000402,6.6,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SONE EAST CANAL,IND0000401,3.3,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SIVASAMUNDRUM,IND0000400,42.0,2015,220.82035,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RIHAND,IND0000359,3000.0,2015,19784.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SUGEN CCCP,IND0000409,1147.5,2015,2519.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+SUBERNREKHA I&II,IND0000408,130.0,2015,33.56135,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RENGALI,IND0000358,250.0,2015,738.7477,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+N_SAGAR LBC,IND0000270,60.0,2015,41.85965,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+N_SAGAR RBC,IND0000271,90.0,2015,186.35355,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NAGARJUNA SAGAR,IND0000272,815.6,2015,1027.46685,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NAMRUP GT,IND0000273,119.5,2015,569.674,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+NARAYANPUR,IND0000274,11.6,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NARIMAN GT,IND0000275,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+NARIMANGLAM,IND0000276,45.0,2015,341.5835,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NASIK,IND0000277,630.0,2015,3730.102,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NASIK TPP  PH 1,IND0000278,270.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NATHPA JHAKRI,IND0000279,1500.0,2015,6803.3125,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DURGAPUR,IND0000101,350.0,2015,1153.653,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+VALANTHARVI GT,IND0000472,52.8,2015,386.916,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+VALLUR ntpc/ntecl,IND0000473,1500.0,2015,5337.31,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+VAIGAI DAM,IND0000470,13.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+VAITARNA,IND0000471,60.0,2015,202.8009,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+VATWA TORR,IND0000476,100.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+VEMAGIRI CCCP,IND0000477,388.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+VALUTHUR GT,IND0000474,186.2,2015,1014.8,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+VARAHI,IND0000475,460.0,2015,1313.86765,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+VIJAYWADA,IND0000478,1260.0,2015,8197.97,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+VIJAYWADA TPP-IV,IND0000479,500.0,2015,3429.3,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+UTRAN GT,IND0000468,135.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+BOKARO A,IND0000058,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BOKARO B,IND0000059,630.0,2015,1438.87,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KONASEEMA CCCP,IND0000193,445.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KOLDAM,IND0000192,400.0,2015,0.25,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KOPILI,IND0000195,225.0,2015,626.3127,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KONDAPALLI GT,IND0000194,716.0,2015,559.01,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KORBA STPS,IND0000197,2600.0,2015,18807.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KORADI,IND0000196,1280.0,2015,2022.57,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BHILAI TPP,IND0000050,500.0,2015,2962.72,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BHIRA,IND0000051,300.0,2015,832.88465,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHIRA TAIL RACE,IND0000052,80.0,2015,90.79375,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHIVPURI,IND0000053,75.0,2015,299.1766,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BHUSAWAL,IND0000054,1420.0,2015,5855.07,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BINA TPP,IND0000055,500.0,2015,2236.9908,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BINWA,IND0000056,6.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+BIRSINGHPUR,IND0000057,20.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RANJIT SAGAR,IND0000353,600.0,2015,1853.486,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RANGIT-III,IND0000352,60.0,2015,326.0416,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+P.NALLUR CCGT,IND0000298,330.5,2015,1142.965769,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+PAGUTHAN,IND0000299,655.0,2015,290.59,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+RELIANCE ENERGY,IND0000357,48.0,2015,12.214,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+RAYAL SEEMA,IND0000356,1050.0,2015,6420.386,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RATNAGIRI GAS,IND0000355,1967.08,2015,0.045355,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+RATIJA TPP,IND0000354,50.0,2015,215.21,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NORTH CHENNAI,IND0000292,630.0,2015,3864.434,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NORTH CHENNAI EXTENSION,IND0000293,1200.0,2015,5187.0794,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NIWARI TPP,IND0000290,45.0,2015,298.28,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+NIZAM SAGAR,IND0000291,10.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+OBRA-A,IND0000296,1278.0,2015,3182.742,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+OMKARESHWAR,IND0000297,520.0,2015,1123.28535,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+NURANANG,IND0000294,6.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+OBRA,IND0000295,99.0,2015,227.855,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SIMHAPURI TPP,IND0000396,600.0,2015,2881.574,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GUMTI,IND0000128,15.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+H_GANJ B,IND0000129,665.0,2015,3274.84,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GIRAL,IND0000124,250.0,2015,279.25,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GIRI BATA,IND0000125,60.0,2015,198.8209,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GNDTP(BHATINDA),IND0000126,440.0,2015,1286.12,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+GODAVARI GT,IND0000127,205.24,2015,525.099,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+GHANVI,IND0000120,22.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GHAT PRABHA,IND0000121,32.0,2015,65.7098,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GHATGHAR PSS,IND0000122,250.0,2015,318.64875,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+GHTP (LEH.MOH.),IND0000123,920.0,2015,4117.339,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SHOLAYAR,IND0000391,54.0,2015,237.05875,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SHIVAPURA,IND0000390,18.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TITAGARH,IND0000438,240.0,2015,1542.27,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TORANGALLU EXT,IND0000439,600.0,2015,4735.13,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TILLAYA,IND0000436,4.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TIRORA TPP,IND0000437,3300.0,2015,15501.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+THIROT,IND0000434,4.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TILLARI,IND0000435,60.0,2015,113.2907,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TENUGHAT,IND0000432,420.0,2015,2100.03,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+THAMMINAPATNAM TPP,IND0000433,300.0,2015,1380.61,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+TEESTA -V,IND0000430,510.0,2015,2573.81625,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+TEHRI ST -1,IND0000431,1000.0,2015,3008.43225,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SIPAT STPS,IND0000399,2980.0,2015,20603.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SINGUR,IND0000398,15.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SATPURA,IND0000380,1330.0,2015,5532.937,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+SENGULAM,IND0000381,48.0,2015,150.61315,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MACHKUND,IND0000229,114.75,2015,517.19105,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+M.A.P.P.,IND0000228,440.0,2015,2356.63,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+SEWA-III,IND0000384,9.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SHAHPUR,IND0000385,6.6,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SHANAN,IND0000386,110.0,2015,505.2809,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+SHARAVATHY,IND0000387,1035.0,2015,5229.1827,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LOWER LAGYAP,IND0000223,12.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LOWER JHELUM,IND0000222,105.0,2015,597.86565,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LOKTAK,IND0000221,105.0,2015,370.5778,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LIKIM RO,IND0000220,24.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LVS POWER DG,IND0000227,36.8,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil
+LOWER SILERU,IND0000226,460.0,2015,1280.67445,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LOWER PERIYAR,IND0000225,180.0,2015,574.26425,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+LOWER METTUR,IND0000224,120.0,2015,265.37645,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DHUVARAN CCPP,IND0000094,595.2,2015,145.814,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+DIMBE,IND0000095,5.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DLF,IND0000096,15.5,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+DONKARAYI,IND0000097,25.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DHARIWAL INF TPP,IND0000090,600.0,2015,382.45,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+DHAULI GANGA,IND0000091,280.0,2015,739.77255,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+DHOLPUR,IND0000092,330.0,2015,829.1142,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+PAWANA,IND0000318,10.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PATRATU,IND0000317,770.0,2015,645.435566629,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PATHRI,IND0000316,20.4,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PATHADI TPS PH -I,IND0000315,600.0,2015,2042.34,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PARSEN_S VALLE,IND0000314,30.0,2015,34.65585,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PARLI,IND0000313,1130.0,2015,4079.525,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PARICHA,IND0000312,1140.0,2015,5673.374,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+PARBATI-III,IND0000311,520.0,2015,657.4761,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+PARAS,IND0000310,500.0,2015,2598.618,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BADARPUR,IND0000018,705.0,2015,2936.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+BAGLIHAR HEP,IND0000019,450.0,2015,2925.21045,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KARAIKAL,IND0000168,32.5,2015,95.0355786,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+KARBI LANGPI,IND0000169,100.0,2015,400.41785,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KAKKAD,IND0000160,50.0,2015,191.9753,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KAKRAPARA,IND0000161,440.0,2015,3155.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+KALINADI,IND0000162,855.0,2015,3239.1429,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KALINADI SUPA,IND0000163,100.0,2015,451.0534,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KALISINDH,IND0000164,600.0,2015,1154.342,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KALLADA,IND0000165,15.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+KAMALANGA,IND0000166,1050.0,2015,4436.7,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+KANHER,IND0000167,4.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+AKRIMOTA LIG,IND0000003,250.0,2015,1153.421,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+AKALTARA TPP,IND0000002,1200.0,2015,3035.55,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+AGARTALA GT,IND0000001,109.5,2015,617.789264,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+SAGARDIGHI TPP,IND0000369,600.0,2015,3628.781,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+AMAR KANTAK,IND0000007,450.0,2015,1887.904,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+ALMATTI DAM,IND0000006,290.0,2015,480.59495,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ALLAIN DUHANGAN,IND0000005,192.0,2015,674.3911,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ALIYAR,IND0000004,60.0,2015,157.55825,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+RMC MANGROL,IND0000362,6.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ROKHIA GT,IND0000363,95.0,2015,416.23,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+ANANDPUR SAHIB ST-I&II,IND0000009,134.0,2015,614.4125,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+AMARAVATI TPP,IND0000008,1350.0,2015,1920.971,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+S.SAROVAR CHPH,IND0000366,250.0,2015,608.61165,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+S.SAROVAR RBPH,IND0000367,1200.0,2015,2286.26125,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+ROPAR,IND0000364,1260.0,2015,5260.71,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+ROSA TPP PH - 1,IND0000365,1200.0,2015,7847.42,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+RAMGARH GT,IND0000348,270.5,2015,1153.89723,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Oil,Gas
+RAMMAM,IND0000349,50.0,2015,236.16325,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MUZAFFARPUR,IND0000267,415.0,2015,766.26,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MUNIRABAD,IND0000266,28.3,2015,106.664,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MUNDRA UMPP,IND0000265,4000.0,2015,24501.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MUNDRA TPP,IND0000264,4620.0,2015,28127.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MULAJORE,IND0000263,0.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+MUKERIAN I -IV,IND0000262,207.0,2015,1045.69525,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MOYAR,IND0000261,36.0,2015,144.00635,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+MOYAGCHU,IND0000260,4.0,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+N.A.P.S,IND0000269,440.0,2015,2539.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Nuclear
+MYNTDU,IND0000268,126.0,2015,406.9351,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UPPER SILERU I&II,IND0000461,240.0,2015,519.85765,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UPPER KOLAB,IND0000460,320.0,2015,730.8076,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+URAN GT,IND0000463,672.0,2015,3393.009,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+UPPER SINDH I& II,IND0000462,127.6,2015,301.8034,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+URI -II,IND0000465,240.0,2015,1182.2391,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+URI,IND0000464,480.0,2015,3061.2369,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UTRAN CCCP EXT,IND0000467,374.571,2015,129.215,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Gas
+URUMI,IND0000466,3.75,2015,0.0,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+UTRAULA TPP,IND0000469,90.0,2015,485.62,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Coal,Oil
+CHAMERA-III,IND0000069,231.0,2015,1015.6761,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
+CHAMERA-I,IND0000068,540.0,2015,2539.041,2015,India,,Central Electricity Authority and REC Registry of India,http://www.cea.nic.in/,https://www.recregistryindia.nic.in/,0.0,0.0,Hydro
