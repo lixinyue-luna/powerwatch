@@ -434,7 +434,7 @@ def read_csv_file_to_dict(filename):
     filename : str
         Filepath for the CSV to read.
     """
-    with open('./output_database/powerwatch_data.csv', 'r') as fin:
+    with open(filename, 'rbU') as fin:
         fin.readline()  # skip BETA warning statement
         reader = csv.DictReader(fin)
         pdb = {}  # returned object
@@ -467,7 +467,7 @@ def read_csv_file_to_dict(filename):
         return pdb
 
 
-def write_sqlite_file(plants_dict, filename):
+def write_sqlite_file(plants_dict, filename, return_connection=False):
     """
     Write database into sqlite format from nested dict.
 
@@ -477,6 +477,13 @@ def write_sqlite_file(plants_dict, filename):
         Has the structure inherited from <read_csv_file_to_dict>.
     filename : str
         Output filepath; should not exist before function call.
+    return_connection : bool (default False)
+        Whether to return an active database connection.
+
+    Returns
+    -------
+    conn: sqlite3.Connection
+        Only returned if `return_connection` is True.
 
     Raises
     ------
@@ -484,6 +491,7 @@ def write_sqlite_file(plants_dict, filename):
         If SQLite cannot make a database connection.
     sqlite3.Error
         If database has already been populated.
+
     """
     try:
         conn = sqlite3.connect(filename)
@@ -525,10 +533,14 @@ def write_sqlite_file(plants_dict, filename):
                 p['fuel1'], p['fuel2'], p['fuel3'], p['fuel4'])
         c.execute(stmt, vals)
     c.execute('commit')
-    conn.close()
+
+    if return_connection:
+        return conn
+    else:
+        conn.close()
 
 
-def copy_csv_to_sqlite(csv_filename, sqlite_filename):
+def copy_csv_to_sqlite(csv_filename, sqlite_filename, return_connection=False):
     """
     Copy the output database from CSV format into SQLite format.
 
@@ -541,7 +553,9 @@ def copy_csv_to_sqlite(csv_filename, sqlite_filename):
     """
     pdb = read_csv_file_to_dict(csv_filename)
     try:
-        write_sqlite_file(pdb, sqlite_filename)
+        conn = write_sqlite_file(pdb, sqlite_filename, return_connection=return_connection)
     except:
         raise Exception('Error handling sqlite database')
+    if return_connection:
+        return conn
 
