@@ -12,6 +12,7 @@ import pickle
 import csv
 import sys
 import os
+import sqlite3
 
 ### PARAMS ###
 # Folder directories
@@ -53,6 +54,7 @@ class PowerPlant(object):
 
 		# check and set data for attributes that should be unicode
 		unicode_attributes = {'idnr':plant_idnr, 'name':plant_name, 'country':plant_country, 'owner':plant_owner, 'nat_lang':plant_nat_lang, 'url':plant_source_url, 'coord_source':plant_coord_source}
+
 		for attribute,input_parameter in unicode_attributes.iteritems():
 			if input_parameter is NO_DATA_UNICODE:
 				setattr(self,attribute,NO_DATA_UNICODE)
@@ -422,3 +424,124 @@ def write_csv_file(plants_dictionary,csv_filename,dump=None):
 			print(u"Unicode error with plant {0}".format(idnr))
 
 	f.close()
+
+def read_csv_file_to_dict(filename):
+    """
+    Read output CSV database into nested dict with pw_idnr as key.
+
+    Parameters
+    ----------
+    filename : str
+        Filepath for the CSV to read.
+    """
+    with open('./output_database/powerwatch_data.csv', 'r') as fin:
+        fin.readline()  # skip BETA warning statement
+        reader = csv.DictReader(fin)
+        pdb = {}  # returned object
+        # counters for
+        cap_year = 0
+        annual_gen = 0
+        gen_year = 0
+        for row in reader:
+            row = {k: format_string(v) for k, v in row.items()}
+            row['capacity_mw'] = float(row['capacity_mw'])
+            row['latitude'] = float(row['latitude'])
+            row['longitude'] = float(row['longitude'])
+            try:
+                row['year_of_capacity_data'] = int(row['year_of_capacity_data'])
+            except:
+                row['year_of_capacity_data'] = None
+                cap_year += 1
+            try:
+                row['annual_generation_gwh'] = float(row['annual_generation_gwh'])
+            except:
+                row['annual_generation_gwh'] = None
+                annual_gen += 1
+            try:
+                row['year_of_generation_data'] = int(row['year_of_generation_data'])
+            except:
+                row['year_of_generation_data'] = None
+                gen_year += 1
+            pdb[row['pw_idnr']] = row
+        print 'cap_year', cap_year, '\nannual_gen', annual_gen, '\ngen_year', gen_year
+        return pdb
+
+
+def write_sqlite_file(plants_dict, filename):
+    """
+    Write database into sqlite format from nested dict.
+
+    Parameters
+    ----------
+    plants_dict : dict
+        Has the structure inherited from <read_csv_file_to_dict>.
+    filename : str
+        Output filepath; should not exist before function call.
+
+    Raises
+    ------
+    OSError
+        If SQLite cannot make a database connection.
+    sqlite3.Error
+        If database has already been populated.
+    """
+    try:
+        conn = sqlite3.connect(filename)
+    except:
+        raise OSError('Cannot connect to {0}'.format(filename))
+    conn.isolation_level = None  # faster database insertions
+
+    c = conn.cursor()
+
+    try:
+        c.execute('''CREATE TABLE powerplants (
+                        name TEXT,
+                        pw_idnr TEXT UNIQUE,
+                        capacity_mw REAL,
+                        year_of_capacity_data INTEGER,
+                        annual_generation_gwh REAL,
+                        year_of_generation_data INTEGER,
+                        country TEXT,
+                        owner TEXT,
+                        source TEXT,
+                        url TEXT,
+                        latitude REAL,
+                        longitude REAL,
+                        fuel1 TEXT,
+                        fuel2 TEXT,
+                        fuel3 TEXT,
+                        fuel4 TEXT )''')
+    except:
+        raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
+
+    c.execute('begin')
+    for k, p in plants_dict.iteritems():
+        stmt = u'''INSERT INTO powerplants VALUES (
+                    ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+        vals = (p['name'], p['pw_idnr'], p['capacity_mw'],
+                p['year_of_capacity_data'], p['annual_generation_gwh'],
+                p['year_of_generation_data'], p['country'], p['owner'],
+                p['source'], p['url'], p['latitude'], p['longitude'],
+                p['fuel1'], p['fuel2'], p['fuel3'], p['fuel4'])
+        c.execute(stmt, vals)
+    c.execute('commit')
+    conn.close()
+
+
+def copy_csv_to_sqlite(csv_filename, sqlite_filename):
+    """
+    Copy the output database from CSV format into SQLite format.
+
+    Parameters
+    ----------
+    csv_filename : str
+        Input file to copy.
+    sqlite_filename : str
+        Output database file; should not exist prior to function call.
+    """
+    pdb = read_csv_file_to_dict(csv_filename)
+    try:
+        write_sqlite_file(pdb, sqlite_filename)
+    except:
+        raise Exception('Error handling sqlite database')
+
