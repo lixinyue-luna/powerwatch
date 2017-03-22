@@ -20,29 +20,30 @@ ROOT_DIR = os.path.abspath(os.path.dirname(__file__))
 RAW_DIR = os.path.join(ROOT_DIR, "raw_source_files")
 RESOURCES_DIR = os.path.join(ROOT_DIR, "resources")
 SOURCE_DB_BIN_DIR = os.path.join(ROOT_DIR, "source_databases")
-SOURCE_DB_CSV_DIR =	os.path.join(ROOT_DIR, "source_databases_csv")
+SOURCE_DB_CSV_DIR = os.path.join(ROOT_DIR, "source_databases_csv")
 OUTPUT_DIR = os.path.join(ROOT_DIR, "output_database")
 DIRs = {"raw": RAW_DIR, "resource": RESOURCES_DIR, "src_bin": SOURCE_DB_BIN_DIR,
 		"src_csv": SOURCE_DB_CSV_DIR, "root": ROOT_DIR, "output": OUTPUT_DIR}
 
 # Resource files
-FUEL_THESAURUS_FILE 			= os.path.join(RESOURCES_DIR, "fuel_type_thesaurus.csv")
-HEADER_NAMES_THESAURUS_FILE 	= os.path.join(RESOURCES_DIR, "header_names_thesaurus.csv")
-COUNTRY_NAMES_THESAURUS_FILE 	= os.path.join(RESOURCES_DIR, "country_names_thesaurus.csv")
-COUNTRY_INFORMATION_FILE 		= os.path.join(RESOURCES_DIR, "country_information.csv")
-MASTER_PLANT_CONCORDANCE_FILE 	= os.path.join(RESOURCES_DIR, "master_plant_concordance.csv")
-SOURCE_THESAURUS_FILE 			= os.path.join(RESOURCES_DIR, "sources_thesaurus.csv")
+FUEL_THESAURUS_FILE				= os.path.join(RESOURCES_DIR, "fuel_type_thesaurus.csv")
+HEADER_NAMES_THESAURUS_FILE		= os.path.join(RESOURCES_DIR, "header_names_thesaurus.csv")
+COUNTRY_NAMES_THESAURUS_FILE	= os.path.join(RESOURCES_DIR, "country_names_thesaurus.csv")
+COUNTRY_INFORMATION_FILE		= os.path.join(RESOURCES_DIR, "country_information.csv")
+MASTER_PLANT_CONCORDANCE_FILE	= os.path.join(RESOURCES_DIR, "master_plant_concordance.csv")
+SOURCE_THESAURUS_FILE			= os.path.join(RESOURCES_DIR, "sources_thesaurus.csv")
 
 # Encoding
 UNICODE_ENCODING = "utf-8"
-NO_DATA_UNICODE = u""   # used to indicate no data for a Unicode-type attribute in the PowerPlant class
-NO_DATA_NUMERIC = None  # used to indicate no data for a numeric-type attribute in the PowerPlant class
-NO_DATA_OTHER = None 	# used to indicate no data for object- or list-type attribute in the PowerPlant class
+NO_DATA_UNICODE = u""	# used to indicate no data for a Unicode-type attribute in the PowerPlant class
+NO_DATA_NUMERIC = None	# used to indicate no data for a numeric-type attribute in the PowerPlant class
+NO_DATA_OTHER = None	# used to indicate no data for object- or list-type attribute in the PowerPlant class
 NO_DATA_SET = set([])	# used to indicate no data for set-type attribute in the PowerPlant class
 
 ### CLASS DEFINITIONS ###
 
 class PowerPlant(object):
+	"""Class representing a power plant."""
 	def __init__(self, plant_idnr, plant_name, plant_country,
 		plant_owner = NO_DATA_UNICODE, plant_nat_lang = NO_DATA_UNICODE,
 		plant_capacity = NO_DATA_NUMERIC, plant_cap_year = NO_DATA_NUMERIC,
@@ -78,7 +79,7 @@ class PowerPlant(object):
 					setattr(self,attribute,input_parameter)
 				else:
 					try:
-						setattr(self,attribute,float(input_parameter))  # NOTE: sub-optimal; may want to throw an error here instead
+						setattr(self,attribute,float(input_parameter))	# NOTE: sub-optimal; may want to throw an error here instead
 					except:
 						print("Error trying to create plant with parameter {0} for attribute {1}.".format(input_parameter,attribute))
 
@@ -105,42 +106,114 @@ class PowerPlant(object):
 
 class MasterPlant(object):
 	def __init__(self, master_idnr, matches):
-		self.idnr 			= master_idnr
-		self.matches 		= matches
+		"""Plant identifier in cases of unit-level data, not plant-level."""
+		self.idnr			= master_idnr
+		self.matches		= matches
 
 class SourceObject(object):
-	def __init__(self, name, priority, country, url = NO_DATA_UNICODE, year = NO_DATA_NUMERIC):
-		self.name 			= name
-		self.country 		= country
+	def __init__(self, name, priority, country,
+				url = NO_DATA_UNICODE, year = NO_DATA_NUMERIC):
+		"""
+		Class holding information about where powerplant data comes from.
+
+		Parameters
+		----------
+		name : str
+			Entity/ministry/department/report/dataset providing the data.
+		priority : int
+			Tier (1-5) of source updatability and format.
+		country : str
+			Country/region/scope of data source.
+		url : str
+			URL where data can be repeatably accessed.
+		year : int
+			Time when data was collected/released.
+		"""
+		self.name			= name
+		self.country		= country
 		self.priority		= priority
-		self.url 			= url
+		self.url			= url
 		self.year			= year
 
 class CountryObject(object):
 	def __init__(self, primary_name, iso_code, iso_code2, geo_name, carma_name, has_api, use_geo, fusion_table_id):
-		self.primary_name 	= primary_name
-		self.iso_code 		= iso_code
+		"""
+		Class holding information on a specific country.
+
+		Parameters
+		----------
+		primary_name : str
+			Human-readable name.
+		iso_code : str
+			3-character ISO name.
+		iso_code2 : str
+			2-character ISO name.
+		geo_name : str
+			Name used by the Global Energy Observatory (GEO) database.
+		carma_name : str
+			Name used by the CARMA database.
+		has_api : int
+			1 or 0 depending on automatic energy report releases.
+		use_geo : int
+			1 or 0 depending on whether GEO is the sole source of data.
+		fusion_table_id : str
+			Alphanumeric id for fusion table where data is stored.
+
+		"""
+		self.primary_name	= primary_name
+		self.iso_code		= iso_code
 		self.iso_code2		= iso_code2
-		self.geo_name 		= geo_name
-		self.carma_name 	= carma_name
-		self.has_api 		= has_api
-		self.use_geo 		= use_geo
+		self.geo_name		= geo_name
+		self.carma_name		= carma_name
+		self.has_api		= has_api
+		self.use_geo		= use_geo
 		self.fusion_table_id = fusion_table_id
 
 class LocationObject(object):
 	def __init__(self,description=u"",latitude=None,longitude=None):
-		self.description 	= description
-		self.latitude 		= latitude
-		self.longitude 		= longitude
+		"""
+		Class holding information on the location (lat, lon) of a powerplant.
+
+		Parameters
+		----------
+		description : unicode
+			Note on how the location has been identified.
+		latitude : float
+			WGS84 (EPSG:4326)
+		longitude : float
+			WGS84 (EPSG:4326)
+
+		"""
+		self.description	= description
+		self.latitude		= latitude
+		self.longitude		= longitude
 
 ### ARGUMENT PARSER ###
 
 def build_arg_parser():
+	"""Parse command-line system arguments."""
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--download", help = "download raw files", action="store_true")
 	return parser.parse_args()
 
 def download(db_name = '', file_savedir_url = {}):
+	"""
+	Fetch and download a database from an online source.
+
+	Parameters
+	----------
+	db_name : str
+		Identifying name for the database to be downloaded.
+	file_savedir_url : dict of {str: str}
+		Dict with local filepaths as keys and URL as values.
+
+	Returns
+	-------
+	rc : bool or None
+		True if `db_name` not provided but download was supposed to happen;
+		False if `db_name` not provided and download was not requested;
+		None otherwise.
+	"""
 	if db_name == '':
 		return True if build_arg_parser().download else False
 
@@ -158,27 +231,52 @@ def download(db_name = '', file_savedir_url = {}):
 ### FILE PATHS ###
 
 def make_file_path(fileType = "root", subFolder = "", filename = ""):
+	"""
+	Construct a file path, creating the nested directories as needed.
+
+	Parameters
+	----------
+	fileType : str
+		Shortcut phrase for project directories. e.g. 'output', 'resource'
+	subFolder : str
+		Directory name (possibly nested) within `fileType` directory.
+	filename : str
+		File basename to append to directory path on returned filepath.
+
+	Raises
+	-----
+	ValueError if fileType is invalid (not in `DIRs`).
+	"""
 	# if path doesn't exist, create it
-	for d in DIRs.keys():
-		if not os.path.exists(DIRs[d]):
-			os.mkdir(DIRs[d])
+	for key, path in DIRs.items():
+		if not os.path.exists(path):
+			os.mkdir(path)
 	# find/create directory and return path
 	try:
 		dst = DIRs[fileType]	# get root folder
-		# if subFolder is not None, then create a directory
-		# if filename is None:
-		if subFolder != "":
-			subFolder_path = os.path.normpath(os.path.join(dst, subFolder))
-			if not os.path.exists(subFolder_path):
-				os.mkdir(subFolder_path)
-		return os.path.normpath(os.path.join(dst, subFolder, filename))
 	except:
-		print("Invalid FileType")
-		return
+		raise ValueError('Invalid directory shortcut phrase <{0}>'.format(fileType))
+	if subFolder:
+		subFolder_path = os.path.normpath(os.path.join(dst, subFolder))
+		if not os.path.exists(subFolder_path):
+			os.mkdir(subFolder_path)
+	return os.path.normpath(os.path.join(dst, subFolder, filename))
 
 ### SOURCES ###
 
 def make_source_thesaurus(source_thesaurus = SOURCE_THESAURUS_FILE):
+	"""
+	Get dict mapping country name to `SourceObject` for the country.
+
+	Parameters
+	----------
+	source_thesaurus : str
+		Filepath for the source thesaurus data.
+
+	Returns
+	-------
+	Dict of {"Country": SourceObject} pairs.
+	"""
 	with open(source_thesaurus, 'rbU') as f:
 		f.readline() # skip headers
 		csvreader = csv.reader(f)
@@ -197,6 +295,19 @@ def make_source_thesaurus(source_thesaurus = SOURCE_THESAURUS_FILE):
 ### FUEL TYPES ###
 
 def make_fuel_thesaurus(fuel_type_thesaurus = FUEL_THESAURUS_FILE):
+	"""
+	Get dict mapping standard fuel names to a list of synonymous values.
+
+	Parameters
+	----------
+	fuel_type_thesaurus : str
+		Filepath to the fuel thesaurus.
+
+	Returns
+	-------
+	Dict of {"primary fuel name": ['alt_name0', 'alt_name1', ...]}
+
+	"""
 	with open(fuel_type_thesaurus, 'rbU') as f:
 		f.readline() # skip headers
 		csvreader = csv.reader(f)
@@ -207,8 +318,23 @@ def make_fuel_thesaurus(fuel_type_thesaurus = FUEL_THESAURUS_FILE):
 		return fuel_thesaurus
 
 def standardize_fuel(fuel_instance, fuel_thesaurus):
-	# return set with primary fuel name(s) based on fuel_instance; split input on "/"
+	"""
+	Get set of primary fuel names from string of alternate names.
 
+	Parameters
+	----------
+	fuel_instance : str
+		Non-standard fuel names separated by '/' (e.g. bitumen/sun/uranium).
+	fuel_thesaurus : dict
+		Dict returned from `make_fuel_thesaurus()`.
+
+	Returns
+	-------
+	fuel_set : set
+		Minimum set of primary fuel names corresponding to the input string.
+		Returns `NO_DATA_SET` if a fuel type cannot be identified.
+
+	"""
 	if isinstance(fuel_instance,str):
 		fuel_instance_u = fuel_instance.decode(UNICODE_ENCODING)
 	elif isinstance(fuel_instance,unicode):
@@ -217,20 +343,31 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 	fuel_instance_list = fuel_instance_u.split("/")
 	fuel_instance_list_lower = [f.lower().strip() for f in fuel_instance_list]
 	fuel_set = set([])
-	try:
-		for fuel in fuel_instance_list_lower:
-			for fuel_primary_name,fuel_synonyms in fuel_thesaurus.iteritems():
-				if fuel in fuel_synonyms:
-					fuel_set.add(fuel_primary_name)
-					break
-		return fuel_set
-	except:
+	for fuel in fuel_instance_list_lower:
+		for fuel_primary_name, fuel_synonyms in fuel_thesaurus.iteritems():
+			if fuel in fuel_synonyms:
+				fuel_set.add(fuel_primary_name)
+				break
 		print(u"-Error: Couldn't identify fuel type {0}".format(fuel_instance_u))
 		return NO_DATA_SET
+	return fuel_set
 
 ### HEADER NAMES ###
 
 def make_header_names_thesaurus(header_names_thesaurus_file = HEADER_NAMES_THESAURUS_FILE):
+	"""
+	Get a dict mapping ideal domain-specific phrases to list of alternates.
+
+	Parameters
+	----------
+	header_names_thesaurus_file : str
+		Filepath.
+
+	Returns
+	-------
+	Dict of {'ideal phrase': ['alt_phrase0', 'alt_phrase1', ...]}.
+
+	"""
 	with open(header_names_thesaurus_file, 'rbU') as f:
 		f.readline() # skip headers
 		csvreader = csv.reader(f)
@@ -243,6 +380,19 @@ def make_header_names_thesaurus(header_names_thesaurus_file = HEADER_NAMES_THESA
 ### COUNTRY NAMES ###
 
 def make_country_names_thesaurus(country_names_thesaurus_file = COUNTRY_INFORMATION_FILE):
+	"""
+	Get a dict mapping ideal country names to list of alternates.
+
+	Parameters
+	----------
+	country_names_thesaurus_file : str
+		Filepath.
+
+	Returns
+	-------
+	Dict of {'country': ['alt_country0', 'alt_country1', ...]}.
+
+	"""
 	with open(country_names_thesaurus_file, 'rbU') as f:
 		f.readline() # skip headers
 		csvreader = csv.reader(f)
@@ -253,6 +403,19 @@ def make_country_names_thesaurus(country_names_thesaurus_file = COUNTRY_INFORMAT
 		return country_names_thesaurus
 
 def make_country_dictionary(country_information_file = COUNTRY_INFORMATION_FILE):
+	"""
+	Get a dict mapping country name to `CountryObject`.
+
+	Parameters
+	----------
+	country_information_file : str
+		Filepath.
+
+	Returns
+	-------
+	Dict of {'country': CountryObject}.
+
+	"""
 	with open(country_information_file, 'rbU') as f:
 		f.readline() # skip headers
 		csvreader = csv.reader(f)
@@ -271,7 +434,25 @@ def make_country_dictionary(country_information_file = COUNTRY_INFORMATION_FILE)
 		return country_dictionary
 
 def standardize_country(country_instance, country_thesaurus):
+	"""
+	Get the standard country name from a non-ideal instance.
+
+	Parameters
+	----------
+	country_instance : str
+		Non-ideal or alternative country name (e.g. 'United States').
+	country_thesaurus : dict
+		Dict returned by `make_country_names_thesaurus()`.
+
+	Returns
+	-------
+	country_primary_name : unicode
+		Standard country name (e.g. 'United States of America').
+		Returns `NO_DATA_UNICODE` if country cannot be identified.
+
+	"""
 	country_instance = country_instance.replace(",","")
+	# TODO: fix this try-except block
 	try:
 		for country_primary_name in country_thesaurus:
 			if country_instance in country_thesaurus[country_primary_name]:
@@ -286,21 +467,48 @@ def standardize_country(country_instance, country_thesaurus):
 ### COUNTRY BORDERS ###
 
 # def is_in_country(coordinates):
-# 	try:
-# 		g = geocoder.google(coordinates, method = 'reverse')
-# 		print g.country_long
-# 		return g.country_long
-# 	except:
-# 		print "error"
-# 		return "Unknown"
+#	try:
+#		g = geocoder.google(coordinates, method = 'reverse')
+#		print g.country_long
+#		return g.country_long
+#	except:
+#		print "error"
+#		return "Unknown"
 
 ### ID NUMBERS AND MATCHING ###
 
 def make_id(letter_code,id_number):
-	# return standard-format id number (alpha. code followed by 7-digit number)
+	"""
+	Make the standard-format id code (country ISO3 followed by 7-digit number).
+
+	Parameters
+	----------
+	letter_code : str
+		3-character ISO code (e.g. USA, BRA, CHN).
+	id_number : int
+		Number less than 10-million.
+
+	Returns
+	-------
+	id : unicode
+		3-character country code followed by zero-leading 7-character numeral.
+
+	"""
 	return u"{:3}{:07d}".format(letter_code, id_number)
 
 def make_plant_concordance(master_plant_condordance_file = MASTER_PLANT_CONCORDANCE_FILE):
+	"""
+	Get a dict that enables matching between the same plants from multiple databases.
+	Parameters
+	----------
+	master_plant_concordance_file : str
+		Filepath for plant concordance.
+
+	Returns
+	-------
+	Dict mapping WRI-specific ID to a dict of equivalent ids for other databases.
+
+	"""
 	# Note: These IDs are 'item source', not plant IDs.
 	with open(master_plant_condordance_file, 'rbU') as f:
 		f.readline() # skip headers
@@ -317,8 +525,22 @@ def make_plant_concordance(master_plant_condordance_file = MASTER_PLANT_CONCORDA
 ### STRING CLEANING ###
 
 def format_string(value,encoding = UNICODE_ENCODING):
-	# strip possible newlines, replace commas, strip trailing whitespace
-	# default to decode value to utf-8
+	"""
+	Format string to another representation and dissolve problem characters.
+
+	Parameters
+	----------
+	value : str
+		The string to parse and format.
+	encoding : str
+		Encoding to decode `value` into.
+
+	Returns
+	-------
+	clean_value : unicode
+		`value` stripped of control characters, commas, and trailing whitespace.
+		`NO_DATA_UNICODE` if problem with re-encoding.
+	"""
 	# if encoding=None, don't decode
 	try:
 		if encoding == None:
@@ -334,8 +556,26 @@ def format_string(value,encoding = UNICODE_ENCODING):
 
 ### PARSE DATA RETURNED BY ELASTIC SEARCH ###
 
+#TODO: understand this function
 def parse_powerplant_data(json_data,db_source):
-	# parse data returned by Enipedia elastic search API
+	"""
+	Parse data returned by Enipedia elastic search API.
+
+	Parameters
+	----------
+	json_data : dict
+		???
+	db_source : str
+		???
+
+	Returns
+	-------
+	score : float
+		???
+	parsed_values : dict
+		???
+
+	"""
 
 	# initialize parsed values
 	parsed_values = {}
@@ -353,7 +593,7 @@ def parse_powerplant_data(json_data,db_source):
 	parsed_values['idnr'] = int(json_data['_id'])
 
 	# parse source string, different for each database
-	desc = json_data['_source']
+	desc = json_data['_source'] # type(desc) = dict
 	db_name = db_source.lower()
 
 	if db_name == 'geo':
@@ -388,21 +628,48 @@ def parse_powerplant_data(json_data,db_source):
 ### LOAD/SAVE/WRITE CSV ###
 
 def save_database(plant_dict,filename,savedir=OUTPUT_DIR,datestamp=False):
-    # pickle database with timestamp
-    if datestamp:
-	    savename = (filename + '-Database-' + datetime.datetime.now().isoformat().replace(":","-")[:-10] + '.bin')
-    else:
-    	savename = (filename + '-Database.bin')
-    savepath = os.path.join(savedir,savename)
-    with open(savepath, 'wb') as f:
-        pickle.dump(plant_dict, f)
+	"""
+	Pickle in-memory database to file.
+
+	Parameters
+	----------
+	plant_dict : dict
+		Dict of {'pw_idnr': PowerPlant} to save.
+	filename : str
+		Base filename to save the pickle.
+	savedir : str, optional
+		Directory in which `filename` will be located.
+	datestamp : bool, optional
+		Whether to add a timestamp to the filename.
+	"""
+	# pickle database with timestamp
+	if datestamp:
+		savename = (filename + '-Database-' + datetime.datetime.now().isoformat().replace(":","-")[:-10] + '.bin')
+	else:
+		savename = (filename + '-Database.bin')
+	savepath = os.path.join(savedir,savename)
+	with open(savepath, 'wb') as f:
+		pickle.dump(plant_dict, f)
 
 def load_database(filename):
-	# read in pickled file
+	"""Read in pickled database file."""
 	with open(filename, 'rb') as f:
 		return pickle.load(f)
 
-def write_csv_file(plants_dictionary,csv_filename,dump=None):
+def write_csv_file(plants_dictionary,csv_filename,dump=False):
+	"""
+	Write in-memory database into a CSV format.
+
+	Parameters
+	----------
+	plants_dictionary : dict
+		Dict of {'pw_idnr': PowerPlant} to save.
+	csv_filename : str
+		Filepath for the output CSV.
+	dump : bool, default False
+		Whether this is a full-dump or a cleaned database.
+
+	"""
 	# TODO: get csv_file abs path
 	f = open(csv_filename,'w')
 	warning_text = "NOTE: This Power Watch database of power plants is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.\n"
@@ -426,136 +693,143 @@ def write_csv_file(plants_dictionary,csv_filename,dump=None):
 	f.close()
 
 def read_csv_file_to_dict(filename):
-    """
-    Read output CSV database into nested dict with pw_idnr as key.
+	"""
+	Read saved CSV database into nested dict with pw_idnr as key.
 
-    Parameters
-    ----------
-    filename : str
-        Filepath for the CSV to read.
-    """
-    with open(filename, 'rbU') as fin:
-        fin.readline()  # skip BETA warning statement
-        reader = csv.DictReader(fin)
-        pdb = {}  # returned object
-        # counters for
-        cap_year = 0
-        annual_gen = 0
-        gen_year = 0
-        for row in reader:
-            row = {k: format_string(v) for k, v in row.items()}
-            row['capacity_mw'] = float(row['capacity_mw'])
-            row['latitude'] = float(row['latitude'])
-            row['longitude'] = float(row['longitude'])
-            try:
-                row['year_of_capacity_data'] = int(row['year_of_capacity_data'])
-            except:
-                row['year_of_capacity_data'] = None
-                cap_year += 1
-            try:
-                row['annual_generation_gwh'] = float(row['annual_generation_gwh'])
-            except:
-                row['annual_generation_gwh'] = None
-                annual_gen += 1
-            try:
-                row['year_of_generation_data'] = int(row['year_of_generation_data'])
-            except:
-                row['year_of_generation_data'] = None
-                gen_year += 1
-            pdb[row['pw_idnr']] = row
-        print 'cap_year', cap_year, '\nannual_gen', annual_gen, '\ngen_year', gen_year
-        return pdb
+	Parameters
+	----------
+	filename : str
+		Filepath for the CSV to read.
+
+	Returns
+	-------
+	pdb : dict
+		Dictionary with pw_idnr for keys and dictionary
+	"""
+	with open(filename, 'rbU') as fin:
+		fin.readline()	# skip BETA warning statement
+		reader = csv.DictReader(fin)
+		pdb = {}  # returned object
+		# counters for
+		for row in reader:
+			row = {k: format_string(v) for k, v in row.items()}
+			row['capacity_mw'] = float(row['capacity_mw'])
+			row['latitude'] = float(row['latitude'])
+			row['longitude'] = float(row['longitude'])
+			try:
+				row['year_of_capacity_data'] = int(row['year_of_capacity_data'])
+			except:
+				row['year_of_capacity_data'] = None
+			try:
+				row['annual_generation_gwh'] = float(row['annual_generation_gwh'])
+			except:
+				row['annual_generation_gwh'] = None
+			try:
+				row['year_of_generation_data'] = int(row['year_of_generation_data'])
+			except:
+				row['year_of_generation_data'] = None
+			# check if fuels are empty strings
+			if not row['fuel1']:
+				row['fuel1'] = None
+			if not row['fuel2']:
+				row['fuel2'] = None
+			if not row['fuel3']:
+				row['fuel3'] = None
+			if not row['fuel4']:
+				row['fuel4'] = None
+			pdb[row['pw_idnr']] = row
+		return pdb
 
 
 def write_sqlite_file(plants_dict, filename, return_connection=False):
-    """
-    Write database into sqlite format from nested dict.
+	"""
+	Write database into sqlite format from nested dict.
 
-    Parameters
-    ----------
-    plants_dict : dict
-        Has the structure inherited from <read_csv_file_to_dict>.
-    filename : str
-        Output filepath; should not exist before function call.
-    return_connection : bool (default False)
-        Whether to return an active database connection.
+	Parameters
+	----------
+	plants_dict : dict
+		Has the structure inherited from <read_csv_file_to_dict>.
+	filename : str
+		Output filepath; should not exist before function call.
+	return_connection : bool (default False)
+		Whether to return an active database connection.
 
-    Returns
-    -------
-    conn: sqlite3.Connection
-        Only returned if `return_connection` is True.
+	Returns
+	-------
+	conn: sqlite3.Connection
+		Only returned if `return_connection` is True.
 
-    Raises
-    ------
-    OSError
-        If SQLite cannot make a database connection.
-    sqlite3.Error
-        If database has already been populated.
+	Raises
+	------
+	OSError
+		If SQLite cannot make a database connection.
+	sqlite3.Error
+		If database has already been populated.
 
-    """
-    try:
-        conn = sqlite3.connect(filename)
-    except:
-        raise OSError('Cannot connect to {0}'.format(filename))
-    conn.isolation_level = None  # faster database insertions
+	"""
+	try:
+		conn = sqlite3.connect(filename)
+	except:
+		raise OSError('Cannot connect to {0}'.format(filename))
+	conn.isolation_level = None  # faster database insertions
 
-    c = conn.cursor()
+	c = conn.cursor()
 
-    try:
-        c.execute('''CREATE TABLE powerplants (
-                        name TEXT,
-                        pw_idnr TEXT UNIQUE,
-                        capacity_mw REAL,
-                        year_of_capacity_data INTEGER,
-                        annual_generation_gwh REAL,
-                        year_of_generation_data INTEGER,
-                        country TEXT,
-                        owner TEXT,
-                        source TEXT,
-                        url TEXT,
-                        latitude REAL,
-                        longitude REAL,
-                        fuel1 TEXT,
-                        fuel2 TEXT,
-                        fuel3 TEXT,
-                        fuel4 TEXT )''')
-    except:
-        raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
+	try:
+		c.execute('''CREATE TABLE powerplants (
+						name TEXT,
+						pw_idnr TEXT UNIQUE NOT NULL,
+						capacity_mw REAL,
+						year_of_capacity_data INTEGER,
+						annual_generation_gwh REAL,
+						year_of_generation_data INTEGER,
+						country TEXT,
+						owner TEXT,
+						source TEXT,
+						url TEXT,
+						latitude REAL,
+						longitude REAL,
+						fuel1 TEXT,
+						fuel2 TEXT,
+						fuel3 TEXT,
+						fuel4 TEXT )''')
+	except:
+		raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
 
-    c.execute('begin')
-    for k, p in plants_dict.iteritems():
-        stmt = u'''INSERT INTO powerplants VALUES (
-                    ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
-        vals = (p['name'], p['pw_idnr'], p['capacity_mw'],
-                p['year_of_capacity_data'], p['annual_generation_gwh'],
-                p['year_of_generation_data'], p['country'], p['owner'],
-                p['source'], p['url'], p['latitude'], p['longitude'],
-                p['fuel1'], p['fuel2'], p['fuel3'], p['fuel4'])
-        c.execute(stmt, vals)
-    c.execute('commit')
+	c.execute('begin')
+	for k, p in plants_dict.iteritems():
+		stmt = u'''INSERT INTO powerplants VALUES (
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+		vals = (p['name'], p['pw_idnr'], p['capacity_mw'],
+				p['year_of_capacity_data'], p['annual_generation_gwh'],
+				p['year_of_generation_data'], p['country'], p['owner'],
+				p['source'], p['url'], p['latitude'], p['longitude'],
+				p['fuel1'], p['fuel2'], p['fuel3'], p['fuel4'])
+		c.execute(stmt, vals)
+	c.execute('commit')
 
-    if return_connection:
-        return conn
-    else:
-        conn.close()
+	if return_connection:
+		return conn
+	else:
+		conn.close()
 
 
 def copy_csv_to_sqlite(csv_filename, sqlite_filename, return_connection=False):
-    """
-    Copy the output database from CSV format into SQLite format.
+	"""
+	Copy the output database from CSV format into SQLite format.
 
-    Parameters
-    ----------
-    csv_filename : str
-        Input file to copy.
-    sqlite_filename : str
-        Output database file; should not exist prior to function call.
-    """
-    pdb = read_csv_file_to_dict(csv_filename)
-    try:
-        conn = write_sqlite_file(pdb, sqlite_filename, return_connection=return_connection)
-    except:
-        raise Exception('Error handling sqlite database')
-    if return_connection:
-        return conn
+	Parameters
+	----------
+	csv_filename : str
+		Input file to copy.
+	sqlite_filename : str
+		Output database file; should not exist prior to function call.
+	"""
+	pdb = read_csv_file_to_dict(csv_filename)
+	try:
+		conn = write_sqlite_file(pdb, sqlite_filename, return_connection=return_connection)
+	except:
+		raise Exception('Error handling sqlite database')
+	if return_connection:
+		return conn
 
