@@ -33,24 +33,21 @@ LOCATION_FILE_NAME = pw.make_file_path(fileType="resource",subFolder=SAVE_CODE,f
 
 # other parameters
 URL_BASE = "http://datos.energiaabierta.cl/rest/datastreams/NUMBER/data.csv"
-DATASETS = [{"number":"215386","fuel":"Hydro","RAW_FILE_NAME":"chile_power_plants_hydro.csv","COLS":COLNAMES2},
-            {"number":"215392","fuel":"Thermal","RAW_FILE_NAME":"chile_power_plants_thermal.csv","COLS":COLNAMES1},
-            {"number":"215381","fuel":"Biomass","RAW_FILE_NAME":"chile_power_plants_biomass.csv"},
-            {"number":"215384","fuel":"Wind","RAW_FILE_NAME":"chile_power_plants_wind.csv"},
-            {"number":"215391","fuel":"Solar","RAW_FILE_NAME":"chile_power_plants_solar.csv"}]
+
 COLNAMES1 = ["gid","nombre","propietario","combustible","potencia mw",
                 "fecha operación","coordenada este","coordenada norte"]
 COLNAMES2 = COLNAMES1.replace("combustible","combustibl")    # account for typo in column heading
+COLNAMES3 = ["gid","nombre","propiedad","combustibl","potencia mw","fecha operación"]
+
+DATASETS = [{"number":"215392","fuel":"Thermal","RAW_FILE_NAME":"chile_power_plants_thermal.csv","COLS":COLNAMES1},
+            {"number":"215386","fuel":"Hydro","RAW_FILE_NAME":"chile_power_plants_hydro.csv","COLS":COLNAMES2},
+            {"number":"215384","fuel":"Wind","RAW_FILE_NAME":"chile_power_plants_wind.csv"},
+            {"number":"215381","fuel":"Biomass","RAW_FILE_NAME":"chile_power_plants_biomass.csv"},
+            
+            {"number":"215391","fuel":"Solar","RAW_FILE_NAME":"chile_power_plants_solar.csv"}]
 
 # set locale to Spain (Chile is not usually available in locales)
 locale.setlocale(locale.LC_ALL,"es_ES")
-
-"""
-import unicodedata
-def replace_with_latin_equivalent(s):
-    nfkd_form = unicodedata.normalize('NFKD',s)
-    return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
-"""
 
 # download if specified
 FILES = {}
@@ -87,10 +84,22 @@ with open(LOCATION_FILE_NAME,'rbu') as f:
         plant_locations[name] = [latitude,longitude]
 
 
-# next read plant files
+# read plant files
 thermal_filename = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="chile_power_plants_thermal.csv")
 with open(thermal_filename,'rbU') as f:
-    
+    datareader = csv.reader(f)
+    headers = [x.lower() for x in datareader.next()]
+    id_col = headers.index(COLNAMES1[0])
+    name_col = headers.index(COLNAMES1[1])
+    owner_col = headers.index(COLNAMES1[2])
+    fuel_col = headers.index(COLNAMES1[3])
+    capacity_col = headers.index(COLNAMES1[4])
+    date_col = headers.index(COLNAMES1[5])
+    easting_col = headers.index(COLNAMES1[6])
+    northing_col = headers.index(COLNAMES1[7])
+
+    # idea: read into dict using csv read dict; then use .get with default for failure to find key
+
 
 
 for dataset in DATASETS:
