@@ -808,6 +808,9 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 		c.execute(stmt, vals)
 	c.execute('commit')
 
+	index_stmt = '''CREATE INDEX idx_country ON powerplants (country)'''
+	c.execute(index_stmt)
+
 	if return_connection:
 		return conn
 	else:
