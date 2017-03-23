@@ -39,7 +39,7 @@ We will expand this list in the future as we extend the database.
 
 ### Fuel Type Aggregation
 
-We define the "Fuel Type" attribute of our database based on common fuel categories. In order to parse the different fuel types used in our various data sources, we map fuel name synonyms to our fuel categories [here](https://github.com/wri/powerwatch/blob/master/resources/fuel_type_thesaurus.csv). We plan to expand the database in the future to report more disaggregated fuel types.
+We define the "Fuel Type" attribute of our database based on common fuel categories. In order to parse the different fuel types used in our various data sources, we map fuel name synonyms to our fuel categories [here](https://github.com/wri/powerwatch/blob/master/resources/fuel_type_thesaurus). We plan to expand the database in the future to report more disaggregated fuel types.
 
 ## Combining Multiple Data Sources
 

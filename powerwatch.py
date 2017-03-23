@@ -26,7 +26,7 @@ DIRs = {"raw": RAW_DIR, "resource": RESOURCES_DIR, "src_bin": SOURCE_DB_BIN_DIR,
 		"src_csv": SOURCE_DB_CSV_DIR, "root": ROOT_DIR, "output": OUTPUT_DIR}
 
 # Resource files
-FUEL_THESAURUS_FILE				= os.path.join(RESOURCES_DIR, "fuel_type_thesaurus.csv")
+FUEL_THESAURUS_DIR				= os.path.join(RESOURCES_DIR, "fuel_type_thesaurus")
 HEADER_NAMES_THESAURUS_FILE		= os.path.join(RESOURCES_DIR, "header_names_thesaurus.csv")
 COUNTRY_NAMES_THESAURUS_FILE	= os.path.join(RESOURCES_DIR, "country_names_thesaurus.csv")
 COUNTRY_INFORMATION_FILE		= os.path.join(RESOURCES_DIR, "country_information.csv")
@@ -293,10 +293,9 @@ def make_source_thesaurus(source_thesaurus = SOURCE_THESAURUS_FILE):
 		return source_thesaurus
 
 ### FUEL TYPES ###
-
-def make_fuel_thesaurus(fuel_type_thesaurus = FUEL_THESAURUS_FILE):
+def make_fuel_thesaurus(fuel_type_thesaurus=FUEL_THESAURUS_DIR):
 	"""
-	Get dict mapping standard fuel names to a list of synonymous values.
+	Get dict mapping standard fuel names to a list of alias values.
 
 	Parameters
 	----------
@@ -308,14 +307,15 @@ def make_fuel_thesaurus(fuel_type_thesaurus = FUEL_THESAURUS_FILE):
 	Dict of {"primary fuel name": ['alt_name0', 'alt_name1', ...]}
 
 	"""
-	with open(fuel_type_thesaurus, 'rbU') as f:
-		f.readline() # skip headers
-		csvreader = csv.reader(f)
-		fuel_thesaurus = {}
-		for row in csvreader:
-			fuel_primary_name = row[0].decode(UNICODE_ENCODING)
-			fuel_thesaurus[fuel_primary_name] = [x.decode(UNICODE_ENCODING).lower().rstrip() for x in filter(None, row)]
-		return fuel_thesaurus
+	fuel_thesaurus_files = os.listdir(fuel_type_thesaurus)
+	fuel_thesaurus = {}
+	for fuel_file in fuel_thesaurus_files:
+		with open(os.path.join(fuel_type_thesaurus, fuel_file), 'rbU') as fin:
+			standard_name = fin.readline().decode(UNICODE_ENCODING).rstrip()
+			aliases = [x.decode('utf-8').lower().rstrip() for x in fin.readlines()]
+			fuel_thesaurus[standard_name] = [standard_name.lower()]
+			fuel_thesaurus[standard_name].extend(aliases)
+	return fuel_thesaurus
 
 def standardize_fuel(fuel_instance, fuel_thesaurus):
 	"""
