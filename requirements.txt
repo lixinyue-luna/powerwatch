@@ -1,0 +1,7 @@
+xlrd
+lxml
+pyproj
+# for SourceWatch:
+py-wikimarkup
+pyquery
+pandas
