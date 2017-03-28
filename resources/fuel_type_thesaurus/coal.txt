@@ -1,5 +1,4 @@
 Coal
-petcoke
 anthracite coal
 lignite coal
 lignite
@@ -14,9 +13,7 @@ sgc
 sub
 wc
 rc
-petroleum coke
 petroleum
-coke
 oil y coal
 carbon
 fossil brown coal
@@ -25,7 +22,6 @@ fossil hard coal
 turbo vapor
 bitumen
 cgas
-ckgas
 cog
 csgas
 cwm
@@ -33,3 +29,4 @@ cxgas
 Carvão Vegetal
 Carvão Mineral
 hard coal and anthracite
+CARBON

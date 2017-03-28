@@ -9,10 +9,14 @@ Location data derived from http://datos.energiaabierta.cl/rest/datastreams/10725
 Issues:
 - Data includes "estado" (status); should eventually filter on operational plants, 
 although currently all listed plants are operational
+- Biomass plant file does not include names. Use names from location file.
+- Data files use numeric format inconsistently (i.e. use of "." or ","). Treat specially.
+- Data files use different column headings, including inconsistent white space and spelling.
+- Solar data file does not include owner.
 """
 
 import csv
-import locale
+#import locale
 import utm
 import sys, os
 
@@ -21,38 +25,43 @@ import powerwatch as pw
 
 # params
 COUNTRY_NAME = u"Chile"
-SOURCE_NAME = u"Chile"
-SAVE_CODE = u"CHL"
-SOURCE = u"Energía Abierta (Chile)"
+SOURCE_NAME = u"Energía Abierta"
 SOURCE_URL = u"http://energiaabierta.cl/electricidad/"
+SAVE_CODE = u"CHL"
 YEAR_POSTED = 2016  # Year of data posted on line
-RAW_FILE_NAME = pw.make_file_path(fileType = 'raw', subFolder = SAVE_CODE, filename = 'FILENAME')
-CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "chile_database.csv")
+RAW_FILE_NAME = pw.make_file_path(fileType = 'raw', subFolder = SAVE_CODE, filename = "FILENAME")
+CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "database_{0}.csv".format(SAVE_CODE))
 SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
-LOCATION_FILE_NAME = pw.make_file_path(fileType="resource",subFolder=SAVE_CODE,filename='chile_power_plants_locations.csv')
+LOCATION_FILE_NAME = pw.make_file_path(fileType="resource",subFolder=SAVE_CODE,filename="locations_{0}.csv".format(SAVE_CODE))
 
 # other parameters
 URL_BASE = "http://datos.energiaabierta.cl/rest/datastreams/NUMBER/data.csv"
 
-COLNAMES1 = ["gid","nombre","propietario","combustible","potencia mw",
-                "fecha operación","coordenada este","coordenada norte"]
-COLNAMES2 = COLNAMES1.replace("combustible","combustibl")    # account for typo in column heading
-COLNAMES3 = ["gid","nombre","propiedad","combustibl","potencia mw","fecha operación"]
+DATASETS = [{"number":"215392","fuel":"Thermal","filename":"chile_power_plants_thermal.csv","idstart":0},
+            {"number":"215386","fuel":"Hydro","filename":"chile_power_plants_hydro.csv","idstart":1000},
+            {"number":"215384","fuel":"Wind","filename":"chile_power_plants_wind.csv","idstart":2000},
+            {"number":"215381","fuel":"Biomass","filename":"chile_power_plants_biomass.csv","idstart":3000},
+            {"number":"215391","fuel":"Solar","filename":"chile_power_plants_solar.csv","idstart":4000}]
 
-DATASETS = [{"number":"215392","fuel":"Thermal","RAW_FILE_NAME":"chile_power_plants_thermal.csv","COLS":COLNAMES1},
-            {"number":"215386","fuel":"Hydro","RAW_FILE_NAME":"chile_power_plants_hydro.csv","COLS":COLNAMES2},
-            {"number":"215384","fuel":"Wind","RAW_FILE_NAME":"chile_power_plants_wind.csv"},
-            {"number":"215381","fuel":"Biomass","RAW_FILE_NAME":"chile_power_plants_biomass.csv"},
-            
-            {"number":"215391","fuel":"Solar","RAW_FILE_NAME":"chile_power_plants_solar.csv"}]
+def lookup_location(fuel,idval,plant_locations):
+
+    fuel_name = next(iter(fuel))
+    if fuel_name in ["Coal","Gas","Oil"]:
+        fuel_name = "Thermal"
+
+    if idval in plant_locations[fuel_name].keys():
+        return plant_locations[fuel_name][idval][0:2]
+    else:
+        return pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
+
 
 # set locale to Spain (Chile is not usually available in locales)
-locale.setlocale(locale.LC_ALL,"es_ES")
+#locale.setlocale(locale.LC_ALL,"es_ES")
 
 # download if specified
 FILES = {}
 for dataset in DATASETS:
-     RAW_FILE_NAME_this = RAW_FILE_NAME.replace("FILENAME", dataset["RAW_FILE_NAME"])
+     RAW_FILE_NAME_this = RAW_FILE_NAME.replace("FILENAME", dataset["filename"])
      URL = URL_BASE.replace("NUMBER",dataset["number"])
      FILES[RAW_FILE_NAME_this] = URL
 DOWNLOAD_FILES = pw.download("Chile power plant data", FILES)
@@ -68,108 +77,90 @@ plants_dictionary = {}
 
 # extract powerplant information from file(s)
 print(u"Reading in plants...")
-country = SOURCE_NAME
 
-# first read location file; name: 0; latitude: 1; longitude: 2
-plant_locations = {}
-#with open(LOCATION_FILENAME,"rbU") as f:
+# read static location file [fuel,id,name,latitude,longitude]
+plant_locations = {"Thermal":{},"Hydro":{},"Wind":{},"Solar":{},"Biomass":{},"Unknown":{}}
 with open(LOCATION_FILE_NAME,'rbu') as f:
     datareader = csv.reader(f)
     headers = [x.lower() for x in datareader.next()]
     for row in datareader:
-        name = pw.format_string(row[0])
-        latitude = float(row[1])
-        longitude = float(row[2])
-        #name_latin_lower = replace_with_latin_equivalent(name).lower()
-        plant_locations[name] = [latitude,longitude]
-
+        fuel = row[0]
+        idval = int(row[1])
+        name = row[2]
+        latitude = float(row[3])
+        longitude = float(row[4])
+        plant_locations[fuel][idval] = [latitude,longitude,name]
 
 # read plant files
-thermal_filename = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename="chile_power_plants_thermal.csv")
-with open(thermal_filename,'rbU') as f:
-    datareader = csv.reader(f)
-    headers = [x.lower() for x in datareader.next()]
-    id_col = headers.index(COLNAMES1[0])
-    name_col = headers.index(COLNAMES1[1])
-    owner_col = headers.index(COLNAMES1[2])
-    fuel_col = headers.index(COLNAMES1[3])
-    capacity_col = headers.index(COLNAMES1[4])
-    date_col = headers.index(COLNAMES1[5])
-    easting_col = headers.index(COLNAMES1[6])
-    northing_col = headers.index(COLNAMES1[7])
-
-    # idea: read into dict using csv read dict; then use .get with default for failure to find key
-
-
-
 for dataset in DATASETS:
-    dataset_filename = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename=dataset["RAW_FILE_NAME"])
+    dataset_filename = pw.make_file_path(fileType="raw", subFolder=SAVE_CODE, filename=dataset["filename"])
+
     with open(dataset_filename, "rbU") as f:
-        datareader = csv.reader(f)
-        headers = [x.lower().strip() for x in datareader.next()]
-        id_col = headers.index(COLNAMES[0])
-        capacity_col = headers.index(COLNAMES[4])
-
-        if dataset["fuel"] is not "Biomass":
-            name_col = headers.index(COLNAMES[1])
-        else:
-            name_col = headers.index("comuna")
-
-        # todo: handle solar file (no ownership info)
-        """
-        if dataset["fuel"] is not "Wind":
-            owner_col = headers.index(COLNAMES[2])
-        else:
-            owner_col = headers.index("propiedad")
-        """
-
-        if dataset["fuel"] is not "Thermal":
-            fuel_type = pw.standardize_fuel(dataset["fuel"], fuel_thesaurus)
-        else:
-            fuel_col = headers.index(COLNAMES[3])
-
-        # read each row in the file
+        datareader = csv.DictReader(f)
         for row in datareader:
 
             try:
-                idval = int(row[id_col])
+                idval = int(row["gid"])
             except:
-                print("-Error: Can't read ID")
+                print("-Error: Can't read ID for line {0}, skipping.".format(count))
                 continue
 
             try:
-                name = pw.format_string(row[name_col])
+                name = pw.format_string(row.get("nombre",row.get("comuna",pw.NO_DATA_UNICODE)))
             except:
-                print(u"-Error: Can't read plant name for ID {0}".format(idval))
+                print(u"-Error: Can't read name for ID {0}, skipping.".format(idval))
                 continue              
 
-            if dataset["fuel"] is "Thermal":
-                fuel_type = pw.standardize_fuel(row[fuel_col],fuel_thesaurus)
+            try:
+                fuel_string = row.get("Tipo",row.get("Tipo ",row.get("Combustible",pw.NO_DATA_UNICODE)))
+                fuel = pw.standardize_fuel(fuel_string,fuel_thesaurus)
+            except:
+                print(u"-Error: Can't read fuel for plant {0}.".format(name))
+                fuel = pw.NO_DATA_SET
+
+            # special treament of name for biomass plants (not included in data file)
+            if fuel == set(["Biomass"]):
+                try:
+                    name = pw.format_string(plant_locations["Biomass"][idval][2])
+                except:
+                    print("-Error: Can't read name for ID {0} (Biomass).".format(idval))
+                    continue
 
             try:
-                capacity = locale.atof(row[capacity_col])
+                latitude,longitude = lookup_location(fuel,idval,plant_locations)
             except:
-                capacity = pw.NO_DATA_NUMERIC
-                print("-Error: Can't read capacity for plant {0}; value is {1}".format(name,row[capacity_col]))
-
-            try:
-                #name_latin_lower = replace_with_latin_equivalent(name).lower()
-                if name in plant_locations.keys():
-                    latitude,longitude = plant_locations[name]
-                else:
-                    #print("-Error: No lat/long for plant {0}, fuel {1}".format(name,fuel_type))
-                    latitude,longitude = pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
-            except:
-                print("-Error: Can't test lat/long for plant {0}".format(idval))
+                print(u"-Error: Can't find location for plant {0}.".format(name))
                 latitude,longitude = pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
 
+            try:
+                capacity = float(row.get("Potencia MW",pw.NO_DATA_NUMERIC))
+            except:
+                try:
+                    capacity_string = row.get("Potencia MW",pw.NO_DATA_NUMERIC)
+                    capacity = float(capacity_string.replace(",","."))
+                except:
+                    print(u"-Error: Can't read capacity for plant {0}.".format(name))
+                    capacity = pw.NO_DATA_NUMERIC
+
+            try:
+                owner_string = row.get("Propietario",row.get("Propiedad",pw.NO_DATA_UNICODE))
+                if not owner_string:
+                    print("-Error: No owner string for plant {0}".format(name))
+                    owner = pw.NO_DATA_UNICODE
+                owner = pw.format_string(owner_string)
+            except:
+                print(u"-Error: Can't read owner for plant {0}.".format(name))
+                owner = pw.NO_DATA_UNICODE
+
             # assign ID number, make PowerPlant object, add to dictionary
-            idnr = pw.make_id(SAVE_CODE,idval)
+            idnr = pw.make_id(SAVE_CODE,dataset["idstart"] + idval)
             new_location = pw.LocationObject(pw.NO_DATA_UNICODE,latitude,longitude)
-            new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
-                plant_location=new_location,plant_fuel=fuel_type,plant_capacity=capacity,
-                plant_source=SOURCE,plant_source_url=SOURCE_URL,plant_cap_year=YEAR_POSTED)
+            new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=COUNTRY_NAME,
+                plant_owner=owner,plant_location=new_location,plant_fuel=fuel,
+                plant_capacity=capacity,plant_cap_year=YEAR_POSTED,
+                plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL)
             plants_dictionary[idnr] = new_plant
+
 
 # report on plants read from file
 print(u"...read {0} plants.".format(len(plants_dictionary)))

@@ -312,8 +312,10 @@ def make_fuel_thesaurus(fuel_type_thesaurus=FUEL_THESAURUS_DIR):
 	for fuel_file in fuel_thesaurus_files:
 		with open(os.path.join(fuel_type_thesaurus, fuel_file), 'rbU') as fin:
 			standard_name = fin.readline().decode(UNICODE_ENCODING).rstrip()
-			aliases = [x.decode('utf-8').lower().rstrip() for x in fin.readlines()]
-			fuel_thesaurus[standard_name] = [standard_name.lower()]
+			#aliases = [x.decode('utf-8').lower().rstrip() for x in fin.readlines()]
+			aliases = [x.decode(UNICODE_ENCODING).rstrip() for x in fin.readlines()]
+			#fuel_thesaurus[standard_name] = [standard_name.lower()]
+			fuel_thesaurus[standard_name] = [standard_name]
 			fuel_thesaurus[standard_name].extend(aliases)
 	return fuel_thesaurus
 
@@ -341,15 +343,24 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 		fuel_instance_u = fuel_instance
 
 	fuel_instance_list = fuel_instance_u.split("/")
-	fuel_instance_list_lower = [f.lower().strip() for f in fuel_instance_list]
+	fuel_instance_list_clean = [f.strip() for f in fuel_instance_list]
+	# NOTE: Very strange bug below!
+	# Using 'fuel_set = NO_DATA_SET' does not reset variable to set([]).
+	# Result is that fuel_set accumulates all primary fuel names over time.
+	# Fix to is to use 'fuel_set = set([])'. 
+	# Should be identical - unclear why this doesn't work. [-Colin]
+	#fuel_set = NO_DATA_SET
 	fuel_set = set([])
-	for fuel in fuel_instance_list_lower:
+	for fuel in fuel_instance_list_clean:
+		identified = 0
 		for fuel_primary_name, fuel_synonyms in fuel_thesaurus.iteritems():
 			if fuel in fuel_synonyms:
 				fuel_set.add(fuel_primary_name)
+				identified = 1
 				break
-		print(u"-Error: Couldn't identify fuel type {0}".format(fuel_instance_u))
-		return NO_DATA_SET
+		if not identified:
+			print(u"-Error: Couldn't identify fuel type {0}".format(fuel_instance_u))
+
 	return fuel_set
 
 ### HEADER NAMES ###
@@ -681,7 +692,9 @@ def write_csv_file(plants_dictionary,csv_filename,dump=False):
 	f.write(header_text)
 
 	for k,p in plants_dictionary.iteritems():
-		fuels = ",".join(p.fuel)
+		#fuels = ",".join(p.fuel)
+		#fuels = repr(p.fuel)
+		fuels = ",".join(f for f in p.fuel)
 		try:
 			row_text = u"{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12}\n".format(
 				p.name,p.idnr,p.capacity,p.cap_year,p.generation,p.gen_year,p.country,p.owner,p.source,p.url,p.location.latitude,p.location.longitude,fuels

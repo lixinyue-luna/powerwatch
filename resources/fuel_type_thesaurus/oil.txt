@@ -8,7 +8,6 @@ crude
 oil (crude)
 fuel oil
 heavy fuel oil
-coke gas
 heavy fuel oil (hfo)
 oil (diesel)
 disl
@@ -56,3 +55,7 @@ Jet Fuel
 Kerosine
 PETROLEO DIESEL
 PETROLEO
+DIESEL
+FUEL OIL NRO 6
+PETROLEO DIESEL A-1
+PROPANO

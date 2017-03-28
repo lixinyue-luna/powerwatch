@@ -26,5 +26,6 @@ Gás Natural
 Gás do Alto Forno - CM
 Gás de Alto Forno - PE
 Gás de Refinaria
-Coke oven gas
 Petroleum gases
+GAS NATURAL
+GNL

@@ -26,12 +26,13 @@ import powerwatch as pw
 # params
 COUNTRY_NAME = u"NAME OF COUNTRY OR GLOBAL"
 SOURCE_NAME = u"NAME OF ORGANIZATION OR DATABASE[, OTHER ORGANIZATION OR DATABASE]"
-SOURCE_URL = u"LINK TO THE DATA PORTAL"
 SOURCE_URL = u"PRIMARY URL"
 SAVE_CODE = u"3-LETTER SAVE CODE HERE (ISO CODE FOR COUNTRIES)"
+YEAR_POSTED = 2017  # Year of data posted on line
 RAW_FILE_NAME = pw.make_file_path(fileType = "raw", subFolder = SAVE_CODE, filename = "RAW FILE HERE")
-CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "CSV OUTPUT FILE NAME HERE")
+CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "database_{0}.csv".format(SAVE_CODE))
 SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
+#LOCATION_FILE_NAME = pw.make_file_path(fileType="resource",subFolder=SAVE_CODE,filename="locations_{0}.csv".format(SAVE_CODE))
 
 # other parameters as needed
 
@@ -93,7 +94,7 @@ with open(RAW_FILE_NAME,'rU') as f:
             latitude = float(row[latitude_col])
             longitude = float(row[longitude_col])
         except:
-            latitude, longitude = 0.0, 0.0
+            latitude, longitude = pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
 
         # assign ID number
         idnr = pw.make_id(SAVE_CODE,count)
