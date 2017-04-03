@@ -1,34 +1,34 @@
 Biomass
-peat
-black liquor
-blq
-licor negro
-straw
-biocombustibles liquidos
-meat & bone meal
-bliq
-bagazzo
-residuos forestoindustriales
-fossil peat
-bag
-bl
-liq
-quema cascara de girasol y mani
-quema de biomasa forestal y residuos forestoindustriales
+Advanced Conversion Technologies
+Anaerobic Digestion
+BIOMASA
+Bagasse
 Bagaço de Cana de Açúcar
-Resíduos de Madeira
+Biomass (co-firing)
+Biomass (dedicated)
+Biomass energy
+Black liquor and concentrated liquors
 Capim Elefante
 Casca de Arroz
+Forest fuelwood
 Lenha
 QUEMA BAGAZO DE CAÑA
-Biomass (dedicated)
-Anaerobic Digestion
-Biomass (co-firing)
-BIOMASA
-Forest fuelwood
-Black liquor and concentrated liquors
-Bagasse
+Resíduos de Madeira
 Rice Husk
-Advanced Conversion Technologies
+bag
+bagazzo
+biocombustibles liquidos
+bl
+black liquor
+bliq
+blq
+fossil peat
+licor negro
 lignin
-Biomass energy
+liq
+meat & bone meal
+peat
+quema cascara de girasol y mani
+quema de biomasa forestal y residuos forestoindustriales
+residuos forestoindustriales
+straw

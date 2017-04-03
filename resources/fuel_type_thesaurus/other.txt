@@ -1,19 +1,19 @@
 Other
-separate electricity product
-oth
-calor residual
-tdf
-mwh
-fuel
-unknown
 ?
-thermal
-separate electricity production
-pur
-obl
-no clasificado
-unk
 H2
-helium
-Other non-specified energy sources
 Mixed fuels
+Other non-specified energy sources
+calor residual
+fuel
+helium
+mwh
+no clasificado
+obl
+oth
+pur
+separate electricity product
+separate electricity production
+tdf
+thermal
+unk
+unknown

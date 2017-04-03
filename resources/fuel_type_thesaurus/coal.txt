@@ -1,32 +1,32 @@
 Coal
-anthracite coal
-lignite coal
-lignite
-bituminous coal
-lign
-coal (anthracite)
-sub-bituminious coal
+CARBON
+Carvão Mineral
+Carvão Vegetal
 ant
+anthracite coal
 bit
-lig
-sgc
-sub
-wc
-rc
-petroleum
-oil y coal
-carbon
-fossil brown coal
-fossil coal-derived gas
-fossil hard coal
-turbo vapor
 bitumen
+bituminous coal
+carbon
 cgas
+coal (anthracite)
 cog
 csgas
 cwm
 cxgas
-Carvão Vegetal
-Carvão Mineral
+fossil brown coal
+fossil coal-derived gas
+fossil hard coal
 hard coal and anthracite
-CARBON
+lig
+lign
+lignite
+lignite coal
+oil y coal
+petroleum
+rc
+sgc
+sub
+sub-bituminious coal
+turbo vapor
+wc

@@ -1,11 +1,11 @@
 Wind
-wnd
+EOLICA
+EÓLICA
+eolica
+eolico
 wind (offshore)
 wind farm
-wind power
 wind offshore
 wind onshore
-eolico
-eolica
-EÓLICA
-EOLICA
+wind power
+wnd

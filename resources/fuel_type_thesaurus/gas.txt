@@ -1,31 +1,31 @@
 Gas
-natural gas
-gas de refineria
-gas natural
-ocgt
-gas oil
-other gas
-og
-natural gas mine
-ccgt
-bfg
-ng
-blast furnace gas
-natural gas_mine
-fgas
-coal - petcoke
-coal-derived gas
-naphtha
-napt
-oil y natural gas
-gnl
-lng
-fossil gas
-turbo gas
-Gás Natural
-Gás do Alto Forno - CM
-Gás de Alto Forno - PE
-Gás de Refinaria
-Petroleum gases
 GAS NATURAL
 GNL
+Gás Natural
+Gás de Alto Forno - PE
+Gás de Refinaria
+Gás do Alto Forno - CM
+Petroleum gases
+bfg
+blast furnace gas
+ccgt
+coal - petcoke
+coal-derived gas
+fgas
+fossil gas
+gas de refineria
+gas natural
+gas oil
+gnl
+lng
+naphtha
+napt
+natural gas
+natural gas mine
+natural gas_mine
+ng
+ocgt
+og
+oil y natural gas
+other gas
+turbo gas

@@ -1,19 +1,19 @@
 Solar
-solar (pv)
-sun
+FOTOVOLTAICO
+Radiação Solar
+Solar Photovoltaics
+concentrated solar power
+concentrating solar power
+csp
+fotovoltaico
 photovoltaic
 photovoltaics
 pv
+solar (concentrated solar power)
+solar (pv)
+solar (thermal)
 solar pv
+solar thermal
 solar_pv
 solar_thermal
-solar (concentrated solar power)
-csp
-concentrated solar power
-solar thermal
-solar (thermal)
-concentrating solar power
-fotovoltaico
-Radiação Solar
-Solar Photovoltaics
-FOTOVOLTAICO
+sun

@@ -1,46 +1,46 @@
 Waste
-waste incinerator
-residuos industriales
-solid waste
-waste energy
-msw
-slw
-lfg
-obs
-wds
-wdl
-obg
-bgas
-bsol
-wsth
-landfill natural gas
-methane avoidance
-methane recovery & utilization
-residuos solidos urbanos
-ab
-wh
-biogas
-agas
-ethanol
-dgas
-dme
-hzdwst
-indwst
-lgas
-ref
-Gás de Alto Forno
+Advanced Conversion Technology
 Biogás
 Biogás - AGR
 Biogás - RA
-Gás de Alto Forno - Biomassa
 Biogás - RU
-waste derived fuel
-Sewage Sludge Digestion
-EfW Incineration
-Landfill Gas
-Advanced Conversion Technology
-industrial wood residues
 By-products from wood processing industry
-Other by-products and wastes used as fuel
+EfW Incineration
 Exothermic heat from industry
 Gasified waste
+Gás de Alto Forno
+Gás de Alto Forno - Biomassa
+Landfill Gas
+Other by-products and wastes used as fuel
+Sewage Sludge Digestion
+ab
+agas
+bgas
+biogas
+bsol
+dgas
+dme
+ethanol
+hzdwst
+industrial wood residues
+indwst
+landfill natural gas
+lfg
+lgas
+methane avoidance
+methane recovery & utilization
+msw
+obg
+obs
+ref
+residuos industriales
+residuos solidos urbanos
+slw
+solid waste
+waste derived fuel
+waste energy
+waste incinerator
+wdl
+wds
+wh
+wsth
