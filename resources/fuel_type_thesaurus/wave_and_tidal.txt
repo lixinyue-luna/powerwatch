@@ -1,6 +1,8 @@
 Wave and Tidal
 Cinética da Água
+Marine
 Shoreline Wave
+Tidal
 Tidal Barrage and Tidal Stream
 Wave
 marine

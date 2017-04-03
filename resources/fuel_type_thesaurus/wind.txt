@@ -1,8 +1,11 @@
 Wind
 EOLICA
+EOLICO
 EÓLICA
+WND
 eolica
 eolico
+wind
 wind (offshore)
 wind farm
 wind offshore

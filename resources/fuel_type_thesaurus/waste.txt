@@ -1,18 +1,34 @@
 Waste
+AB
 Advanced Conversion Technology
 Biogás
 Biogás - AGR
 Biogás - RA
 Biogás - RU
+Biogas
 By-products from wood processing industry
 EfW Incineration
 Exothermic heat from industry
 Gasified waste
 Gás de Alto Forno
 Gás de Alto Forno - Biomassa
+Industrial wood residues
+LFG
 Landfill Gas
+MSW
+OBG
+OBS
 Other by-products and wastes used as fuel
+RESIDUOS SOLIDOS URBANOS
+Residuos industriales
+Residuos solidos urbanos
+SLW
 Sewage Sludge Digestion
+WDL
+WDS
+WH
+Waste Gas
+Waste Incinerator
 ab
 agas
 bgas

@@ -1,8 +1,19 @@
 Other
 ?
+Calor residual
+Fuel
 H2
 Mixed fuels
+MWH
+OBL
+OTH
 Other non-specified energy sources
+PUR
+Separate electricity production
+TDF
+Thermal
+Unknown
+WH
 calor residual
 fuel
 helium

@@ -1,7 +1,21 @@
 Coal
+Anthracite Coal
+BIT
+Bituminous Coal
 CARBON
+COAL
 Carvão Mineral
 Carvão Vegetal
+Hard coal and anthracite
+LIG
+Lignite
+Lignite Coal
+RC
+SGC
+SUB
+Sub-bituminous Coal
+TURBO VAPOR
+WC
 ant
 anthracite coal
 bit
@@ -9,6 +23,7 @@ bitumen
 bituminous coal
 carbon
 cgas
+coal
 coal (anthracite)
 cog
 csgas

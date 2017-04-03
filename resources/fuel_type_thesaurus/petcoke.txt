@@ -1,6 +1,8 @@
 Petcoke
 Coke oven gas
+PC
 PETCOKE
+SGP
 ckgas
 coke
 coke gas

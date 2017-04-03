@@ -3,11 +3,21 @@ HIDRAULICA EMBALSE
 HIDRAULICA PASADA
 HIDROELECTRICA
 HIDRÁULICA
+HYDRO
+Hydro Pumped Storage
+Hydro Run-of-river and poundage
+Hydro Water Reservoir
+Hydropower
 Large Hydro
 MINI HIDRAULICA PASADA
-Small Hydro
+Pumped Storage
+TURB + BOMBA HI
+TURB HIDRAULICA
+WAT
+Water
 hidraulica
 hydo
+hydro
 hydro power
 hydro pumped storage
 hydro run-of-river and poundage

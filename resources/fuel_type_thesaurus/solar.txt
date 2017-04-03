@@ -1,7 +1,9 @@
 Solar
 FOTOVOLTAICO
 Radiação Solar
+SOLAR
 Solar Photovoltaics
+SUN
 concentrated solar power
 concentrating solar power
 csp
@@ -9,6 +11,7 @@ fotovoltaico
 photovoltaic
 photovoltaics
 pv
+solar
 solar (concentrated solar power)
 solar (pv)
 solar (thermal)

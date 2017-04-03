@@ -1,23 +1,48 @@
 Oil
+Crude
 Crude Oil
+DFO
 DIESEL
+DIESL
+DISL
+Diesel
+Diesl
+Distallate Fuel Oil
+Distillate
+Distillate Fuel Oil
+Distillate Oil
 FUEL OIL NRO 6
+Fuel Oil
 Fuel Oil #2
 Fuel Oil #6
+HFO
+Heavy Fuel Oil
+Heavy Fuel oil
 Heavy distillates
+JF
 Jet Fuel
+KER
 Kerosine
 LFO
+Light Crude Oil
+Light Fuel Oil
+Light oil
 Light distillates
 Medium heavy distillates
+MOTOR DIESEL
 OIL
+OIl
+Oil (crude)
+Oil (crude and diesel)
+Oil (diesel)
 Outros Energéticos de Petróleo
 PETROLEO
 PETROLEO DIESEL
 PETROLEO DIESEL A-1
-PROPANO
+RFO
 Residual Fuel Oil
 Residual Oil
+WO
 crude
 dfo
 diesel
@@ -46,13 +71,12 @@ light crude oil
 light fuel oil
 light oil
 motor diesel
+oil
 oil (crude and diesel)
 oil (crude)
 oil (diesel)
 oil y diesel
 pc
-pg
-propane
 rfo
 sgp
 shale

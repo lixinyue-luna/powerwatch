@@ -2,22 +2,32 @@ Biomass
 Advanced Conversion Technologies
 Anaerobic Digestion
 BIOMASA
+BLQ
 Bagasse
 Bagaço de Cana de Açúcar
+Biocombustibles liquidos
 Biomass (co-firing)
 Biomass (dedicated)
 Biomass energy
+Black Liquor
 Black liquor and concentrated liquors
 Capim Elefante
 Casca de Arroz
 Forest fuelwood
 Lenha
+Licor Negro
+Meat & bone meal
+Peat
 QUEMA BAGAZO DE CAÑA
+QUEMA CASCARA DE GIRASOL Y MANI
+QUEMA DE BIOMASA FORESTAL Y RESIDUOS FORESTOINDUSTRIALES
 Resíduos de Madeira
 Rice Husk
+Straw
 bag
 bagazzo
 biocombustibles liquidos
+biomass
 bl
 black liquor
 bliq
