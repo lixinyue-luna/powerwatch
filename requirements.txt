@@ -1,7 +1,7 @@
-xlrd
 lxml
-pyproj
-# for SourceWatch:
-py-wikimarkup
-pyquery
 pandas
+py-wikimarkup
+pyproj
+pyquery
+utm
+xlrd
