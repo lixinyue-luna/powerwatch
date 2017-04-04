@@ -52,16 +52,16 @@ for row_id in range(2, ws2.nrows):
     name = pw.format_string(rv[COLS_860_2['name']])
     idnr = pw.make_id(SAVE_CODE,int(rv[COLS_860_2['idnr']]))
     capacity = 0.0
-    generation = 0.0
+    generation = pw.NO_DATA_NUMERIC
     owner = pw.format_string(str(rv[COLS_860_2['owner']]))
     try:
         latitude = float(rv[COLS_860_2['lat']])
     except:
-        latitude = 0.0
+        latitude = pw.NO_DATA_NUMERIC
     try:
         longitude = float(rv[COLS_860_2['lng']])
     except:
-        longitude = 0.0
+        longitude = pw.NO_DATA_NUMERIC
     location = pw.LocationObject(u"",latitude,longitude)
     new_plant = pw.PowerPlant(idnr, name, plant_country = COUNTRY_NAME,
         plant_location = location, plant_owner = owner, plant_capacity = capacity, plant_generation = generation,
@@ -97,6 +97,8 @@ for row_id in range(6, ws1.nrows):
     rv = ws1.row_values(row_id)
     idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2['idnr']]))
     if idnr in plants_dictionary.keys():
+        if plants_dictionary[idnr].generation is pw.NO_DATA_NUMERIC:
+            plants_dictionary[idnr].generation = 0.0
         plants_dictionary[idnr].generation += float(rv[COLS_923_2['generation']])/1000
     else:
         print("Can't find plant with ID: {0}".format(idnr))

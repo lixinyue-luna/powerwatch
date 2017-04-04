@@ -11,7 +11,10 @@ Additional information: https://www.minem.gob.ar/www/706/24621/articulo/noticias
 """
 
 import csv
-import sys, os
+import sys
+import os
+import json
+
 
 sys.path.insert(0, os.pardir)
 import powerwatch as pw
@@ -75,11 +78,11 @@ print(u"Reading in plants...")
 country = COUNTRY_NAME
 count = 1
 for dataset in DATASETS:
-    dataset_CSV = dataset[RAW_FILE_NAME]
+    dataset_CSV = dataset["RAW_FILE_NAME"]
     with open(dataset_CSV, "rbU") as fh:
         datareader = csv.reader(fh)
         headers = datareader.next()
-        name_col = headers.index(u"central)
+        name_col = headers.index(u"central")
         geojson_col = headers.index(u"geojson")
         if dataset["name"] == "general":
             owner_col = headers.index(u"empresa")
@@ -96,8 +99,12 @@ for dataset in DATASETS:
             try:
                 capacity = float(row[capacity_col])
             except:
-                print(u"Error: Can't read capacity for plant {0}.".format(name))
-                capacity = 0.0
+                try:
+                    print(u"Error: Can't read capacity for plant {0}.".format(name))
+                except:
+                    print(u"Error: Can't read capacity for plant.")
+                else:
+                    capacity = pw.NO_DATA_NUMERIC
             try:
                 owner = pw.format_string(row[owner_col])
             except:
@@ -111,18 +118,17 @@ for dataset in DATASETS:
             except:
                 fuels = set([u"Other"])
             try:
-                coords = row[geojson_col].split(",", 1)[1].split(":[")[1].split("]")[0]
-                coords = coords.split(",")
+                coords = json.loads(row[geojson_col])['coordinates']
                 latitude = float(coords[1])
                 longitude = float(coords[0])
             except:
-                latitude, longitude = 0.0, 0.0
-
+                location = pw.LocationObject()
+            else:
+                location = pw.LocationObject(pw.NO_DATA_UNICODE, latitude, longitude)
             # assign ID number, make PowerPlant object, add to dictionary
             idnr = pw.make_id(SAVE_CODE,count)
-            new_location = pw.LocationObject(u"",latitude,longitude)
             new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_owner=owner,plant_fuel=fuels,
-                plant_country=country,plant_location=new_location,plant_capacity=capacity,plant_cap_year=YEAR_ACCESSED,
+                plant_country=country,plant_location=location,plant_capacity=capacity,plant_cap_year=YEAR_ACCESSED,
                 plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL)
             plants_dictionary[idnr] = new_plant
             count += 1
