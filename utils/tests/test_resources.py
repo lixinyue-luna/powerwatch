@@ -18,11 +18,6 @@ class TestFuelThesaurus(unittest.TestCase):
 		for fuel, alts in self.fuel_thesaurus.iteritems():
 			self.assertNotEqual(len(alts), 0)
 
-	def test_lower(self):
-		for fuel, alts in self.fuel_thesaurus.iteritems():
-			for alt_name in alts:
-				self.assertFalse(alt_name.isupper(), "name should not be uppercase")
-
 	def test_distinct_entries(self):
 		unique_names = {} # dict because of fast lookup
 		for fuel, alts in self.fuel_thesaurus.iteritems():

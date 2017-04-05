@@ -8,6 +8,7 @@ Carvão Mineral
 Carvão Vegetal
 Hard coal and anthracite
 LIG
+LIGN
 Lignite
 Lignite Coal
 RC

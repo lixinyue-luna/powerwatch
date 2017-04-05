@@ -17,6 +17,8 @@ Forest fuelwood
 Lenha
 Licor Negro
 Meat & bone meal
+OBG
+OBS
 Peat
 QUEMA BAGAZO DE CAÑA
 QUEMA CASCARA DE GIRASOL Y MANI
@@ -32,11 +34,14 @@ bl
 black liquor
 bliq
 blq
+ethanol
 fossil peat
 licor negro
 lignin
 liq
 meat & bone meal
+obg
+obs
 peat
 quema cascara de girasol y mani
 quema de biomasa forestal y residuos forestoindustriales

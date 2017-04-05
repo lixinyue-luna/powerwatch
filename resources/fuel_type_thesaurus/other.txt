@@ -4,6 +4,7 @@ Calor residual
 Fuel
 H2
 Mixed fuels
+Mixed renewables
 MWH
 OBL
 OTH
@@ -13,7 +14,6 @@ Separate electricity production
 TDF
 Thermal
 Unknown
-WH
 calor residual
 fuel
 helium

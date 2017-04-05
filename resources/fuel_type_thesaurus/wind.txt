@@ -2,6 +2,9 @@ Wind
 EOLICA
 EOLICO
 EÓLICA
+Wind (offshore)
+Wind Offshore
+Wind Onshore
 WND
 eolica
 eolico

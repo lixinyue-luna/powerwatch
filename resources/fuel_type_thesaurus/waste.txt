@@ -16,8 +16,6 @@ Industrial wood residues
 LFG
 Landfill Gas
 MSW
-OBG
-OBS
 Other by-products and wastes used as fuel
 RESIDUOS SOLIDOS URBANOS
 Residuos industriales
@@ -26,7 +24,6 @@ SLW
 Sewage Sludge Digestion
 WDL
 WDS
-WH
 Waste Gas
 Waste Incinerator
 ab
@@ -36,7 +33,6 @@ biogas
 bsol
 dgas
 dme
-ethanol
 hzdwst
 industrial wood residues
 indwst
@@ -46,8 +42,6 @@ lgas
 methane avoidance
 methane recovery & utilization
 msw
-obg
-obs
 ref
 residuos industriales
 residuos solidos urbanos
@@ -58,5 +52,4 @@ waste energy
 waste incinerator
 wdl
 wds
-wh
 wsth

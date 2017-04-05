@@ -11,6 +11,8 @@ Hydropower
 Large Hydro
 MINI HIDRAULICA PASADA
 Pumped Storage
+Pumped storage
+Small Hydro
 TURB + BOMBA HI
 TURB HIDRAULICA
 WAT

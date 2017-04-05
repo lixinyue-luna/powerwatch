@@ -2,6 +2,8 @@ Solar
 FOTOVOLTAICO
 Radiação Solar
 SOLAR
+Solar_PV
+Solar_Thermal
 Solar Photovoltaics
 SUN
 concentrated solar power
