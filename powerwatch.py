@@ -49,8 +49,7 @@ class PowerPlant(object):
 		plant_capacity = NO_DATA_NUMERIC, plant_cap_year = NO_DATA_NUMERIC,
 		plant_source = NO_DATA_OTHER, plant_source_url = NO_DATA_UNICODE,
 		plant_location = NO_DATA_OTHER, plant_coord_source = NO_DATA_UNICODE,
-		plant_fuel = NO_DATA_SET,
-		plant_generation = NO_DATA_NUMERIC, plant_gen_year = NO_DATA_NUMERIC,
+		plant_fuel = NO_DATA_SET, plant_generation = NO_DATA_OTHER,
 		):
 
 		# check and set data for attributes that should be unicode
@@ -70,7 +69,7 @@ class PowerPlant(object):
 						setattr(self,attribute,NO_DATA_UNICODE)
 
 		# check and set data for attributes that should be numeric
-		numeric_attributes = {'capacity':plant_capacity, 'cap_year':plant_cap_year, 'generation':plant_generation, 'gen_year':plant_gen_year}
+		numeric_attributes = {'capacity':plant_capacity, 'cap_year':plant_cap_year}
 		for attribute,input_parameter in numeric_attributes.iteritems():
 			if input_parameter is NO_DATA_NUMERIC:
 				setattr(self,attribute,NO_DATA_NUMERIC)
@@ -83,9 +82,20 @@ class PowerPlant(object):
 					except:
 						print("Error trying to create plant with parameter {0} for attribute {1}.".format(input_parameter,attribute))
 
-		# check and set list for fuel types
+		# check and set data for attributes that should be lists
+		list_attributes = {'generation': plant_generation}
+		for attribute, input_parameter in list_attributes.iteritems():
+			if attribute == 'generation' and input_parameter is NO_DATA_OTHER:
+				setattr(self, attribute, [PlantGenerationObject()])
+			elif attribute == 'generation' and type(input_parameter) is PlantGenerationObject:
+				setattr(self, attribute, [input_parameter])
+			else: # assume list/tuple of PlantGenerationObject
+				setattr(self, attribute, list(input_parameter))
+
+		# check and set fuel types
+		# TODO: check that fuels are valid standardized fuels
 		if not plant_fuel:
-			setattr(self,'fuel',NO_DATA_SET)
+			setattr(self,'fuel',NO_DATA_SET.copy())
 		elif type(plant_fuel) is unicode:
 			setattr(self,'fuel',set([plant_fuel]))
 		elif type(plant_fuel) is str:
@@ -96,13 +106,40 @@ class PowerPlant(object):
 			setattr(self,'fuel',plant_fuel)
 		else:
 			print("Error trying to create plant with fuel of type {0}.".format(plant_fuel))
-			setattr(self,'fuel',NO_DATA_SET)
+			setattr(self,'fuel',NO_DATA_SET.copy())
 
 		# set data for other attributes
-		# TODO: check data type for these
-		object_attributes = {'source':plant_source,'location':plant_location}
-		for attribute,input_parameter in object_attributes.iteritems():
-			setattr(self,attribute,input_parameter)
+		object_attributes = {'source': plant_source, 'location': plant_location}
+		for attribute, input_parameter in object_attributes.iteritems():
+			if attribute == 'source' and type(input_parameter) is not SourceObject:
+				if type(input_parameter) in [str, unicode]:
+					setattr(self, attribute, format_string(input_parameter))
+				else:
+					setattr(self, attribute, NO_DATA_UNICODE)
+			elif attribute == 'location' and type(input_parameter) is not LocationObject:
+				setattr(self, attribute, LocationObject())
+			else:  # everything OK
+				setattr(self, attribute, input_parameter)
+
+
+	def __repr__(self):
+		"""Representation of the PowerPlant."""
+		return 'PowerPlant: ' + str(self.idnr)
+
+	def __str__(self):
+		"""String representation of the PowerPlant."""
+		try:
+			s = ['{',
+				'  id: ' + str(self.idnr),
+				'  name: ' + str(self.name),
+				'  fuel: ' + str(self.fuel),
+				'  owner: ' + str(self.owner),
+				'  capacity: ' + str(self.capacity),
+				'  has_location: ' + str(bool(self.location)),
+				'}']
+			return '\n'.join(s)
+		except:
+			return self.__repr__()
 
 class MasterPlant(object):
 	def __init__(self, master_idnr, matches):
@@ -134,6 +171,7 @@ class SourceObject(object):
 		self.priority		= priority
 		self.url			= url
 		self.year			= year
+
 
 class CountryObject(object):
 	def __init__(self, primary_name, iso_code, iso_code2, geo_name, carma_name, has_api, use_geo, fusion_table_id):
@@ -169,6 +207,7 @@ class CountryObject(object):
 		self.use_geo		= use_geo
 		self.fusion_table_id = fusion_table_id
 
+
 class LocationObject(object):
 	def __init__(self,description=u"",latitude=None,longitude=None):
 		"""
@@ -187,6 +226,161 @@ class LocationObject(object):
 		self.description	= description
 		self.latitude		= latitude
 		self.longitude		= longitude
+
+	def __repr__(self):
+		lat = self.latitude
+		lon = self.longitude
+		desc = self.description
+		return 'Location: lat={0}; lon={1}; desc={2}'.format(lat, lon, desc)
+
+	def __nonzero__(self):
+		"""Boolean checking."""
+		return (self.longitude is not None) and (self.latitude is not None)
+
+
+class PlantGenerationObject(object):
+	def __init__(self, gwh=None, start_date=None, end_date=None, source=None):
+		"""
+		Class holding information on the generation of a powerplant.
+
+		Parameters
+		----------
+		gwh : float
+			Electricity generation in units of GigaWatt Hours.
+		start_date : datetime
+			Start date for the generation period.
+		end_date : datetime
+			End date for the generation period.
+		source : unicode
+			Source (URL/name) that produced the data.
+
+		Raises
+		------
+		ValueError if `end_date` is before `start_date`.
+		TypeError if `start_date` or `end_date` is not a datetime.
+
+		"""
+		self.gwh = gwh
+		if type(self.gwh) is int:
+			self.gwh = float(self.gwh)
+
+		if type(start_date) in [type(None), datetime.datetime]:
+			self.start_date = start_date
+		if type(end_date) in [type(None), datetime.datetime]:
+			self.end_date = end_date
+
+		self.source = source
+
+		if type(self.start_date) != type(self.end_date):
+			raise TypeError('start_date and end_date must both be datetime objects or None')
+
+		if self.end_date < self.start_date:
+			raise ValueError('end_date must be after start_date')
+
+	def __repr__(self):
+		start = None
+		end = None
+		if self.start_date:
+			start = self.start_date.strftime('%Y-%m-%d')
+		if self.end_date:
+			end = self.end_date.strftime('%Y-%m-%d')
+		return 'PlantGeneration: GWH={0}; start={1}; end={2}'.format(self.gwh, start, end)
+
+	def __str__(self):
+		start = None
+		end = None
+		if self.start_date:
+			start = self.start_date.strftime('%Y-%m-%d')
+		if self.end_date:
+			end = self.end_date.strftime('%Y-%m-%d')
+		s = ['{',
+			'  GWH: ' + str(self.gwh),
+			'  start: ' + str(start),
+			'  end: ' + str(end),
+			'  source: ' + str(self.source),
+			'}'
+			]
+		return '\n'.join(s)
+
+	def __nonzero__(self):
+		"""Boolean checking."""
+		return (self.gwh is not None) \
+			and (self.start_date is not None) \
+			and (self.end_date is not None)
+
+	@staticmethod
+	def create(gwh, year=None, month=None, source=None):
+		"""
+		Construct a PlantGenerationObject for a certain year or month in year.
+
+		Parameters
+		----------
+		gwh : float
+			Electricty generation in GigaWatt*Hour.
+		year : int, optional
+			Year the generation data corresponds to.
+		month : int, optional
+			Month the generation data corresponds to.
+		source : str, optional
+			Identifying value for the source of the generation data.
+
+		Returns
+		-------
+		PlantGenerationObject
+
+		"""
+		if year is None:
+			return PlantGenerationObject(gwh, source=source)
+		if year is not None and month is None:
+			start = datetime.datetime(year, 1, 1)
+			end = datetime.datetime(year, 12, 31)
+			return PlantGenerationObject(gwh, start, end, source)
+		if year is not None and month is not None:
+			start = datetime.datetime(year, month, 1)
+			future_month = start.replace(day=28) + datetime.timedelta(days=4)
+			end =  future_month - datetime.timedelta(days=future_month.day)
+			return PlantGenerationObject(gwh, start, end, source)
+		else:  # year is None and month is not None
+			return PlantGenerationObject(gwh, source=source)
+
+
+def annual_generation(gen_list, year):
+	"""
+	Compute the aggregated annual generation for a certain year.
+
+	Parameters
+	----------
+	gen_list : list of PlantGenerationObject
+		Input generation data.
+	year : int
+		Year to aggregate data.
+
+	Returns
+	-------
+	Float if generation data is found in the year, otherwise None.
+
+	"""
+	year_start = datetime.datetime(year, 1, 1)
+	year_end = datetime.datetime(year, 12, 31)
+	candidates = []
+	for gen in gen_list:
+		if not gen:
+			continue
+		if gen.start_date > year_end or gen.end_date < year_start:
+			continue
+		candidates.append(gen)
+
+	if not candidates:
+		return None
+
+	for gen in candidates:
+		if (gen.end_date - gen.start_date).days in [364, 365]:
+			return gen.gwh
+
+	return None
+
+
+
 
 ### ARGUMENT PARSER ###
 
@@ -344,19 +538,15 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 
 	fuel_instance_list = fuel_instance_u.split("/")
 	fuel_instance_list_clean = [f.strip() for f in fuel_instance_list]
-	# NOTE: Very strange bug below!
-	# Using 'fuel_set = NO_DATA_SET' does not reset variable to set([]).
-	# Result is that fuel_set accumulates all primary fuel names over time.
-	# Fix to is to use 'fuel_set = set([])'. 
-	# Should be identical - unclear why this doesn't work. [-Colin]
-	#fuel_set = NO_DATA_SET
-	fuel_set = set([])
+	fuel_set = NO_DATA_SET.copy()
 	for fuel in fuel_instance_list_clean:
-		identified = 0
+		if fuel_instance_u == NO_DATA_UNICODE:
+			continue
+		identified = False
 		for fuel_primary_name, fuel_synonyms in fuel_thesaurus.iteritems():
 			if fuel in fuel_synonyms:
 				fuel_set.add(fuel_primary_name)
-				identified = 1
+				identified = True
 				break
 		if not identified:
 			print(u"-Error: Couldn't identify fuel type {0}".format(fuel_instance_u))
@@ -667,7 +857,7 @@ def load_database(filename):
 	with open(filename, 'rb') as f:
 		return pickle.load(f)
 
-def write_csv_file(plants_dictionary,csv_filename,dump=False):
+def write_csv_file(plants_dictionary, csv_filename, dump=False):
 	"""
 	Write in-memory database into a CSV format.
 
@@ -681,29 +871,75 @@ def write_csv_file(plants_dictionary,csv_filename,dump=False):
 		Whether this is a full-dump or a cleaned database.
 
 	"""
-	# TODO: get csv_file abs path
-	f = open(csv_filename,'w')
-	warning_text = "NOTE: This Power Watch database of power plants is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.\n"
-	f.write(warning_text)
+
+	def _dict_row(powerplant):
+		ret = {}
+		ret['name'] = powerplant.name.encode(UNICODE_ENCODING)
+		ret['pw_idnr'] = powerplant.idnr.encode(UNICODE_ENCODING)
+		ret['capacity_mw'] = powerplant.capacity
+		ret['year_of_capacity_data'] = powerplant.cap_year
+		ret['country'] = powerplant.country.encode(UNICODE_ENCODING)
+		ret['owner'] = powerplant.owner.encode(UNICODE_ENCODING)
+		ret['source'] = powerplant.source
+		if ret['source'] is not None:
+			ret['source'] = ret['source'].encode(UNICODE_ENCODING)
+		ret['url'] = powerplant.url.encode(UNICODE_ENCODING)
+		ret['latitude'] = powerplant.location.latitude
+		ret['longitude'] = powerplant.location.longitude
+		for i, fuel in enumerate(powerplant.fuel):
+			if i == 4:
+				break
+			ret['fuel{0}'.format(i + 1)] = fuel
+		for year in range(2012, 2017):
+			gwh = annual_generation(powerplant.generation, year)
+			ret['generation_gwh_{0}'.format(year)] = gwh
+		return ret
+
+
+	fieldnames = [
+		"name",
+		"pw_idnr",
+		"capacity_mw",
+		"year_of_capacity_data",
+		"country",
+		"owner",
+		"source",
+		"url",
+		"latitude",
+		"longitude",
+		"fuel1",
+		"fuel2",
+		"fuel3",
+		"fuel4",
+		"generation_gwh_2012",
+		"generation_gwh_2013",
+		"generation_gwh_2014",
+		"generation_gwh_2015",
+		"generation_gwh_2016",
+	]
+
 	if dump:
-		header_text = "name,pw_idnr,in_pw,capacity_mw,year_of_capacity_data,annual_generation_gwh,year_of_generation_data,country,owner,source,url,latitude,longitude,fuel1,fuel2,fuel3,fuel4\n"
-	else:
-		header_text = "name,pw_idnr,capacity_mw,year_of_capacity_data,annual_generation_gwh,year_of_generation_data,country,owner,source,url,latitude,longitude,fuel1,fuel2,fuel3,fuel4\n"
-	f.write(header_text)
+		fieldnames.insert(2, 'in_pw')
 
-	for k,p in plants_dictionary.iteritems():
-		#fuels = ",".join(p.fuel)
-		#fuels = repr(p.fuel)
-		fuels = ",".join(f for f in p.fuel)
-		try:
-			row_text = u"{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11},{12}\n".format(
-				p.name,p.idnr,p.capacity,p.cap_year,p.generation,p.gen_year,p.country,p.owner,p.source,p.url,p.location.latitude,p.location.longitude,fuels
-				)
-			f.write(row_text.encode(UNICODE_ENCODING))
-		except:
-			print(u"Unicode error with plant {0}".format(idnr))
+	# TODO: get csv_file abs path
+	with open(csv_filename, 'wb') as fout:
+		warning_text = "NOTE: This Power Watch database of power plants is currently in draft status and not yet published. Please do not reference or cite the data as basis for research or publications until the data is officially published.\n"
+		fout.write(warning_text)
 
-	f.close()
+		writer = csv.DictWriter(fout, fieldnames=fieldnames)
+		writer.writeheader()
+
+		keys = plants_dictionary.keys()
+		sort_key = lambda x: (plants_dictionary[x].country,  plants_dictionary[x].name)
+
+		sorted_keys = sorted(keys, key=sort_key)
+		for k in sorted_keys:
+			try:
+				drow = _dict_row(plants_dictionary[k])
+				writer.writerow(drow)
+			except:
+				print(u"Unicode error with plant {0}".format(plants_dictionary[k].idnr))
+
 
 def read_csv_file_to_dict(filename):
 	"""
@@ -733,14 +969,6 @@ def read_csv_file_to_dict(filename):
 				row['year_of_capacity_data'] = int(row['year_of_capacity_data'])
 			except:
 				row['year_of_capacity_data'] = None
-			try:
-				row['annual_generation_gwh'] = float(row['annual_generation_gwh'])
-			except:
-				row['annual_generation_gwh'] = None
-			try:
-				row['year_of_generation_data'] = int(row['year_of_generation_data'])
-			except:
-				row['year_of_generation_data'] = None
 			# check if fuels are empty strings
 			if not row['fuel1']:
 				row['fuel1'] = None
@@ -750,6 +978,18 @@ def read_csv_file_to_dict(filename):
 				row['fuel3'] = None
 			if not row['fuel4']:
 				row['fuel4'] = None
+			# check if annual generation data are empty
+			if not row['generation_gwh_2012']:
+				row['generation_gwh_2012'] = None
+			if not row['generation_gwh_2013']:
+				row['generation_gwh_2013'] = None
+			if not row['generation_gwh_2014']:
+				row['generation_gwh_2014'] = None
+			if not row['generation_gwh_2015']:
+				row['generation_gwh_2015'] = None
+			if not row['generation_gwh_2016']:
+				row['generation_gwh_2016'] = None
+			# add row to output dict
 			pdb[row['pw_idnr']] = row
 		return pdb
 
@@ -794,8 +1034,6 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						pw_idnr TEXT UNIQUE NOT NULL,
 						capacity_mw REAL,
 						year_of_capacity_data INTEGER,
-						annual_generation_gwh REAL,
-						year_of_generation_data INTEGER,
 						country TEXT,
 						owner TEXT,
 						source TEXT,
@@ -805,20 +1043,40 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						fuel1 TEXT,
 						fuel2 TEXT,
 						fuel3 TEXT,
-						fuel4 TEXT )''')
+						fuel4 TEXT,
+						generation_gwh_2012 REAL,
+						generation_gwh_2013 REAL,
+						generation_gwh_2014 REAL,
+						generation_gwh_2015 REAL,
+						generation_gwh_2016 REAL )''')
 	except:
 		raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
 
 	c.execute('begin')
 	for k, p in plants_dict.iteritems():
 		stmt = u'''INSERT INTO powerplants VALUES (
-					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
-		vals = (p['name'], p['pw_idnr'], p['capacity_mw'],
-				p['year_of_capacity_data'], p['annual_generation_gwh'],
-				p['year_of_generation_data'], p['country'], p['owner'],
-				p['source'], p['url'], p['latitude'], p['longitude'],
-				p['fuel1'], p['fuel2'], p['fuel3'], p['fuel4'])
+					?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'''
+		vals = (p['name'],
+				p['pw_idnr'],
+				p['capacity_mw'],
+				p['year_of_capacity_data'],
+				p['country'],
+				p['owner'],
+				p['source'],
+				p['url'],
+				p['latitude'],
+				p['longitude'],
+				p['fuel1'],
+				p['fuel2'],
+				p['fuel3'],
+				p['fuel4'],
+				p['generation_gwh_2012'],
+				p['generation_gwh_2013'],
+				p['generation_gwh_2014'],
+				p['generation_gwh_2015'],
+				p['generation_gwh_2016'])
 		c.execute(stmt, vals)
+
 	c.execute('commit')
 
 	index_stmt = '''CREATE INDEX idx_country ON powerplants (country)'''

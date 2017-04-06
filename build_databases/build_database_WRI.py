@@ -113,9 +113,10 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 except:
                     location = u""
                 try:
-                    generation = float(pw.format_string(row[generation_col].replace(",","")))
+                    gen_gwh = float(pw.format_string(row[generation_col].replace(",","")))
+                    generation = pw.PlantGenerationObject(gen_gwh)
                 except:
-                    generation = 0.0
+                    generation = pw.PlantGenerationObject()
                 try:
                     owner = pw.format_string(row[owner_col])
                 except:

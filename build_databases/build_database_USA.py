@@ -29,6 +29,7 @@ TAB_NAME_860_2 = "Plant"
 TAB_NAME_860_3 = "Operable"
 TAB_NAME_923_2 = "Page 1 Generation and Fuel Data"
 
+
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
 
@@ -52,7 +53,7 @@ for row_id in range(2, ws2.nrows):
     name = pw.format_string(rv[COLS_860_2['name']])
     idnr = pw.make_id(SAVE_CODE,int(rv[COLS_860_2['idnr']]))
     capacity = 0.0
-    generation = pw.NO_DATA_NUMERIC
+    generation = pw.PlantGenerationObject()
     owner = pw.format_string(str(rv[COLS_860_2['owner']]))
     try:
         latitude = float(rv[COLS_860_2['lat']])
@@ -65,7 +66,7 @@ for row_id in range(2, ws2.nrows):
     location = pw.LocationObject(u"",latitude,longitude)
     new_plant = pw.PowerPlant(idnr, name, plant_country = COUNTRY_NAME,
         plant_location = location, plant_owner = owner, plant_capacity = capacity, plant_generation = generation,
-        plant_cap_year = YEAR, plant_gen_year = YEAR, plant_source = SOURCE, plant_source_url = SOURCE_URL)
+        plant_cap_year = YEAR, plant_source = SOURCE, plant_source_url = SOURCE_URL)
     plants_dictionary[idnr] = new_plant
 
 print("...loaded {0} plants.".format(len(plants_dictionary)))
@@ -82,7 +83,8 @@ for row_id in range(2, ws3.nrows):
         plants_dictionary[idnr].capacity += float(rv[COLS_860_3['capacity']])
         for i in COLS_860_3['fuel_type']:
             try:
-                if rv[i] == "None": continue
+                if rv[i] == "None":
+                    continue
                 fuel_type = pw.standardize_fuel(rv[i], fuel_thesaurus)
                 plants_dictionary[idnr].fuel.update(fuel_type)
             except:
@@ -97,9 +99,10 @@ for row_id in range(6, ws1.nrows):
     rv = ws1.row_values(row_id)
     idnr = pw.make_id(SAVE_CODE, int(rv[COLS_923_2['idnr']]))
     if idnr in plants_dictionary.keys():
-        if plants_dictionary[idnr].generation is pw.NO_DATA_NUMERIC:
-            plants_dictionary[idnr].generation = 0.0
-        plants_dictionary[idnr].generation += float(rv[COLS_923_2['generation']])/1000
+        if not plants_dictionary[idnr].generation[0]:
+            generation = pw.PlantGenerationObject.create(0.0, YEAR, source=SOURCE_URL)
+            plants_dictionary[idnr].generation[0] = generation
+        plants_dictionary[idnr].generation[0].gwh += float(rv[COLS_923_2['generation']])/1000
     else:
         print("Can't find plant with ID: {0}".format(idnr))
 print("...Added plant generations.")

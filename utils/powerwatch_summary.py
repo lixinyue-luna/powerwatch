@@ -28,6 +28,8 @@ def summary_fieldnames():
 			'capacity_gw_fuel_gas',
 			'count_fuel_oil',
 			'capacity_gw_fuel_oil',
+			'count_fuel_petcoke',
+			'capacity_gw_fuel_petcoke',
 			'count_fuel_hydro',
 			'capacity_gw_fuel_hydro',
 			'count_fuel_nuclear',
@@ -52,14 +54,18 @@ def summary_fieldnames():
 			'count_null_pw_idnr',
 			'count_null_capacity_mw',
 			'count_null_year_of_capacity_data',
-			'count_null_annual_generation_gwh',
-			'count_null_year_of_generation_data',
 			'count_null_owner',
 			'count_null_source',
 			'count_null_url',
 			'count_null_latitude',
 			'count_null_longitude',
-			'count_null_fuel']
+			'count_null_fuel',
+			'count_null_generation_gwh_all',
+			'count_generation_gwh_2012',
+			'count_generation_gwh_2013',
+			'count_generation_gwh_2014',
+			'count_generation_gwh_2015',
+			'count_generation_gwh_2016']
 
 def country_summary(db_conn, country, iso_code):
 	"""
@@ -161,7 +167,6 @@ def country_summary(db_conn, country, iso_code):
 	# count null fields
 	count_null_list = ['name', 'pw_idnr',
 			'capacity_mw', 'year_of_capacity_data',
-			'annual_generation_gwh', 'year_of_generation_data',
 			'owner', 'source', 'url', 'latitude', 'longitude']
 	for field in count_null_list:
 		stmt = '''SELECT COUNT(*) FROM powerplants
@@ -179,6 +184,26 @@ def country_summary(db_conn, country, iso_code):
 					AND fuel4 is NULL)'''
 	query = c.execute(stmt, (country,))
 	summary['count_null_fuel'], = query.fetchone()
+
+	# count null generation data for all years
+	stmt = '''SELECT COUNT(*) FROM powerplants
+				WHERE (country=?
+					AND generation_gwh_2012 IS NULL
+					AND generation_gwh_2013 IS NULL
+					AND generation_gwh_2014 IS NULL
+					AND generation_gwh_2015 IS NULL
+					AND generation_gwh_2016 IS NULL)'''
+	query = c.execute(stmt, (country,))
+	summary['count_null_generation_gwh_all'], = query.fetchone()
+
+	# count null generation years
+	for year in range(2012,2017):
+		field = 'generation_gwh_{0}'.format(year)
+		stmt = '''SELECT COUNT(*) FROM powerplants
+					WHERE (country=?
+						AND {field} IS NOT NULL)'''.format(field=field)
+		query = c.execute(stmt, (country,))
+		summary['count_{0}'.format(field)], = query.fetchone()
 
 	return summary
 

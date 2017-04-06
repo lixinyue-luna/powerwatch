@@ -21,7 +21,8 @@ Includes code from @cbdavis GEO_to_ElasticSearch.py .
 """
 
 import sqlite3
-import sys, os
+import sys
+import os
 
 sys.path.insert(0, os.pardir)
 import powerwatch as pw
@@ -36,6 +37,7 @@ SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
 SOURCE_URL = "http://globalenergyobservatory.org"
 URL_BASE = "https://morph.io/coroa/global_energy_observatory_power_plants"
 URL_END = "/data.sqlite?key=RopNCJ6LtIx9%2Bdp1r%2BQV"
+YEAR = 2017
 
 # optional raw file(s) download
 URL = URL_BASE + URL_END
@@ -111,13 +113,18 @@ for row in rows:
         print(u"-Error: Can't read owner for plant {0}.".format(name))
         owner = u"Unknown"
     try:
-        generation = float(row[generation_col])
+        gen_gwh = float(row[generation_col])
+        generation = pw.PlantGenerationObject.create(gen_gwh, YEAR)
     except:
         try:
-            generation = float(row[generation_col2])
+            gen_gwh = float(row[generation_col2])
+            generation = pw.PlantGenerationObject.create(gen_gwh, YEAR, source=SOURCE_URL)
         except:
-            #print(u"-Error: Can't read generation for plant {0}.".format(name))
-            generation = 0.0
+            try:
+                print(u"-Error: Can't read generation for plant {0}.".format(name.encode(pw.UNICODE_ENCODING)))
+            except:
+                print(u"-Error: Can't read generation for plant {0} and printing name fails.".format(idnr))
+            generation = pw.PlantGenerationObject()
     try:
         country = pw.standardize_country(row[country_col],country_thesaurus)
     except:
@@ -133,7 +140,7 @@ for row in rows:
     new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
         plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
         plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL,
-        plant_generation=generation,plant_gen_year=2017,plant_cap_year=2017)
+        plant_generation=generation,plant_cap_year=2017)
     plants_dictionary[idnr] = new_plant
 
 # report on plants read from file

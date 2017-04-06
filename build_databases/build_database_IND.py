@@ -23,7 +23,8 @@ Further possible data sources:
 """
 
 import csv
-import sys, os
+import sys
+import os
 from zipfile import ZipFile
 import lxml.html as LH
 import xlrd
@@ -61,7 +62,7 @@ plants_dictionary = {}
 print(u"Reading in plants...")
 
 # specify column names used in raw file
-COLNAMES = [u"S_NO", u"NAME", u"UNIT_NO", u"DT_ COMM", u"CAPACITY MW AS ON 31/03/2015", 
+COLNAMES = [u"S_NO", u"NAME", u"UNIT_NO", u"DT_ COMM", u"CAPACITY MW AS ON 31/03/2015",
                 u"TYPE", u"FUEL 1", u"FUEL 2", u"2014-15\n\nNet \nGeneration \nGWh"]
 
 # unzip, load and process CEA file
@@ -97,7 +98,7 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
         except:
             print(u"-Error: Can't read plant name for plant on row {0}.".format(i))
             continue
-    
+
         try:
             id_val = int(rv[id_col])
             if not id_val:
@@ -117,12 +118,13 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
 
         try:
             if rv[generation_col] == u'-':
-                generation = 0.0
+                generation = pw.PlantGenerationObject()
             else:
-                generation = float(rv[generation_col])
+                gen_gwh = float(rv[generation_col])
+                generation = pw.PlantGenerationObject.create(gen_gwh, DATA_YEAR, source=SOURCE_URL)
         except:
             print("-Error: Can't read genertaion for plant {0}".format(name))
-            generation = pw.NO_DATA_NUMERIC
+            generation = pw.PlantGenerationObject()
 
         try:
             plant_type = pw.format_string(rv[type_col])
@@ -132,7 +134,7 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
                 fuel = pw.standardize_fuel(plant_type,fuel_thesaurus)
             elif plant_type == u"THERMAL":
                 fuel = pw.standardize_fuel(rv[fuel1_col],fuel_thesaurus)
-                if rv[fuel2_col]:
+                if rv[fuel2_col] and rv[fuel2_col] != 'n/a':
                     fuel2 = pw.standardize_fuel(rv[fuel2_col],fuel_thesaurus)
                     fuel = fuel.union(fuel2)
             else:
@@ -141,8 +143,8 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
             print(u"Can't identify plant type for plant {0}".format(name))
 
 
-        latitude = 0.0
-        longitude = 0.0
+        latitude = pw.NO_DATA_NUMERIC
+        longitude = pw.NO_DATA_NUMERIC
 
         # assign ID number
         idnr = pw.make_id(SAVE_CODE,id_val)
@@ -151,7 +153,7 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
             plant_location=new_location,plant_fuel=fuel,
             plant_capacity=capacity,plant_cap_year=DATA_YEAR,
             plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL,
-            plant_generation=generation,plant_gen_year=DATA_YEAR)
+            plant_generation=generation)
         plants_dictionary[idnr] = new_plant
 
 # load and process RECS file

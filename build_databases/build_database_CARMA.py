@@ -73,37 +73,38 @@ with open(RAW_FILE_NAME,'rU') as f:
             print(u"Error: Can't read plant name.")
             continue                       # must have plant name - don't read plant if not
         try:
-        	idnr = int(row[plant_id_col])
+            idnr = int(row[plant_id_col])
         except:
-        	print(u"Error: Can't read ID for plant {0}.".format(name))
-        	continue
+            print(u"Error: Can't read ID for plant {0}.".format(name))
+            continue
         try:
             latitude = float(row[latitude_col])
             longitude = float(row[longitude_col])
         except:
             latitude, longitude = 0.0, 0.0
         try:
-        	owner = pw.format_string(row[company_col])
+            owner = pw.format_string(row[company_col])
         except:
-        	print(u"Error: Can't read owner for plant {0}.".format(name))
-        	owner = u"Unknown"
+            print(u"Error: Can't read owner for plant {0}.".format(name))
+            owner = u"Unknown"
         try:
-        	country = pw.standardize_country(row[country_col],country_thesaurus)
+            country = pw.standardize_country(row[country_col],country_thesaurus)
         except:
-        	print("Error: Can't read country for plant {0}.".format(name))
-        	country = u"Unknown"
+            print("Error: Can't read country for plant {0}.".format(name))
+            country = u"Unknown"
         try:
-            generation_GWh = float(row[generation_col]) / 1000
+            gen_gwh = float(row[generation_col]) / 1000
+            generation = pw.PlantGenerationObject.create(gen_gwh, YEAR_UPDATED, source=SOURCE_URL)
         except:
             print("Error: Can't read generation for plant {0}".format(name))
-            generation_GWh = 0.0
+            generation = pw.PlantGenerationObject()
 
         # assign ID number
         idnr = pw.make_id(SAVE_CODE,idnr)
         new_location = pw.LocationObject("",latitude,longitude)
         new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
             plant_location=new_location,plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL,
-            plant_owner=owner,plant_generation=generation_GWh,plant_gen_year=YEAR_UPDATED)
+            plant_owner=owner,plant_generation=generation)
         plants_dictionary[idnr] = new_plant
         count += 1
 

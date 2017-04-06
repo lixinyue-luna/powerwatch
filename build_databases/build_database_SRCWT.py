@@ -20,13 +20,14 @@ sys.path.insert(0, os.pardir)
 import powerwatch as pw
 
 # params
-COUNTRY_NAME = u"China" 		# We are only gathering China coal data from this source
+COUNTRY_NAME = u"China"  # We are only gathering China coal data from this source
 SOURCE_NAME = u"SourceWatch"
 SAVE_CODE = u"SRCWT"
 RAW_FILE_NAME = pw.make_file_path(fileType = "raw", subFolder = SAVE_CODE, filename = "SourceWatch_China_coal_database.json")
 CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "sourcewatch_database.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
 SOURCE_URL = u"http://www.sourcewatch.org/index.php/Category:Existing_coal_plants_in_China"
+YEAR = 2017
 
 # other params
 URL_BASE = "http://www.sourcewatch.org/api.php?"
@@ -78,7 +79,7 @@ for line in wiki.split('\n'):
 		new_plant = pw.PowerPlant(idnr, name, plant_country = COUNTRY_NAME,
 			plant_location = new_location, plant_fuel = set([u'Coal']),
 			plant_source = SOURCE_NAME, plant_source_url=SOURCE_URL,
-			plant_cap_year=2017,plant_gen_year=2017,plant_generation=0)
+			plant_cap_year=2017)
 		plants_dictionary[idnr] = new_plant
 
 # use wikimarkup to detect the main table and transform to html code
