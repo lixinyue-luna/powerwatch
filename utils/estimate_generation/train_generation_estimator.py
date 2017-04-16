@@ -7,9 +7,11 @@ Train a Gradient Boosted Regression Tree (GBRT) model to estimate power plant el
 
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import GridSearchCV
+from itertools import islice
 
 # set general parameters
 search_hyperparameters = False					# perform hyperparameter search (slow)
@@ -17,7 +19,7 @@ data_filename = "US_generation_data_01.csv"
 
 # set parameters for training estimator
 params = {
-	'n_estimators': 300,
+	'n_estimators': 600,
 	'max_depth': 6,
 	'learning_rate': 0.01,
 	'subsample': 0.5,
@@ -40,6 +42,8 @@ fuel_types = {'Biomass':1,'Coal':2,'Gas':3,'Geothermal':4,'Hydro':5,'Nuclear':6,
 def convert_fuel_string_to_int(s):
 	return fuel_types[s]
 
+# main
+
 # load data
 Xdf = pd.read_csv(data_filename, usecols = x_vars)
 ydf = pd.read_csv(data_filename, usecols = y_var)
@@ -55,10 +59,44 @@ est.set_params(**params)
 if search_hyperparameters:
 	print("Searching hyperparameters...")
 	ext.set_params
-	gs_cv = GridSearchCV(est,param_grid,n_jobs=4,verbose=1).fit(X_train,y_train.values.ravel())
+	gs_cv = GridSearchCV(est,param_grid,n_jobs=4,verbose=2).fit(X_train,y_train.values.ravel())
 	print(gs_cv.best_params_)
 
 else:
-	est.fit(X_train, y_train.values.ravel())
-	acc = est.score(X_test, y_test)
+	y_train2 = y_train.values.ravel()
+	est.fit(X_train, y_train2)
+	y_test2 = y_test.values.ravel()
+	acc = est.score(X_test, y_test2)
 	print("Test accuracy: {:4.1f}%".format(100*acc))
+
+	# make deviance subplot
+	test_score = np.zeros((params['n_estimators'],),dtype=np.float64)
+
+	for i,y_pred in enumerate(est.staged_predict(X_test)):
+		test_score[i] = est.loss_(y_test2,y_pred)
+
+	plt.figure(figsize=(12,6))
+	plt.subplot(1,2,1)
+	plt.title('Deviance')
+	plt.plot(np.arange(params['n_estimators'])+1,est.train_score_,'b-',label='Training set deviance')
+	plt.plot(np.arange(params['n_estimators'])+1,test_score,'r-',label='Test set deviance')
+	plt.legend(loc='upper right')
+	plt.xlabel('Boosting iterations')
+	plt.ylabel('Deviance')
+
+	# make feature importance subplot
+	feature_importance = est.feature_importances_
+	feature_importance = 100.0 * (feature_importance / feature_importance.max())
+	sorted_idx = np.argsort(feature_importance)
+	pos = np.arange(sorted_idx.shape[0]) + .5
+	plt.subplot(1, 2, 2)
+	plt.barh(pos, feature_importance[sorted_idx], align='center')
+	feature_names = [list(Xdf)[i] for i in sorted_idx]
+	plt.yticks(pos, feature_names)
+	plt.xlabel('Relative Importance')
+	plt.title('Variable Importance')
+
+	# tighten layout and show
+	plt.tight_layout()
+	plt.show()
+
