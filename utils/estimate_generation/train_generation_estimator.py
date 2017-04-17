@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import GridSearchCV
-from itertools import islice
 
 # set general parameters
 search_hyperparameters = False					# perform hyperparameter search (slow)
@@ -19,9 +18,9 @@ data_filename = "US_generation_data_01.csv"
 
 # set parameters for training estimator
 params = {
-	'n_estimators': 600,
-	'max_depth': 6,
-	'learning_rate': 0.01,
+	'n_estimators': 500,
+	'max_depth': 6,					# grid search optimum: 6
+	'learning_rate': 0.01,			# grid search optimum: 0.01
 	'subsample': 0.5,
 	#'loss':'ls'
 }
@@ -63,11 +62,12 @@ if search_hyperparameters:
 	print(gs_cv.best_params_)
 
 else:
-	y_train2 = y_train.values.ravel()
+	y_train2 = y_train.values.ravel()			# need to reshape y vals from pandas df shape
 	est.fit(X_train, y_train2)
 	y_test2 = y_test.values.ravel()
-	acc = est.score(X_test, y_test2)
-	print("Test accuracy: {:4.1f}%".format(100*acc))
+	acc = est.score(X_test, y_test2)			# need to reshape y vals from pandas df shape
+	#print("Test accuracy: {:4.1f}%".format(100*acc))
+	print("Test score: {:4.3f}".format(acc))
 
 	# make deviance subplot
 	test_score = np.zeros((params['n_estimators'],),dtype=np.float64)
@@ -75,7 +75,11 @@ else:
 	for i,y_pred in enumerate(est.staged_predict(X_test)):
 		test_score[i] = est.loss_(y_test2,y_pred)
 
-	plt.figure(figsize=(12,6))
+	fig = plt.figure(figsize=(15,8))
+	fig.subplots_adjust(left=0.05)
+	fig.subplots_adjust(right=0.95)
+	fig.subplots_adjust(wspace=0.3)
+
 	plt.subplot(1,2,1)
 	plt.title('Deviance')
 	plt.plot(np.arange(params['n_estimators'])+1,est.train_score_,'b-',label='Training set deviance')
@@ -97,6 +101,6 @@ else:
 	plt.title('Variable Importance')
 
 	# tighten layout and show
-	plt.tight_layout()
+	#plt.tight_layout()
 	plt.show()
 
