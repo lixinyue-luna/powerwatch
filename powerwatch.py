@@ -267,11 +267,11 @@ class PlantGenerationObject(object):
 		if type(start_date) in [type(None), datetime.datetime]:
 			self.start_date = start_date
 		else:
-			self.start_date = pw.NO_DATA_OTHER
+			self.start_date = NO_DATA_OTHER
 		if type(end_date) in [type(None), datetime.datetime]:
 			self.end_date = end_date
 		else:
-			self.end_date = pw.NO_DATA_OTHER
+			self.end_date = NO_DATA_OTHER
 
 		self.source = source
 
