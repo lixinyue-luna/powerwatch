@@ -21,9 +21,10 @@ SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
 SOURCE = u"U.S. Energy Information Administration"
 SOURCE_URL = u"http://www.eia.gov/electricity/data/browser/"
 YEAR = 2015
+GENERATION_CONVERSION_TO_GWH = 0.001    # generation values are given in MWh in the raw data
 
 COLS_860_2 = {'name':3, 'idnr':2, 'owner':1, 'lat':9, 'lng':10}
-COLS_860_3 = {'idnr':2, 'capacity':15, 'fuel_type':[33,34,35,36]}
+COLS_860_3 = {'idnr':2, 'capacity':15, 'fuel_type':[33,34,35,36], 'operating_month':25, 'operating_year':26}
 COLS_923_2 = {'idnr':0, 'generation':95}
 TAB_NAME_860_2 = "Plant"
 TAB_NAME_860_3 = "Operable"
@@ -73,6 +74,8 @@ print("...loaded {0} plants.".format(len(plants_dictionary)))
 
 # read in capacities from File 3 of EIA-860
 print("Reading in capacities...")
+commissioning_year_by_unit = {}             # temporary method until PowerPlant object includes unit-level information
+
 for row_id in range(2, ws3.nrows):
     rv = ws3.row_values(row_id)  # row value
     try:
@@ -80,7 +83,18 @@ for row_id in range(2, ws3.nrows):
     except:
         continue
     if idnr in plants_dictionary.keys():
-        plants_dictionary[idnr].capacity += float(rv[COLS_860_3['capacity']])
+        unit_capacity = float(rv[COLS_860_3['capacity']])
+        plants_dictionary[idnr].capacity += unit_capacity
+        # todo: average commissioning year calculation
+
+        unit_month = int(rv[COLS_860_3['operating_month']])
+        unit_year_raw = int(rv[COLS_860_3['operating_year']])
+        unit_year = 1.0 * unit_year_raw + unit_month / 12
+        if idnr in commissioning_year_by_unit.keys():
+            commissioning_year_by_unit[idnr].append([unit_capacity,unit_year])
+        else:
+            commissioning_year_by_unit[idnr] = [ [unit_capacity,unit_year] ]
+
         for i in COLS_860_3['fuel_type']:
             try:
                 if rv[i] == "None":
@@ -91,7 +105,17 @@ for row_id in range(2, ws3.nrows):
                 continue
     else:
         print("Can't find plant with ID: {0}".format(idnr))
-print("...Added plant capacities.")
+
+# calculate and save average commissioning year
+for idnr,unit_vals in commissioning_year_by_unit.iteritems():
+    cap_times_year = 0
+    total_cap = 0
+    for unit in unit_vals:
+        cap_times_year += unit[0]*unit[1]
+        total_cap += unit[0]
+    plants_dictionary[idnr].commissioning_year = cap_times_year / total_cap
+
+print("...Added plant capacities and commissioning year.")
 
 # read in generation from File 2 of EIA-923
 print("Reading in generation...")
@@ -102,7 +126,7 @@ for row_id in range(6, ws1.nrows):
         if not plants_dictionary[idnr].generation[0]:
             generation = pw.PlantGenerationObject.create(0.0, YEAR, source=SOURCE_URL)
             plants_dictionary[idnr].generation[0] = generation
-        plants_dictionary[idnr].generation[0].gwh += float(rv[COLS_923_2['generation']])/1000
+        plants_dictionary[idnr].generation[0].gwh += float(rv[COLS_923_2['generation']]) * GENERATION_CONVERSION_TO_GWH
     else:
         print("Can't find plant with ID: {0}".format(idnr))
 print("...Added plant generations.")
