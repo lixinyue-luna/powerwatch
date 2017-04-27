@@ -18,18 +18,19 @@ data_filename = "US_generation_data_01.csv"
 
 # set parameters for training estimator
 params = {
-	'n_estimators': 500,
+	'n_estimators': 1000,
 	'max_depth': 6,					# grid search optimum: 6
 	'learning_rate': 0.01,			# grid search optimum: 0.01
 	'subsample': 0.5,
-	#'loss':'ls'
+	'loss':'huber'
 }
 
 # set parameters for the hyperparam grid search
-param_grid = {'learning_rate': [0.1,0.05,0.02,0.01],
-				'max_depth': [4,6],
-				'min_samples_leaf': [3,5,9,17]
-				}
+param_grid = {
+	'learning_rate': [0.1,0.05,0.02,0.01],
+	'max_depth': [4,6],
+	'min_samples_leaf': [3,5,9,17]
+}
 
 # set columns used as independent variables
 x_vars = ['Latitude','Longitude','Weighted Year.Month','Primary Fuel','Total Capacity (MW)']
@@ -87,6 +88,10 @@ else:
 	plt.legend(loc='upper right')
 	plt.xlabel('Boosting iterations')
 	plt.ylabel('Deviance')
+
+	# display score
+	ax = plt.gca()
+	plt.text(0.5,0.5,"Test score: {:4.3f}".format(acc),transform=ax.transAxes,fontsize=16,color='r')
 
 	# make feature importance subplot
 	feature_importance = est.feature_importances_
