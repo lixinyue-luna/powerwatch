@@ -891,6 +891,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		ret['url'] = powerplant.url.encode(UNICODE_ENCODING)
 		ret['latitude'] = powerplant.location.latitude
 		ret['longitude'] = powerplant.location.longitude
+		ret['commissioning_year'] = powerplant.commissioning_year
 		for i, fuel in enumerate(powerplant.fuel):
 			if i == 4:
 				break
@@ -912,6 +913,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"url",
 		"latitude",
 		"longitude",
+		"commissioning_year",
 		"fuel1",
 		"fuel2",
 		"fuel3",
@@ -970,6 +972,7 @@ def read_csv_file_to_dict(filename):
 			row['capacity_mw'] = float(row['capacity_mw'])
 			row['latitude'] = float(row['latitude'])
 			row['longitude'] = float(row['longitude'])
+			row['commissioning_year'] = float(row['commissioning_year'])
 			try:
 				row['year_of_capacity_data'] = int(row['year_of_capacity_data'])
 			except:
