@@ -50,6 +50,7 @@ class PowerPlant(object):
 		plant_source = NO_DATA_OTHER, plant_source_url = NO_DATA_UNICODE,
 		plant_location = NO_DATA_OTHER, plant_coord_source = NO_DATA_UNICODE,
 		plant_fuel = NO_DATA_SET, plant_generation = NO_DATA_OTHER,
+		plant_commissioning_year = NO_DATA_NUMERIC
 		):
 
 		# check and set data for attributes that should be unicode
@@ -69,7 +70,7 @@ class PowerPlant(object):
 						setattr(self,attribute,NO_DATA_UNICODE)
 
 		# check and set data for attributes that should be numeric
-		numeric_attributes = {'capacity':plant_capacity, 'cap_year':plant_cap_year}
+		numeric_attributes = {'capacity':plant_capacity, 'cap_year':plant_cap_year, 'commissioning_year':plant_commissioning_year}
 		for attribute,input_parameter in numeric_attributes.iteritems():
 			if input_parameter is NO_DATA_NUMERIC:
 				setattr(self,attribute,NO_DATA_NUMERIC)
