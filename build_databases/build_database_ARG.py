@@ -192,6 +192,8 @@ for plant in year_not_found:
     print(u"{0}, {1} MW".format(plant.name, plant.capacity))
 """
 
+print("Missing location for {0} plants; missing commissioning year for {1} plants.".format(len(location_not_found),len(year_not_found)))
+
 # report on plants read from file
 print(u"...read {0} plants.".format(len(plants_dictionary)))
 
