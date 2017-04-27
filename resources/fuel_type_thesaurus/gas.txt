@@ -57,3 +57,5 @@ oil y natural gas
 other gas
 propane
 turbo gas
+CG
+TG

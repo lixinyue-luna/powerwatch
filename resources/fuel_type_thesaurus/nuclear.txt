@@ -6,3 +6,4 @@ Urânio
 nuc
 nuclear
 uranium
+NU
