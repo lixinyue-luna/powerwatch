@@ -69,29 +69,29 @@ for row_id in range(0, ws.nrows):
         try:
             name = pw.format_string(rv[COLS["name"]])
         except:
-            print(u"Error: Can't read plant name.")
+            print(u"-Error: Can't read plant name.")
             continue
         try:
             owner = pw.format_string(rv[COLS["owner"]], None)
         except:
-            owner = u"Unknown"
-            print(u"Error: Can't read plant owner.")
+            owner = pw.NO_DATA_UNICODE
+            print(u"-Error: Can't read plant owner.")
         try:
             capacity_max = float(rv[COLS["capacity_max"]])
         except:
-            capacity_max = 0.0
-            print(u"Error: Can't read capacity_max for plant {0}.".format(name))
+            capacity_max = pw.NO_DATA_NUMERIC
+            print(u"-Error: Can't read capacity_max for plant {0}.".format(name))
         try:
             gen_type = pw.format_string(rv[COLS["gen_type"]]) # generation technology type
         except:
-            gen_type = u"Unknown"
-            print u"Error: Can't read plant generation technology."
+            gen_type = pw.NO_DATA_UNICODE
+            print u"-Error: Can't read plant generation technology."
         if gen_type.lower() == u"hydro power":
             fuels = set([u"Hydro"])
         elif gen_type.lower() == u"wind power":
             fuels = set([u"Wind"])
         else:
-            fuels = set([])
+            fuels = pw.NO_DATA_SET
             for i in COLS["fuel_type"]:
                 try:
                     if rv[i] == "None": continue
@@ -100,7 +100,7 @@ for row_id in range(0, ws.nrows):
                 except:
                     continue
 
-        new_location = pw.LocationObject(u"",0.0,0.0)
+        new_location = pw.LocationObject(pw.NO_DATA_UNICODE,pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC)
         idnr = u"{:4}{:06d}".format("REF", count_unit)
         new_unit = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_owner=owner, plant_fuel=fuels,
                 plant_country=unicode(COUNTRY_NAME), plant_capacity=capacity_max, plant_cap_year=year_updated,
