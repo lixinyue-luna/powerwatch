@@ -16,8 +16,6 @@ although currently all listed plants are operational
 """
 
 import csv
-#import locale
-import utm
 import sys, os
 
 sys.path.insert(0, os.pardir)
@@ -53,10 +51,6 @@ def lookup_location(fuel,idval,plant_locations):
         return plant_locations[fuel_name][idval][0:2]
     else:
         return pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
-
-
-# set locale to Spain (Chile is not usually available in locales)
-#locale.setlocale(locale.LC_ALL,"es_ES")
 
 # download if specified
 FILES = {}
