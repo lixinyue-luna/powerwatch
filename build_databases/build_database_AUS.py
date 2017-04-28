@@ -57,20 +57,20 @@ with open(RAW_FILE_NAME, "rU") as f:
         try:
             owner = pw.format_string(plant.find("Electricity_Infrastructure:OWNER", ns).text)
         except:
-            owner = u"Unknown"
+            owner = pw.NO_DATA_UNICODE
         fuel = pw.standardize_fuel(plant.find("Electricity_Infrastructure:PRIMARYFUELTYPE", ns).text,fuel_thesaurus)
         try:
             capacity = plant.find("Electricity_Infrastructure:GENERATIONMW", ns).text
             capacity = float(capacity)
         except:
             print(u"Error: Can't read capacity for plant {0}.".format(name))
-            capacity = 0.0
+            capacity = pw.NO_DATA_NUMERIC
         coords = plant.find("Electricity_Infrastructure:SHAPE/gml:Point/gml:pos", ns).text.split(" ")
         try:
             latitude = float(coords[0])
             longitude = float(coords[1])
         except:
-            latitude, longitude = 0,0
+            latitude, longitude = pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
 
         # # Additional information for future interest
         # operational_status = plant.find('Electricity_Infrastructure:OPERATIONALSTATUS', ns).text)
@@ -84,11 +84,11 @@ with open(RAW_FILE_NAME, "rU") as f:
         try:
             year_updated = int(plant.find("Electricity_Infrastructure:REVISED", ns).text.split("T")[0][0:4])
         except:
-            year_updated = None
+            year_updated = pw.NO_DATA_NUMERIC
 
         # assign ID number
         idnr = pw.make_id(SAVE_CODE, plant_id)
-        new_location = pw.LocationObject("",latitude,longitude)
+        new_location = pw.LocationObject(pw.NO_DATA_UNICODE,latitude,longitude)
         new_plant = pw.PowerPlant(plant_idnr=idnr, plant_name=name, plant_owner=owner, plant_country=COUNTRY_NAME,
             plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
             plant_source=SOURCE_NAME,plant_cap_year=year_updated,plant_source_url=SOURCE_URL)
