@@ -28,6 +28,7 @@ SAVE_CODE = u"BRA"
 RAW_FILE_NAME = pw.make_file_path(fileType="raw",subFolder=SAVE_CODE, filename="FILENAME.zip")
 CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "brazil_database.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
+CAPACITY_CONVERSION_TO_MW = 0.001       # capacity values are given in kW in the raw data
 
 # other parameters
 DATASETS = {0: {"name":"UHE","fuel":"Hydro"}, 1: {"name":"PCH","fuel":"Hydro"},
@@ -40,7 +41,7 @@ URL_BASE = u"http://sigel.aneel.gov.br/arcgis/services/SIGEL/ExportKMZ/MapServer
 def checkName(owner):
     # format plant owner's name
     if "\n" in owner:
-        return u"Unknown"
+        return pw.NO_DATA_UNICODE
     return owner
 
 # optional raw file(s) download
@@ -99,7 +100,7 @@ for fuel_code,dataset in DATASETS.iteritems():
                                     name = parts[-1]
                         elif left in [u"Potência Outorgada (kW)", u"Potência (KW)"]:
                             try:
-                                capacity = float(right)/1000
+                                capacity = float(right) * CAPACITY_CONVERSION_TO_MW
                             except:
                                 capacity = 0
                         elif left == u"Proprietário":
@@ -125,11 +126,11 @@ for fuel_code,dataset in DATASETS.iteritems():
                         longitude = float(coordinates[0])
                         latitude = float(coordinates[1])
                     except:
-                        latitude,longitude = 0,0
+                        latitude,longitude = pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
 
                     # assign ID number
                     idnr = pw.make_id(SAVE_CODE,plant_id)
-                    new_location = pw.LocationObject("",latitude,longitude)
+                    new_location = pw.LocationObject(pw.NO_DATA_UNICODE,latitude,longitude)
                     new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=COUNTRY_NAME,
                         plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
                         plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL,plant_cap_year=year_updated)
