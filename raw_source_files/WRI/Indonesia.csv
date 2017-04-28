@@ -1,4 +1,4 @@
-PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Age,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language
+PowerWatch ID,Name,Fuel,Capacity (MW),Location,Plant type,Commissioning Year,Units,Owner,Annual Generation (GWh),Other,Source,URL,Efficiency,Fuel Consumption (gm/kWh),Peak Load MW,Load Factor,Capacity Factor,Availability,Status,Country,Grid Balancing Area,Latitude,Longitude,Secondary Fuel,Address,Town,Postal Code,Cooling Type,Cooling Source,Grid Connection,Natural_Language
 1000736,Ampenan,Diesel,56.284,,,,,PLN - West Nusa Tenggara Regional Unit/NTB,,,Repit's Blog,https://repit.wordpress.com/,,,,,,,Operating,Indonesia,,,,,,,,,,,
 1000738,Bakaru,Hydro,126,,,,,PLN-South&South East Sulawesi Regional Unit,,,Repit's Blog,https://repit.wordpress.com/,,,,,,,Operating,Indonesia,,,,,,,,,,,
 1000739,Balambano,Hydro,130,,,,,PT. Inco,,,Repit's Blog,https://repit.wordpress.com/,,,,,,,Operating,Indonesia,,,,,,,,,,,

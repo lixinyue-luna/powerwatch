@@ -55,7 +55,7 @@ plants_dictionary = {}
 print(u"Reading in plants...")
 
 # specify column names used in raw file
-COLNAMES = ["PowerWatch ID", "Name", "Fuel", "Capacity (MW)", "Location", "Plant type", "Age",
+COLNAMES = ["PowerWatch ID", "Name", "Fuel", "Capacity (MW)", "Location", "Plant type", "Commissioning Year",
                 "Units", "Owner", "Annual Generation (GWh)", "Source", "URL", "Country", "Latitude",
                 "Longitude"]
 
@@ -71,6 +71,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
             fuel_col = headers.index(COLNAMES[2])
             capacity_col = headers.index(COLNAMES[3])
             location_col = headers.index(COLNAMES[4])
+            commissioning_year_col = headers.index(COLNAMES[6])
             owner_col = headers.index(COLNAMES[8])
             generation_col = headers.index(COLNAMES[9])
             source_col = headers.index(COLNAMES[10])
@@ -83,6 +84,8 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
             for row in datareader:
                 try:
                     name = pw.format_string(row[name_col])
+                    if not name:        # ignore accidental blank lines
+                        continue
                 except:
                     print(u"-Error: Can't read plant name.")
                     continue                       # must have plant name - don't read plant if not
@@ -102,16 +105,16 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     fuel = pw.standardize_fuel(row[fuel_col],fuel_thesaurus)
                 except:
                     print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-                    fuel = set([])
+                    fuel = pw.NO_DATA_SET
                 try:
                     latitude = float(row[latitude_col])
                     longitude = float(row[longitude_col])
                 except:
-                    latitude, longitude = 0.0, 0.0
+                    latitude, longitude = pw.NO_DATA_NUMERIC, pw.NO_DATA_NUMERIC
                 try:
                     location = pw.format_string(row[location_col])
                 except:
-                    location = u""
+                    location = pw.NO_DATA_UNICODE
                 try:
                     gen_gwh = float(pw.format_string(row[generation_col].replace(",","")))
                     generation = pw.PlantGenerationObject(gen_gwh)
@@ -120,17 +123,32 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 try:
                     owner = pw.format_string(row[owner_col])
                 except:
-                    owner = u"Unknown"
+                    owner = pw.NO_DATA_UNICODE
                 try:
                     source = pw.format_string(row[source_col])
                 except:
                     print(u"-Error: Can't read source for plant {0}.".format(name))
-                    source = u"Unknown"
+                    source = pw.NO_DATA_UNICODE
                 try:
                     url = pw.format_string(row[url_col])
                 except:
                     print(u"-Error: Can't read URL for plant {0}.".format(name))
-                    url = u"Unknown"
+                    url = pw.NO_DATA_UNICODE
+                try:
+                    commissioning_year_string = row[commissioning_year_col].replace('"','')
+                    if not commissioning_year_string:
+                        commissioning_year = pw.NO_DATA_NUMERIC
+                    elif (u"-" in commissioning_year_string) or (u"-" in commissioning_year_string) or (u"," in commissioning_year_string):       # different hyphen characters?
+                        commissioning_year_1 = float(commissioning_year_string[0:3])     
+                        commissioning_year_2 = float(commissioning_year_string[-4:-1])
+                        commissioning_year = 0.5*(commissioning_year_1+commissioning_year_2) # todo: need a better method
+                    else:
+                        commissioning_year = float(commissioning_year_string)
+                    if (commissioning_year < 1900) or (commissioning_year > 2020):      # sanity check
+                        commissioning_year = pw.NO_DATA_NUMERIC
+                except:
+                    print(u"-Error: Can't read commissioning year for plant {0}.".format(name))
+                    commissioning_year = pw.NO_DATA_NUMERIC
 
                 # assign ID number
                 idnr = pw.make_id(SAVE_CODE, int(idnr))
@@ -138,7 +156,8 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                 new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
                     plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
                     plant_owner = owner, plant_generation = generation,
-                    plant_source=source,plant_source_url=url)
+                    plant_source=source,plant_source_url=url,
+                    plant_commissioning_year=commissioning_year)
                 plants_dictionary[idnr] = new_plant
 
 # report on plants read from file
