@@ -14,11 +14,11 @@ from sklearn.model_selection import GridSearchCV
 
 # set general parameters
 search_hyperparameters = False					# perform hyperparameter search (slow)
-data_filename = "US_generation_data_01.csv"
+data_filename = "generation_data_01.csv"
 
 # set parameters for training estimator
 params = {
-	'n_estimators': 1000,
+	'n_estimators': 2000,
 	'max_depth': 6,					# grid search optimum: 6
 	'learning_rate': 0.01,			# grid search optimum: 0.01
 	'subsample': 0.5,
@@ -33,21 +33,44 @@ param_grid = {
 }
 
 # set columns used as independent variables
-x_vars = ['Latitude','Longitude','Weighted Year.Month','Primary Fuel','Total Capacity (MW)']
-y_var = ['Net Generation (MWh)']
+#x_vars = ['Latitude','Longitude','Weighted Year.Month','Primary Fuel','Total Capacity (MW)']
+#y_var = ['Net Generation (MWh)']
+#y_var = ['Capacity Factor']
+x_vars = ['capacity_mw','commissioning_year','latitude','longitude','fuel1','fuel2','fuel3','fuel4']
+y_var = ['capacity_factor']
 
 # prepare to convert fuel type to int
-fuel_types = {'Biomass':1,'Coal':2,'Gas':3,'Geothermal':4,'Hydro':5,'Nuclear':6,'Oil':7,'Other':8,'Solar':9,'Waste':10,'Wind':11}
+# test whether index order impacts model (answer: no)
+fuel_types = {'':0,'Biomass':1,'Coal':2,'Gas':3,'Geothermal':4,'Hydro':5,'Nuclear':6,'Oil':7,'Other':8,'Solar':9,'Waste':10,'Wind':11,'Cogeneration':12,'Petcoke':13}
+#fuel_types = {'Biomass':4,'Coal':10,'Gas':7,'Geothermal':1,'Hydro':9,'Nuclear':6,'Oil':3,'Other':8,'Solar':5,'Waste':2,'Wind':11}
 
 def convert_fuel_string_to_int(s):
-	return fuel_types[s]
+	try:
+		return fuel_types[s]
+	except:
+		return 0
+
+def clip_capacity_factor(n):
+	if n < 0:
+		return 0.0
+	elif n > 1:
+		return 1.0
+	else:
+		return n
 
 # main
 
 # load data
 Xdf = pd.read_csv(data_filename, usecols = x_vars)
 ydf = pd.read_csv(data_filename, usecols = y_var)
-Xdf['Primary Fuel'] = Xdf['Primary Fuel'].apply(convert_fuel_string_to_int)
+Xdf['fuel1'] = Xdf['fuel1'].apply(convert_fuel_string_to_int)
+Xdf['fuel2'] = Xdf['fuel2'].apply(convert_fuel_string_to_int)
+Xdf['fuel3'] = Xdf['fuel3'].apply(convert_fuel_string_to_int)
+Xdf['fuel4'] = Xdf['fuel4'].apply(convert_fuel_string_to_int)
+
+# clip  values of capacity factor
+ydf['capacity_factor'] = ydf['capacity_factor'].apply(clip_capacity_factor)
+
 X_train, X_test, y_train, y_test = train_test_split(Xdf,ydf,test_size=0.2)
 print("Data loaded: {0} training observations; {1} test observations.".format(len(X_train),len(X_test)))
 
@@ -67,7 +90,6 @@ else:
 	est.fit(X_train, y_train2)
 	y_test2 = y_test.values.ravel()
 	acc = est.score(X_test, y_test2)			# need to reshape y vals from pandas df shape
-	#print("Test accuracy: {:4.1f}%".format(100*acc))
 	print("Test score: {:4.3f}".format(acc))
 
 	# make deviance subplot

@@ -10,3 +10,5 @@ output_database/powerwatch_build_log.txt
 # ignore test code
 build_databases/tester.py
 
+# ignore sandbox
+utils/sandbox
