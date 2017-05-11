@@ -66,7 +66,7 @@ for line in wiki.split('\n'):
 		plant = line.translate({ord(k):None for k in u'[];'}).split('~')
 		name = pw.format_string(plant[1], encoding = None)
 		##
-		if name == u"Unknown":
+		if name == pw.NO_DATA_UNICODE:
 			print("-Error: Name problem with {0}".format(idnr) + "at {0}".format(plant[0].split(',')))
 		##
 		coordinates = plant[0].split(',')
@@ -74,7 +74,7 @@ for line in wiki.split('\n'):
 		lng = coordinates[1]
 		latitude_number = float(lat)
 		longitude_number = float(lng)
-		new_location = pw.LocationObject(description=u"",
+		new_location = pw.LocationObject(description=pw.NO_DATA_UNICODE,
 			latitude=latitude_number, longitude=longitude_number)
 		new_plant = pw.PowerPlant(idnr, name, plant_country = COUNTRY_NAME,
 			plant_location = new_location, plant_fuel = set([u'Coal']),
