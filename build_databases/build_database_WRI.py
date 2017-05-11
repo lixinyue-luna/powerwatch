@@ -4,7 +4,7 @@ PowerWatch
 build_database_WRI.py
 Download power plant data from WRI Fusion Tables and convert to Power Watch format.
 Data Source: World Resources Institute (manually assembled from multiple sources)
-Additional information: https://github.com/Arjay7891/WRI-Powerplant
+Additional information: https://github.com/wri/powerwatch
 Issues: Requires an API key to retrieve data from Fusion Tables.
 """
 
@@ -119,7 +119,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     gen_gwh = float(pw.format_string(row[generation_col].replace(",","")))
                     generation = pw.PlantGenerationObject(gen_gwh)
                 except:
-                    generation = pw.PlantGenerationObject()
+                    generation = pw.NO_DATA_OTHER
                 try:
                     owner = pw.format_string(row[owner_col])
                 except:

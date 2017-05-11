@@ -198,19 +198,19 @@ for i in range(first_data_row,sheet.nrows):
             capacity = eval(rv[capacity_col])
         except:
             print("-Error: Can't read capacity for plant {0}".format(name))
-            capacity = 0.0
+            capacity = pw.NO_DATA_NUMERIC
     try:
         fuel_type = pw.standardize_fuel(rv[fuel_col],fuel_thesaurus)
         if not fuel_type:
             print(u"-Error: No fuel type for {0}.".format(row[fuel_col]))
     except:
         print("-Error: Can't read fuel type of plant {0}.".format(name))
-        fuel_type = set([])
+        fuel_type = pw.NO_DATA_SET
     try:
         owner = pw.format_string(rv[owner_col])
     except:
         print("-Error: Can't read owner for plant {0}.".format(name))
-        owner = u""
+        owner = pw.NO_DATA_UNICODE
 
     # check if this is matched to a REPD plant
     create_new_plant = True
@@ -234,10 +234,10 @@ for i in range(first_data_row,sheet.nrows):
         else:
             # not matched
             location = pw.LocationObject()
-            coord_source = u""
+            coord_source = pw.NO_DATA_UNICODE
     else:
         location = pw.LocationObject()
-        coord_source = u""
+        coord_source = pw.NO_DATA_UNICODE
 
     if create_new_plant:
         plant_idnr = pw.make_id(SAVE_CODE_GBR,count)

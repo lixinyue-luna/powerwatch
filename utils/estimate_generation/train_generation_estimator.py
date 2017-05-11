@@ -127,7 +127,6 @@ else:
 	plt.xlabel('Relative Importance')
 	plt.title('Variable Importance')
 
-	# tighten layout and show
-	#plt.tight_layout()
+	# show
 	plt.show()
 

@@ -29,6 +29,7 @@ RAW_FILE_NAME = pw.make_file_path(fileType="raw",subFolder=SAVE_CODE, filename="
 CSV_FILE_NAME = pw.make_file_path(fileType = "src_csv", filename = "brazil_database.csv")
 SAVE_DIRECTORY = pw.make_file_path(fileType = "src_bin")
 CAPACITY_CONVERSION_TO_MW = 0.001       # capacity values are given in kW in the raw data
+ENCODING = "utf-8"
 
 # other parameters
 DATASETS = {0: {"name":"UHE","fuel":"Hydro"}, 1: {"name":"PCH","fuel":"Hydro"},
@@ -63,7 +64,7 @@ print(u"Reading in plants...")
 
 # read and parse KMZ files
 ns = {"kml":"http://www.opengis.net/kml/2.2"}   # namespace
-parser = etree.XMLParser(ns_clean=True, recover=True, encoding="utf-8")
+parser = etree.XMLParser(ns_clean=True, recover=True, encoding=ENCODING)
 for fuel_code,dataset in DATASETS.iteritems():
     zipfile = pw.make_file_path(fileType="raw",subFolder=SAVE_CODE,filename=dataset["name"]+".zip")
     kmz_file = ZipFile(zipfile,"r")
