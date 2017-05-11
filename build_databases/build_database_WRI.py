@@ -151,14 +151,32 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     commissioning_year = pw.NO_DATA_NUMERIC
 
                 # assign ID number
-                idnr = pw.make_id(SAVE_CODE, int(idnr))
-                new_location = pw.LocationObject(location,latitude,longitude)
-                new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
-                    plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
-                    plant_owner = owner, plant_generation = generation,
-                    plant_source=source,plant_source_url=url,
-                    plant_commissioning_year=commissioning_year)
-                plants_dictionary[idnr] = new_plant
+                idnr_full = pw.make_id(SAVE_CODE, int(idnr))
+
+                # check if this ID is already in the dictionary - if so, this is a unit
+                if idnr_full in plants_dictionary.keys():
+                    # update plant
+                    existing_plant = plants_dictionary[idnr_full]
+                    existing_plant.capacity += capacity
+                    existing_plant.fuel.update(fuel)
+                    # append generation object - may want to sum generation instead?
+                    if generation:
+                        existing_plant.generation.append(generation)
+                    # if lat/long for this unit, overwrite previous data - may want to change this
+                    if latitude and longitude:
+                        new_location = pw.LocationObject(location,latitude,longitude)
+                        existing_plant.location = new_location
+
+                    # unclear how to handle owner, source, url, commissioning year
+
+                else:
+                    new_location = pw.LocationObject(location,latitude,longitude)
+                    new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=country,
+                        plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
+                        plant_owner = owner, plant_generation = generation,
+                        plant_source=source,plant_source_url=url,
+                        plant_commissioning_year=commissioning_year)
+                    plants_dictionary[idnr] = new_plant
 
 # report on plants read from file
 print(u"...read {0} plants.".format(len(plants_dictionary)))
