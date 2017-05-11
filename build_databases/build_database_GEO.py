@@ -96,22 +96,22 @@ for row in rows:
     try:
         capacity = float(row[capacity_col])
     except:
-        capacity = 0.0
+        capacity = pw.NO_DATA_NUMERIC
     try:
         fuel = pw.standardize_fuel(row[fuel_col],fuel_thesaurus)
     except:
         print(u"-Error: Can't read fuel type for plant {0}.".format(name))
-        fuel = set([])
+        fuel = pw.NO_DATA_SET
     try:
         latitude = float(row[latitude_col])
         longitude = float(row[longitude_col])
     except:
-        latitude, longitude = 0.0, 0.0
+        latitude, longitude = pw.NO_DATA_NUMERIC,pw.NO_DATA_NUMERIC
     try:
         owner = pw.format_string(row[owner_col])
     except:
         print(u"-Error: Can't read owner for plant {0}.".format(name))
-        owner = u"Unknown"
+        owner = pw.NO_DATA_UNICODE
     try:
         gen_gwh = float(row[generation_col])
         generation = pw.PlantGenerationObject.create(gen_gwh, YEAR)
@@ -120,16 +120,12 @@ for row in rows:
             gen_gwh = float(row[generation_col2])
             generation = pw.PlantGenerationObject.create(gen_gwh, YEAR, source=SOURCE_URL)
         except:
-            try:
-                print(u"-Error: Can't read generation for plant {0}.".format(name.encode(pw.UNICODE_ENCODING)))
-            except:
-                print(u"-Error: Can't read generation for plant {0} and printing name fails.".format(idnr))
-            generation = pw.PlantGenerationObject()
+            generation = pw.NO_DATA_OTHER
     try:
         country = pw.standardize_country(row[country_col],country_thesaurus)
     except:
         print(u"-Error: Can't read country for plant {0}.".format(name))
-        country = u"Unknown"
+        country = pw.NO_DATA_UNICODE
 
     owner = pw.format_string(row[owner_col])
     location = pw.format_string(row[location_col])
