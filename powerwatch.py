@@ -113,8 +113,10 @@ class PowerPlant(object):
 		object_attributes = {'source': plant_source, 'location': plant_location}
 		for attribute, input_parameter in object_attributes.iteritems():
 			if attribute == 'source' and type(input_parameter) is not SourceObject:
-				if type(input_parameter) in [str, unicode]:
+				if type(input_parameter) is str:
 					setattr(self, attribute, format_string(input_parameter))
+				elif type(input_parameter) is unicode:
+					setattr(self, attribute, format_string(input_parameter, encoding = None))
 				else:
 					setattr(self, attribute, NO_DATA_UNICODE)
 			elif attribute == 'location' and type(input_parameter) is not LocationObject:
@@ -265,16 +267,21 @@ class PlantGenerationObject(object):
 		if type(self.gwh) is int:
 			self.gwh = float(self.gwh)
 
-		if type(start_date) in [type(None), datetime.datetime]:
+		if type(start_date) in [type(None), datetime.date]:
 			self.start_date = start_date
 		else:
 			self.start_date = NO_DATA_OTHER
-		if type(end_date) in [type(None), datetime.datetime]:
+		if type(end_date) in [type(None), datetime.date]:
 			self.end_date = end_date
 		else:
 			self.end_date = NO_DATA_OTHER
 
-		self.source = source
+		if type(source) is str:
+			setattr(self, 'source', format_string(source))
+		elif type(source) is unicode:
+			setattr(self, 'source', format_string(source, encoding = None))
+		else:
+			setattr(self, 'source', NO_DATA_UNICODE)
 
 		if type(self.start_date) != type(self.end_date):
 			raise TypeError('start_date and end_date must both be datetime objects or None')
@@ -302,7 +309,7 @@ class PlantGenerationObject(object):
 			'  GWH: ' + str(self.gwh),
 			'  start: ' + str(start),
 			'  end: ' + str(end),
-			'  source: ' + str(self.source),
+			'  source: ' + str(self.source.encode(UNICODE_ENCODING)),
 			'}'
 			]
 		return '\n'.join(s)
@@ -337,11 +344,11 @@ class PlantGenerationObject(object):
 		if year is None:
 			return PlantGenerationObject(gwh, source=source)
 		if year is not None and month is None:
-			start = datetime.datetime(year, 1, 1)
-			end = datetime.datetime(year, 12, 31)
+			start = datetime.date(year, 1, 1)
+			end = datetime.date(year, 12, 31)
 			return PlantGenerationObject(gwh, start, end, source)
 		if year is not None and month is not None:
-			start = datetime.datetime(year, month, 1)
+			start = datetime.date(year, month, 1)
 			future_month = start.replace(day=28) + datetime.timedelta(days=4)
 			end =  future_month - datetime.timedelta(days=future_month.day)
 			return PlantGenerationObject(gwh, start, end, source)
@@ -365,9 +372,10 @@ def annual_generation(gen_list, year):
 	Float if generation data is found in the year, otherwise None.
 
 	"""
-	year_start = datetime.datetime(year, 1, 1)
-	year_end = datetime.datetime(year, 12, 31)
+	year_start = datetime.date(year, 1, 1)
+	year_end = datetime.date(year, 12, 31)
 	candidates = []
+
 	for gen in gen_list:
 		if not gen:
 			continue
@@ -383,8 +391,6 @@ def annual_generation(gen_list, year):
 			return gen.gwh
 
 	return None
-
-
 
 
 ### ARGUMENT PARSER ###
@@ -416,7 +422,6 @@ def download(db_name = '', file_savedir_url = {}):
 	if db_name == '':
 		return True if build_arg_parser().download else False
 
-	# TODO: handle xlsx, xls format. Finland and Yemen
 	if build_arg_parser().download:
 		print(u"Downloading {0} database...").format(db_name)
 		for savedir, url in file_savedir_url.iteritems():
@@ -901,7 +906,6 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 			ret['generation_gwh_{0}'.format(year)] = gwh
 		return ret
 
-
 	fieldnames = [
 		"name",
 		"pw_idnr",
@@ -1114,4 +1118,3 @@ def copy_csv_to_sqlite(csv_filename, sqlite_filename, return_connection=False):
 		raise Exception('Error handling sqlite database')
 	if return_connection:
 		return conn
-
