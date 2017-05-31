@@ -147,14 +147,14 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                     if (commissioning_year < 1900) or (commissioning_year > 2020):      # sanity check
                         commissioning_year = pw.NO_DATA_NUMERIC
                 except:
-                    print(u"-Error: Can't read commissioning year for plant {0}.".format(name))
+                    print(u"-Error: Can't read commissioning year for plant {0} {1}.".format(country, str(idnr)))
                     commissioning_year = pw.NO_DATA_NUMERIC
 
                 # assign ID number
                 idnr_full = pw.make_id(SAVE_CODE, int(idnr))
 
                 # check if this ID is already in the dictionary - if so, this is a unit
-                if idnr_full in plants_dictionary.keys():
+                if idnr_full in plants_dictionary:
                     # update plant
                     existing_plant = plants_dictionary[idnr_full]
                     existing_plant.capacity += capacity
@@ -176,7 +176,7 @@ for afile in os.listdir(RAW_FILE_DIRECTORY):
                         plant_owner = owner, plant_generation = generation,
                         plant_source=source,plant_source_url=url,
                         plant_commissioning_year=commissioning_year)
-                    plants_dictionary[idnr] = new_plant
+                    plants_dictionary[idnr_full] = new_plant
 
 # report on plants read from file
 print(u"...read {0} plants.".format(len(plants_dictionary)))
