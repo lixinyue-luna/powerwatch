@@ -14,6 +14,8 @@ Issues:
 - NACIE data are very good, but do not include conventional plants below 100 MW.
 - CRE permit data can supplement NACIE with conventional plants < 100 MW, but does not include plant names in
 all cases. 
+- CRE permit data contain unclear status codes - need to confirm which are relevant.
+- CRE permit data may not reflect actual used/installed capacity - might be just legal permits.
 - Alternate data source with less information: http://www.cre.gob.mx/da/PermisosdeGeneracionOtorgadosporModalidad.csv
 (Note that column titled "CAPACIDAD AUTORIZADA (MW)" is actually current status of permit.)
 """
@@ -244,7 +246,7 @@ for i in range(1,sheet.nrows):
 max_id = max_id + i
 
 # 3: read in conventional plants under 100MW from CRE permit data
-modalities = [u"COG."]
+modalities = [u"GEN.",u"COG.",u"P.P."]
 
 book = xlrd.open_workbook(RAW_FILE_NAME_3,encoding_override=ENCODING)
 sheet = book.sheet_by_name(TAB_NAME_3)
