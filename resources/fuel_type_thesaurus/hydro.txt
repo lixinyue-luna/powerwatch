@@ -24,6 +24,7 @@ hydro
 hydro power
 hydro pumped storage
 hydro run-of-river and poundage
+hydro run-of-river
 hydro water reservoir
 hydropower
 pumped storage
@@ -34,3 +35,5 @@ water
 HI
 HB
 Agua
+Hydro Run-of-river
+poundage

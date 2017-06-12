@@ -35,6 +35,7 @@ OIL
 OIl
 Oil (crude)
 Oil (crude and diesel)
+Oil (crude
 Oil (diesel)
 Outros Energéticos de Petróleo
 PETROLEO
@@ -87,4 +88,3 @@ wo
 Óleo vegetais
 DI
 Combustóleo
-Diesel
