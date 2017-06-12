@@ -2,7 +2,7 @@
 """
 PowerWatch
 built_database_brazil.py
-Get power plant data from Chile and convert to Power Watch format.
+Get power plant data from Brazil and convert to Power Watch format.
 Data Source: Agência Nacional de Energia Elétrica, Brazil
 Additional information: http://sigel.aneel.gov.br/kmz.html
 Notes:

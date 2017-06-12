@@ -8,3 +8,4 @@ coke
 coke gas
 petcoke
 petroleum coke
+Coque

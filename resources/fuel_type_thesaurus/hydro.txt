@@ -1,4 +1,5 @@
 Hydro
+Hydroelectric
 HIDRAULICA EMBALSE
 HIDRAULICA PASADA
 HIDROELECTRICA
@@ -32,3 +33,4 @@ wat
 water
 HI
 HB
+Agua

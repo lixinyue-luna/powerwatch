@@ -53,3 +53,6 @@ waste incinerator
 wdl
 wds
 wsth
+Residuos Sólidos Urbanos
+Residuos Solidos
+Residuos Orgánicos

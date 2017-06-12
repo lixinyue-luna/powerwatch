@@ -7,3 +7,4 @@ nuc
 nuclear
 uranium
 NU
+Uranio

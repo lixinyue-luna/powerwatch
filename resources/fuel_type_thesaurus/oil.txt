@@ -1,4 +1,5 @@
 Oil
+Petroleum
 Crude
 Crude Oil
 DFO
@@ -85,3 +86,5 @@ wo
 Óleo Diesel
 Óleo vegetais
 DI
+Combustóleo
+Diesel

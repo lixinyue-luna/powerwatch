@@ -16,3 +16,4 @@ wind onshore
 wind power
 wnd
 EO
+Viento

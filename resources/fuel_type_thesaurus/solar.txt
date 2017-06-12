@@ -23,3 +23,4 @@ solar_pv
 solar_thermal
 sun
 SO
+Sol

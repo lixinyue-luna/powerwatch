@@ -13,6 +13,7 @@ import csv
 import sys
 import os
 import sqlite3
+import re
 
 ### PARAMS ###
 # Folder directories
@@ -541,12 +542,16 @@ def standardize_fuel(fuel_instance, fuel_thesaurus):
 		Returns `NO_DATA_SET` if a fuel type cannot be identified.
 
 	"""
+
+	delimiter_pattern = '/| y |,| and '
+
 	if isinstance(fuel_instance,str):
 		fuel_instance_u = fuel_instance.decode(UNICODE_ENCODING)
 	elif isinstance(fuel_instance,unicode):
 		fuel_instance_u = fuel_instance
 
-	fuel_instance_list = fuel_instance_u.split("/")
+	#fuel_instance_list = fuel_instance_u.split("/"," y ")
+	fuel_instance_list = re.split(delimiter_pattern,fuel_instance)
 	fuel_instance_list_clean = [f.strip() for f in fuel_instance_list]
 	fuel_set = NO_DATA_SET.copy()
 	for fuel in fuel_instance_list_clean:
