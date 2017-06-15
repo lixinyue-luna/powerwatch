@@ -402,9 +402,10 @@ def build_arg_parser():
 	parser.add_argument("--download", help = "download raw files", action="store_true")
 	return parser.parse_args()
 
-def download(db_name = '', file_savedir_url = {}):
+def download(db_name = '', file_savedir_url = {}, post_data = {}):
 	"""
 	Fetch and download a database from an online source.
+	TO-DO: Trap timeout or other errors.
 
 	Parameters
 	----------
@@ -412,26 +413,43 @@ def download(db_name = '', file_savedir_url = {}):
 		Identifying name for the database to be downloaded.
 	file_savedir_url : dict of {str: str}
 		Dict with local filepaths as keys and URL as values.
+	post_data: dict of {str: str}
+		Dict with params and values for POST request.
+		If not specified, use GET.
+		TO-DO: Extend to allow different values for each entry in file_savedir_url.
 
 	Returns
 	-------
-	rc : bool or None
-		True if `db_name` not provided but download was supposed to happen;
-		False if `db_name` not provided and download was not requested;
-		None otherwise.
+	rc : bool
+		True: If no download requested OR download requested and successful.
+		False: If download requested but no database name provided OR download 
+			requested but failed.
 	"""
-	if db_name == '':
-		return True if build_arg_parser().download else False
 
-	if build_arg_parser().download:
-		print(u"Downloading {0} database...").format(db_name)
+	if not build_arg_parser().download:
+		print(u"Using raw data file(s) saved locally.")
+		return True
+
+	if db_name == '':
+		# Incorrect behavior, since db name should be specified, so return False.
+		print(u"Error: Download requested but no database name specified.")
+		return False
+
+	print(u"Downloading {0} database...").format(db_name)
+	try:
 		for savedir, url in file_savedir_url.iteritems():
-			response = requests.get(url)
+			if post_data:
+				response = requests.post(url,post_data)
+			else:
+				response = requests.get(url)
 			with open(savedir, 'w') as f:
 				f.write(response.content)
 		print(u"...done.")
-	else:
-		print(u"Using {0} file saved locally.").format(db_name)
+		return True
+	except:
+		print(u"Error: Failed to download one or more files.")
+		return False
+
 
 ### FILE PATHS ###
 
