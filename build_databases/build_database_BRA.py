@@ -15,6 +15,7 @@ Issues:
 """
 
 from lxml import etree, html
+from dateutil.parser import parse as parse_date
 import csv
 import locale
 import sys, os
@@ -88,6 +89,7 @@ plant_table = tree.findall("body/table")[1]
 
 # parse rows (skip two header lines and one footer line)
 found_coordinates_count = 0
+found_operational_year_count = 0
 for row in plant_table.findall("tr")[2:-1]:
     cells = row.findall("td")
     
@@ -112,7 +114,16 @@ for row in plant_table.findall("tr")[2:-1]:
     name = pw.format_string(cells[1].findall("font/a")[0].text.strip(),None)
 
     # get operational date
-    op_date = cells[2].findall("font")[0].text
+    op_date = cells[2].findall("font")[0].text.strip()
+    if op_date:
+        try:
+            d = parse_date(op_date)
+            op_year = d.year
+            found_operational_year_count += 1
+        except:
+            op_year = pw.NO_DATA_NUMERIC
+    else:
+        op_year = pw.NO_DATA_NUMERIC
 
     # get plant capacity
     capacity = CAPACITY_CONVERSION_TO_MW * locale.atof(cells[4].findall("font")[0].text)
@@ -149,12 +160,14 @@ for row in plant_table.findall("tr")[2:-1]:
     new_location = pw.LocationObject(pw.NO_DATA_UNICODE,latitude,longitude)
     new_plant = pw.PowerPlant(plant_idnr=idnr,plant_name=name,plant_country=COUNTRY_NAME,
         plant_location=new_location,plant_fuel=fuel,plant_capacity=capacity,
-        plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL,plant_cap_year=SOURCE_YEAR)
+        plant_source=SOURCE_NAME,plant_source_url=SOURCE_URL,plant_cap_year=SOURCE_YEAR,
+        plant_commissioning_year=op_year)
     plants_dictionary[idnr] = new_plant
 
 # report on plants read from file
 print(u"...read {0} plants.".format(len(plants_dictionary)))
 print(u"Found coordinates for {0} plants.".format(found_coordinates_count))
+print(u"Found operational year for {0} plants.".format(found_operational_year_count))
 
 # write database to csv format
 pw.write_csv_file(plants_dictionary,CSV_FILE_NAME)
