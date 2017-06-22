@@ -6,6 +6,7 @@ Get power plant data from Brazil and convert to Power Watch format.
 Data source: Agência Nacional de Energia Elétrica, Brazil
 Geolocation data source:http://sigel.aneel.gov.br/kmz.html
 Geolocation data is extracted separately and store as resource file.
+Fuel code information is here: http://www2.aneel.gov.br/scg/formacao_CEG.asp
 Notes:
 - ANEEL server initially provides KML with network links. To retriev all data, must
 provide bbox of entire country with HTTP GET request.
@@ -45,7 +46,7 @@ POST_DATA = {'tipo':0,'fase':3}
 DOWNLOAD_FILES = pw.download('ANEEL B.I.G.',{RAW_FILE_NAME:DOWNLOAD_URL},POST_DATA)
 
 # define specialized fuel type interpreter
-fuel_types = {  u'CGH':u'Hydro',
+generator_types = {  u'CGH':u'Hydro',
                 u'CGU':u'Wave and Tidal',
                 u'EOL':u'Wind',
                 u'PCH':u'Hydro',
@@ -54,8 +55,25 @@ fuel_types = {  u'CGH':u'Hydro',
                 u'UTE':u'Thermal',
                 u'UTN':u'Nuclear'}
 
-def standardize_fuel_BRA(fuel_string):
-    return fuel_types[fuel_string]
+fuel_types = { u'FL':u'Biomass',
+                u'RU':u'Waste',
+                u'RA':u'Waste',
+                u'BL':u'Biomass',
+                u'AI':u'Biomass',
+                u'CV':u'Wind',
+                u'PE':u'Oil',
+                u'CM':u'Coal',
+                u'GN':u'Gas',
+                u'OF':u'Other',
+                u'PH':u'Hydro',
+                u'UR':u'Nuclear',
+                u'RS':u'Solar',
+                u'CA':u'Wave and Tidal'}
+
+def standardize_fuel_BRA(ceg_code):
+
+    fuel_code = ceg_code[4:6]
+    return fuel_types[fuel_code]
 
 # set up fuel type thesaurus
 fuel_thesaurus = pw.make_fuel_thesaurus()
@@ -97,7 +115,7 @@ for row in plant_table.findall("tr")[2:-1]:
     # TODO: handle only known edge case: Roca Grande (2535)
     ceg_code = cells[0].findall("font/a")[0].text.strip()
     plant_id = int(ceg_code[-11:-5])
-    fuel = standardize_fuel_BRA(ceg_code[0:3])
+    fuel = standardize_fuel_BRA(ceg_code)
 
     # use CEG code to lookup coordinates
     ceg_code_short = ceg_code[0:16]
