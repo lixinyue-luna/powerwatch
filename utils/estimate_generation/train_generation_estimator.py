@@ -14,7 +14,8 @@ from sklearn.model_selection import GridSearchCV
 
 # set general parameters
 search_hyperparameters = False					# perform hyperparameter search (slow)
-data_filename = "generation_data_01.csv"
+data_filename = "generation_data_USA_ARG_EGY_BRA.csv"
+country_list = 'USA,ARG,EGY,BRA'
 
 # set parameters for training estimator
 params = {
@@ -98,7 +99,7 @@ else:
 	for i,y_pred in enumerate(est.staged_predict(X_test)):
 		test_score[i] = est.loss_(y_test2,y_pred)
 
-	fig = plt.figure(figsize=(15,8))
+	fig = plt.figure(figsize=(14,7))
 	fig.subplots_adjust(left=0.05)
 	fig.subplots_adjust(right=0.95)
 	fig.subplots_adjust(wspace=0.3)
@@ -114,6 +115,8 @@ else:
 	# display score
 	ax = plt.gca()
 	plt.text(0.5,0.5,"Test score: {:4.3f}".format(acc),transform=ax.transAxes,fontsize=16,color='r')
+	plt.text(0.5,0.6,"Train observations: {0}".format(len(X_train)),transform=ax.transAxes,fontsize=12,color='b')
+	plt.text(0.5,0.7,"Countries: {0}".format(country_list),transform=ax.transAxes,fontsize=12,color='b')
 
 	# make feature importance subplot
 	feature_importance = est.feature_importances_
