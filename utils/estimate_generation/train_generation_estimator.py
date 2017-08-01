@@ -29,14 +29,16 @@ def make_capacity_factor(capacity_mw,gen_mwh):
 		capacity_factor = 0.0
 	return capacity_factor
 
+
 # set parameters
-data_filename = "generation_data_USA.csv"
+#data_filename = "generation_data_USA.csv"
+data_filename = "generation_data_ARG_BRA_EGY_USA.csv"
 num_folds = 10						# number of cross-validation folds
 
 params = {							# parameters for training estimator
-	'n_estimators': 2000,           # AKA number of trees?
+	'n_estimators': 1500,           # AKA number of trees; optimum = 1500 (?)
 	'max_depth': 6,					# number of leaves is 2^max_depth; optimum = 6
-	'learning_rate': 0.003,			# AKA shrinkage; optimum = 0.01 
+	'learning_rate': 0.003,			# AKA shrinkage; optimum = 0.003 
 	'subsample': 0.5,				# unclear: good choice is 0.5
 	'loss':'huber'					# unclear: good choice is 'huber'
 }
@@ -79,6 +81,11 @@ with open(data_filename,'rU') as f:
 
 		# handle plant capacity
 		capacity_mw = float(row[7])
+
+		if not capacity_mw:
+			print("No capacity factor for plant in country {0}".format(country_name))
+			continue
+
 		if country not in capacity_totals:
 			capacity_totals[country] = 0
 		if country not in capacity_totals_by_fuel:
@@ -89,13 +96,20 @@ with open(data_filename,'rU') as f:
 		capacity_totals_by_fuel[country][fuel] += capacity_mw
 
 		# handle year
-		year = int(row[9])
+		#year = int(row[9])
+		year = int(row[9].split('.')[0])
+
+		# check if generation data exists before adding independent variables to observation list
+		if not row[8]:
+			print("No generation for {0} plant in country {1}".format(fuel_name,country_name))
+			continue
 
 		# add (raw) independent variable data to training set
 		X_data.append([country,fuel,capacity_mw,year])   	# must match feature_name_list (fuel_av_cf added later)
 
 		# calculate capacity factor (dependent variable) and add to training set
-		capacity_factor = make_capacity_factor(capacity_mw,float(row[8])) 
+		generation_mwh = float(row[8])
+		capacity_factor = make_capacity_factor(capacity_mw,generation_mwh) 
 		y_data.append(capacity_factor)
 
 		# add capacity factor to list for averaging by country and fuel
@@ -117,13 +131,17 @@ for country,fuel_list in capacity_factors.iteritems():
 	for fuel,cfs in fuel_list.iteritems():
 		avg_cf = 0.0 if not len(cfs) else float(sum(cfs)) / len(cfs)
 		fuel_capacity_factors[country][fuel] = avg_cf
-		print(u'{:6}; {:10}: av c.f.: {:1.2f}'.format(countries[country],fuel_types[fuel],avg_cf))
+		print(u'{:12}; {:10}: av c.f.: {:1.2f}'.format(countries[country],fuel_types[fuel],avg_cf))
 
 # add fuel-specific capacity factors to X data
 for observation in X_data:
 	country = observation[0]
 	fuel = observation[1]
-	observation.append(fuel_capacity_factors[country][fuel])
+	try:
+		observation.append(fuel_capacity_factors[country][fuel])
+	except:
+		print("Error with fuel_cap_factors; country: {0}, fuel: {1}".format(country,fuel))
+		X_data.remove(observation)
 
 # add plant-specific share of total (country) capacity and total (country,fuel-type) capacity
 for observation in X_data:
@@ -185,15 +203,15 @@ plt.title('Variable Importance')
 
 # display score
 ax = plt.gca()
-plt.text(0.55,0.36,"Countries: {0}".format(countries),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.32,"Total observations: {0}".format(len(X_data_np)),transform=ax.transAxes,fontsize=12,color='r')	
-plt.text(0.55,0.28,"N_estimators: {0}".format(params['n_estimators']),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.24,"Max depth: {0}".format(params['max_depth']),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.20,"Num. folds: {0}".format(num_folds),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.16,"Learning rate: {0}".format(params['learning_rate']),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.12,"Sub-sample: {0}".format(params['subsample']),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.08,"Loss: {0}".format(params['loss']),transform=ax.transAxes,fontsize=12,color='r')
-plt.text(0.55,0.04,"R2: {:4.3f}".format(r2_score),transform=ax.transAxes,fontsize=12,color='r')
+plt.text(0.5,0.36,"Countries: {0}".format(','.join(countries)),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.32,"Total observations: {0}".format(len(X_data_np)),transform=ax.transAxes,fontsize=10,color='r')	
+plt.text(0.5,0.28,"N_estimators: {0}".format(params['n_estimators']),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.24,"Max depth: {0}".format(params['max_depth']),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.20,"Num. folds: {0}".format(num_folds),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.16,"Learning rate: {0}".format(params['learning_rate']),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.12,"Sub-sample: {0}".format(params['subsample']),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.08,"Loss: {0}".format(params['loss']),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.04,"R2: {:4.3f}".format(r2_score),transform=ax.transAxes,fontsize=10,color='r')
 
 # show
 plt.show()
