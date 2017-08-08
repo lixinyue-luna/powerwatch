@@ -20,19 +20,8 @@ from sklearn.model_selection import GridSearchCV, KFold, cross_val_score, cross_
 from sklearn import metrics
 
 
-def make_capacity_factor(capacity_mw,gen_mwh):
-	# calculate capacity factor; TODO: handle clipping better
-	capacity_factor = gen_mwh / (24.0 * 365 * capacity_mw)
-	if capacity_factor > 1.0:
-		capacity_factor = 1.0
-	if capacity_factor < 0.0:
-		capacity_factor = 0.0
-	return capacity_factor
-
-
 # set parameters
-#data_filename = "generation_data_USA.csv"
-data_filename = "generation_data_ARG_BRA_EGY_USA.csv"
+data_filename = "generation_data_ARG_BRA_EGY_IND_USA.csv"
 num_folds = 10						# number of cross-validation folds
 
 params = {							# parameters for training estimator
@@ -83,7 +72,7 @@ with open(data_filename,'rU') as f:
 		capacity_mw = float(row[7])
 
 		if not capacity_mw:
-			print("No capacity factor for plant in country {0}".format(country_name))
+			print("No capacity for plant in country {0}".format(country_name))
 			continue
 
 		if country not in capacity_totals:
@@ -96,7 +85,6 @@ with open(data_filename,'rU') as f:
 		capacity_totals_by_fuel[country][fuel] += capacity_mw
 
 		# handle year
-		#year = int(row[9])
 		year = int(row[9].split('.')[0])
 
 		# check if generation data exists before adding independent variables to observation list
@@ -104,12 +92,14 @@ with open(data_filename,'rU') as f:
 			print("No generation for {0} plant in country {1}".format(fuel_name,country_name))
 			continue
 
-		# add (raw) independent variable data to training set
-		X_data.append([country,fuel,capacity_mw,year])   	# must match feature_name_list (fuel_av_cf added later)
-
-		# calculate capacity factor (dependent variable) and add to training set
+		# calculate capacity factor (dependent variable)
 		generation_mwh = float(row[8])
-		capacity_factor = make_capacity_factor(capacity_mw,generation_mwh) 
+		capacity_factor = generation_mwh / (24.0 * 365 * capacity_mw)
+		if capacity_factor <= 0.0 or capacity_factor > 1.0:
+			continue    # reject all plants with capacity factors out of range OR zero-generation plants
+
+		# add data to training set
+		X_data.append([country,fuel,capacity_mw,year])   	# order must match feature_name_list (others added later)
 		y_data.append(capacity_factor)
 
 		# add capacity factor to list for averaging by country and fuel
@@ -179,15 +169,99 @@ fig.subplots_adjust(left=0.05)
 fig.subplots_adjust(right=0.95)
 fig.subplots_adjust(wspace=0.3)
 plt.subplot(1,2,1)
-plt.title('Predictions vs data')
+#plt.title('Predictions vs data')
 plt.xlabel('Capacity factor (data)')
 plt.ylabel('Capacity factor (model prediction)')
-predictions = cross_val_predict(est, X_data_np, y_data_np, cv=kfold)
-plt.scatter(y_data_np, predictions, marker='.')
 
-# calculate r2
-r2_score = metrics.r2_score(y_data_np,predictions)
+# colors from colorbrewer2: http://colorbrewer2.org/#type=qualitative&scheme=Paired&n=12
+fuel_color = { 
+			'Biomass':'#33a02c',
+			'Coal':'sienna',
+			'Cogeneration':'#e31a1c',
+			'Gas':'#a6cee3',
+			'Geothermal':'#b2df8a',
+			'Hydro':'#1f78b4',
+			'Nuclear':'#6a3d9a',
+			'Oil':'black',
+			'Other':'gray',
+			'Petcoke':'#fb9a99',
+			'Solar':'#ffff99',
+			'Waste':'#fdbf6f',
+			'Wave_and_Tidal':'#b15928',
+			'Wind':'#ff7f00'
+			}
+
+capacity_color = {
+			'0-0.99MW': 'yellow',
+			'1-10MW': 'red',
+			'11-100MW': 'green',
+			'101-300MW': 'blue',
+			'301+MW': 'black'
+}
+
+combined_data = zip(X_data_np,y_data_np)
+
+"""
+# check fit by fuel type
+X_data_by_fuel = {}
+y_data_by_fuel = {}
+for dp in combined_data:
+	fuel_type_val = int(dp[0][1])
+	fuel_type_name = fuel_types[fuel_type_val]
+	if fuel_type_name not in X_data_by_fuel.keys():
+		X_data_by_fuel[fuel_type_name] = []
+	if fuel_type_name not in y_data_by_fuel.keys():
+		y_data_by_fuel[fuel_type_name] = []
+	X_data_by_fuel[fuel_type_name].append(dp[0])
+	y_data_by_fuel[fuel_type_name].append(dp[1])
+
+for fuel_type in fuel_types:
+	if len(X_data_by_fuel[fuel_type]) <= num_folds:
+		print(u"Too few samples of fuel type {0} for prediction; skipping.".format(fuel_type))
+		continue
+	print(u"Calculating predictions for {0}".format(fuel_type))
+	predictions = cross_val_predict(est, X_data_by_fuel[fuel_type], y_data_by_fuel[fuel_type], cv=kfold)
+	plt.scatter(y_data_by_fuel[fuel_type], predictions, marker='.', c=fuel_color[fuel_type], label=fuel_type)
+"""
+
+# check fit by capacity
+def find_capacity_class(capacity_mw):
+	if capacity_mw < 1.0:
+		return '0-0.99MW'
+	elif capacity_mw < 10:
+		return '1-10MW'
+	elif capacity_mw < 100:
+		return '11-100MW'
+	elif capacity_mw < 300:
+		return '101-300MW'
+	else:
+		return '301+MW'
+
+X_data_by_capacity = {'0-0.99MW':[], '1-10MW':[], '11-100MW':[], '101-300MW':[], '301+MW':[]}
+y_data_by_capacity = {'0-0.99MW':[], '1-10MW':[], '11-100MW':[], '101-300MW':[], '301+MW':[]}
+for dp in combined_data:
+	capacity_val = float(dp[0][2])
+	capacity_class = find_capacity_class(capacity_val)
+	X_data_by_capacity[capacity_class].append(dp[0])
+	y_data_by_capacity[capacity_class].append(dp[1])
+
+for cap_class in X_data_by_capacity.keys():
+	if len(X_data_by_capacity[cap_class]) <= num_folds:
+		print(u"Too few samples of capacity class {0} for prediction; skipping.".format(cap_class))
+		continue
+	print(u"Calculating predictions for {0}".format(cap_class))
+	predictions = cross_val_predict(est, X_data_by_capacity[cap_class], y_data_by_capacity[cap_class], cv=kfold)
+	plt.scatter(y_data_by_capacity[cap_class], predictions, marker='.', c=capacity_color[cap_class], label=cap_class)
+
+# do overall prediction and calculate r2
+print(u"Calculating overall predictions...")
+predictions_all_fuels = cross_val_predict(est,X_data_np,y_data_np,cv=kfold)
+r2_score = metrics.r2_score(y_data_np,predictions_all_fuels)
 print("R2: {:4.3f}".format(r2_score))
+
+# make legend
+ax = plt.gca()
+ax.legend(loc='upper center', bbox_to_anchor=(0.5,1.15),ncol=4)
 
 # make feature importance subplot
 feature_importance = est.feature_importances_
@@ -203,7 +277,7 @@ plt.title('Variable Importance')
 
 # display score
 ax = plt.gca()
-plt.text(0.5,0.36,"Countries: {0}".format(','.join(countries)),transform=ax.transAxes,fontsize=10,color='r')
+plt.text(0.5,0.36,"{0}".format(','.join(countries)),transform=ax.transAxes,fontsize=10,color='r')
 plt.text(0.5,0.32,"Total observations: {0}".format(len(X_data_np)),transform=ax.transAxes,fontsize=10,color='r')	
 plt.text(0.5,0.28,"N_estimators: {0}".format(params['n_estimators']),transform=ax.transAxes,fontsize=10,color='r')
 plt.text(0.5,0.24,"Max depth: {0}".format(params['max_depth']),transform=ax.transAxes,fontsize=10,color='r')

@@ -859,6 +859,24 @@ def parse_powerplant_data(json_data,db_source):
 	return score,parsed_values
 
 
+### DATE/TIME PARSING ###
+
+def excel_date_as_datetime(excel_date,date_mode=0):
+	"""
+	Convert Excel date number to python datetime object
+	Further info: https://stackoverflow.com/questions/1108428/how-do-i-read-a-date-in-excel-format-in-python
+
+	Parameters
+	----------
+	excel_date: float
+		Float in Excel date format (based on days since January 1, 1900).
+	date_mode: int (0,1)
+		Date basis for Excel: 0 = 1900 (default), 1 = 1904.
+	"""
+
+	return datetime.datetime(1899,12,30) + datetime.timedelta(days=excel_date + date_mode * 1462)
+
+
 ### LOAD/SAVE/WRITE CSV ###
 
 def save_database(plant_dict,filename,savedir=OUTPUT_DIR,datestamp=False):

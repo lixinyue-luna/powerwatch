@@ -65,6 +65,9 @@ print(u"Reading in plants...")
 COLNAMES = [u"S_NO", u"NAME", u"UNIT_NO", u"DT_ COMM", u"CAPACITY MW AS ON 31/03/2015",
                 u"TYPE", u"FUEL 1", u"FUEL 2", u"2014-15\n\nNet \nGeneration \nGWh"]
 
+# prepare list of units
+unit_list = {}
+
 # unzip, load and process CEA file
 with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
     fn = myzip.namelist()[0]
@@ -87,9 +90,6 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
 
         # read in row
         rv = sheet.row_values(i)
-
-        if rv[unit_col] != 0.0:
-            continue                       # Unit "0" is used for entire plant, so only read this line
 
         try:
             name = pw.format_string(rv[name_col])
@@ -115,6 +115,19 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
             except:
                 print("-Error: Can't read capacity for plant {0}".format(name))
                 capacity = pw.NO_DATA_NUMERIC
+
+        if not capacity:
+            continue        # don't include zero-capacity plants
+
+        # Unit "0" is used for the entire plant; other lines are individual units
+        # If this line is a unit, just add its year/capacity for later averaging
+        if rv[unit_col] == 0:  
+            unit_list[id_val] = []
+        else:
+            date_number = rv[year_col]
+            year = pw.excel_date_as_datetime(date_number).year
+            unit_list[id_val].append({'capacity':capacity, 'year':year})
+            continue   # don't continue reading this line b/c it's not a full plant
 
         try:
             if rv[generation_col] == u'-':
@@ -142,7 +155,6 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
         except:
             print(u"Can't identify plant type for plant {0}".format(name))
 
-
         latitude = pw.NO_DATA_NUMERIC
         longitude = pw.NO_DATA_NUMERIC
 
@@ -156,6 +168,41 @@ with ZipFile(RAW_FILE_NAME_CEA,'r') as myzip:
             plant_generation=generation)
         plants_dictionary[idnr] = new_plant
 
+# now find average commissioning year weighted by capacity
+for id_val,units in unit_list.iteritems():
+
+    # get plant from dictionary 
+    plant_id = pw.make_id(SAVE_CODE,id_val)
+    plant = plants_dictionary[plant_id]
+
+    if plant.capacity == 0:
+        print(u"Warning: Plant {0} has zero capacity.".format(plant_id))
+        # just use average of years
+        unit_year_sum = 0
+        for unit in units:
+            unit_year_sum += unit['year']
+        plant.commissioning_year = int(unit_year_sum / len(units))
+        continue
+
+    # find capacity-weighted average commissioning year
+    weighted_year = 0.0
+    total_capacity = 0.0
+    for unit in units:
+        weighted_year += unit['capacity'] * unit['year']
+        total_capacity += unit['capacity']
+    commissioning_year = weighted_year / total_capacity
+    plant.commissioning_year = int(commissioning_year)
+
+    # sanity checks
+    if commissioning_year < 1920 or commissioning_year > 2016:
+        print(u'Commissioning year of {0} is {1}'.format(plant.name,commissioning_year))
+
+    if plant.capacity:
+        capacity_ratio_check = total_capacity / plant.capacity
+        if capacity_ratio_check < 0.999 or capacity_ratio_check > 1.001:
+    
+            print(u'Plant {0} total capacity ({1}) does not match unit capacity sum ({2}).'.format(plant.name,total_capacity,plant.capacity))
+ 
 # load and process RECS file
 tree = LH.parse(RAW_FILE_NAME_CEA)
 #print([td.text_content() for td in tree.xpath('//td')])
