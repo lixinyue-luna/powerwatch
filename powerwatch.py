@@ -51,6 +51,7 @@ class PowerPlant(object):
 		plant_source = NO_DATA_OTHER, plant_source_url = NO_DATA_UNICODE,
 		plant_location = NO_DATA_OTHER, plant_coord_source = NO_DATA_UNICODE,
 		plant_fuel = NO_DATA_SET, plant_generation = NO_DATA_OTHER,
+		plant_generation_estimated = NO_DATA_OTHER,
 		plant_commissioning_year = NO_DATA_NUMERIC
 		):
 
@@ -85,7 +86,7 @@ class PowerPlant(object):
 						print("Error trying to create plant with parameter {0} for attribute {1}.".format(input_parameter,attribute))
 
 		# check and set data for attributes that should be lists
-		list_attributes = {'generation': plant_generation}
+		list_attributes = {'generation': plant_generation, 'generation_estimated': plant_generation_estimated}
 		for attribute, input_parameter in list_attributes.iteritems():
 			if attribute == 'generation' and input_parameter is NO_DATA_OTHER:
 				setattr(self, attribute, [PlantGenerationObject()])
@@ -178,7 +179,7 @@ class SourceObject(object):
 
 
 class CountryObject(object):
-	def __init__(self, primary_name, iso_code, iso_code2, geo_name, carma_name, has_api, use_geo, fusion_table_id):
+	def __init__(self, primary_name, iso_code, iso_code2, geo_name, carma_name, iea_name, has_api, use_geo, fusion_table_id):
 		"""
 		Class holding information on a specific country.
 
@@ -194,6 +195,8 @@ class CountryObject(object):
 			Name used by the Global Energy Observatory (GEO) database.
 		carma_name : str
 			Name used by the CARMA database.
+		iea_name: str
+			Name used by the IEA statistics website.
 		has_api : int
 			1 or 0 depending on automatic energy report releases.
 		use_geo : int
@@ -207,6 +210,7 @@ class CountryObject(object):
 		self.iso_code2		= iso_code2
 		self.geo_name		= geo_name
 		self.carma_name		= carma_name
+		self.iea_name		= iea_name
 		self.has_api		= has_api
 		self.use_geo		= use_geo
 		self.fusion_table_id = fusion_table_id
@@ -243,7 +247,7 @@ class LocationObject(object):
 
 
 class PlantGenerationObject(object):
-	def __init__(self, gwh=None, start_date=None, end_date=None, source=None):
+	def __init__(self, gwh=None, start_date=None, end_date=None, source=None, estimated=False):
 		"""
 		Class holding information on the generation of a powerplant.
 
@@ -257,6 +261,8 @@ class PlantGenerationObject(object):
 			End date for the generation period.
 		source : unicode
 			Source (URL/name) that produced the data.
+		estimated: boolean
+			Whether data is reported value or estimated from a model.
 
 		Raises
 		------
@@ -289,6 +295,11 @@ class PlantGenerationObject(object):
 
 		if self.end_date < self.start_date:
 			raise ValueError('end_date must be after start_date')
+
+		if type(estimated) is bool:
+			self.estimated = estimated
+		else:
+			self.estimated = False
 
 	def __repr__(self):
 		start = None
@@ -633,7 +644,7 @@ def make_country_names_thesaurus(country_names_thesaurus_file = COUNTRY_INFORMAT
 		country_names_thesaurus = {}
 		for row in csvreader:
 			country_primary_name = row[0].decode(UNICODE_ENCODING)
-			country_names_thesaurus[country_primary_name] = [row[5].decode(UNICODE_ENCODING),row[6].decode(UNICODE_ENCODING)]
+			country_names_thesaurus[country_primary_name] = [row[5].decode(UNICODE_ENCODING),row[6].decode(UNICODE_ENCODING),row[7].decode(UNICODE_ENCODING)]
 		return country_names_thesaurus
 
 def make_country_dictionary(country_information_file = COUNTRY_INFORMATION_FILE):
@@ -662,8 +673,9 @@ def make_country_dictionary(country_information_file = COUNTRY_INFORMATION_FILE)
 			use_geo = int(row[4])
 			geo_name = row[5].decode(UNICODE_ENCODING)
 			carma_name = row[6].decode(UNICODE_ENCODING)
-			fusion_table_id = row[7].decode(UNICODE_ENCODING)
-			new_country = CountryObject(primary_name,country_code,country_code2,geo_name,carma_name,has_api,use_geo,fusion_table_id)
+			iea_name = row[7].decode(UNICODE_ENCODING)
+			fusion_table_id = row[8].decode(UNICODE_ENCODING)
+			new_country = CountryObject(primary_name,country_code,country_code2,geo_name,carma_name,iea_name,has_api,use_geo,fusion_table_id)
 			country_dictionary[primary_name] = new_country
 		return country_dictionary
 
@@ -945,6 +957,8 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		for year in range(2012, 2017):
 			gwh = annual_generation(powerplant.generation, year)
 			ret['generation_gwh_{0}'.format(year)] = gwh
+			gwh_estimated = annual_generation(powerplant.generation_estimated,year)
+			re['generation_gwh_estimated_{0}'.format(year)] = gwh_estimated
 		return ret
 
 	fieldnames = [
@@ -968,6 +982,11 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"generation_gwh_2014",
 		"generation_gwh_2015",
 		"generation_gwh_2016",
+		"generation_gwh_estimated_2012",
+		"generation_gwh_estimated_2013",
+		"generation_gwh_estimated_2014",
+		"generation_gwh_estimated_2015",
+		"generation_gwh_estimated_2016",
 	]
 
 	if dump:

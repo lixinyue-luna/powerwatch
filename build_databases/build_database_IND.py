@@ -201,7 +201,7 @@ for id_val,units in unit_list.iteritems():
         capacity_ratio_check = total_capacity / plant.capacity
         if capacity_ratio_check < 0.999 or capacity_ratio_check > 1.001:
     
-            print(u'Plant {0} total capacity ({1}) does not match unit capacity sum ({2}).'.format(plant.name,total_capacity,plant.capacity))
+            print(u'-Error: Plant {0} total capacity ({1}) does not match unit capacity sum ({2}).'.format(plant.name,total_capacity,plant.capacity))
  
 # load and process RECS file
 tree = LH.parse(RAW_FILE_NAME_CEA)
