@@ -229,8 +229,14 @@ for i in range(first_data_row,sheet.nrows):
                 coord_source = u"GEO data"
             # test if matched to CARMA
         elif match_info["carma_id"]:
+            # debug - need to fix CARMA db
+            try:
                 location = carma_database[match_info["carma_id"]].location
                 coord_source = u"CARMA data"
+            except:
+                location = pw.LocationObject()
+                coord_source = pw.NO_DATA_UNICODE
+            # end debug
         else:
             # not matched
             location = pw.LocationObject()

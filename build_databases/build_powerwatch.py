@@ -170,7 +170,6 @@ for plant_id,plant in geo_database.iteritems():
 			powerwatch_database[plant_id] = plant
 			added_counts['GEO'] += 1
 
-
 # STEP 4: Add China coal plants from SourceWatch
 for plant_id,plant in sourcewatch_database.iteritems():
 	powerwatch_datadump[plant_id] = plant
@@ -179,8 +178,14 @@ for plant_id,plant in sourcewatch_database.iteritems():
 		powerwatch_database[plant_id] = plant
 		added_counts['SourceWatch'] += 1
 
+# STEP 5: Estimate generation - TODO
+count_plants_with_generation = 0
+for plant_id,plant in powerwatch_database.iteritems():
+	if plant.generation != pw.NO_DATA_OTHER:
+		count_plants_with_generation += 1
+print('Of {0} total plants, {1} have reported generation data.'.format(len(powerwatch_database),count_plants_with_generation))
 
-# STEP 5: Write PowerWatch
+# STEP 6: Write PowerWatch
 for dbname,count in added_counts.iteritems():
 	print("Added {0} plants from {1}.".format(count,dbname))
 
@@ -191,8 +196,8 @@ print("PowerWatch built.")
 
 if DATA_DUMP:
 	print("Dumping all the data...")
-	# STEP 6: Dump Data
-	# STEP 6.1: Label plants in datadump
+	# STEP 7: Dump Data
+	# STEP 7.1: Label plants in datadump
 	pw_idnrs = powerwatch_database.keys()
 	for plant_id,plant in powerwatch_datadump.iteritems():
 		if plant_id in pw_idnrs:
@@ -200,7 +205,7 @@ if DATA_DUMP:
 		else:
 			plant.idnr = plant_id + ",No"
 
-	# STEP 6.2: Add unused CARMA plants
+	# STEP 7.2: Add unused CARMA plants
 	for plant_id,plant in carma_database.iteritems():
 		plant.coord_source = u"CARMA data"
 		if plant_id in carma_id_used:
@@ -209,7 +214,7 @@ if DATA_DUMP:
 			plant.idnr = plant_id + ",No"
 			powerwatch_datadump[plant_id] = plant
 
-	# STEP 7: Dump data
+	# STEP 8: Dump data
 	print("Dumped {0} plants.".format(len(powerwatch_datadump)))
 	pw.write_csv_file(powerwatch_datadump,POWERWATCH_CSV_DUMPFILE,dump=True)
 	print("Data dumped.")

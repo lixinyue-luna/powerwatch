@@ -91,6 +91,8 @@ fuel_col = rv.index(COLNAMES_1[6])
 source_col = rv.index(COLNAMES_1[7])
 date_col = rv.index(COLNAMES_1[8])
 
+print(u"Reading file 1...")
+
 for i in range(1,sheet.nrows):
 
     # read in row
@@ -174,6 +176,8 @@ capacity_col = rv.index(COLNAMES_2[5])
 fuel_col = rv.index(COLNAMES_2[6])
 source_col = rv.index(COLNAMES_2[7])
 date_col = rv.index(COLNAMES_2[8])
+
+print(u"Reading file 2...")
 
 for i in range(1,sheet.nrows):
 
@@ -263,6 +267,8 @@ fuel_col = rv.index(COLNAMES_3[6])
 status_col = rv.index(COLNAMES_3[7])
 location_col = rv.index(COLNAMES_3[8])
 
+print(u"Reading file 3...")
+
 for i in range(2,sheet.nrows):
 
     # read in row
@@ -293,7 +299,7 @@ for i in range(2,sheet.nrows):
     try:
         name = pw.format_string(row[name_col],None)     # already in unicode
         if not name:
-            print(u"-Error: No name on row {0}".format(i+1))
+            #print(u"-Error: No name on row {0}".format(i+1))
             continue
     except:
         print(u"-Error: Can't read name of plant on row {0}".format(i+1))
@@ -325,7 +331,7 @@ for i in range(2,sheet.nrows):
     try:
         com_date = row[rv[commissioning_col]]
     except:
-        print(u"-Error:Can't read reference date for plant with name {0}".format(name))
+        #print(u"-Error:Can't read reference date for plant with name {0}".format(name))
         com_date = pw.NO_DATA_UNICODE
 
     # assign ID number

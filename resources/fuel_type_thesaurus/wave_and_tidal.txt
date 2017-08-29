@@ -6,3 +6,5 @@ Tidal
 Tidal Barrage and Tidal Stream
 Wave
 marine
+Tidal Barrage
+Tidal Stream

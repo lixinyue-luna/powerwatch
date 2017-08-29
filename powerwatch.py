@@ -51,8 +51,8 @@ class PowerPlant(object):
 		plant_source = NO_DATA_OTHER, plant_source_url = NO_DATA_UNICODE,
 		plant_location = NO_DATA_OTHER, plant_coord_source = NO_DATA_UNICODE,
 		plant_fuel = NO_DATA_SET, plant_generation = NO_DATA_OTHER,
-		plant_generation_estimated = NO_DATA_OTHER,
-		plant_commissioning_year = NO_DATA_NUMERIC
+		plant_commissioning_year = NO_DATA_NUMERIC,
+		plant_estimated_generation_gwh = NO_DATA_NUMERIC
 		):
 
 		# check and set data for attributes that should be unicode
@@ -72,7 +72,7 @@ class PowerPlant(object):
 						setattr(self,attribute,NO_DATA_UNICODE)
 
 		# check and set data for attributes that should be numeric
-		numeric_attributes = {'capacity':plant_capacity, 'cap_year':plant_cap_year, 'commissioning_year':plant_commissioning_year}
+		numeric_attributes = {'capacity':plant_capacity, 'cap_year':plant_cap_year, 'commissioning_year':plant_commissioning_year, 'estimated_generation_gwh':plant_estimated_generation_gwh}
 		for attribute,input_parameter in numeric_attributes.iteritems():
 			if input_parameter is NO_DATA_NUMERIC:
 				setattr(self,attribute,NO_DATA_NUMERIC)
@@ -86,10 +86,11 @@ class PowerPlant(object):
 						print("Error trying to create plant with parameter {0} for attribute {1}.".format(input_parameter,attribute))
 
 		# check and set data for attributes that should be lists
-		list_attributes = {'generation': plant_generation, 'generation_estimated': plant_generation_estimated}
+		list_attributes = {'generation': plant_generation}
 		for attribute, input_parameter in list_attributes.iteritems():
 			if attribute == 'generation' and input_parameter is NO_DATA_OTHER:
-				setattr(self, attribute, [PlantGenerationObject()])
+				#setattr(self, attribute, [PlantGenerationObject()])
+				setattr(self, attribute, NO_DATA_OTHER)
 			elif attribute == 'generation' and type(input_parameter) is PlantGenerationObject:
 				setattr(self, attribute, [input_parameter])
 			else: # assume list/tuple of PlantGenerationObject
@@ -387,6 +388,9 @@ def annual_generation(gen_list, year):
 	year_start = datetime.date(year, 1, 1)
 	year_end = datetime.date(year, 12, 31)
 	candidates = []
+
+	if gen_list == None:
+		return None
 
 	for gen in gen_list:
 		if not gen:
@@ -957,8 +961,7 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		for year in range(2012, 2017):
 			gwh = annual_generation(powerplant.generation, year)
 			ret['generation_gwh_{0}'.format(year)] = gwh
-			gwh_estimated = annual_generation(powerplant.generation_estimated,year)
-			re['generation_gwh_estimated_{0}'.format(year)] = gwh_estimated
+		ret['estimated_generation_gwh'] = powerplant.estimated_generation_gwh
 		return ret
 
 	fieldnames = [
@@ -982,12 +985,9 @@ def write_csv_file(plants_dictionary, csv_filename, dump=False):
 		"generation_gwh_2014",
 		"generation_gwh_2015",
 		"generation_gwh_2016",
-		"generation_gwh_estimated_2012",
-		"generation_gwh_estimated_2013",
-		"generation_gwh_estimated_2014",
-		"generation_gwh_estimated_2015",
-		"generation_gwh_estimated_2016",
+		"estimated_generation_gwh"
 	]
+
 
 	if dump:
 		fieldnames.insert(2, 'in_pw')
@@ -1034,9 +1034,16 @@ def read_csv_file_to_dict(filename):
 		for row in reader:
 			row = {k: format_string(v) for k, v in row.items()}
 			row['capacity_mw'] = float(row['capacity_mw'])
-			row['latitude'] = float(row['latitude'])
-			row['longitude'] = float(row['longitude'])
-			row['commissioning_year'] = float(row['commissioning_year'])
+			try:
+				row['latitude'] = float(row['latitude'])
+				row['longitude'] = float(row['longitude'])
+			except:
+				row['latitude'] = None
+				row['longitude'] = None
+			try:
+				row['commissioning_year'] = float(row['commissioning_year'])
+			except:
+				row['commissioning_year'] = None
 			try:
 				row['year_of_capacity_data'] = int(row['year_of_capacity_data'])
 			except:
@@ -1061,6 +1068,8 @@ def read_csv_file_to_dict(filename):
 				row['generation_gwh_2015'] = None
 			if not row['generation_gwh_2016']:
 				row['generation_gwh_2016'] = None
+			if not row['estimated_generation_gwh']:
+				row['estimated_generation_gwh'] = None
 			# add row to output dict
 			pdb[row['pw_idnr']] = row
 		return pdb
@@ -1120,7 +1129,8 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 						generation_gwh_2013 REAL,
 						generation_gwh_2014 REAL,
 						generation_gwh_2015 REAL,
-						generation_gwh_2016 REAL )''')
+						generation_gwh_2016 REAL,
+						estimated_generation_gwh REAL )''')
 	except:
 		raise sqlite3.Error('Cannot create table "powerplants" (it might already exist).')
 
@@ -1146,7 +1156,8 @@ def write_sqlite_file(plants_dict, filename, return_connection=False):
 				p['generation_gwh_2013'],
 				p['generation_gwh_2014'],
 				p['generation_gwh_2015'],
-				p['generation_gwh_2016'])
+				p['generation_gwh_2016'],
+				p['estimated_generation_gwh'])
 		c.execute(stmt, vals)
 
 	c.execute('commit')
