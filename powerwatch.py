@@ -33,6 +33,7 @@ COUNTRY_NAMES_THESAURUS_FILE	= os.path.join(RESOURCES_DIR, "country_names_thesau
 COUNTRY_INFORMATION_FILE		= os.path.join(RESOURCES_DIR, "country_information.csv")
 MASTER_PLANT_CONCORDANCE_FILE	= os.path.join(RESOURCES_DIR, "master_plant_concordance.csv")
 SOURCE_THESAURUS_FILE			= os.path.join(RESOURCES_DIR, "sources_thesaurus.csv")
+GENERATION_FILE      			= os.path.join(RESOURCES_DIR, "generation_by_country_by_fuel_2014.csv")
 
 # Encoding
 UNICODE_ENCODING = "utf-8"
@@ -803,6 +804,100 @@ def format_string(value,encoding = UNICODE_ENCODING):
 		return clean_value
 	except:
 		return NO_DATA_UNICODE
+
+### GENERATION ESTIMATION ###
+
+def estimate_generation(powerplant_dictionary,total_generation_file = GENERATION_FILE):
+	"""
+	Function to estimate annual generation by plant.
+	Uses data from IEA on total national generation (2014) by fuel type.
+	Allocates generation among plants by capacity.
+	Excludes plants for which generation data are reported and included in database.
+
+	Parameters
+	----------
+	powerplant_dictionary : dict of PowerPlant objects
+		The power plants for which to estimate generation.
+	total_generation_file : file path
+		File with national total for annual generation, by fuel type.
+
+	Returns
+	-------
+	estimate_count : int
+		Number of plants for which generation was estimated.
+
+	(Plant objects in powerplant_dictionary have `plant_estimated_generation_gwh' value set.)
+	"""
+
+	# read in generation total data (by country and fuel)
+	generation_totals = {}
+	with open(total_generation_file,'rU') as f:
+		datareader = csv.reader(f)
+		headers = datareader.next()
+		for row in datareader:
+			iso3 = row[0]
+			fuel = row[1]
+			gen_gwh = float(row[2])
+			if iso3 not in generation_totals.keys():
+				generation_totals[iso3] = {}
+			generation_totals[iso3][fuel] = gen_gwh
+
+	# read in plants and sum capacity by country and fuel
+	capacity_totals = {}
+	for plantid,plant in powerplant_dictionary.iteritems():
+
+		country = plant.country
+		capacity = plant.capacity
+		if capacity == None:			# TODO: catch these errors; should not occur
+			continue
+		try:
+			fuel = next(iter(plant.fuel))   # TODO: deal with multi-fuel plants better
+		except:
+			continue
+
+		# check if plant has 2014 reported generation
+		if plant.generation != None:
+			generation_2014 = annual_generation(plant.generation,2014)
+			if generation_2014:
+				# don't count this capacity, and do subtract this generation from country/fuel total
+				generation_totals[country][fuel] -= generation_2014
+				continue
+
+		# if no 2014 reported generation, add capacity to cumulative total
+		if country not in capacity_totals.keys():
+			capacity_totals[country] = {}
+		if fuel not in capacity_totals[country].keys():
+			capacity_totals[country][fuel] = 0
+		capacity_totals[country][fuel] += capacity
+
+	# now allocate remaining generation by relative capacity
+	estimate_count = 0
+	for plantid,plant in powerplant_dictionary.iteritems():
+		if plant.generation != None:
+			generation_2014 = annual_generation(plant.generation,2014)
+			if generation_2014:
+				continue
+
+		country = plant.country
+		capacity = plant.capacity
+		if capacity == None:			# TODO: catch these errors; should not occur
+			continue
+		try:
+			fuel = next(iter(plant.fuel))   # TODO: deal with multi-fuel plants better
+		except:
+			continue
+		try:
+			capacity_fraction = capacity / float(capacity_totals[country][fuel])
+			estimated_generation = capacity_fraction * generation_totals[country][fuel]
+			if estimated_generation < 0:   # might happen because of subtraction step above
+				estimated_generation = 0
+			plant.estimated_generation_gwh = estimated_generation
+			estimate_count += 1
+		except:
+			continue
+
+	# no need to return dictionary; modifying directly
+	return estimate_count
 
 ### PARSE DATA RETURNED BY ELASTIC SEARCH ###
 

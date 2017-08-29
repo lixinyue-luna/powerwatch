@@ -30,7 +30,7 @@ chrome = webdriver.Chrome()
 # make HTML parser
 parser = etree.HTMLParser(encoding=ENCODING)
 
-# make country name thesaurus
+# make country name thesaurus and dict of country objects
 country_names = pw.make_country_names_thesaurus()
 
 # make dictionary to hold country- and fuel-level data
@@ -41,11 +41,12 @@ for country,country_aliases in country_names.iteritems():
 
 	iea_country = country_aliases[2]
 	if not iea_country:
+		print("No IEA alias for {0}, skipping.".format(country))
 		continue
 
 	print("Getting data for {0}...".format(country))
 
-	generation_data[country] = { 	'Biomass': 0, 
+	generation_data[country] = 	{ 	'Biomass': 0, 
 									'Coal': 0, 
 									'Cogeneration': 0, 
 									'Gas': 0, 
@@ -63,7 +64,7 @@ for country,country_aliases in country_names.iteritems():
 								}
 
 	# get country-specific statistics page
-	URL = URL_BASE + "&country={0}".format(iea_country)
+	URL = URL_BASE + "&country={0}".format(iea_country).replace(" ", "%20")
 	try:
 		chrome.get(URL)
 	except:

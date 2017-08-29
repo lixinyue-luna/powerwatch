@@ -49,6 +49,7 @@ print("Loaded concordance file with {0} entries.".format(len(plant_concordance))
 carma_id_used = []	# Record matched carma_ids
 
 # STEP 0: Read in source databases.
+# Identify countries with automated data from .has_api flag.
 print("Loading source databases...")
 country_databases = {}
 for country_name,country in country_dictionary.iteritems():
@@ -58,6 +59,7 @@ for country_name,country in country_dictionary.iteritems():
 		country_databases[country_name] = pw.load_database(database_filename)
 		print("Loaded {0} plants from {1} database.".format(len(country_databases[country_name]),country_name))
 
+# Load multi-country databases.
 wri_database = pw.load_database(WRI_DATABASE_FILE)
 print("Loaded {0} plants from WRI database.".format(len(wri_database)))
 geo_database = pw.load_database(GEO_DATABASE_FILE)
@@ -72,7 +74,7 @@ seq = country_databases.keys()
 seq.extend(["WRI","GEO","SourceWatch","WRI with GEO lat/long data","WRI with CARMA lat/long data"])
 added_counts = dict.fromkeys(seq,0)
 
-# STEP 1: Add all data (capacity >= 1MW) from national APIs to PowerWatch
+# STEP 1: Add all data (capacity >= 1MW) from countries with automated data to PowerWatch
 for country_name, database in country_databases.iteritems():
 	country_code = country_dictionary[country_name].iso_code
 	print("Adding plants from {0}.".format(country_dictionary[country_name].primary_name))
@@ -88,7 +90,6 @@ for country_name, database in country_databases.iteritems():
 				plant.idnr = plant_id + u",No"
 		else:
 			plant.idnr = plant_id + u",No"
-
 
 # STEP 2: Go through WRI database and triage plants
 print("Adding plants from WRI internal database.")
@@ -178,12 +179,15 @@ for plant_id,plant in sourcewatch_database.iteritems():
 		powerwatch_database[plant_id] = plant
 		added_counts['SourceWatch'] += 1
 
-# STEP 5: Estimate generation - TODO
+# STEP 5: Estimate generation for plants without reported generation for target year
 count_plants_with_generation = 0
-for plant_id,plant in powerwatch_database.iteritems():
-	if plant.generation != pw.NO_DATA_OTHER:
-		count_plants_with_generation += 1
-print('Of {0} total plants, {1} have reported generation data.'.format(len(powerwatch_database),count_plants_with_generation))
+#for plant_id,plant in powerwatch_database.iteritems():
+#	if plant.generation != pw.NO_DATA_OTHER:
+#		count_plants_with_generation += 1
+#print('Of {0} total plants, {1} have reported generation data.'.format(len(powerwatch_database),count_plants_with_generation))
+print('Estimating generation...')
+estimated_plants = pw.estimate_generation(powerwatch_database)
+print('...estimated for {0} plants.'.format(estimated_plants))
 
 # STEP 6: Write PowerWatch
 for dbname,count in added_counts.iteritems():
@@ -194,9 +198,9 @@ print("Loaded {0} plants to PowerWatch.".format(len(powerwatch_database)))
 pw.write_csv_file(powerwatch_database,POWERWATCH_CSV_SAVEFILE)
 print("PowerWatch built.")
 
+# STEP 7: Dump Data
 if DATA_DUMP:
 	print("Dumping all the data...")
-	# STEP 7: Dump Data
 	# STEP 7.1: Label plants in datadump
 	pw_idnrs = powerwatch_database.keys()
 	for plant_id,plant in powerwatch_datadump.iteritems():
