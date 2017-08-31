@@ -70,9 +70,9 @@ sourcewatch_database = pw.load_database(SOURCEWATCH_DATABASE_FILE)
 print("Loaded {0} plants from SourceWatch database.".format(len(sourcewatch_database)))
 
 # Track counts using a dict with keys corresponding to each data source
-seq = country_databases.keys()
-seq.extend(["WRI","GEO","SourceWatch","WRI with GEO lat/long data","WRI with CARMA lat/long data"])
-added_counts = dict.fromkeys(seq,0)
+db_sources = country_databases.keys()
+db_sources.extend(["WRI","GEO","SourceWatch","WRI with GEO lat/long data","WRI with CARMA lat/long data"])
+database_additions = {dbname: {'count': 0, 'capacity': 0} for dbname in db_sources}
 
 # STEP 1: Add all data (capacity >= 1MW) from countries with automated data to PowerWatch
 for country_name, database in country_databases.iteritems():
@@ -85,7 +85,8 @@ for country_name, database in country_databases.iteritems():
 		if plant.capacity >= MINIMUM_CAPACITY_MW:
 			if (plant.location.latitude and plant.location.longitude) and (plant.location.latitude != 0 and plant.location.longitude != 0):
 				powerwatch_database[plant_id] = plant
-				added_counts[country_name] += 1
+				database_additions[country_name]['count'] += 1
+				database_additions[country_name]['capacity'] += plant.capacity
 			else:
 				plant.idnr = plant_id + u",No"
 		else:
@@ -119,7 +120,8 @@ for plant_id, plant in wri_database.iteritems():
 		plant.idnr = plant_id
 		plant.coord_source = u"WRI data"
 		powerwatch_database[plant_id] = plant
-		added_counts['WRI'] += 1
+		database_additions['WRI']['count'] += 1
+		database_additions['WRI']['capacity'] += plant.capacity
 		continue
 
 	# STEP 2.2: If plant is matched to GEO, add to PowerWatch using GEO lat/long
@@ -135,7 +137,8 @@ for plant_id, plant in wri_database.iteritems():
 				plant.idnr = plant_id
 				plant.coord_source = u"GEO data"
 				powerwatch_database[plant_id] = plant
-				added_counts["WRI with GEO lat/long data"] += 1
+				database_additions["WRI with GEO lat/long data"]['count'] += 1
+				database_additions["WRI with GEO lat/long data"]['capacity'] += plant.capacity
 				continue
 
 	# STEP 2.3: If plant is matched to CARMA, add to PowerWatch using CARMA lat/long
@@ -152,7 +155,8 @@ for plant_id, plant in wri_database.iteritems():
 				plant.coord_source = u"CARMA data"
 				powerwatch_database[plant_id] = plant
 				carma_id_used.append(matching_carma_id)
-				added_counts["WRI with CARMA lat/long data"] += 1
+				database_additions["WRI with CARMA lat/long data"]['count'] += 1
+				database_additions["WRI with CARMA lat/long data"]['capacity'] += plant.capacity
 				continue
 	# Note: Would eventually like to refine CARMA locations - known to be inaccurate in some cases
 
@@ -169,7 +173,11 @@ for plant_id,plant in geo_database.iteritems():
 			plant.coord_source = u"GEO data"
 			plant.idnr = plant_id
 			powerwatch_database[plant_id] = plant
-			added_counts['GEO'] += 1
+			database_additions['GEO']['count'] += 1
+			try:
+				database_additions['GEO']['capacity'] += plant.capacity
+			except:
+				f_log.write("Attribute Warning: GEO plant {0} does not have valid capacity information <{1}>\n".format(plant_id, plant.capacity))
 
 # STEP 4: Add China coal plants from SourceWatch
 for plant_id,plant in sourcewatch_database.iteritems():
@@ -177,7 +185,8 @@ for plant_id,plant in sourcewatch_database.iteritems():
 	if (plant.location.latitude and plant.location.longitude) and (plant.location.latitude != 0 and plant.location.longitude != 0):
 		plant.coord_source = u"SourceWatch data"
 		powerwatch_database[plant_id] = plant
-		added_counts['SourceWatch'] += 1
+		database_additions['SourceWatch']['count'] += 1
+		database_additions['SourceWatch']['capacity'] += plant.capacity
 
 # STEP 5: Estimate generation for plants without reported generation for target year
 count_plants_with_generation = 0
@@ -190,8 +199,8 @@ estimated_plants = pw.estimate_generation(powerwatch_database)
 print('...estimated for {0} plants.'.format(estimated_plants))
 
 # STEP 6: Write PowerWatch
-for dbname,count in added_counts.iteritems():
-	print("Added {0} plants from {1}.".format(count,dbname))
+for dbname, data in database_additions.iteritems():
+	print("Added {0} plants ({1} MW) from {2}.".format(data['count'], data['capacity'], dbname))
 
 f_log.close()
 print("Loaded {0} plants to PowerWatch.".format(len(powerwatch_database)))
